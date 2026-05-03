@@ -8,6 +8,7 @@ from openai import OpenAI
 from datetime import datetime, timedelta
 from concurrent.futures import ThreadPoolExecutor
 import warnings
+
 warnings.filterwarnings("ignore")
 
 # --- 1. CONFIGURATION & TERMINAL THEME ---
@@ -55,8 +56,6 @@ def get_technical_breadth(index_label: str, max_components: int = 50):
     try:
         fund = api.get_fundamentals_data(index_symbol)
         components = fund.get('Components', {}) if isinstance(fund, dict) else {}
-        
-        # Get tickers (Code.Exchange format)
         tickers = [f"{v.get('Code', '')}.{v.get('Exchange', '')}" 
                   for k, v in list(components.items())[:max_components]]
     except Exception as e:
@@ -65,11 +64,8 @@ def get_technical_breadth(index_label: str, max_components: int = 50):
 
     def fetch_tech(t):
         try:
-            # Latest RSI & SMA200
             rsi_data = api.get_technical_indicator_data(t, function='rsi', period=14)
             sma_data = api.get_technical_indicator_data(t, function='sma', period=200)
-            
-            # Latest price (single EOD call)
             eod_data = api.get_eod_historical_stock_market_data(t, limit=1)
             
             if not rsi_data or not sma_data or not eod_data:
@@ -98,17 +94,13 @@ def get_technical_breadth(index_label: str, max_components: int = 50):
 
 @st.cache_data(ttl=3600)
 def run_backtest(ticker: str, yrs: int = 3):
-    """Backtests RSI 55/45 Strategy with SMA200 filter. Returns full DataFrame."""
+    """Backtests RSI 55/45 Strategy with SMA200 filter."""
     start = (datetime.today() - timedelta(days=365 * yrs)).strftime("%Y-%m-%d")
     
     try:
-        # Historical prices
-        prices = api.get_eod_historical_stock_market_data(
-            ticker, from_date=start, order='a'
-        )
+        prices = api.get_eod_historical_stock_market_data(ticker, from_date=start, order='a')
         prices_df = pd.DataFrame(prices).set_index('date')
         
-        # Technical indicators
         rsi_list = api.get_technical_indicator_data(ticker, function='rsi', period=14)
         sma_list = api.get_technical_indicator_data(ticker, function='sma', period=200)
         
@@ -120,7 +112,6 @@ def run_backtest(ticker: str, yrs: int = 3):
                                'close': 'Close', 'volume': 'Volume'})
         df = df[['Open', 'High', 'Low', 'Close', 'Volume', 'rsi', 'sma']].dropna()
         
-        # Strategy logic
         df['Signal'] = 0
         position = 0
         for i in range(len(df)):
@@ -132,7 +123,6 @@ def run_backtest(ticker: str, yrs: int = 3):
         
         df['Market_Ret'] = df['Close'].pct_change()
         df['Strat_Ret'] = df['Signal'].shift(1) * df['Market_Ret']
-        
         return df.dropna()
     except Exception as e:
         st.error(f"Backtest failed: {str(e)}")
@@ -153,7 +143,7 @@ with st.sidebar:
         with st.spinner("Thinking..."):
             try:
                 response = grok.chat.completions.create(
-                    model="grok-beta",  # Update to "grok-4.3" if preferred
+                    model="grok-beta",
                     messages=[{"role": "user", "content": f"Current market breadth analysis for {user_logic}"}],
                     temperature=0.7
                 )
@@ -226,7 +216,6 @@ with tabs[1]:
                                        height=500)
                     st.plotly_chart(fig_bt, use_container_width=True)
                     
-                    # Enhanced metrics
                     total_ret = (cum_strat.iloc[-1] - 1) * 100
                     mkt_ret = (cum_mkt.iloc[-1] - 1) * 100
                     alpha = total_ret - mkt_ret
@@ -242,97 +231,10 @@ with tabs[1]:
             else:
                 st.warning("Backtest returned no data.")
 
-# TAB 3: SECTOR INSIGHTS (placeholder — ready for expansion)
+# TAB 3: SECTOR INSIGHTS
 with tabs[2]:
     st.markdown("<div class='glass-panel'><h4>Sector Momentum Leaders</h4><p>Coming soon: Real-time sector rotation signals powered by breadth data from Tab 1.</p></div>", 
                 unsafe_allow_html=True)
     st.info("🔄 Select an index in the Market Breadth tab to auto-populate sector leaders here in future updates.")
 
-st.caption("Grok Alpha Terminal v2.0 • Powered by EODHD + xAI Grok • Data refreshed hourly")
-    st.info("🔄 Fetching fresh data from EODHD (parallel)...")
-
-    # Dynamic screener
-    try:
-        screener = api.stock_market_screener(
-            sort="market_capitalization.desc",
-            limit=top_n * 2,
-            filters='[["avg_volume_200d",">",1000000],["market_capitalization",">",500000000]]'
-        )
-        universe = pd.DataFrame({
-            "Ticker": screener['code'], "Name": screener['name'],
-            "Country": screener.get('country', 'Global'), "Sector": screener.get('sector', 'Unknown'),
-            "MarketCap": screener.get('market_capitalization', 0)
-        }).head(top_n)
-    except:
-        universe = pd.DataFrame({"Ticker":["RELIANCE.NS","AAPL.US"], "Name":["Reliance","Apple"], "Country":["India","US"], "Sector":["Energy","Technology"], "MarketCap":[2e11,3e12]})
-
-    # Parallel fetch
-    data = []
-    from_date = (datetime.strptime(as_of_str,"%Y-%m-%d") - timedelta(days=1100)).strftime("%Y-%m-%d")
-    def fetch_and_compute(row):
-        try:
-            price_df = api.get_eod(symbol=row["Ticker"], from_date=from_date, to_date=as_of_str)
-            close = price_df['close'].astype(float).values
-            if len(close) < 30: return None
-            daily_ret = np.diff(np.log(close))
-            def calc(days):
-                if len(close) < days: return None, None
-                ret = (close[-1] / close[-days] - 1) * 100
-                vol = np.std(daily_ret[-days:]) * np.sqrt(252) * 100
-                return round(ret, 2), round(ret / vol, 2) if vol > 0 else None
-            return {
-                "Ticker": row["Ticker"], "Name": row["Name"], "Country": row["Country"],
-                "Sector": row["Sector"], "MarketCap": row["MarketCap"],
-                "1W": calc(5)[0], "1M": calc(21)[0], "3M": calc(63)[0],
-                "6M": calc(126)[0], "12M": calc(252)[0],
-                "Abs_Momentum_12M": calc(252)[0],
-                "Rel_Momentum_12M": calc(252)[1],
-            }
-        except: return None
-
-    with st.spinner("Fetching prices in parallel..."):
-        with ThreadPoolExecutor(max_workers=15) as executor:
-            results = list(executor.map(fetch_and_compute, [row for _, row in universe.iterrows()]))
-    df = pd.DataFrame([r for r in results if r is not None])
-
-    # Proper DuckDB upsert
-    with duckdb.connect(DB_PATH) as con:
-        df_save = df.copy()
-        df_save['date'] = as_of_str
-        con.execute("CREATE TABLE IF NOT EXISTS momentum AS SELECT * FROM df_save")
-        con.execute("DELETE FROM momentum WHERE date = ?", (as_of_str,))
-        con.execute("INSERT INTO momentum SELECT * FROM df_save")
-
-    return df
-
-df = load_or_refresh_data(top_n, str(as_of_date))
-
-st.success(f"✅ Loaded **{len(df)}** liquid tickers as of {as_of_date}")
-
-# ==================== TABS ====================
-tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Holistic Dashboard", "🏛️ Market Breadth", "🧪 Backtest Sandbox", "🔍 Momentum Leaders", "🧠 Grok AI Analyst"])
-
-with tab1:
-    st.subheader("Holistic View – Region × Sector × Market Cap")
-    df['MarketCapBucket'] = pd.qcut(df['MarketCap'], 4, duplicates="drop", labels=['Small','Mid','Large','Mega'])
-    fig = px.treemap(df, path=['Country', 'Sector', 'MarketCapBucket'], values='MarketCap',
-                     color='Abs_Momentum_12M', color_continuous_scale='RdYlGn')
-    st.plotly_chart(fig, use_container_width=True)
-    st.dataframe(df.style.background_gradient(subset=["1W","1M","3M","6M","12M","Abs_Momentum_12M","Rel_Momentum_12M"], cmap="RdYlGn"), use_container_width=True)
-
-with tab4:
-    st.subheader("🔍 Top Momentum Leaders")
-    st.dataframe(df.nlargest(20, "Abs_Momentum_12M").style.background_gradient(subset=["Abs_Momentum_12M","Rel_Momentum_12M"], cmap="RdYlGn"), use_container_width=True)
-
-with tab5:
-    st.header("🧠 Grok AI Analyst")
-    user_logic = st.text_area("Ask anything about the market or portfolio:", "Rank top momentum stocks by ROE and relative strength vs Nifty")
-    if st.button("🚀 Ask Grok", type="primary"):
-        with st.spinner("Grok thinking..."):
-            try:
-                response = grok.chat.completions.create(model="grok-beta", messages=[{"role": "user", "content": f"Current market data: {user_logic}"}], temperature=0.7)
-                st.success(response.choices[0].message.content)
-            except Exception as e:
-                st.error(f"AI error: {e}")
-
-st.caption("Grok Alpha Terminal v3.2 • DuckDB persistence • Parallel fetching • Superior architecture")
+st.caption("Grok Alpha Terminal v2.1 • Powered by EODHD + xAI Grok • Data refreshed hourly")
