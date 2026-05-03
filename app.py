@@ -166,4 +166,3 @@ with tab4:
                 st.error(f"AI error: {e}")
 
 st.caption("Full production version • DuckDB persistence • Real EODHD data • Click tiles for drill-down")
-D
