@@ -1,0 +1,78 @@
+name: Daily Price Refresh
+
+# ──────────────────────────────────────────────────────────────────────
+# Pulls latest EOD prices into data/alpha_terminal.db and commits the
+# updated DB back to main. Streamlit Community Cloud picks up the push
+# and redeploys with fresh data — solving the ephemeral-storage problem.
+#
+# Runs every weekday after US market close (~22:00 UTC = 5pm ET).
+# Manually triggerable via "Run workflow" button in the Actions tab.
+# ──────────────────────────────────────────────────────────────────────
+
+on:
+  schedule:
+    # 22:30 UTC = 5:30pm ET (after NYSE close at 4pm ET, with margin)
+    # Mon–Fri only (weekend cron just delays — markets are closed)
+    - cron: "30 22 * * 1-5"
+  workflow_dispatch:        # manual trigger from GitHub UI
+    inputs:
+      max_constituents:
+        description: "Max constituents to fetch per index"
+        required: false
+        default: "100"
+      lookback_days:
+        description: "Days of history to fetch"
+        required: false
+        default: "1100"
+
+permissions:
+  contents: write           # required to commit the updated DB back
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Need full history so the auto-commit action can detect changes
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Refresh prices
+        env:
+          # Set EODHD_KEY as a repo secret to use EODHD as primary.
+          # Falls back to yfinance automatically if not set.
+          EODHD_KEY:        ${{ secrets.EODHD_KEY }}
+          MAX_CONSTITUENTS: ${{ github.event.inputs.max_constituents || '100' }}
+          LOOKBACK_DAYS:    ${{ github.event.inputs.lookback_days || '1100' }}
+        run: |
+          python scripts/refresh_data.py \
+            --max-constituents "$MAX_CONSTITUENTS" \
+            --lookback-days "$LOOKBACK_DAYS"
+
+      - name: Show DB size
+        run: |
+          ls -lh data/alpha_terminal.db || echo "DB not found"
+          du -sh data/ || true
+
+      - name: Commit updated DB
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "📈 Daily price refresh ($(date -u +'%Y-%m-%d'))"
+          file_pattern: "data/alpha_terminal.db"
+          commit_user_name:  "github-actions[bot]"
+          commit_user_email: "41898282+github-actions[bot]@users.noreply.github.com"
+          commit_author:     "github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>"
