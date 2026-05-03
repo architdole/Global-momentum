@@ -1,0 +1,11 @@
+streamlit
+pandas
+plotly
+yfinance
+duckdb
+eodhd
+openai>=1.0.0
+pyarrow
+numpy
+python-dateutil
+openpyxl
