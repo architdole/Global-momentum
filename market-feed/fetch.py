@@ -133,17 +133,21 @@ def main():
     bench_p = perf(bench_s, "price")
     india_rows = []
     for cands, name, group, kind in INDIA:
+        # usable = >= 1y of history and traded in the last 10 days; prefer earlier candidates
         s, used = pd.Series(dtype=float), None
+        latest = max((series_for(data, c, "Close").index.max() for c in cands
+                      if not series_for(data, c, "Close").empty), default=None)
         for c in cands:
-            s = series_for(data, c, "Adj Close" if kind == "tr" else "Close")
-            if not s.empty and len(s) > 30:
-                used = c
+            cs = series_for(data, c, "Adj Close" if kind == "tr" else "Close")
+            if len(cs) >= 250 and latest is not None and (latest - cs.index[-1]).days <= 10 \
+                    and (cs.index[-1] - cs.index[0]).days >= 365:
+                s, used = cs, c
                 break
         if used is None:
             missing.append("|".join(cands))
         p = perf(s, kind)
         row = {"ticker": used or cands[0], "name": name, "group": group, "kind": kind,
-               "proxy": bool(used and used != cands[0] and used.endswith(".NS") and group == "Factor"),
+               "proxy": bool(used and used != cands[0]),
                "last": clean(s.iloc[-1]) if not s.empty else None,
                "asof": s.index[-1].strftime("%Y-%m-%d") if not s.empty else None,
                **{f"r_{k}": v for k, v in p.items()}}
