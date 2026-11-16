@@ -26,7 +26,7 @@ INSTRUMENTS = [
     ("^FCHI", "CAC 40", "Global Equity", "price"),
     ("^N225", "Nikkei 225", "Global Equity", "price"),
     ("^HSI", "Hang Seng", "Global Equity", "price"),
-    ("000300.SS", "CSI 300", "Global Equity", "price"),
+    ("ASHR", "CSI 300 (ASHR, USD)", "Global Equity", "tr"),
     ("000001.SS", "Shanghai Composite", "Global Equity", "price"),
     ("^KS11", "KOSPI", "Global Equity", "price"),
     ("^TWII", "Taiwan Weighted", "Global Equity", "price"),
