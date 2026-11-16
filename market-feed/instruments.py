@@ -157,7 +157,7 @@ INDIA = [
     (["^CNXREALTY"], "Realty", "Sector", "price"),
     (["^CNXINFRA"], "Infrastructure", "Sector", "price"),
     (["^CNXMEDIA", "NIFTY_MEDIA.NS"], "Media", "Sector", "price"),
-    (["NIFTY_CONSR_DURBL.NS", "CONSUMBEES.NS"], "Consumer Durables", "Sector", "price"),
+    (["NIFTY_CONSR_DURBL.NS"], "Consumer Durables", "Sector", "price"),
     (["^CNXCONSUM"], "Consumption", "Sector", "price"),
     (["^CNXPSE"], "PSE", "Sector", "price"),
     (["NIFTY_CPSE.NS", "CPSEETF.NS"], "CPSE", "Sector", "price"),
