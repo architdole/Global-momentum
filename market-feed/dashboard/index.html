@@ -39,6 +39,22 @@
 .gm-tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);box-shadow:var(--cds-shadow-popover);border-radius:6px;padding:4px 8px;font-size:var(--cds-font-size-caption);white-space:nowrap}
 .gm-chart text{fill:var(--cds-text-secondary);font-size:var(--cds-font-size-caption)}
 .gm-empty{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);padding:var(--cds-pad-md)}
+.gm-tabs{display:flex;gap:4px;border-bottom:1px solid var(--color-border-line);margin-top:12px}
+.gm-tab{font:inherit;font-size:var(--cds-font-size-body);background:transparent;border:0;border-bottom:2px solid transparent;color:var(--color-fg-muted);padding:6px 14px;cursor:pointer}
+.gm-tab.on{color:var(--color-fg);border-bottom-color:var(--color-fg);font-weight:var(--cds-font-weight-medium)}
+.gm-pane{display:flex;flex-direction:column;gap:var(--cds-gap-xl)}
+.gm-rrg{position:relative;min-height:340px}
+.gm-rrg text{font-size:11px;fill:var(--color-fg)}
+.gm-rrg .gm-q{font-size:var(--cds-font-size-caption);fill:var(--cds-text-secondary);font-weight:var(--cds-font-weight-medium)}
+.gm-bars{position:relative;min-height:200px}
+.gm-bars text{font-size:11px;fill:var(--color-fg)}
+.gm-rates{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:var(--cds-gap-sm)}
+.gm-rate{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md)}
+.gm-rate .gm-v{font-family:var(--font-anthropic-serif);font-size:var(--cds-font-size-title);font-variant-numeric:tabular-nums}
+.gm-rate .gm-m{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.gm-rate p{margin:4px 0 0;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);line-height:1.35}
+.gm-rate a{color:inherit}
+.gm-dot{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:4px;vertical-align:middle}
 [data-dash-source-state=refreshing]{opacity:.5}
 .gm details{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
 </style>
@@ -52,11 +68,16 @@
       <label>News run <select class="dash-select" data-draw="runsel" aria-label="News run" data-source="briefs"></select></label>
       <span>Prices as of <b data-draw="asof">—</b></span>
     </div>
-    <nav class="gm-nav" style="margin-top:10px">
-      <a href="#brief">Briefing</a><a href="#perf">Cross-asset</a><a href="#factors">Factors</a><a href="#mnews">Market news</a><a href="#ainews">AI news</a><a href="#history">History</a>
-    </nav>
+    <div class="gm-tabs" role="tablist">
+      <button class="gm-tab on" data-tab="global" role="tab">Global</button>
+      <button class="gm-tab" data-tab="india" role="tab">India</button>
+    </div>
   </header>
 
+  <div class="gm-pane" id="global">
+  <nav class="gm-nav">
+    <a href="#brief">Briefing</a><a href="#perf">Cross-asset</a><a href="#factors">Factors</a><a href="#mnews">Market news</a><a href="#ainews">AI news</a><a href="#history">History</a>
+  </nav>
   <section id="brief">
     <h2>Briefing</h2>
     <div class="gm-cards" data-source="briefs">
@@ -134,6 +155,63 @@
     <div class="gm-controls" style="margin:8px 0"><label>Instrument <select class="dash-select" data-draw="instsel" aria-label="Instrument" data-source="markets"></select></label><span><b data-draw="nsnaps" data-source="markets">—</b> price snapshots · <b data-draw="nruns" data-source="briefs">—</b> news runs</span></div>
     <div class="gm-chart" data-draw="trend" data-source="markets"></div>
   </section>
+  </div>
+
+  <div class="gm-pane" id="india" hidden>
+  <section id="india-rs">
+    <h2>India equity: where is the relative strength?</h2>
+    <p class="gm-sub">Every sector, factor and size index measured against the Nifty 500 (relative return = index ÷ Nifty 500 − 1). ETF stand-ins are marked "ETF".</p>
+    <p class="gm-take" data-draw="intake" data-source="india">—</p>
+    <div class="gm-chips" id="india-groups">
+      <button class="gm-chip on" data-group="">All</button>
+      <button class="gm-chip" data-group="Sector">Sectors</button>
+      <button class="gm-chip" data-group="Factor">Factors</button>
+      <button class="gm-chip" data-group="Broad &amp; size">Broad &amp; size</button>
+    </div>
+    <h2 style="margin-top:var(--cds-gap-md)">Rotation map</h2>
+    <div class="gm-controls" style="margin:6px 0">
+      <label>Trend (x) <select class="dash-select" id="rrg-x" aria-label="Trend period">
+        <option value="3M" selected>3 months</option><option value="6M">6 months</option><option value="1Y">1 year</option>
+      </select></label>
+      <label>Momentum (y) <select class="dash-select" id="rrg-y" aria-label="Momentum period">
+        <option value="1W">1 week</option><option value="1M" selected>1 month</option><option value="3M">3 months</option>
+      </select></label>
+      <span><i class="gm-dot" style="background:var(--gm-c0)"></i>Sector <i class="gm-dot" style="background:var(--gm-c1)"></i>Factor <i class="gm-dot" style="background:var(--gm-c2)"></i>Broad &amp; size</span>
+    </div>
+    <p class="gm-sub">Top-right = leading (outperforming and accelerating); bottom-right = weakening; bottom-left = lagging; top-left = improving.</p>
+    <div class="gm-rrg" id="india-rrg" data-draw="rrg" data-source="india"></div>
+
+    <h2 style="margin-top:var(--cds-gap-lg)">Relative strength ranking</h2>
+    <div class="gm-controls" style="margin:6px 0"><label>Period <select class="dash-select" id="rank-p" aria-label="Ranking period">
+      <option value="1W">1 week</option><option value="1M" selected>1 month</option><option value="3M">3 months</option><option value="6M">6 months</option><option value="YTD">YTD</option><option value="1Y">1 year</option><option value="3Y">3 years</option><option value="5Y">5 years</option>
+    </select></label></div>
+    <div class="gm-bars" id="india-bars" data-draw="rsbars" data-source="india"></div>
+
+    <h2 style="margin-top:var(--cds-gap-lg)">India performance table</h2>
+    <p class="gm-sub">Absolute returns, return vs Nifty 500 over the ranking period, distance from 52-week high and whether the index is above its 200-day average.</p>
+    <div class="gm-scroll" style="margin-top:6px">
+      <table class="gm-heat" id="india-table" data-source="india" data-row-key="snap_date,ticker">
+        <thead><tr><th data-field="name">Index</th><th data-field="last">Last</th><th data-field="r_1D">1D</th><th data-field="r_1W">1W</th><th data-field="r_1M">1M</th><th data-field="r_3M">3M</th><th data-field="r_6M">6M</th><th data-field="r_YTD">YTD</th><th data-field="r_1Y">1Y</th><th data-field="r_3Y">3Y</th><th data-field="r_5Y">5Y</th><th>vs N500</th><th data-field="off_high_52w">Off 52w high</th><th data-field="above_200dma">&gt;200 DMA</th></tr></thead>
+        <tbody data-draw="itable"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="india-debt">
+    <h2>India debt</h2>
+    <p class="gm-sub">Policy and market rates from the latest news run (each links to its source), then bond ETF total returns from daily prices.</p>
+    <div class="gm-rates" data-draw="rates" data-source="rates"></div>
+    <div class="gm-scroll" style="margin-top:var(--cds-gap-md)">
+      <table class="gm-heat" id="india-debt-table" data-source="india" data-row-key="snap_date,ticker">
+        <thead><tr><th data-field="name">Instrument</th><th data-field="last">Last</th><th data-field="r_1D">1D</th><th data-field="r_1W">1W</th><th data-field="r_1M">1M</th><th data-field="r_3M">3M</th><th data-field="r_6M">6M</th><th data-field="r_YTD">YTD</th><th data-field="r_1Y">1Y</th><th data-field="r_3Y">3Y</th><th data-field="r_5Y">5Y</th></tr></thead>
+        <tbody data-draw="idebt"></tbody>
+      </table>
+    </div>
+    <p class="gm-sub" style="margin-top:6px">Bond ETFs include accrued interest, so they read as total return. A rising USD/INR means a weaker rupee.</p>
+    <h2 style="margin-top:var(--cds-gap-md)">India rates &amp; debt news</h2>
+    <ul class="gm-news" data-draw="inews" data-source="news"></ul>
+  </section>
+  </div>
 
   <details>
     <summary>How this is built</summary>
@@ -188,14 +266,14 @@ dash.draw('snapsel', (sel) => {
   const dates = d.status === 'ok' ? [...new Set(d.data.map((r) => r.snap_date))].sort().reverse() : [];
   sel.replaceChildren(...dates.map((s, i) => new Option(i === 0 ? s + ' (latest)' : s, s)));
   sel.value = gm.snap || dates[0] || '';
-  sel.onchange = () => { gm.snap = sel.value; ['perf', 'asof', 'takeaway'].forEach((n) => dash.draw(n)); };
+  sel.onchange = () => { gm.snap = sel.value; ['perf', 'asof', 'takeaway', 'intake', 'rrg', 'rsbars', 'itable', 'idebt'].forEach((n) => dash.draw(n)); };
 });
 dash.draw('runsel', (sel) => {
   const b = dash.data('briefs');
   const runs = b.status === 'ok' ? b.data.map((r) => r.run_at).sort().reverse() : [];
   sel.replaceChildren(...runs.map((s, i) => new Option(gmFmtRun(s) + (i === 0 ? ' (latest)' : ''), s)));
   sel.value = gm.run || runs[0] || '';
-  sel.onchange = () => { gm.run = sel.value; ['mbrief', 'aibrief', 'mcat', 'acat', 'mlist', 'alist', 'takeaway'].forEach((n) => dash.draw(n)); };
+  sel.onchange = () => { gm.run = sel.value; ['mbrief', 'aibrief', 'mcat', 'acat', 'mlist', 'alist', 'takeaway', 'rates', 'inews'].forEach((n) => dash.draw(n)); };
 });
 dash.draw('asof', (el) => {
   const rows = gmSnapRows();
@@ -371,5 +449,179 @@ dash.draw('trend', (el) => {
   svg.selectAll('circle').data(pts).join('circle').attr('cx', (p) => x(p.t)).attr('cy', (p) => y(p.v)).attr('r', 4).style('fill', dash.colors[0])
     .on('pointerenter', (ev, p) => { tip.hidden = false; tip.textContent = p.s + ': ' + p.v.toLocaleString('en-US', {maximumFractionDigits: 2}) + ' (1D ' + gmFmt(p.w) + ')'; tip.style.left = Math.min(x(p.t) / W * el.clientWidth, el.clientWidth - 160) + 'px'; tip.style.top = (y(p.v) - 30) + 'px'; })
     .on('pointerleave', () => { tip.hidden = true; });
+});
+</script>
+
+<script>
+document.querySelectorAll('.gm').forEach((el) => [0, 1, 2].forEach((i) => el.style.setProperty('--gm-c' + i, dash.colors[i])));
+window.gmTab = (name) => {
+  document.querySelectorAll('.gm-pane').forEach((p) => { p.hidden = p.id !== name; });
+  document.querySelectorAll('.gm-tab').forEach((b) => b.classList.toggle('on', b.getAttribute('data-tab') === name));
+  dash.setLink(name);
+};
+document.querySelectorAll('.gm-tab').forEach((b) => b.addEventListener('click', () => gmTab(b.getAttribute('data-tab'))));
+if (location.hash === '#india' || /^#india-/.test(location.hash)) gmTab('india');
+gm.igroup = ''; gm.rx = '3M'; gm.ry = '1M'; gm.rank = '1M';
+document.querySelectorAll('#india-groups .gm-chip').forEach((btn) => btn.addEventListener('click', () => {
+  gm.igroup = btn.getAttribute('data-group') || '';
+  document.querySelectorAll('#india-groups .gm-chip').forEach((b) => b.classList.toggle('on', b === btn));
+  ['rrg', 'rsbars', 'itable'].forEach((n) => dash.draw(n));
+}));
+[['rrg-x', 'rx', ['rrg']], ['rrg-y', 'ry', ['rrg']], ['rank-p', 'rank', ['rsbars', 'itable', 'intake']]].forEach(([id, key, draws]) =>
+  document.querySelectorAll('#' + id).forEach((s) => s.addEventListener('change', () => { gm[key] = s.value; draws.forEach((n) => dash.draw(n)); })));
+window.gmIndia = () => { const d = dash.data('india'); if (d.status !== 'ok') return null; const s = gm.snap && d.data.some((r) => r.snap_date === gm.snap) ? gm.snap : gmLatest(d.data, 'snap_date'); return d.data.filter((r) => r.snap_date === s); };
+window.gmEq = (rows) => rows.filter((r) => r.group !== 'Debt' && r.name !== 'India VIX' && r.name !== 'Nifty 500' && (!gm.igroup || r.group === gm.igroup));
+window.gmLabel = (r) => r.name + (r.proxy ? ' (ETF)' : '');
+window.gmGcol = (g) => (g === 'Sector' ? dash.colors[0] : g === 'Factor' ? dash.colors[1] : dash.colors[2]);
+window.gmEmpty = (el, id, msg) => { const p = document.createElement('div'); p.className = 'gm-empty'; p.textContent = dash.data(id).status === 'error' ? 'Failed to load' : msg || 'Loading…'; el.append(p); };
+</script>
+
+<script>
+dash.draw('intake', (el) => {
+  const rows = gmIndia();
+  if (!rows) { el.textContent = '—'; return; }
+  const k = 'x_' + gm.rank;
+  const eq = rows.filter((r) => r.group !== 'Debt' && r.name !== 'India VIX' && r.name !== 'Nifty 500' && r[k] != null).sort((a, b) => b[k] - a[k]);
+  if (!eq.length) { el.textContent = 'Not enough history for this period.'; return; }
+  const top = eq.slice(0, 3).map((r) => gmLabel(r) + ' ' + gmFmt(r[k])).join(', ');
+  const bot = eq.slice(-3).reverse().map((r) => gmLabel(r) + ' ' + gmFmt(r[k])).join(', ');
+  const n5 = rows.find((r) => r.name === 'Nifty 500');
+  const lead = rows.filter((r) => r.group === 'Sector' && r.x_1M > 0 && r.x_3M > 0).map((r) => r.name);
+  el.textContent = 'Over ' + gm.rank + ' (Nifty 500 ' + (n5 ? gmFmt(n5['r_' + gm.rank]) : '–') + '), the strongest vs the market: ' + top + '; the weakest: ' + bot + '. Sectors leading on both 1M and 3M: ' + (lead.length ? lead.join(', ') : 'none') + '.';
+});
+
+dash.draw('rrg', (el) => {
+  el.replaceChildren();
+  const rows = gmIndia();
+  if (!rows) { gmEmpty(el, 'india'); return; }
+  const kx = 'x_' + gm.rx, ky = 'x_' + gm.ry;
+  const pts = gmEq(rows).filter((r) => r[kx] != null && r[ky] != null);
+  if (!pts.length) { gmEmpty(el, 'india', 'No data for these periods yet.'); return; }
+  const W = el.clientWidth || 600, H = Math.max(320, Math.min(520, W * 0.7)), m = {t: 14, r: 14, b: 34, l: 44};
+  const ext = (k) => { const v = d3.max(pts, (p) => Math.abs(p[k])) || 1; return [-v * 1.12, v * 1.12]; };
+  const x = d3.scaleLinear().domain(ext(kx)).range([m.l, W - m.r]);
+  const y = d3.scaleLinear().domain(ext(ky)).range([H - m.b, m.t]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img')
+    .attr('aria-label', 'Relative rotation of Indian indices vs Nifty 500: ' + gm.rx + ' relative return on x, ' + gm.ry + ' on y');
+  const q = [['Leading', W - m.r - 4, m.t + 12, 'end'], ['Improving', m.l + 4, m.t + 12, 'start'], ['Lagging', m.l + 4, H - m.b - 6, 'start'], ['Weakening', W - m.r - 4, H - m.b - 6, 'end']];
+  svg.append('rect').attr('x', x(0)).attr('y', m.t).attr('width', W - m.r - x(0)).attr('height', y(0) - m.t).style('fill', 'color-mix(in srgb, var(--color-ok) 8%, transparent)');
+  svg.append('rect').attr('x', m.l).attr('y', y(0)).attr('width', x(0) - m.l).attr('height', H - m.b - y(0)).style('fill', 'color-mix(in srgb, var(--color-bad) 8%, transparent)');
+  q.forEach(([t, qx, qy, a]) => svg.append('text').attr('class', 'gm-q').attr('x', qx).attr('y', qy).attr('text-anchor', a).text(t));
+  svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', m.t).attr('y2', H - m.b).style('stroke', 'var(--cds-chart-reference)');
+  svg.append('line').attr('x1', m.l).attr('x2', W - m.r).attr('y1', y(0)).attr('y2', y(0)).style('stroke', 'var(--cds-chart-reference)');
+  const ax = (g) => g.call((s) => s.selectAll('line,path').style('stroke', 'var(--cds-chart-axis)')).call((s) => s.selectAll('text').style('fill', 'var(--cds-text-secondary)'));
+  svg.append('g').attr('transform', 'translate(0,' + (H - m.b) + ')').call(d3.axisBottom(x).ticks(Math.max(3, Math.floor(W / 90))).tickFormat((v) => v + '%')).call(ax);
+  svg.append('g').attr('transform', 'translate(' + m.l + ',0)').call(d3.axisLeft(y).ticks(6).tickFormat((v) => v + '%')).call(ax);
+  svg.append('text').attr('class', 'gm-q').attr('x', W - m.r).attr('y', H - 4).attr('text-anchor', 'end').text(gm.rx + ' vs Nifty 500 →');
+  svg.append('text').attr('class', 'gm-q').attr('x', m.l + 4).attr('y', m.t + 26).text('↑ ' + gm.ry + ' vs Nifty 500');
+  const g = svg.append('g');
+  g.selectAll('circle').data(pts).join('circle').attr('cx', (p) => x(p[kx])).attr('cy', (p) => y(p[ky])).attr('r', 5).style('fill', (p) => gmGcol(p.group)).style('stroke', 'var(--color-bg)');
+  const showLabels = W > 420;
+  if (showLabels) {
+    const placed = [];
+    pts.slice().sort((a, b) => Math.abs(b[kx]) + Math.abs(b[ky]) - Math.abs(a[kx]) - Math.abs(a[ky])).forEach((p) => {
+      const px = x(p[kx]) + 7, py = y(p[ky]) + 4, w = p.name.length * 5.6;
+      if (placed.some((b) => px < b.x + b.w && px + w > b.x && Math.abs(py - b.y) < 11)) return;
+      placed.push({x: px, y: py, w});
+      g.append('text').attr('x', Math.min(px, W - m.r - w)).attr('y', py).text(p.name);
+    });
+  }
+  const tip = document.createElement('div'); tip.className = 'gm-tip'; tip.hidden = true; el.append(tip);
+  g.selectAll('circle').on('pointerenter', (ev, p) => {
+    tip.hidden = false;
+    tip.textContent = gmLabel(p) + ' · ' + gm.rx + ' ' + gmFmt(p[kx]) + ' · ' + gm.ry + ' ' + gmFmt(p[ky]) + ' vs N500';
+    const sc = el.clientWidth / W;
+    tip.style.left = Math.max(0, Math.min(x(p[kx]) * sc + 8, el.clientWidth - 260)) + 'px'; tip.style.top = Math.max(0, y(p[ky]) * sc - 34) + 'px';
+  }).on('pointerleave', () => { tip.hidden = true; });
+});
+
+dash.draw('rsbars', (el) => {
+  el.replaceChildren();
+  const rows = gmIndia();
+  if (!rows) { gmEmpty(el, 'india'); return; }
+  const k = 'x_' + gm.rank;
+  const pts = gmEq(rows).filter((r) => r[k] != null).sort((a, b) => b[k] - a[k]);
+  if (!pts.length) { gmEmpty(el, 'india', 'No data for this period yet.'); return; }
+  const W = el.clientWidth || 600, bh = 18, m = {t: 4, r: 54, b: 4, l: Math.min(200, W * 0.42)}, H = m.t + m.b + pts.length * bh;
+  const v = d3.max(pts, (p) => Math.abs(p[k])) || 1;
+  const x = d3.scaleLinear().domain([-v, v]).range([m.l, W - m.r]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img').attr('aria-label', 'Indian indices ranked by ' + gm.rank + ' return relative to Nifty 500');
+  svg.append('line').attr('x1', x(0)).attr('x2', x(0)).attr('y1', 0).attr('y2', H).style('stroke', 'var(--cds-chart-reference)');
+  const row = svg.selectAll('g').data(pts).join('g').attr('transform', (p, i) => 'translate(0,' + (m.t + i * bh) + ')');
+  row.append('text').attr('x', m.l - 6).attr('y', bh / 2 + 4).attr('text-anchor', 'end').text((p) => { const t = gmLabel(p); return t.length > 30 ? t.slice(0, 29) + '…' : t; });
+  row.append('rect').attr('x', (p) => Math.min(x(0), x(p[k]))).attr('y', 3).attr('height', bh - 6).attr('width', (p) => Math.abs(x(p[k]) - x(0)))
+    .style('fill', (p) => (p[k] >= 0 ? 'var(--color-ok)' : 'var(--color-bad)')).style('opacity', 0.75);
+  row.append('text').attr('x', (p) => (p[k] >= 0 ? x(p[k]) + 4 : x(p[k]) - 4)).attr('y', bh / 2 + 4).attr('text-anchor', (p) => (p[k] >= 0 ? 'start' : 'end')).style('fill', 'var(--cds-text-secondary)').text((p) => gmFmt(p[k]));
+});
+
+window.gmIRow = (tb, r, cols, extra) => {
+  const tr = tb.insertRow(); tr.setAttribute('data-key', encodeURIComponent(r.snap_date) + ',' + encodeURIComponent(r.ticker));
+  const n = tr.insertCell(); n.textContent = r.name; const tk = document.createElement('span'); tk.className = 'gm-tk'; tk.textContent = (r.proxy ? 'ETF ' : '') + r.ticker.replace('.NS', ''); n.append(tk);
+  const l = tr.insertCell(); l.textContent = r.last == null ? '–' : r.last.toLocaleString('en-IN', {maximumFractionDigits: r.last < 10 ? 4 : 2});
+  gmP.forEach((p) => { const v = r['r_' + p]; const c = tr.insertCell(); c.textContent = gmFmt(v); if (v == null) c.className = 'gm-na'; c.style.background = gmShade(v, cols[p], r.name === 'India VIX' || r.name === 'USD/INR'); });
+  if (extra) extra(tr);
+};
+window.gmColMax = (rows, pre) => { const o = {}; gmP.forEach((p) => { const v = rows.map((r) => Math.abs(r[pre + p])).filter((x) => x != null && !isNaN(x)).sort((a, b) => a - b); o[p] = v.length ? v[Math.floor(v.length * 0.9)] || v[v.length - 1] : 0; }); return o; };
+dash.draw('itable', (tb) => {
+  tb.replaceChildren();
+  const rows = gmIndia();
+  if (!rows) { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 14; td.className = 'gm-empty'; td.textContent = dash.data('india').status === 'error' ? 'Failed to load' : 'Loading…'; return; }
+  const k = 'x_' + gm.rank;
+  const view = rows.filter((r) => r.group !== 'Debt' && r.last != null && (!gm.igroup || r.group === gm.igroup));
+  const cols = gmColMax(view.filter((r) => r.name !== 'India VIX'), 'r_');
+  const xs = view.map((r) => Math.abs(r[k])).filter((v) => v != null); const xm = xs.length ? Math.max(...xs) : 0;
+  ['Broad & size', 'Factor', 'Sector'].forEach((g) => {
+    const gr = view.filter((r) => r.group === g).sort((a, b) => (b[k] ?? -1e9) - (a[k] ?? -1e9));
+    if (!gr.length) return;
+    const h = tb.insertRow(); h.className = 'gm-grp'; const c = h.insertCell(); c.colSpan = 14; c.textContent = g + ' — sorted by ' + gm.rank + ' vs Nifty 500';
+    gr.forEach((r) => gmIRow(tb, r, cols, (tr) => {
+      const a = tr.insertCell(); a.textContent = gmFmt(r[k]); a.style.background = gmShade(r[k], xm, false); a.style.fontWeight = '600';
+      const o = tr.insertCell(); o.textContent = r.off_high_52w == null ? '–' : r.off_high_52w.toFixed(1) + '%';
+      const d = tr.insertCell(); d.textContent = r.above_200dma == null ? '–' : r.above_200dma ? 'Yes' : 'No'; d.style.color = r.above_200dma ? 'var(--color-ok)' : r.above_200dma === false ? 'var(--color-bad)' : '';
+    }));
+  });
+});
+dash.draw('idebt', (tb) => {
+  tb.replaceChildren();
+  const rows = gmIndia();
+  if (!rows) { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 11; td.className = 'gm-empty'; td.textContent = 'Loading…'; return; }
+  const view = rows.filter((r) => r.group === 'Debt' && r.last != null);
+  const cols = gmColMax(view.filter((r) => r.name !== 'USD/INR'), 'r_');
+  view.forEach((r) => gmIRow(tb, r, cols));
+});
+dash.draw('rates', (el) => {
+  el.replaceChildren();
+  const d = dash.data('rates');
+  if (d.status !== 'ok') { gmEmpty(el, 'rates'); return; }
+  const runs = [...new Set(d.data.map((r) => r.run_at))].sort();
+  const want = gmRun(); const run = runs.includes(want) ? want : runs.filter((r) => !want || r <= want).pop() || runs[runs.length - 1];
+  const rows = d.data.filter((r) => r.run_at === run);
+  if (!rows.length) { gmEmpty(el, 'rates', 'No rates captured yet.'); return; }
+  rows.forEach((r) => {
+    const c = document.createElement('div'); c.className = 'gm-rate';
+    const m = document.createElement('div'); m.className = 'gm-m'; m.textContent = r.metric;
+    const v = document.createElement('div'); v.className = 'gm-v'; v.textContent = (typeof r.value === 'number' ? r.value.toFixed(2) : r.value) + (r.unit ? ' ' + r.unit : '');
+    const p = document.createElement('p'); p.textContent = (r.change_note || '') + (r.asof ? ' · as of ' + r.asof + ' · ' : ' · ');
+    if (r.url && /^https:\/\//.test(r.url)) { const a = document.createElement('a'); a.href = r.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = r.source || 'Source'; p.append(a); }
+    c.append(m, v, p); el.append(c);
+  });
+});
+dash.draw('inews', (ul) => {
+  ul.replaceChildren();
+  const n = dash.data('news');
+  if (n.status !== 'ok') { const li = document.createElement('li'); li.className = 'gm-empty'; li.textContent = 'Loading…'; ul.append(li); return; }
+  const run = gmRun();
+  const rows = n.data.filter((r) => r.run_at === run && (r.region === 'India' || /India/.test(r.category))).sort((a, b) => b.importance - a.importance);
+  if (!rows.length) { const li = document.createElement('li'); li.className = 'gm-empty'; li.textContent = 'No India items in this run.'; ul.append(li); return; }
+  rows.forEach((r) => {
+    const li = document.createElement('li');
+    const meta = document.createElement('div'); meta.className = 'gm-meta';
+    const c = document.createElement('span'); c.className = 'gm-cat'; c.textContent = r.category; meta.append(c);
+    [r.date, r.tickers].filter(Boolean).forEach((t) => { const s = document.createElement('span'); s.textContent = t; meta.append(s); });
+    const h = document.createElement('h4'); h.textContent = r.headline;
+    const p = document.createElement('p'); p.textContent = r.summary + ' ';
+    if (r.url && /^https:\/\//.test(r.url)) { const a = document.createElement('a'); a.href = r.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = r.source || 'Source'; p.append(a); }
+    li.append(meta, h, p); ul.append(li);
+  });
 });
 </script>

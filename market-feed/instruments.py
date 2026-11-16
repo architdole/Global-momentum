@@ -131,7 +131,7 @@ INDIA = [
     (["^INDIAVIX"], "India VIX", "Broad & size", "price"),
     # Factors / strategy (index first, tracking ETF as fallback)
     (["NIFTY200MOMENTM30.NS", "MOM30IETF.NS", "MOMENTUM.NS"], "Nifty200 Momentum 30", "Factor", "price"),
-    (["NIFTYM150MOMNTM50.NS", "MIDSMALL.NS"], "Nifty Midcap150 Momentum 50", "Factor", "price"),
+    (["NIFTYM150MOMNTM50.NS", "NIFTY_M150_MOM_50.NS"], "Nifty Midcap150 Momentum 50", "Factor", "price"),
     (["NIFTY200_QUALTY30.NS", "QUAL30IETF.NS"], "Nifty200 Quality 30", "Factor", "price"),
     (["NIFTY50_VALUE20.NS", "NV20IETF.NS", "NV20BEES.NS"], "Nifty50 Value 20", "Factor", "price"),
     (["NIFTY200VALUE30.NS", "VAL30IETF.NS"], "Nifty200 Value 30", "Factor", "price"),
