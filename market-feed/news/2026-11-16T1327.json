@@ -1,0 +1,364 @@
+{
+ "run_at": "2026-11-16T13:27:00Z",
+ "market_brief": "Risk is still being pulled down by the AI and rates trades. The price snapshot (03:07 UTC) shows Friday's SOX at -3.4% and Asia's chip markets lower Monday (Taiwan -3.4%, KOSPI -2.5%, Nikkei -1.6%). Nasdaq futures are now down about 1% ahead of Nvidia on Tuesday, as Treasury Secretary Bessent adds pressure on the board over Huang's exit. The US 10Y is at 5.15% (+30bp on the week) and DXY is near 103.4, with a December Fed hike fully priced before Warsh speaks at noon ET. Deutsche Bank warns that markets could still be underpricing hikes. Brent (about $95) keeps easing as Hormuz flows normalise. Gold ($3,876, -4.9% w/w) and Bitcoin (about $65k, -13.5% w/w) remain weak, and crypto equities sold off premarket. Europe is near record highs, and India closed higher (Nifty +0.6% to 25,291), though small caps fell.",
+ "ai_brief": "Alibaba made Qwen4-Max generally available with a 1M-token context at $1.50/$4.50 per million tokens, one of the cheapest frontier-class APIs. Capital-markets attention stays on Anthropic's IPO (pricing Wednesday, Nasdaq debut Thursday) and Nvidia's results. Agent adoption keeps showing up in enterprise numbers (AT&T's ~500 production workflows) and funding (Dreamteam's $53M for an agentic CRM).",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ES",
+    "NQ",
+    "NVDA",
+    "AMD",
+    "MU",
+    "INTC",
+    "CRWV"
+   ],
+   "headline": "US futures slide before Nvidia results; chip and AI-infrastructure names lead losses",
+   "summary": "Nasdaq 100 futures were down about 1% and S&P futures about 0.4% early Monday, with Dow futures flat. Nvidia fell about 2% premarket after its longest weekly losing streak since 2012, while Intel, AMD, Broadcom and Micron dropped 3.5-5% and CoreWeave and Nebius about 5%. A December Fed hike is fully priced, with roughly an 8% chance of 50bp.",
+   "source": "Reuters via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-nasdaq-futures-slide-104351968.html",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Update: Bessent calls for an Nvidia shake-up as a petition to reinstate Huang tops 175,000 signatures",
+   "summary": "New since the last run: Treasury Secretary Bessent said on Fox he wants answers within 10 days and suggested executives would be removed if Nvidia were a bank. Fortune also reports a trader's $8M October short has made nearly $200M, and UBS estimates a pullback in Nvidia's investing could pull over $50B from the market. The stock is down about 24% in a month.",
+   "source": "Fortune",
+   "url": "https://fortune.com/2026/11/16/war-room-jensen-huang-nvidia-treasury-scott-bessent/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT",
+    "NVDA",
+    "GOOGL",
+    "MSFT"
+   ],
+   "headline": "Anthropic IPO: $26B private placement and $518B of supplier commitments in focus before Wednesday pricing",
+   "summary": "The 825M-share offering (about 801M new) at $70-78 would raise about $61B at the midpoint, with Nasdaq trading as ANT expected Thursday. Seven firms including Nvidia, Google and Microsoft agreed to a $26B non-voting placement, and the filing shows at least $518B of supplier commitments over about a decade, mostly non-cancelable. Founders keep 50.1% of the votes.",
+   "source": "Euronews",
+   "url": "https://euronews.com/2026/11/16/five-things-you-need-to-know-before-anthropic-goes-public",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^TNX",
+    "^IRX"
+   ],
+   "headline": "US 10Y back above 5% as Warsh speaks on AI and productivity today; Williams also on deck",
+   "summary": "The 2-year yield rose as much as 37bp last week after hot CPI and Governor Waller saying a 50bp hike was on the table. Fed Chair Warsh speaks at noon ET on AI's impact on productivity, jobs and policy, NY Fed's Williams speaks shortly before, and October FOMC minutes (two hawkish dissents) are due Wednesday.",
+   "source": "Seoul Economic Daily",
+   "url": "https://en.sedaily.com/world/2026/11/16/us-10-year-yield-tops-5-percent-as-markets-await-fed-chair",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Deutsche Bank: markets may still be underestimating how far central banks hike",
+   "summary": "Strategist Henry Allen notes markets now price about 113bp of Fed hikes by September 2027, above the 95bp expected when tightening began. He flags the S&P 500's 1.2% average daily move in November, the largest since April 2025, and the 2-year's biggest weekly jump since October 2024.",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/deutsche-bank-warns-markets-may-be-underestimating-rate-hike-risks-5029111",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 2,
+   "tickers": [
+    "^STOXX",
+    "NOVO-B.CO",
+    "ENR.DE"
+   ],
+   "headline": "European shares hold near records as defence rises and tech lags; Novo gains on CagriSema data",
+   "summary": "The STOXX 600 was up about 0.1% near 665 mid-morning, with aerospace and defence up 1.3%. Novo Nordisk rose 3.2% on CagriSema weight-loss data, while chip-equipment names Technoprobe and Aixtron fell and basic resources slipped 1.2%. Morgan Stanley was reported upgrading European equities to overweight.",
+   "source": "Reuters via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/world-indices/articles/european-shares-hover-near-record-082850163.html",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^BSESN"
+   ],
+   "headline": "Nifty closes at 25,291 (+0.6%) and Sensex near 82,100 as banks and FMCG lead; small caps fall 1.1%",
+   "summary": "Indian benchmarks ended higher against the Asian chip sell-off, led by Max Healthcare, ITC and Tata Consumer. Breadth was weak: Nifty Midcap 100 fell 0.5% and Smallcap 100 1.1%, with auto, realty and pharma lagging. LKP Securities sees a 25,000-25,500 range with support at 24,800.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-november-16-126111600051_1.html",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "FANG"
+   ],
+   "headline": "Diamondback to buy Double Eagle's Midland Basin assets for $2.15B cash plus ~15.6M shares",
+   "summary": "The deal adds about 176,000 net acres and roughly 35 MBo/d of 2027 oil output, priced at about 4x expected 2027 EBITDA. Cash will come from cash on hand, the credit facility and a term loan; closing is targeted by December 21.",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9201275/diamondback-energy-fang-to-acquire-double-eagle-subsidiaries-in-215b-cash-and-stock-deal",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "BXDC",
+    "AMZN"
+   ],
+   "headline": "Blackstone Digital Infrastructure Trust buys 75% of two AWS data-centre JVs for ~$5B",
+   "summary": "The JVs hold 13 newly built powered shells on two AWS campuses at a 7.0% initial cap rate; AWS keeps 25% and leases back the whole portfolio for an initial 12 years. BXDC shares rose over 6% premarket.",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9201326/blackstone-digital-infrastructure-trust-bxdc-shares-rise-premarket-on-5b-aws-data-center-jv-acquisition",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "India / South Africa",
+   "importance": 2,
+   "tickers": [
+    "SOLARINDS.NS",
+    "OMN.JO"
+   ],
+   "headline": "Solar Industries India's R21.8B offer to take Omnia Holdings private moves ahead after shareholder approval",
+   "summary": "Solar Industries is paying R134.50 a share in cash, a 31% premium to the undisturbed price; Omnia holders approved the scheme with 99.97% support and the company will delist from the JSE. Competition clearances across several African jurisdictions are still pending, with a July 2027 longstop.",
+   "source": "BusinessTech",
+   "url": "https://businesstech.co.za/news/business/884427/indian-billionaire-to-buy-and-delist-south-african-company-for-over-r21-billion/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Update: Brent near $95 as Hormuz flows normalise and the US extends its Jones Act waiver",
+   "summary": "Brent fell about 1% to roughly $94.9 and WTI to about $87.9. Beyond the IEA surplus forecast covered earlier, the report notes Strait of Hormuz shipments are nearly back to pre-war levels and the US extended a 90-day Jones Act waiver, adding to supply.",
+   "source": "HDFC Sky",
+   "url": "https://hdfcsky.com/news/brent-crude-oil-price-today-november-16-2026-brent-falls-1percent-to-94-86-wti-slips-below-88-as-supply-surplus-looms",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Crypto",
+   "importance": 2,
+   "tickers": [
+    "BTC-USD",
+    "MSTR",
+    "COIN",
+    "CRCL",
+    "HOOD"
+   ],
+   "headline": "Crypto stocks slide premarket as Bitcoin nears three-month low around $64.6k",
+   "summary": "Strategy fell over 7%, Circle about 7.6% and Coinbase 6.4%, with Robinhood and Hut 8 down more than 5%. Drivers cited include bets on a large December Fed hike and MSCI's plan to drop treasury companies, chiefly Strategy, from its indexes at end-November.",
+   "source": "Investing.com via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/crypto/articles/crypto-stocks-slide-premarket-bitcoin-105729561.html",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Crypto",
+   "importance": 1,
+   "tickers": [
+    "BTC-USD"
+   ],
+   "headline": "Flows: Bitcoin ETFs log $2.1B of November outflows; sentiment gauge at 'Extreme Fear'",
+   "summary": "Spot Bitcoin ETFs are on a seven-day outflow streak, per Cryptonomist, and daily RSI near 24 signals oversold conditions. Total crypto market cap is about $2.18T with Bitcoin dominance near 59%.",
+   "source": "The Cryptonomist",
+   "url": "https://en.cryptonomist.ch/2026/11/16/bitcoin-price-faces-1b-november-etf-outflows-november-16-2026/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "PLTR",
+    "NUE",
+    "BTU",
+    "CCOI"
+   ],
+   "headline": "Fintwit morning notes: Palantir, Nucor and Peabody among Monday upgrades; Kalshi puts 2027 'no recession' at 77%",
+   "summary": "A widely circulated morning note lists upgrades for PLTR, NUE, BTU and others and a downgrade for CCOI (firms not named), and flags S&P support at 7,500. It also cites Kalshi traders at 77% that the US avoids recession in 2027.",
+   "source": "Quant Partners (Substack)",
+   "url": "https://quantpartners.substack.com/p/morning-note-111626-america-loves",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "ANT",
+    "WMT"
+   ],
+   "headline": "Week ahead: Warsh today; US retail sales and Nvidia Tue; Fed minutes and Anthropic pricing Wed; ANT debut Thu",
+   "summary": "Nvidia's results arrive with the stock roughly 32% below its early-October high. Anthropic is set to price Wednesday at $70-78 and trade Thursday on Nasdaq. Walmart and Alibaba report later in the week; PBoC LPR follows on Nov 23.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262307008-us-nvda-nasdaq-futures-nvidia-jensen-huang-anthropic-ipo-tradingkey",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Alibaba / Qwen",
+   "importance": 3,
+   "tickers": [
+    "BABA"
+   ],
+   "headline": "Alibaba makes Qwen4-Max generally available: 1M-token context at $1.50/$4.50 per million tokens",
+   "summary": "After a preview last week, Qwen4-Max is now on the QwenCloud API; Alibaba describes a 2.4T-parameter MoE with 71B active parameters and native vision. It claims about 60% lower task cost than Qwen3.8-Max; no open weights for Max, with smaller open Qwen4 models promised later.",
+   "source": "CASRAI",
+   "url": "https://casrai.org/news/alibaba-qwen4-max-general-release-million-token-context-2026",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic heads into IPO week as the listing becomes a key test for AI valuations",
+   "summary": "With pricing Wednesday and a debut Thursday, investors are weighing Anthropic's roughly $1.2-1.4T valuation against OpenAI's reported ~$1.25T private mark. OpenAI's own listing is reported as 2027 at the earliest.",
+   "source": "Euronews",
+   "url": "https://euronews.com/2026/11/16/five-things-you-need-to-know-before-anthropic-goes-public",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Dreamteam",
+   "importance": 2,
+   "tickers": [
+    "CRM",
+    "SAP",
+    "HUBS"
+   ],
+   "headline": "AI CRM startup Dreamteam raises $53M led by Accel to take on Salesforce and SAP",
+   "summary": "The San Francisco company, founded in 2025, uses AI agents for meeting prep, follow-ups, risk detection and deal progression. Premji Invest and Together Fund joined; it reportedly has hundreds of enterprise customers three months after beta.",
+   "source": "PANews (citing Bloomberg)",
+   "url": "https://www.panews.io/articles/01a1e44e-e887-7323-bc85-173449bf2843",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "AT&T",
+   "importance": 2,
+   "tickers": [
+    "T"
+   ],
+   "headline": "AT&T says nearly 500 agentic workflows are in production, handling 45B tokens a day",
+   "summary": "The company reports over 1M agent transactions a month and plans to triple its workflow count within a year, per company figures summarised in an agent-news digest.",
+   "source": "AI Agent Store",
+   "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+   "date": "2026-11-15"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Google DeepMind",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "DeepMind's AlphaProof Code generates 6M+ lines of Lean proofs and verifies parts of Signal's libsignal",
+   "summary": "The formal-verification system reportedly checked key security properties of Signal's library in about four weeks, a notable step for AI-assisted software assurance.",
+   "source": "AI Agent Store",
+   "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+   "date": "2026-11-11"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "Linux Foundation",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Linux Foundation adopts Agent Name Service (ANS), a naming/discovery standard for AI agents",
+   "summary": "ANS becomes a foundation project with 11 early supporters, part of a wave of open infrastructure for agent identity and discovery.",
+   "source": "AI Agent Store",
+   "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+   "date": "2026-11-11"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Taisei",
+   "importance": 1,
+   "tickers": [
+    "1801.T"
+   ],
+   "headline": "Japan's Taisei launches a $150M fund for AI and robotics startups with Pegasus Tech Ventures",
+   "summary": "The construction group's fund runs through 2036, per a Japan Times report summarised in Monday's RIO Rundown digest.",
+   "source": "RIO Rundown (Substack)",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-16-2026-ai-scaling-limits",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "ElevenLabs",
+   "importance": 1,
+   "tickers": [],
+   "headline": "ElevenLabs previews ElevenAI: meeting notes, dictation in 90+ languages and agent actions",
+   "summary": "The voice-AI company is expanding from speech APIs into an end-user productivity assistant.",
+   "source": "AI Agent Store",
+   "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+   "date": "2026-11-14"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Healthcare",
+   "importance": 1,
+   "tickers": [
+    "DOCS"
+   ],
+   "headline": "Doximity survey: 85% of physicians now use AI weekly, up from 51%",
+   "summary": "The survey of 3,379 US physicians, cited in Monday's RIO Rundown digest, shows fast clinical adoption of AI tools.",
+   "source": "RIO Rundown (Substack)",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-16-2026-ai-scaling-limits",
+   "date": "2026-11-16"
+  }
+ ]
+}
