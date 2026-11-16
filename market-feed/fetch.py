@@ -15,7 +15,7 @@ from pathlib import Path
 import pandas as pd
 import yfinance as yf
 
-from instruments import FACTORS, INSTRUMENTS
+from instruments import FACTORS, INDIA, INDIA_BENCH, INSTRUMENTS
 
 HERE = Path(__file__).resolve().parent
 OUT = HERE / "data"
@@ -83,7 +83,8 @@ def ann(cum_pct, years):
 
 
 def main():
-    tickers = sorted({t for t, *_ in INSTRUMENTS} | {t for t, *_ in FACTORS})
+    tickers = sorted({t for t, *_ in INSTRUMENTS} | {t for t, *_ in FACTORS}
+                     | {c for cands, *_ in INDIA for c in cands} | set(INDIA_BENCH))
     data = yf.download(tickers, period="6y", interval="1d", auto_adjust=False,
                        group_by="column", progress=False, threads=True)
     data.index = pd.to_datetime(data.index).tz_localize(None)
@@ -122,6 +123,40 @@ def main():
             r, m = row[f"r_{k}"], b.get(k)
             row[f"x_{k}"] = clean(r - m) if r is not None and m is not None and row["role"] == "factor" else None
 
+    # ── India: pick first candidate with data; relative to Nifty 500 ──
+    bench_s, bench_t = pd.Series(dtype=float), None
+    for b in INDIA_BENCH:
+        bench_s = series_for(data, b, "Close")
+        if not bench_s.empty:
+            bench_t = b
+            break
+    bench_p = perf(bench_s, "price")
+    india_rows = []
+    for cands, name, group, kind in INDIA:
+        s, used = pd.Series(dtype=float), None
+        for c in cands:
+            s = series_for(data, c, "Adj Close" if kind == "tr" else "Close")
+            if not s.empty and len(s) > 30:
+                used = c
+                break
+        if used is None:
+            missing.append("|".join(cands))
+        p = perf(s, kind)
+        row = {"ticker": used or cands[0], "name": name, "group": group, "kind": kind,
+               "proxy": bool(used and used != cands[0] and used.endswith(".NS") and group == "Factor"),
+               "last": clean(s.iloc[-1]) if not s.empty else None,
+               "asof": s.index[-1].strftime("%Y-%m-%d") if not s.empty else None,
+               **{f"r_{k}": v for k, v in p.items()}}
+        for k in PERIODS:  # excess return vs Nifty 500 (equity groups only)
+            r, m = p[k], bench_p.get(k)
+            row[f"x_{k}"] = clean(((1 + r / 100) / (1 + m / 100) - 1) * 100) if (group != "Debt" and r is not None and m is not None and name != "India VIX") else None
+        if not s.empty:
+            last = float(s.iloc[-1])
+            yr = s[s.index > s.index[-1] - pd.DateOffset(years=1)]
+            row["off_high_52w"] = clean((last / float(yr.max()) - 1) * 100) if len(yr) else None
+            row["above_200dma"] = bool(last > float(s.iloc[-200:].mean())) if len(s) >= 200 else None
+        india_rows.append(row)
+
     now = datetime.now(timezone.utc)
     snap = {
         "generated_utc": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -130,6 +165,8 @@ def main():
         "periods": list(PERIODS),
         "markets": rows,
         "factors": factor_rows,
+        "india": india_rows,
+        "india_benchmark": bench_t,
         "missing": sorted(set(missing)),
     }
     OUT.mkdir(exist_ok=True)
