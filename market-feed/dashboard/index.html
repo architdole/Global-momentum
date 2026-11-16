@@ -1,0 +1,375 @@
+<meta name="dash-one-writer">
+<style>
+.gm{font-family:var(--font-anthropic-sans);color:var(--color-fg);display:flex;flex-direction:column;gap:var(--cds-gap-xl)}
+.gm h1{font-family:var(--font-anthropic-serif);font-weight:400;font-size:var(--cds-font-size-title);margin:0}
+.gm h2{font-size:var(--cds-font-size-heading);font-weight:var(--cds-font-weight-medium);margin:0 0 var(--cds-gap-xs)}
+.gm-sub{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);margin:0}
+.gm-take{margin:var(--cds-gap-sm) 0 0;font-size:var(--cds-font-size-body);max-width:70ch}
+.gm-nav{display:flex;flex-wrap:wrap;gap:var(--cds-gap-sm);font-size:var(--cds-font-size-caption)}
+.gm-nav a{color:var(--color-fg-muted);text-decoration:none;border:1px solid var(--color-border-line);border-radius:999px;padding:2px 10px}
+.gm-controls{display:flex;flex-wrap:wrap;gap:var(--cds-gap-md);align-items:center;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+.gm-controls label{display:flex;gap:6px;align-items:center}
+.gm-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--cds-gap-md)}
+.gm-card{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-lg)}
+.gm-card h3{margin:0 0 6px;font-size:var(--cds-font-size-caption);text-transform:uppercase;letter-spacing:.04em;color:var(--color-fg-muted);font-weight:var(--cds-font-weight-medium)}
+.gm-card p{margin:0;line-height:1.5}
+.gm-chips{display:flex;flex-wrap:wrap;gap:6px;margin:var(--cds-gap-sm) 0}
+.gm-chip{font:inherit;font-size:var(--cds-font-size-caption);border:1px solid var(--color-border-line);background:transparent;color:var(--color-fg);border-radius:999px;padding:3px 10px;cursor:pointer}
+.gm-chip.on{background:var(--color-fg);color:var(--color-bg)}
+.gm-scroll{overflow-x:auto;border:1px solid var(--color-border-line);border-radius:var(--cds-radius)}
+.gm-heat{border-collapse:collapse;width:100%;font-size:var(--cds-font-size-caption);font-variant-numeric:tabular-nums}
+.gm-heat th,.gm-heat td{padding:5px 8px;text-align:right;white-space:nowrap;border-bottom:1px solid var(--color-border-line)}
+.gm-heat th{position:sticky;top:0;background:var(--color-panel);font-weight:var(--cds-font-weight-medium);color:var(--color-fg-muted)}
+.gm-heat th:first-child,.gm-heat td:first-child{text-align:left;position:sticky;left:0;background:var(--color-bg);z-index:1}
+.gm-heat th:first-child{background:var(--color-panel);z-index:2}
+.gm-heat tr.gm-grp td{background:var(--color-panel);font-weight:var(--cds-font-weight-medium);text-align:left;color:var(--color-fg-muted);text-transform:uppercase;letter-spacing:.04em}
+.gm-heat td.gm-na{color:var(--color-fg-muted)}
+.gm-tk{color:var(--color-fg-muted);margin-left:6px}
+.gm-legend{display:flex;gap:var(--cds-gap-md);flex-wrap:wrap;align-items:center;font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);margin-top:6px}
+.gm-sw{display:inline-block;width:28px;height:10px;border-radius:2px;vertical-align:middle;margin-right:4px}
+.gm-news{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:var(--cds-gap-sm)}
+.gm-news li{background:var(--color-panel);border:1px solid var(--color-border-line);border-radius:var(--cds-radius);padding:var(--cds-pad-md)}
+.gm-news .gm-meta{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted);display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.gm-news .gm-cat{border:1px solid var(--color-border-line);border-radius:999px;padding:0 8px}
+.gm-news .gm-imp3{color:var(--color-bad);font-weight:var(--cds-font-weight-medium)}
+.gm-news h4{margin:6px 0 4px;font-size:var(--cds-font-size-body);font-weight:var(--cds-font-weight-medium)}
+.gm-news p{margin:0;line-height:1.45;font-size:var(--cds-font-size-body)}
+.gm-news a{color:inherit}
+.gm-chart{position:relative;min-height:220px}
+.gm-tip{position:absolute;pointer-events:none;background:var(--cds-surface-popover);border:1px solid var(--cds-border);box-shadow:var(--cds-shadow-popover);border-radius:6px;padding:4px 8px;font-size:var(--cds-font-size-caption);white-space:nowrap}
+.gm-chart text{fill:var(--cds-text-secondary);font-size:var(--cds-font-size-caption)}
+.gm-empty{color:var(--color-fg-muted);font-size:var(--cds-font-size-caption);padding:var(--cds-pad-md)}
+[data-dash-source-state=refreshing]{opacity:.5}
+.gm details{font-size:var(--cds-font-size-caption);color:var(--color-fg-muted)}
+</style>
+
+<div class="gm">
+  <header id="top">
+    <h1>Global Markets &amp; AI Pulse</h1>
+    <p class="gm-take" data-draw="takeaway">—</p>
+    <div class="gm-controls" style="margin-top:10px">
+      <label>Price snapshot <select class="dash-select" data-draw="snapsel" aria-label="Price snapshot date" data-source="markets"></select></label>
+      <label>News run <select class="dash-select" data-draw="runsel" aria-label="News run" data-source="briefs"></select></label>
+      <span>Prices as of <b data-draw="asof">—</b></span>
+    </div>
+    <nav class="gm-nav" style="margin-top:10px">
+      <a href="#brief">Briefing</a><a href="#perf">Cross-asset</a><a href="#factors">Factors</a><a href="#mnews">Market news</a><a href="#ainews">AI news</a><a href="#history">History</a>
+    </nav>
+  </header>
+
+  <section id="brief">
+    <h2>Briefing</h2>
+    <div class="gm-cards" data-source="briefs">
+      <div class="gm-card"><h3>Capital markets</h3><p data-draw="mbrief" data-source="briefs" data-field="market_brief">—</p></div>
+      <div class="gm-card"><h3>AI</h3><p data-draw="aibrief" data-source="briefs" data-field="ai_brief">—</p></div>
+    </div>
+  </section>
+
+  <section id="perf">
+    <h2>Cross-asset performance</h2>
+    <p class="gm-sub">Indices, bonds, dollar, currencies, commodities and alternatives. Returns in %, bond yields as change in basis points. 3Y and 5Y are cumulative.</p>
+    <div class="gm-chips" id="perf-groups">
+      <button class="gm-chip on" data-group="">All</button>
+      <button class="gm-chip" data-group="US Equity">US equity</button>
+      <button class="gm-chip" data-group="Global Equity">Global equity</button>
+      <button class="gm-chip" data-group="Debt">Debt</button>
+      <button class="gm-chip" data-group="Dollar &amp; FX">Dollar &amp; FX</button>
+      <button class="gm-chip" data-group="Commodities">Commodities</button>
+      <button class="gm-chip" data-group="Alternatives">Alternatives</button>
+    </div>
+    <div class="gm-scroll">
+      <table class="gm-heat" id="perf-table" data-source="markets" data-row-key="snap_date,ticker">
+        <thead><tr><th data-field="name">Instrument</th><th data-field="last">Last</th><th data-field="r_1D">1D</th><th data-field="r_1W">1W</th><th data-field="r_1M">1M</th><th data-field="r_3M">3M</th><th data-field="r_6M">6M</th><th data-field="r_YTD">YTD</th><th data-field="r_1Y">1Y</th><th data-field="r_3Y">3Y</th><th data-field="r_5Y">5Y</th></tr></thead>
+        <tbody data-draw="perf"></tbody>
+      </table>
+    </div>
+    <div class="gm-legend"><span><i class="gm-sw" style="background:color-mix(in srgb,var(--color-ok) 55%,transparent)"></i>Up / good</span><span><i class="gm-sw" style="background:color-mix(in srgb,var(--color-bad) 55%,transparent)"></i>Down / bad</span><span>Shade is scaled within each column. Rising yields and a rising VIX are shaded red.</span></div>
+  </section>
+
+  <section id="factors">
+    <h2>Factor monitor</h2>
+    <p class="gm-sub">Style ETFs by region. "Relative" is the factor's return minus its region's market ETF (SPY, EFA, EEM, NIFTYBEES) over the same period.</p>
+    <div class="gm-controls" style="margin:8px 0">
+      <label>Period <select class="dash-select" id="fac-period" aria-label="Factor period">
+        <option value="1D">1 day</option><option value="1W">1 week</option><option value="1M">1 month</option><option value="3M" selected>3 months</option><option value="6M">6 months</option><option value="YTD">YTD</option><option value="1Y">1 year</option><option value="3Y">3 years</option><option value="5Y">5 years</option>
+      </select></label>
+      <label>Show <select class="dash-select" id="fac-mode" aria-label="Absolute or relative">
+        <option value="x" selected>Relative to market</option><option value="r">Absolute return</option>
+      </select></label>
+    </div>
+    <p class="gm-take" data-draw="factake" data-source="factors">—</p>
+    <div class="gm-scroll" style="margin-top:8px">
+      <table class="gm-heat" id="factor-grid" data-source="factors">
+        <thead><tr><th>Region</th><th>Market</th><th>Momentum</th><th>Value</th><th>Quality</th><th>Min Vol</th><th>Size</th><th>Growth</th><th>Small Cap</th><th>High Beta</th><th>Alpha</th></tr></thead>
+        <tbody data-draw="facgrid"></tbody>
+      </table>
+    </div>
+    <h2 style="margin-top:var(--cds-gap-lg)">Factor spreads by region</h2>
+    <p class="gm-sub">Long one factor, short the other, in percentage points. Positive means the first leg won.</p>
+    <div class="gm-scroll" style="margin-top:6px">
+      <table class="gm-heat" id="spread-table" data-source="spreads" data-row-key="pair">
+        <thead><tr><th data-field="pair">Spread</th><th data-field="s_1D">1D</th><th data-field="s_1W">1W</th><th data-field="s_1M">1M</th><th data-field="s_3M">3M</th><th data-field="s_6M">6M</th><th data-field="s_YTD">YTD</th><th data-field="s_1Y">1Y</th><th data-field="s_3Y">3Y</th><th data-field="s_5Y">5Y</th></tr></thead>
+        <tbody data-draw="spreads"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="mnews">
+    <h2>Capital markets news</h2>
+    <p class="gm-sub">Policy, central banks, company actions, analyst calls and what's circulating on social media. Red dot = high impact.</p>
+    <div class="gm-controls" style="margin:8px 0"><label>Category <select class="dash-select" data-draw="mcat" aria-label="Market news category" data-source="news"></select></label></div>
+    <ul class="gm-news" data-draw="mlist" data-source="news"></ul>
+  </section>
+
+  <section id="ainews">
+    <h2>AI news</h2>
+    <p class="gm-sub">Model and feature launches, open-source and GitHub momentum, industry moves.</p>
+    <div class="gm-controls" style="margin:8px 0"><label>Category <select class="dash-select" data-draw="acat" aria-label="AI news category" data-source="news"></select></label></div>
+    <ul class="gm-news" data-draw="alist" data-source="news"></ul>
+  </section>
+
+  <section id="history">
+    <h2>History</h2>
+    <p class="gm-sub">Every price snapshot and news run is kept. Pick past dates with the selectors at the top, or chart an instrument's level across snapshots here.</p>
+    <div class="gm-controls" style="margin:8px 0"><label>Instrument <select class="dash-select" data-draw="instsel" aria-label="Instrument" data-source="markets"></select></label><span><b data-draw="nsnaps" data-source="markets">—</b> price snapshots · <b data-draw="nruns" data-source="briefs">—</b> news runs</span></div>
+    <div class="gm-chart" data-draw="trend" data-source="markets"></div>
+  </section>
+
+  <details>
+    <summary>How this is built</summary>
+    <p>Prices: Yahoo Finance daily closes pulled by a GitHub Action (architdole/Global-momentum, market-feed/) three times a day; ETFs use adjusted close (total return), indices, FX, futures and crypto use price only. Factor ETFs: US iShares MSCI factor ETFs plus IWF, IWM, SPHB; developed ex-US iShares international factor ETFs; EM EEMO, FNDE, EEMV, EEMS; India NSE factor ETFs. News is researched and summarised by Claude on each scheduled run with a link to every source; it is not investment advice.</p>
+  </details>
+</div>
+
+<script>
+window.gm = {snap:null, run:null, group:'', period:'3M', mode:'x', mcat:'', acat:'', inst:'^GSPC'};
+window.gmP = ['1D','1W','1M','3M','6M','YTD','1Y','3Y','5Y'];
+window.gmFmt = (v, kind) => v == null || isNaN(v) ? '–' : kind === 'yield' ? (v > 0 ? '+' : '') + Math.round(v) + 'bp' : (v > 0 ? '+' : '') + (Math.abs(v) >= 100 ? v.toFixed(0) : v.toFixed(1)) + '%';
+window.gmShade = (v, max, invert) => {
+  if (v == null || isNaN(v) || !max) return '';
+  const good = invert ? v < 0 : v > 0;
+  const pct = Math.round(10 + 55 * Math.min(1, Math.abs(v) / max));
+  return 'color-mix(in srgb, var(' + (good ? '--color-ok' : '--color-bad') + ') ' + pct + '%, transparent)';
+};
+window.gmFmtRun = (s) => { if (!s) return ''; const d = new Date(s); return d.toLocaleString('en-IN', {timeZone: 'Asia/Kolkata', day: '2-digit', month: 'short', hour: '2-digit', minute: '2-digit'}) + ' IST'; };
+window.gmLatest = (rows, key) => rows.reduce((m, r) => (r[key] > m ? r[key] : m), '');
+window.gmSnapRows = () => { const d = dash.data('markets'); if (d.status !== 'ok') return null; const s = gm.snap || gmLatest(d.data, 'snap_date'); return d.data.filter((r) => r.snap_date === s); };
+window.gmRun = () => { const b = dash.data('briefs'); if (b.status !== 'ok') return null; return gm.run || gmLatest(b.data, 'run_at'); };
+</script>
+
+<script>
+dash.calc('spreads', {
+  title: 'Factor spreads by region',
+  description: 'Factor A minus factor B returns (percentage points) for the latest price snapshot.',
+  inputs: ['factors'],
+  fn: (factors) => {
+    const snap = factors.reduce((m, r) => (r.snap_date > m ? r.snap_date : m), '');
+    const rows = factors.filter((r) => r.snap_date === snap);
+    const get = (geo, f) => rows.find((r) => r.geo === geo && r.factor === f);
+    const P = ['1D','1W','1M','3M','6M','YTD','1Y','3Y','5Y'];
+    const pairs = [
+      ['US', 'Momentum', 'Value'], ['Intl Developed', 'Momentum', 'Value'], ['Emerging', 'Momentum', 'Value'], ['India', 'Momentum', 'Value'],
+      ['US', 'Growth', 'Value'], ['US', 'Quality', 'Market'], ['Intl Developed', 'Quality', 'Market'], ['India', 'Quality', 'Market'],
+      ['US', 'Min Volatility', 'Market'], ['Emerging', 'Min Volatility', 'Market'], ['US', 'Small Cap', 'Market'], ['US', 'High Beta', 'Min Volatility'], ['India', 'Alpha', 'Market'],
+    ];
+    return pairs.map(([geo, a, b]) => {
+      const A = get(geo, a), B = get(geo, b);
+      const out = {pair: geo + ': ' + a + ' − ' + b};
+      P.forEach((p) => { const x = A && A['r_' + p], y = B && B['r_' + p]; out['s_' + p] = x != null && y != null ? Math.round((x - y) * 100) / 100 : null; });
+      return out;
+    });
+  },
+});
+</script>
+
+<script>
+dash.draw('snapsel', (sel) => {
+  const d = dash.data('markets');
+  const dates = d.status === 'ok' ? [...new Set(d.data.map((r) => r.snap_date))].sort().reverse() : [];
+  sel.replaceChildren(...dates.map((s, i) => new Option(i === 0 ? s + ' (latest)' : s, s)));
+  sel.value = gm.snap || dates[0] || '';
+  sel.onchange = () => { gm.snap = sel.value; ['perf', 'asof', 'takeaway'].forEach((n) => dash.draw(n)); };
+});
+dash.draw('runsel', (sel) => {
+  const b = dash.data('briefs');
+  const runs = b.status === 'ok' ? b.data.map((r) => r.run_at).sort().reverse() : [];
+  sel.replaceChildren(...runs.map((s, i) => new Option(gmFmtRun(s) + (i === 0 ? ' (latest)' : ''), s)));
+  sel.value = gm.run || runs[0] || '';
+  sel.onchange = () => { gm.run = sel.value; ['mbrief', 'aibrief', 'mcat', 'acat', 'mlist', 'alist', 'takeaway'].forEach((n) => dash.draw(n)); };
+});
+dash.draw('asof', (el) => {
+  const rows = gmSnapRows();
+  if (!rows || !rows.length) { el.textContent = '—'; return; }
+  const us = rows.find((r) => r.ticker === '^GSPC');
+  el.textContent = (us ? us.asof : rows[0].asof) + ' (US close; Asia may be intraday)';
+});
+dash.draw('takeaway', (el) => {
+  const rows = gmSnapRows();
+  if (!rows || !rows.length) { el.textContent = '—'; return; }
+  const eq = rows.filter((r) => /Equity/.test(r.group) && r.ticker !== '^VIX' && r.r_1W != null).sort((a, b) => b.r_1W - a.r_1W);
+  const spx = rows.find((r) => r.ticker === '^GSPC');
+  const btc = rows.find((r) => r.ticker === 'BTC-USD');
+  const t10 = rows.find((r) => r.ticker === '^TNX');
+  const parts = [];
+  if (spx) parts.push('S&P 500 ' + gmFmt(spx.r_1W) + ' on the week');
+  if (eq.length) parts.push('best equity market ' + eq[0].name + ' ' + gmFmt(eq[0].r_1W) + ', worst ' + eq[eq.length - 1].name + ' ' + gmFmt(eq[eq.length - 1].r_1W));
+  if (t10) parts.push('US 10Y at ' + t10.last.toFixed(2) + '% (' + gmFmt(t10.r_1W, 'yield') + ' w/w)');
+  if (btc) parts.push('Bitcoin ' + gmFmt(btc.r_1W));
+  el.textContent = parts.join('; ') + '.';
+});
+</script>
+
+<script>
+dash.draw('mbrief', (el) => { const b = dash.data('briefs'); if (b.status !== 'ok') { el.textContent = '—'; return; } const r = b.data.find((x) => x.run_at === gmRun()); el.textContent = r ? r.market_brief : '—'; el.setAttribute('data-where', r ? 'run_at=' + encodeURIComponent(r.run_at) : ''); });
+dash.draw('aibrief', (el) => { const b = dash.data('briefs'); if (b.status !== 'ok') { el.textContent = '—'; return; } const r = b.data.find((x) => x.run_at === gmRun()); el.textContent = r ? r.ai_brief : '—'; el.setAttribute('data-where', r ? 'run_at=' + encodeURIComponent(r.run_at) : ''); });
+</script>
+
+<script>
+document.querySelectorAll('#perf-groups .gm-chip').forEach((btn) => btn.addEventListener('click', () => {
+  gm.group = btn.getAttribute('data-group') || '';
+  document.querySelectorAll('#perf-groups .gm-chip').forEach((b) => b.classList.toggle('on', b === btn));
+  dash.draw('perf');
+}));
+dash.draw('perf', (tb) => {
+  const rows = gmSnapRows();
+  tb.replaceChildren();
+  if (!rows) { const d = dash.data('markets'); const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 11; td.className = 'gm-empty'; td.textContent = d.status === 'error' ? 'Failed to load' : 'Loading…'; return; }
+  const view = rows.filter((r) => !gm.group || r.group === gm.group);
+  const inv = (r) => r.kind === 'yield' || r.ticker === '^VIX';
+  const max = {};
+  gmP.forEach((p) => {
+    const vals = view.filter((r) => r.kind !== 'yield' && r.ticker !== '^VIX').map((r) => Math.abs(r['r_' + p])).filter((v) => v != null && !isNaN(v)).sort((a, b) => a - b);
+    max[p] = vals.length ? vals[Math.floor(vals.length * 0.9)] || vals[vals.length - 1] : 0;
+    const yv = view.filter((r) => r.kind === 'yield').map((r) => Math.abs(r['r_' + p])).filter((v) => v != null);
+    max['y' + p] = yv.length ? Math.max(...yv) : 0;
+  });
+  let grp = null;
+  view.forEach((r) => {
+    if (r.group !== grp) { grp = r.group; const g = tb.insertRow(); g.className = 'gm-grp'; const c = g.insertCell(); c.colSpan = 11; c.textContent = grp; }
+    const tr = tb.insertRow();
+    tr.setAttribute('data-key', encodeURIComponent(r.snap_date) + ',' + encodeURIComponent(r.ticker));
+    const n = tr.insertCell(); n.textContent = r.name; const tk = document.createElement('span'); tk.className = 'gm-tk'; tk.textContent = r.ticker; n.append(tk);
+    const l = tr.insertCell(); l.textContent = r.last == null ? '–' : r.last.toLocaleString('en-US', {maximumFractionDigits: r.last < 10 ? 4 : 2});
+    gmP.forEach((p) => {
+      const v = r['r_' + p]; const c = tr.insertCell();
+      c.textContent = gmFmt(v, r.kind);
+      if (v == null) c.className = 'gm-na';
+      c.style.background = gmShade(v, r.kind === 'yield' ? max['y' + p] : max[p], inv(r));
+    });
+  });
+});
+</script>
+
+<script>
+['fac-period', 'fac-mode'].forEach((id) => document.querySelectorAll('#' + id).forEach((s) => s.addEventListener('change', () => {
+  if (id === 'fac-period') gm.period = s.value; else gm.mode = s.value;
+  dash.draw('facgrid'); dash.draw('factake');
+})));
+window.gmFacRows = () => { const d = dash.data('factors'); if (d.status !== 'ok') return null; const s = gmLatest(d.data, 'snap_date'); return d.data.filter((r) => r.snap_date === s); };
+dash.draw('facgrid', (tb) => {
+  const rows = gmFacRows();
+  tb.replaceChildren();
+  if (!rows) { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 11; td.className = 'gm-empty'; td.textContent = dash.data('factors').status === 'error' ? 'Failed to load' : 'Loading…'; return; }
+  const cols = ['Market', 'Momentum', 'Value', 'Quality', 'Min Volatility', 'Size', 'Growth', 'Small Cap', 'High Beta', 'Alpha'];
+  const key = (gm.mode === 'x' ? 'x_' : 'r_') + gm.period;
+  const vals = rows.map((r) => (r.role === 'benchmark' ? r['r_' + gm.period] : r[key])).filter((v) => v != null).map(Math.abs);
+  const max = vals.length ? Math.max(...vals) : 0;
+  ['US', 'Intl Developed', 'Emerging', 'India'].forEach((geo) => {
+    const tr = tb.insertRow(); tr.insertCell().textContent = geo;
+    cols.forEach((f) => {
+      const r = rows.find((x) => x.geo === geo && x.factor === f); const c = tr.insertCell();
+      if (!r) { c.textContent = ''; return; }
+      const v = r.role === 'benchmark' ? r['r_' + gm.period] : r[key];
+      c.textContent = gmFmt(v);
+      const t = document.createElement('div'); t.className = 'gm-tk'; t.style.marginLeft = '0'; t.textContent = r.ticker.replace('.NS', ''); c.append(t);
+      c.style.background = r.role === 'benchmark' ? '' : gmShade(v, max, false);
+      if (r.role === 'benchmark') c.style.fontStyle = 'italic';
+    });
+  });
+});
+dash.draw('factake', (el) => {
+  const rows = gmFacRows();
+  if (!rows) { el.textContent = '—'; return; }
+  const k = 'x_' + gm.period;
+  const f = rows.filter((r) => r.role === 'factor' && r[k] != null).sort((a, b) => b[k] - a[k]);
+  if (!f.length) { el.textContent = 'Not enough history for this period yet.'; return; }
+  const b = f[0], w = f[f.length - 1];
+  const geoLead = {};
+  rows.filter((r) => r.role === 'factor' && r[k] != null).forEach((r) => { if (!geoLead[r.geo] || r[k] > geoLead[r.geo][k]) geoLead[r.geo] = r; });
+  el.textContent = 'Over ' + gm.period + ', the strongest style vs its market is ' + b.geo + ' ' + b.factor + ' (' + gmFmt(b[k]) + ') and the weakest ' + w.geo + ' ' + w.factor + ' (' + gmFmt(w[k]) + '). Leaders by region: ' + Object.values(geoLead).map((r) => r.geo + ' ' + r.factor).join(', ') + '.';
+});
+dash.draw('spreads', (tb) => {
+  const s = dash.data('spreads');
+  tb.replaceChildren();
+  if (s.status !== 'ok' || !Array.isArray(s.data)) { const tr = tb.insertRow(); const td = tr.insertCell(); td.colSpan = 10; td.className = 'gm-empty'; td.textContent = s.status === 'error' ? 'Failed to load' : 'Loading…'; return; }
+  const max = {}; gmP.forEach((p) => { const v = s.data.map((r) => Math.abs(r['s_' + p])).filter((x) => x != null); max[p] = v.length ? Math.max(...v) : 0; });
+  s.data.forEach((r) => {
+    const tr = tb.insertRow(); tr.setAttribute('data-key', encodeURIComponent(r.pair));
+    tr.insertCell().textContent = r.pair;
+    gmP.forEach((p) => { const c = tr.insertCell(); const v = r['s_' + p]; c.textContent = v == null ? '–' : (v > 0 ? '+' : '') + v.toFixed(1) + 'pp'; c.style.background = gmShade(v, max[p], false); });
+  });
+});
+</script>
+
+<script>
+window.gmNews = (feed, cat) => { const n = dash.data('news'); if (n.status !== 'ok') return null; const run = gmRun(); return n.data.filter((r) => r.feed === feed && r.run_at === run && (!cat || r.category === cat)).sort((a, b) => (b.importance - a.importance) || (b.date > a.date ? 1 : -1)); };
+window.gmCatSel = (sel, feed, key) => {
+  const all = gmNews(feed, '') || [];
+  const cats = [...new Set(all.map((r) => r.category))].sort();
+  sel.replaceChildren(new Option('All categories', ''), ...cats.map((c) => new Option(c, c)));
+  sel.value = cats.includes(gm[key]) ? gm[key] : '';
+  sel.onchange = () => { gm[key] = sel.value; dash.draw(feed === 'ai' ? 'alist' : 'mlist'); };
+};
+window.gmList = (ul, feed, key) => {
+  ul.replaceChildren();
+  const rows = gmNews(feed, gm[key]);
+  if (!rows) { const li = document.createElement('li'); li.className = 'gm-empty'; li.textContent = dash.data('news').status === 'error' ? 'Failed to load' : 'Loading…'; ul.append(li); return; }
+  rows.forEach((r) => {
+    const li = document.createElement('li'); li.setAttribute('data-key', encodeURIComponent(r.id));
+    const meta = document.createElement('div'); meta.className = 'gm-meta';
+    if (r.importance >= 3) { const d = document.createElement('span'); d.className = 'gm-imp3'; d.textContent = '●'; meta.append(d); }
+    const c = document.createElement('span'); c.className = 'gm-cat'; c.textContent = r.category; meta.append(c);
+    [r.region, r.date, r.tickers].filter(Boolean).forEach((t) => { const s = document.createElement('span'); s.textContent = t; meta.append(s); });
+    const h = document.createElement('h4'); h.textContent = r.headline;
+    const p = document.createElement('p'); p.textContent = r.summary + ' ';
+    if (r.url && /^https:\/\//.test(r.url)) { const a = document.createElement('a'); a.href = r.url; a.target = '_blank'; a.rel = 'noopener noreferrer'; a.textContent = r.source || 'Source'; p.append(a); }
+    else if (r.source) { const s = document.createElement('i'); s.textContent = r.source; p.append(s); }
+    li.append(meta, h, p); ul.append(li);
+  });
+};
+dash.draw('mcat', (sel) => gmCatSel(sel, 'markets', 'mcat'));
+dash.draw('acat', (sel) => gmCatSel(sel, 'ai', 'acat'));
+dash.draw('mlist', (ul) => gmList(ul, 'markets', 'mcat'));
+dash.draw('alist', (ul) => gmList(ul, 'ai', 'acat'));
+</script>
+
+<script>
+dash.draw('instsel', (sel) => {
+  const d = dash.data('markets');
+  if (d.status !== 'ok') { sel.replaceChildren(); return; }
+  const seen = new Map(); d.data.forEach((r) => seen.set(r.ticker, r.name));
+  sel.replaceChildren(...[...seen].map(([t, n]) => new Option(n + ' (' + t + ')', t)));
+  sel.value = gm.inst;
+  sel.onchange = () => { gm.inst = sel.value; dash.draw('trend'); };
+});
+dash.draw('nsnaps', (el) => { const d = dash.data('markets'); el.textContent = d.status === 'ok' ? String(new Set(d.data.map((r) => r.snap_date)).size) : '—'; });
+dash.draw('nruns', (el) => { const d = dash.data('briefs'); el.textContent = d.status === 'ok' ? String(d.data.length) : '—'; });
+dash.draw('trend', (el) => {
+  const d = dash.data('markets');
+  el.replaceChildren();
+  if (d.status !== 'ok') { el.textContent = d.status === 'error' ? 'Failed to load' : '—'; return; }
+  const pts = d.data.filter((r) => r.ticker === gm.inst && r.last != null).map((r) => ({t: new Date(r.snap_date + 'T00:00:00Z'), v: r.last, s: r.snap_date, w: r.r_1D})).sort((a, b) => a.t - b.t);
+  if (pts.length < 2) { const p = document.createElement('div'); p.className = 'gm-empty'; p.textContent = 'Only ' + pts.length + ' snapshot so far for this instrument. The line fills in as daily snapshots accumulate.'; el.append(p); return; }
+  const W = el.clientWidth || 600, H = 220, m = {t: 10, r: 16, b: 24, l: 56};
+  const x = d3.scaleUtc().domain(d3.extent(pts, (p) => p.t)).range([m.l, W - m.r]);
+  const y = d3.scaleLinear().domain(d3.extent(pts, (p) => p.v)).nice().range([H - m.b, m.t]);
+  const svg = d3.select(el).append('svg').attr('width', '100%').attr('viewBox', '0 0 ' + W + ' ' + H).attr('role', 'img').attr('aria-label', 'Level of ' + gm.inst + ' across snapshots');
+  svg.append('g').attr('transform', 'translate(0,' + (H - m.b) + ')').call(d3.axisBottom(x).ticks(Math.max(2, Math.floor(W / 110))).tickFormat(d3.utcFormat('%d %b'))).call((g) => g.selectAll('line,path').style('stroke', 'var(--cds-chart-axis)'));
+  svg.append('g').attr('transform', 'translate(' + m.l + ',0)').call(d3.axisLeft(y).ticks(5)).call((g) => g.selectAll('line,path').style('stroke', 'var(--cds-chart-axis)'));
+  svg.append('path').datum(pts).attr('fill', 'none').style('stroke', dash.colors[0]).attr('stroke-width', 2).attr('d', d3.line().x((p) => x(p.t)).y((p) => y(p.v)));
+  const tip = document.createElement('div'); tip.className = 'gm-tip'; tip.hidden = true; el.append(tip);
+  svg.selectAll('circle').data(pts).join('circle').attr('cx', (p) => x(p.t)).attr('cy', (p) => y(p.v)).attr('r', 4).style('fill', dash.colors[0])
+    .on('pointerenter', (ev, p) => { tip.hidden = false; tip.textContent = p.s + ': ' + p.v.toLocaleString('en-US', {maximumFractionDigits: 2}) + ' (1D ' + gmFmt(p.w) + ')'; tip.style.left = Math.min(x(p.t) / W * el.clientWidth, el.clientWidth - 160) + 'px'; tip.style.top = (y(p.v) - 30) + 'px'; })
+    .on('pointerleave', () => { tip.hidden = true; });
+});
+</script>
