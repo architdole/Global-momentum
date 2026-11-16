@@ -36,7 +36,14 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add market-feed/data
-          git diff --cached --quiet && exit 0
-          git commit -m "market-feed: $(date -u +'%Y-%m-%d %H:%M') UTC"
-          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
+          cp -r market-feed/data /tmp/feed-data
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            cp -r /tmp/feed-data/. market-feed/data/
+            git add market-feed/data
+            git diff --cached --quiet && exit 0
+            git commit -q -m "market-feed: $(date -u +'%Y-%m-%d %H:%M') UTC"
+            git push -q origin HEAD:main && exit 0
+            sleep $((i * 5))
+          done
+          exit 1
