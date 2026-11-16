@@ -1,0 +1,42 @@
+name: Market feed (global dashboard)
+
+# Pulls daily closes for global indices, bonds, FX, commodities, crypto and
+# factor ETFs, computes 1D..5Y returns, and commits market-feed/data/.
+# Runs ~30 min before each Claude dashboard refresh (06:47 / 12:47 / 18:47 IST).
+
+on:
+  schedule:
+    - cron: "15 0 * * *"    # 05:45 IST
+    - cron: "15 6 * * *"    # 11:45 IST
+    - cron: "15 12 * * *"   # 17:45 IST
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["market-feed/*.py", ".github/workflows/market-feed.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: market-feed
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install "yfinance>=0.2.50" pandas
+      - run: python market-feed/fetch.py
+      - name: Commit data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add market-feed/data
+          git diff --cached --quiet && exit 0
+          git commit -m "market-feed: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3; do git pull --rebase origin main && git push && break; sleep 5; done
