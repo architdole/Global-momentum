@@ -1,0 +1,371 @@
+{
+ "run_at": "2026-11-17T07:27:00Z",
+ "market_brief": "Monday's AI unwind (S&P 500 -1.9%, Nasdaq 100 -2.7%, SOX -5.3%, VIX 22.9) rolled through Asia, with the Kospi down 2.6% to a six-month low and the Nikkei -1.3%, while India opened modestly higher on oil relief and foreign inflows. Everything now hinges on Nvidia's results after today's US close (consensus ~$109B revenue; options price ~10% move), which sets the tone for Anthropic's IPO pricing Wednesday. Rates remain the other headwind: the US 10Y is 5.12%, a December Fed hike is ~91% priced ahead of Waller today, the RBA minutes kept more hikes open and DXY sits near 103.6. Brent (~$91.7) keeps sliding on glut forecasts, and gold, silver and Bitcoin (~$65k) are still not acting as havens.",
+ "ai_brief": "Hardware dominated: Anthropic said its Mythos model ported a model to AMD GPUs in days, a direct challenge to Nvidia's CUDA moat on the eve of both companies' big market events, while Nvidia's Vera Rubin swept MLPerf. Microsoft shipped a local 138B coding model for Copilot, GitHub rotated its model lineup, and physical-AI money kept flowing with Agile Robots' $500M round.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Asia",
+   "importance": 3,
+   "tickers": [
+    "^KS11",
+    "^N225",
+    "005930.KS",
+    "9984.T"
+   ],
+   "headline": "Update: Asian selloff deepens: Kospi -2.6% to a six-month low below 5,000, Nikkei -1.3%",
+   "summary": "The chip rout spread through Asia on Tuesday: Kospi closed at 4,968, its first close under 5,000 since February, with Samsung Electronics -3.1%, while the Nikkei fell 1.3% to 58,860 and SoftBank Group lost 3.9% (down over 33% in a month). Earlier this morning the moves were ~1.4%; the declines widened through the session.",
+   "source": "AP via KSAT",
+   "url": "https://www.ksat.com/business/2026/11/17/asian-markets-mostly-drop-as-ai-stocks-remain-under-pressure/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 3,
+   "tickers": [
+    "^NSEI",
+    "^BSESN"
+   ],
+   "headline": "Update: Sensex and Nifty open higher as investors rotate from global AI trades to India",
+   "summary": "Sensex was up ~0.14% at 82,221 and Nifty at 25,327 shortly after the open, with softer oil helping. Foreign investors bought a reported Rs 84,290 crore of Indian equities in the first half of November after two months of net selling.",
+   "source": "HDFC Sky",
+   "url": "https://hdfcsky.com/news/bse-nse-sensex-november-17-2026-open-report-sensex-nifty-edge-higher-as-oil-eases-and-investors-rotate-from-global-ai-to-india",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia reports tonight: LSEG consensus ~$109B revenue, EPS up ~90% y/y; stock down ~24% in November",
+   "summary": "Nvidia's fiscal Q3 results are due after Tuesday's US close, its first print since the CEO departure; options reportedly price a ~10.6% move. The stock fell 4.1% on Monday and is down nearly a quarter this month, per Reuters data cited by Shattered.",
+   "source": "Shattered.io (citing Reuters/LSEG)",
+   "url": "https://shattered.io/us-futures-fall-nvidia-earnings-anthropic-ipo-64-4-billion/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "NUE",
+    "IR",
+    "YETI",
+    "BILI",
+    "APP",
+    "SPOT"
+   ],
+   "headline": "Ratings round-up: CLSA trims Nvidia conviction; UBS upgrades Nucor; Goldman cuts Yeti; Evercore adds Spotify",
+   "summary": "Per an EverHint aggregation: UBS raised Nucor to Buy (PT $307), Melius upgraded Ingersoll-Rand, Goldman cut Yeti to Neutral and Macquarie cut Bilibili to Neutral; Jefferies lifted its AppLovin target to $500, and Evercore ISI swapped Spotify in for Netflix among its top picks. Not independently verified against broker notes.",
+   "source": "EverHint",
+   "url": "https://www.everhint.com/analyst-hints-ratings-november-16-2026-midday-update-last-24-hours-pacific-time/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "HD"
+   ],
+   "headline": "Home Depot reports Q3 before the US open: consensus EPS $3.84 on $42.8B revenue",
+   "summary": "Options imply roughly a ±5% move, well above HD's ~1.9% average post-earnings swing over the last four quarters. Piper Sandler trimmed its target to $371 ahead of the print, after Zelman's Underperform call on Monday.",
+   "source": "TipRanks",
+   "url": "https://www.tipranks.com/news/home-depot-q3-earnings-preview-what-wall-street-and-options-traders-expect",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^IRX",
+    "DX-Y.NYB"
+   ],
+   "headline": "Fed's Waller speaks today with a December hike ~91% priced",
+   "summary": "CME FedWatch shows roughly 91% odds of a 25bp December hike and ~9% for 50bp after October CPI ran hot (0.4% m/m headline). Waller, who earlier floated considering 50bp if core stayed near 0.3%, speaks Tuesday afternoon European time.",
+   "source": "KuCoin / CryptoTicker",
+   "url": "https://www.kucoin.com/news/flash/bitcoin-holds-near-65-000-ahead-of-waller-s-speech-and-december-rate-hike-outlook",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "Australia",
+   "importance": 2,
+   "tickers": [
+    "AUDUSD=X"
+   ],
+   "headline": "RBA minutes lean hawkish: board leaves door open to more hikes after lifting cash rate to 4.60%",
+   "summary": "Minutes of the November meeting, where the RBA hiked to 4.60%, set out three reasons for the move and kept further tightening on the table, per investingLive. AUD/USD fell 1% on Monday as risk appetite faded.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/central-banks/rba-minutes-show-three-reasons-for-hike-to-4-60-and-leave-door-open-to-further-increases/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "China",
+   "importance": 2,
+   "tickers": [
+    "CNY=X"
+   ],
+   "headline": "PBoC fixes yuan at 6.7132, strongest since early 2023 but weaker than expected, ahead of APEC",
+   "summary": "The midpoint came in well on the weak side of the 6.6715 Reuters estimate, signalling a brake on yuan gains; onshore yuan traded near 6.665. APEC in Shenzhen runs Nov 18-19 with a Xi-Trump-Putin meeting planned, per Reuters.",
+   "source": "Business Recorder (Reuters)",
+   "url": "https://www.brecorder.com/news/40449329/yuan-steady-despite-firm-dollar-as-pboc-strengthens-fixing-ahead-of-apec",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Update: Brent slips further to ~$91.7 as Goldman and IEA flag a glut; US SPR at lowest since 1982",
+   "summary": "After Monday's 3.6% drop, Brent was down another ~0.8% in Asia. Goldman sees Brent averaging $88 in 2027, the IEA projects a Q4 surplus of ~1.7M bpd, and the US Strategic Petroleum Reserve has fallen to 276M barrels.",
+   "source": "FinanceFeeds",
+   "url": "https://financefeeds.com/brent-crude-oil-price-91-66-tuesday-goldman-glut-warning-bull-96-bear-88/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 1,
+   "tickers": [
+    "GC=F",
+    "SI=F"
+   ],
+   "headline": "Gold and silver edge up from near one-year lows",
+   "summary": "Gold futures rose ~0.4% and silver ~0.7% in Asian trade after Monday's slide, with both still pinned near one-year lows by rising rate-hike expectations.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-17-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bse-share-price-126111700071_1.html",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Crypto",
+   "importance": 2,
+   "tickers": [
+    "BTC-USD"
+   ],
+   "headline": "Bitcoin near $65k with Fear & Greed at 12; spot ETFs now net sellers year to date",
+   "summary": "BTC was ~13% lower on the week in a $63.9k-65.5k range. SoSoValue data show US spot bitcoin ETFs at about $1.56B of net outflows year to date, and the crypto sentiment index sits in 'extreme fear'.",
+   "source": "KuCoin / CryptoTicker",
+   "url": "https://www.kucoin.com/news/flash/bitcoin-holds-near-65-000-ahead-of-waller-s-speech-and-december-rate-hike-outlook",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic IPO: 825M shares at $70-78 could raise up to $64.4B; pricing Wednesday",
+   "summary": "Per Reuters as cited by Shattered, the offering could value Anthropic at up to ~$1.4T, alongside a separate $26B placement with Google, Nvidia, AMD and Microsoft. No change to the range has been reported since Monday's coverage of strong demand.",
+   "source": "Shattered.io (citing Reuters)",
+   "url": "https://shattered.io/us-futures-fall-nvidia-earnings-anthropic-ipo-64-4-billion/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "CRWV",
+    "NBIS",
+    "LITE"
+   ],
+   "headline": "AI-infrastructure names hit hardest by the remote chip-access curb",
+   "summary": "CoreWeave, Nebius, Lumentum, Sandisk and SK Hynix each fell 5%+ early Monday after the US moved to limit remote/cloud access to advanced AI chips, per Schwab's market update; the SOX ended -5.3%.",
+   "source": "Charles Schwab",
+   "url": "https://www.schwab.com/learn/story/stock-market-update-open",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "9984.T",
+    "NVDA"
+   ],
+   "headline": "Agile Robots raises $500M Series F at $8.5B valuation, led by SoftBank",
+   "summary": "The Munich-based robotics maker's round included Nvidia, Hitachi and T.Capital, taking total funding to $2B; its new German plant can build up to 10,000 humanoid robots a year.",
+   "source": "PR Newswire via Manila Times",
+   "url": "https://www.manilatimes.net/2026/11/17/tmt-newswire/pr-newswire/physical-ai-leader-agile-robots-raises-500-million-series-f-at-85-billion-valuation-to-accelerate-global-growth/2471576",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "^GSPC",
+    "^NDX"
+   ],
+   "headline": "Context: Monday's 1.9% S&P drop erased most of last week's 2.5% rebound",
+   "summary": "The S&P 500 had posted its first weekly gain since early October in the week to Nov 13 before Monday's AI-led reversal; Nvidia's market value has fallen about $735B since the leadership disclosures, per AP.",
+   "source": "Yahoo Finance (Investing.com)",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/u-stock-futures-little-changed-020537465.html",
+   "date": "2026-11-15"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "HD",
+    "WMT",
+    "ANT"
+   ],
+   "headline": "Today/this week: HD pre-market, Waller, Nvidia after close; Fed minutes + EIA + ANT pricing Wed; APEC Nov 18-19; OPEC+ Nov 29",
+   "summary": "Tuesday brings Home Depot results, Waller's speech and Nvidia after the bell. Wednesday has the FOMC October minutes, EIA inventories and Anthropic's IPO pricing ahead of Thursday's Nasdaq debut; APEC in Shenzhen runs Nov 18-19.",
+   "source": "FinanceFeeds",
+   "url": "https://financefeeds.com/brent-crude-oil-price-91-66-tuesday-goldman-glut-warning-bull-96-bear-88/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "AMD",
+    "NVDA"
+   ],
+   "headline": "Anthropic tells IPO investors Claude Mythos ported a model to AMD MI355X GPUs in ~3 days",
+   "summary": "In roadshow material, Anthropic said Mythos Preview wrote almost all kernels needed to run one model on AMD hardware, a job that reportedly took 6-12 months before; the footnote limits the claim to prefill for a single model.",
+   "source": "DEV Community digest (citing Tom's Hardware)",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-17-2026-claude-onboards-amd-gpus-in-3-days-vera-rubin-sweeps-mlperf-482n",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Nvidia",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia Vera Rubin NVL72 sweeps MLPerf Training v6.1 in its debut",
+   "summary": "Per Nvidia's results summary, Vera Rubin delivered up to 2x per-GPU performance vs GB300 NVL72 and scaled DeepSeek-V3 training to 1,024 GPUs at ~97% efficiency; a provisional agentic-inference result showed 10x+ throughput per watt.",
+   "source": "DEV Community digest (citing Nvidia)",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-17-2026-claude-onboards-amd-gpus-in-3-days-vera-rubin-sweeps-mlperf-482n",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Microsoft",
+   "importance": 2,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Microsoft ships MAI-Code-1.1-Flash, a 138B MoE coding model that runs locally in GitHub Copilot",
+   "summary": "The 53 GiB mixed-precision checkpoint is available via Microsoft Foundry; speculative decoding reportedly doubled throughput at 120K-token inputs on an RTX Spark box. A Windows ML runtime preview and experimental llama.cpp/GGUF support also landed.",
+   "source": "DEV Community digest (citing Microsoft)",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-17-2026-claude-onboards-amd-gpus-in-3-days-vera-rubin-sweeps-mlperf-482n",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 1,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Gemini side panel in Apps Script reaches general availability",
+   "summary": "Google made its Gemini assistant generally available inside Apps Script for Workspace Business/Enterprise and Google AI Pro/Ultra users, rolling out over about two weeks.",
+   "source": "DEV Community digest (citing Google Workspace Updates)",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-17-2026-claude-onboards-amd-gpus-in-3-days-vera-rubin-sweeps-mlperf-482n",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "GitHub",
+   "importance": 2,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "GitHub Copilot retires Claude Opus 4.8/5 and GPT-5.6 Terra; adds Agents inbox and model-compare tool",
+   "summary": "Copilot's latest release deprecates older Anthropic and OpenAI models in favour of Claude Opus 5.5 and GPT-6.1 variants, adds Claude Fable 5.2 and Gemini 4 Carbon, and introduces a VS Code inbox for agent sessions needing attention.",
+   "source": "AI Agent Store",
+   "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "Agile Robots",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Agile Robots raises $500M at $8.5B as physical-AI funding keeps flowing",
+   "summary": "SoftBank led the Series F with Nvidia and Hitachi participating; the company cites 20,000 deployed industrial systems and capacity for 10,000 humanoids a year in Germany.",
+   "source": "PR Newswire via Manila Times",
+   "url": "https://www.manilatimes.net/2026/11/17/tmt-newswire/pr-newswire/physical-ai-leader-agile-robots-raises-500-million-series-f-at-85-billion-valuation-to-accelerate-global-growth/2471576",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Plural",
+   "importance": 1,
+   "tickers": [],
+   "headline": "London VC Plural closes a €1B fund aimed at European frontier-tech and AI founders",
+   "summary": "The fund is Plural's largest, roughly double its 2024 vehicle, with about two-thirds earmarked for seed and Series A.",
+   "source": "DEV Community digest",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-17-2026-claude-onboards-amd-gpus-in-3-days-vera-rubin-sweeps-mlperf-482n",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Security",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Threat advisory flags ARTEX, an open-source agentic pentest framework, in live campaigns",
+   "summary": "ThreatDefence published detection guidance for ARTEX, which it ties to campaigns including Storm-0940, adding to this week's concern over autonomous offensive AI tooling.",
+   "source": "AI Agent Store",
+   "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Developer report: approved MCP write can execute twice in OpenAI's Responses API",
+   "summary": "A user-reported bug on OpenAI's developer forum says a hosted read following an approved native MCP write can trigger the write a second time; OpenAI had not commented, per the listing.",
+   "source": "AI Agent Store",
+   "url": "https://aiagentstore.ai/ai-agent-news/this-week",
+   "date": "2026-11-16"
+  }
+ ]
+}
