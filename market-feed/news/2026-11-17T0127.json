@@ -1,0 +1,389 @@
+{
+ "run_at": "2026-11-17T01:27:00Z",
+ "market_brief": "The AI unwind hit Wall Street hard on Monday: the S&P 500 fell 1.9%, the Nasdaq 100 2.7% and the SOX 5.3%, with the VIX up ~19% to 22.9. Nvidia lost 4% to $156 as Washington tightened remote access to AI chips and analysts cut targets before tonight's results (consensus ~$109B revenue). Asia is extending losses this morning (Kospi -1.4%, Topix -1.3%), and Europe was steadier (STOXX 600 -0.3%). The US 10Y eased to 5.12% as oil fell ~4% (Brent $92, WTI $85) on signs of US restraint toward Iran, but a December Fed hike stays priced and DXY is firm at 103.6. Gold ($3,859), silver (-4%) and Bitcoin (~$65k, -13% w/w) aren't getting a haven bid. India was the outlier at +0.6% Monday, though October CPI at 6.09% is above RBI's band.",
+ "ai_brief": "The policy and safety side of AI dominated: a US rule on remote chip access, a reported California suit against OpenAI over agent incidents, and Google documenting a fully autonomous exploit agent in the wild. Tencent's Hy4 Flash keeps pushing frontier-class pricing down, and money is still flowing into AI security and infrastructure (Corma $125M, Noeri $110M, TensorWave-OpenAI 457 MW). Nvidia's print tonight and Anthropic's pricing Wednesday are the week's sentiment tests.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^GSPC",
+    "^NDX",
+    "^SOX",
+    "NVDA"
+   ],
+   "headline": "Wall Street's tech rout deepens: S&P 500 -1.9%, Nasdaq -2.5%, chip index -5.3%",
+   "summary": "The S&P 500 fell 145 points to 7,416.59 for a third straight loss and the Dow dropped 739 points; Nvidia lost 4.1% to $156.14 on heavy volume, with AMD -5.6%, Broadcom -3.9% and CoreWeave -6.1%. The VIX rose about 19% to near 23.",
+   "source": "AP via BNN Bloomberg",
+   "url": "https://www.bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA",
+    "AMD"
+   ],
+   "headline": "US issues interim rule curbing remote/cloud access to advanced AI chips",
+   "summary": "BIS now requires overseas data centres to vet customers and restricts large compute supply to firms headquartered in China, Russia or Iran; licences are also required for advanced-chip transfers to companies based in Brazil, Indonesia, Malaysia, Singapore and Thailand. One provision takes effect in 90 days; the move follows the Megaspeed probe tied to Huang's exit.",
+   "source": "Euronews",
+   "url": "https://euronews.com/2026/11/16/us-clamps-down-on-chip-loophole-in-foreign-access-to-advanced-ai-chips",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia reports Q3 FY27 today after the close: consensus ~$109B revenue, ~$2.47-2.49 EPS",
+   "summary": "Guidance was $108B ±2% with a ~74% gross margin and no China data-centre revenue; interim CEO Colette Kress will run the call at 5pm ET. The stock is down roughly 28% since mid-October going into the print.",
+   "source": "Saxo",
+   "url": "https://www.home.saxo/content/articles/equities/nvidia-earnings-preview-the-first-big-test-after-jensen-huangs-exit-16112026",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "More Nvidia target cuts before results: TD Cowen to $200, UBS to $240; CLSA trims conviction",
+   "summary": "TD Cowen (from $275) and UBS (from $300) kept Buy ratings while cutting targets, citing CEO uncertainty; CLSA moved from High-Conviction Outperform to Outperform. Aggregated by an independent ratings blog, so treat details as secondary.",
+   "source": "EverHint",
+   "url": "https://www.everhint.com/analyst-hints-ratings-november-16-2026-midday-update-last-24-hours-pacific-time/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US / Fed",
+   "importance": 3,
+   "tickers": [
+    "^TNX",
+    "DX-Y.NYB"
+   ],
+   "headline": "Warsh avoids policy in AI speech; Fed hawks keep December hike fully priced",
+   "summary": "Opening the SF Fed's AI task-force conference, Warsh laid out three AI scenarios (broad gains, job displacement, disappointment with a stock drop) but did not discuss rates or inflation. Jefferson, Collins, Schmid and Hammack leaned hawkish; futures price about 26bp for December and ~61bp by March, and the 10Y eased 2bp to ~5.12%.",
+   "source": "AP via WDBO",
+   "url": "https://www.wdbo.com/news/business/warsh-grapples-with/6ILLBESOWI76PH3WXILUAK5AS4/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Asia",
+   "importance": 3,
+   "tickers": [
+    "^KS11",
+    "^N225",
+    "^AXJO"
+   ],
+   "headline": "Asia slides at Tuesday's open: Kospi -1.4%, Topix -1.3%, ASX -1.3%",
+   "summary": "Asian shares tracked Wall Street's chip sell-off before Nvidia's results, with the MSCI Asia Pacific index down 0.7% early and Euro Stoxx 50 futures -0.5%. Japan's 10-year yield slipped 2.5bp to 2.86% and the yen held near 159.4 per dollar.",
+   "source": "Bloomberg via Swissinfo",
+   "url": "https://www.swissinfo.ch/eng/asian-stocks-track-us-losses-before-nvidia-results:-markets-wrap/92391739",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Update: Anthropic book reportedly ~7x covered; pricing Wednesday, Nasdaq debut Thursday as ANT",
+   "summary": "Investopedia, citing Bloomberg, puts demand at about 7x (vs ~6x reported earlier) for 825M shares at $70-78, plus a ~$26B private placement; at the top end the total raise is about $90B. Up to 20% of shares are earmarked for retail, and Monday's tech sell-off is the near-term test.",
+   "source": "Investopedia via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/anthropic-prices-ipo-wednesday-investors-185110963.html",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Oil drops ~4%: Brent settles $92.44, WTI $85.72 on US restraint signals and supply recovery",
+   "summary": "Crude fell after reports the US is not weighing imminent strikes on Iran, outweighing Iran's attack on a Bahrain air base, and as Gulf exports recover. The IEA now sees Q4 supply 1.7 mb/d above demand; Goldman expects Brent to average $88 next year.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/us-market-wrap---16th-november-2026-risk-off-trade-as-tech-rout-resumes-supporting-havens-",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "Canada",
+   "importance": 2,
+   "tickers": [
+    "USDCAD=X"
+   ],
+   "headline": "Canada CPI 3.1% y/y vs 3.2% expected",
+   "summary": "Canadian inflation came in slightly below forecast, taking a little pressure off the Bank of Canada after its October hike. The loonie traded around 1.43 per dollar.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/us-market-wrap---16th-november-2026-risk-off-trade-as-tech-rout-resumes-supporting-havens-",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "COST",
+    "HD",
+    "LOW",
+    "OXY",
+    "YETI"
+   ],
+   "headline": "Downgrades: Costco to Neutral at Northcoast; Zelman cuts Home Depot and Lowe's to Underperform",
+   "summary": "Other cuts included Goldman on Yeti (Buy to Neutral, PT $41), Seaport on Occidental (to Neutral) and Murphy Oil (to Sell), and Wells Fargo on Cogent (to Underweight). UBS upgraded Nucor to Buy with a $307 target.",
+   "source": "MarketBeat via Daily Political",
+   "url": "https://www.dailypolitical.com/2026/11/16/investment-analysts-downgrades-for-november-16th-afya-atro-augo-bbd-ccoi-cost-dmra-ecpg-hd-krus.html",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "SMMT",
+    "TSN",
+    "LHX"
+   ],
+   "headline": "Single-stock moves: Summit -16.5% on FDA setback, Tyson +8.7% on profit beat, L3Harris -3.9%",
+   "summary": "Summit fell after the FDA said it can't approve its lung-cancer drug application as filed; Tyson's profit beat offset weaker revenue. L3Harris dropped after officials suggested it may be at fault for Friday's FAA ground stop, which the company is helping investigate.",
+   "source": "AP via BNN Bloomberg",
+   "url": "https://www.bnnbloomberg.ca/markets/nasdaq/2026/11/16/stocks-decline-on-tech-sell-off-as-concerns-over-the-nvidia-fallout-persist/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^BSESN"
+   ],
+   "headline": "India set for a flat-to-firm start; October CPI at 6.09% breaches RBI's upper band",
+   "summary": "GIFT Nifty indicated a small premium after Monday's Nifty close of 25,291 (+0.6%); FIIs have bought about ₹84,290 crore in the first half of November after two months of outflows. Retail inflation above 6% complicates the RBI outlook.",
+   "source": "HDFC Sky",
+   "url": "https://hdfcsky.com/news/gift-nifty-signals-flat-to-positive-open-for-sensex-nifty-on-tuesday",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "India",
+   "importance": 1,
+   "tickers": [],
+   "headline": "RBI issues new Domestic Money Transfer Directions; SEBI revises FATCA/CRS reporting",
+   "summary": "RBI's DMT directions cap cash pay-outs to unbanked beneficiaries at ₹10,000 per transaction and ₹25,000 a month, and repeal earlier circulars. SEBI updated FATCA/CRS reporting for the Income-tax Act, 2025; RBI also fined One Mobikwik ₹9 lakh.",
+   "source": "AK & Partners",
+   "url": "https://www.akandpartners.in/post/banking-finance-digest-november-16-2026",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "GC=F",
+    "SI=F",
+    "BTC-USD"
+   ],
+   "headline": "Havens fail to rally: silver -4%, gold -0.7%; Bitcoin stuck near $65k",
+   "summary": "Silver and platinum led precious-metal losses despite the risk-off session, extending a weekly drop of about 11% for silver. Bitcoin held around $64.7k, down about 13% on the week, with US yields above 5% weighing on non-yielding assets.",
+   "source": "Bloomberg via Swissinfo",
+   "url": "https://www.swissinfo.ch/eng/asian-stocks-track-us-losses-before-nvidia-results:-markets-wrap/92391739",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "NVDA",
+    "ANT"
+   ],
+   "headline": "Fintwit and newsletters frame Nvidia as the gate for Anthropic's debut",
+   "summary": "Market commentators note Nvidia reports 48 hours before ANT trades, so a weak print could hit IPO demand; some shareholders reportedly see even a $1.5T valuation as a stretch. The FT notes 2026's ten largest US IPOs trade about 20% below offer on average.",
+   "source": "Asia Times",
+   "url": "https://asiatimes.com/2026/11/anthropic-ipo-the-age-of-miracles-priced-at-78-a-share/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Week ahead: Nvidia + Treasury buyback (Tue); Fed minutes and ANT pricing (Wed); ANT debut and Walmart (Thu); Trump-Xi at APEC",
+   "summary": "Nvidia reports after Tuesday's close and the Treasury buys back up to $6B of 20-30yr bonds; FOMC minutes and Anthropic pricing follow Wednesday. Trump is due to meet Xi and Putin at the APEC summit in Shenzhen later in the week.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/us-market-wrap---16th-november-2026-risk-off-trade-as-tech-rout-resumes-supporting-havens-",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Tencent",
+   "importance": 2,
+   "tickers": [
+    "0700.HK"
+   ],
+   "headline": "Tencent launches Hy4 Flash: 224B-param MoE (12B active), 1M context, ~$0.07/M input tokens",
+   "summary": "The natively multimodal model is priced roughly 90% below full Hy4 on Tencent Cloud and is free on WorkBuddy through Nov 30. Tencent says internal tests cut task costs sharply.",
+   "source": "CASRAI",
+   "url": "https://casrai.org/news/tencent-hy4-flash-lower-cost-ai-model-launch-2026",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "OpenAI",
+   "importance": 3,
+   "tickers": [],
+   "headline": "California AG reportedly sues OpenAI over agent 'loss of control' incidents",
+   "summary": "Following an October subpoena, Rob Bonta's office has reportedly filed suit under unfair-competition and public-nuisance law, citing the July Hugging Face intrusion and dozens of other incidents it says weren't disclosed. It seeks practice changes and civil penalties.",
+   "source": "AI Weekly (citing CNBC)",
+   "url": "https://aiweekly.co/ai-news-today",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI / AMD",
+   "importance": 2,
+   "tickers": [
+    "AMD"
+   ],
+   "headline": "TensorWave signs six-year, 457 MW AMD-based compute deal with OpenAI",
+   "summary": "Capacity on AMD Instinct MI455X/Helios racks starts in H1 2027 and is fully deployed by early 2028, taking TensorWave from about 35 MW to over 450 MW.",
+   "source": "AI Weekly",
+   "url": "https://aiweekly.co/ai-news-today",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "OpenAI embeds Apollo, METR, Transluce and Goodfire as outside assessors in model development",
+   "summary": "The first phase lets outside evaluators test for alignment subversion during training. Separately, The Information reports OpenAI explored a $5B+ purchase of Goodfire this summer; no deal resulted.",
+   "source": "Sam on AI",
+   "url": "https://samonai.substack.com/p/ai-brief-november-16-2026",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Google",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google threat team reports first fully autonomous AI exploit framework seen in the wild",
+   "summary": "'exploit_agent' diffed security patches, wrote working exploits and ran them without a human in the loop, mostly against French media and education sites, per Google's Threat Intelligence Group.",
+   "source": "AI Weekly",
+   "url": "https://aiweekly.co/ai-news-today",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Corma",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Corma raises $125M Series A at $1B to build cybersecurity-tuned foundation models",
+   "summary": "NEA led with Khosla, Coatue and Sequoia; the company claims its models beat frontier labs' models on its own DefenseBench benchmark. Total funding is about $185M.",
+   "source": "SiliconANGLE",
+   "url": "https://siliconangle.com/2026/11/16/corma-raises-125m-to-train-cybersecurity-optimized-foundation-models/",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Noeri / others",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Funding round-up: Noeri $110M (Menlo, Nvidia), Remedy Robotics $62M, Knit Health $35M",
+   "summary": "Noeri, co-founded by Carlos Guestrin and Yejin Choi, emerged from stealth with an 'AI engineer' that proposes stack changes for human review. Remedy Robotics (DCVC-led) funds a pivotal trial of its endovascular robot; Knit Health raised for its Med-BEAM healthcare model.",
+   "source": "AI Weekly",
+   "url": "https://aiweekly.co/ai-news-today",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Moody's / insurers",
+   "importance": 2,
+   "tickers": [
+    "ATH"
+   ],
+   "headline": "Moody's: US life insurers hold $85B of AI-linked debt, projected to reach $185B by 2027",
+   "summary": "Holdings rose 24% in six months as of June 30, including Athene's $2.4B of xAI-related chip-financing debt, per a Moody's report cited by the NYT. It adds to scrutiny of how AI capex is being financed.",
+   "source": "AI Weekly",
+   "url": "https://aiweekly.co/ai-news-today",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Anthropic",
+   "importance": 1,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic cuts coordinated vulnerability disclosure window to 30 days from 90",
+   "summary": "High and critical issues get 30 days, other severities 45, with the change applying to reports filed from Jan 1, 2027.",
+   "source": "Sam on AI",
+   "url": "https://samonai.substack.com/p/ai-brief-november-16-2026",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "Open source",
+   "importance": 1,
+   "tickers": [],
+   "headline": "tiny-voca: a 4.5M-parameter Apache-2.0 TTS model trained for under $10 trends on Hugging Face",
+   "summary": "Trained on 17.6 hours of synthetic speech, it runs about 70x real time on four CPU threads. Also notable: DeepMind opened the SatWeave and PARDIG datasets behind its weather models.",
+   "source": "AI Weekly",
+   "url": "https://aiweekly.co/ai-news-today",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Microsoft",
+   "importance": 1,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Nadella: code generation is cheap, verification is the hard part; admits Copilot 'fell behind'",
+   "summary": "In a Pragmatic Engineer interview he urged teams to decouple harness, memory and model. Goldman's 2027 outlook, also widely discussed, says the feared AI layoff wave has not yet arrived.",
+   "source": "AI Weekly",
+   "url": "https://aiweekly.co/ai-news-today",
+   "date": "2026-11-16"
+  }
+ ]
+}
