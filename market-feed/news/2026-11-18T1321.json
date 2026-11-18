@@ -1,0 +1,385 @@
+{
+ "run_at": "2026-11-18T13:21:00Z",
+ "market_brief": "Nvidia's beat is lifting US futures (Nasdaq 100 ~+1%) after Tuesday's S&P 500 -1.0% and Dow -1.6% left the index at a July low and the VIX at ~25.5 (+11%). The bigger cross-asset story today is hawkish rate pricing: a December Fed hike is ~95% priced ahead of tonight's minutes, the BoE (~90%) and BoJ (~85%) are also seen hiking, and the 10Y is ~5.10% with DXY ~103.7 near a 19-month high. That is crushing metals (gold -2.3% to ~$3,775, silver -3%, copper -2.8%) and helped push the Nifty down ~0.8% on metal-stock losses, while oil fell ~2% (WTI ~$84) on an API build despite another Hormuz attack. Retail earnings were solid (Target, Lowe's beat), and Anthropic prices its IPO after the US close.",
+ "ai_brief": "Anthropic's IPO pricing tonight dominates, with reports pointing above the $70-78 range ahead of Thursday's ANT debut. Nvidia confirmed it is ending H200 sales to China while Washington reportedly prepares an 'AI national champions' list. AMD closed its $8.2B World Labs deal, Microsoft's Ignite pushed Copilot agents, and funding stayed heavy (Isomorphic Labs, Humyn Labs).",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ES=F",
+    "NQ=F",
+    "NVDA"
+   ],
+   "headline": "US futures rebound after Nvidia beat; Nasdaq 100 futures up ~0.8-1.1%",
+   "summary": "After two losing sessions that left the S&P 500 at its lowest close since July, Nasdaq 100 futures rose roughly 1% and S&P futures 0.3-0.6% pre-market, led by Nvidia (~+3%), AMD, Broadcom and neocloud names; Dow futures were near flat.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-anthropic-ipo-090613569.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "TGT"
+   ],
+   "headline": "Target Q3 beats: comps +5.6%, sales +7.1% to $27.1B, but shares slip",
+   "summary": "Target's diluted EPS of $2.65 topped the ~$2.08 estimate, though it includes a $0.50 boost from tariff refunds; digital comps rose 9.8%. Shares still traded lower pre-market.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-anthropic-ipo-090613569.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "LOW"
+   ],
+   "headline": "Lowe's beats estimates and raises full-year sales outlook",
+   "summary": "Lowe's topped Q3 expectations on strong online sales and lifted its annual sales forecast despite a sluggish housing market; reports note cost pressures persist.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/lowes-low-q3-2026-earnings.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^TNX",
+    "DX-Y.NYB"
+   ],
+   "headline": "Markets price ~94-96% odds of a December Fed hike ahead of minutes",
+   "summary": "Futures imply a near-certain 25bp hike at the Dec 8-9 FOMC (a small chance of 50bp), with the 2Y at ~4.79% and 10Y at ~5.10%. October FOMC minutes are due at 19:00 GMT today.",
+   "source": "Mitrade",
+   "url": "https://www.mitrade.com/insights/commodity-analysis/gold/gold-slides-fed-hike-fomc-hormuz",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 3,
+   "tickers": [
+    "GC=F",
+    "SI=F",
+    "HG=F"
+   ],
+   "headline": "Metals rout: gold -2.4% to ~$3,778, silver and copper down ~3.6-3.8%",
+   "summary": "Rate-hike pricing and a firm dollar hit precious and base metals; gold broke below $3,800 and LME copper fell 3.6% to $12,763/t. Fresnillo, Antofagasta and Endeavour fell ~4% in London.",
+   "source": "Yahoo Finance UK",
+   "url": "https://uk.finance.yahoo.com/news/ftse-100-falls-0-39-091511952.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "UK",
+   "importance": 2,
+   "tickers": [
+    "^FTSE",
+    "GBPUSD=X"
+   ],
+   "headline": "Update on UK CPI: FTSE 100 -0.4% on miners; ~90% odds of a December BoE hike",
+   "summary": "After October CPI printed 3.6% (core 2.8%, services 3.7%), the FTSE fell on commodity stocks and sterling slipped 0.3% to ~$1.317. Markets were cited pricing about a 90% chance of a BoE hike in December.",
+   "source": "Yahoo Finance UK",
+   "url": "https://uk.finance.yahoo.com/news/ftse-100-falls-0-39-091511952.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "Japan",
+   "importance": 2,
+   "tickers": [
+    "JPY=X"
+   ],
+   "headline": "BoJ's Ueda signals more hikes; USD/JPY hovers just below 160",
+   "summary": "Ueda said the BoJ will keep raising rates depending on data, with December hike odds put near 85% despite a 0.1% annualised Q3 GDP contraction. USD/JPY sat near 159.4, with intervention warnings capping it.",
+   "source": "ATFX",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/usdjpy-nears-160-as-boj-ueda-signals-more-hikes",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^BSESN",
+    "TITAN.NS"
+   ],
+   "headline": "India closes lower: Sensex sheds ~500 points, Nifty near 25,230; metals lead losses",
+   "summary": "Profit-taking after a recent rally and a slump in metal stocks (Nifty Metal -2.5%) dragged benchmarks ~0.6%; Titan, HDFC Life and Hindalco were among top losers while SBI and Cipla gained. Update: earlier session dip extended into the close.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Middle East",
+   "importance": 2,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Oil slips ~1.6-2% on API build; new Hormuz vessel attack limits losses",
+   "summary": "Brent eased toward ~$91.7 and WTI ~$83 after a 5.3M-barrel API crude build. ADNOC reported a vessel attacked in the Strait of Hormuz overnight, with 11 crew injured and one missing.",
+   "source": "Yahoo Finance UK",
+   "url": "https://uk.finance.yahoo.com/news/ftse-100-falls-0-39-091511952.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia stops H200 sales to China; Jefferies sizes export-rule hit at $44-62B",
+   "summary": "Nvidia is ending H200 shipments to China, and Jefferies estimated new export controls could cut $44B-$62B of potential revenue; interim CEO Colette Kress says the Vera Rubin backlog cushions the impact.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/17/nvidia-is-abandoning-china-after-jensen-huangs-ouster",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "SOX",
+    "NVDA"
+   ],
+   "headline": "SemiAnalysis reportedly cuts 2028 AI-accelerator spend forecast by 28%",
+   "summary": "Per a market newsletter, SemiAnalysis lowered its 2028 global accelerator spend estimate from about $1.05T to $758B, with later-year cuts of up to ~40%, a counterpoint to Nvidia's strong guide.",
+   "source": "Herve Cuviliez (Substack)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "QQQ"
+   ],
+   "headline": "BofA fund manager survey: tech overweight slashed; record share say firms overinvest in AI",
+   "summary": "The November survey reportedly shows net tech overweight falling from 37% to 12%, the biggest monthly cut since 2006, and a record net 38% saying companies are overinvesting in AI.",
+   "source": "Herve Cuviliez (Substack)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Lutnick reportedly to name 20+ US AI firms 'national champions'",
+   "summary": "Per a WSJ report cited in a market newsletter, Commerce Secretary Lutnick plans to designate more than two dozen US AI companies as national champions; details were not confirmed.",
+   "source": "Herve Cuviliez (Substack)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "China / US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Trump in Shenzhen for APEC ahead of talks with Xi and Putin",
+   "summary": "The APEC summit runs Wednesday-Thursday; Iran, Ukraine and AI cooperation are reportedly on the agenda, with markets watching for trade-truce deliverables ahead of a January deadline.",
+   "source": "TipRanks",
+   "url": "https://www.tipranks.com/news/stock-market-today-nov-18-nvidias-strong-results-lift-market-sentiment",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Ramp reportedly in talks to raise $1B+ at a $70B+ valuation",
+   "summary": "The fintech is in early talks with Coatue and Thrive reportedly leading, a month after a $60B round; annualised revenue reportedly topped $2B in October.",
+   "source": "Tech Funding News",
+   "url": "https://techfundingnews.com/report-ramp-in-talks-to-raise-1b-at-a-70b-valuation-a-month-after-its-60b-round/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "SPCX"
+   ],
+   "headline": "13F chatter: Duquesne holds SpaceX; Situational Awareness cuts long book ~92%",
+   "summary": "Fintwit is parsing 13Fs: Druckenmiller's Duquesne reportedly disclosed ~$30.5M of SpaceX shares, while Leopold Aschenbrenner's fund reportedly cut its reported long book by about 92%.",
+   "source": "Herve Cuviliez (Substack)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 3,
+   "tickers": [
+    "ANT",
+    "PANW",
+    "TJX"
+   ],
+   "headline": "Next 36h: FOMC minutes (19:00 GMT), Anthropic IPO pricing, PANW/TJX; ANT debut Thu",
+   "summary": "Fed October minutes land today, Anthropic prices its IPO after the US close with Nasdaq trading Thursday, and APEC continues. Further out: Fed Dec 8-9 and BoJ Dec 17-18.",
+   "source": "ATFX",
+   "url": "https://www.atfxcapital.com/en/analysis/market-news/usdjpy-nears-160-as-boj-ueda-signals-more-hikes",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Update: Anthropic prices 825M-share IPO tonight; reports point above $70-78 range",
+   "summary": "Pricing is expected this evening with Nasdaq trading as ANT from Thursday; sources cited in newsletters say demand supports a price above the range. What changed: pricing is now hours away.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/live/stock-market-today-wednesday-november-18-dow-sp-500-nasdaq-nvidia-anthropic-ipo-090613569.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "US 'AI national champions' plan reported as Nvidia ends H200 China shipments",
+   "summary": "Per WSJ via a newsletter, Commerce plans to designate 20+ US AI firms as national champions, while Nvidia confirmed no more H200s will ship to China under tighter export rules.",
+   "source": "Herve Cuviliez (Substack)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "AMD",
+   "importance": 2,
+   "tickers": [
+    "AMD"
+   ],
+   "headline": "AMD completes $8.2B World Labs deal; Fei-Fei Li becomes Chief Scientist",
+   "summary": "AMD closed its all-stock acquisition of the world-model startup, issuing ~15M shares, and named Fei-Fei Li EVP and Chief Scientist.",
+   "source": "AMD",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1306/amd-completes-acquisition-of-world-labs",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Microsoft",
+   "importance": 2,
+   "tickers": [
+    "MSFT",
+    "CRM"
+   ],
+   "headline": "Ignite: Word, Excel, PowerPoint GA inside Copilot; new 'Autopilot' persistent agent",
+   "summary": "Microsoft pitched Copilot as the OS for work, adding Office apps inside Copilot, a Microsoft IQ context layer and an Autopilot agent billed in Copilot Credits; a Salesforce-in-Copilot plugin also entered preview.",
+   "source": "Ars Technica",
+   "url": "https://arstechnica.com/gadgets/2026/11/microsoft-calls-copilot-the-new-os-for-work-at-ignite-keynote",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "Nvidia",
+   "importance": 1,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia open-sources NVKE/NVKR for managed GPU Kubernetes (Apache 2.0)",
+   "summary": "The control plane and node-image builder are in public preview; reviewers flagged that the default API listens without authentication, so hardening is needed.",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/11/17/nvidia-nvke-nvkr-managed-kubernetes-gpu",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Nvidia",
+   "importance": 1,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "SC26: Nvidia unveils Nemotron for Science agent toolkit, runnable on DGX Spark",
+   "summary": "Ian Buck's keynote also expanded Rubin/Vera HPC offerings and a quantum co-design platform with IBM and Fermilab.",
+   "source": "Nvidia Blog",
+   "url": "https://blogs.nvidia.com/blog/ian-buck-sc26",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "AMD / Microsoft",
+   "importance": 1,
+   "tickers": [
+    "AMD",
+    "MSFT"
+   ],
+   "headline": "AMD Instinct MI350P comes to Windows Server with inference microservices",
+   "summary": "AMD said the MI350P will support Windows Server 2025 and 2028 with GPU partitioning and AMD Inference Microservices at launch.",
+   "source": "AMD",
+   "url": "https://www.amd.com/en/blogs/2026/more-ai-more-control-amd-instinct-mi350p-comes-to-windows.html",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "India",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Bengaluru's Humyn Labs raises $47M led by Accel for robotics training data",
+   "summary": "The round mixes $26M equity (Accel, Prosus, Bajaj entities, Jump Trading) and $21M venture debt; the firm records real-world tasks in 20+ countries and reported ~$10M revenue in Apr-Oct.",
+   "source": "Unite.AI",
+   "url": "https://www.unite.ai/humyn-labs-secures-47m-series-a-for-real-world-robotics-data/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Funding roll: Isomorphic Labs $5B Series C; Corma $125M at $1B; LanceDB $57.5M",
+   "summary": "Newsletters list a heavy day of AI raises, led by DeepMind spin-out Isomorphic Labs' reported $5B round; terms were not independently verified.",
+   "source": "Herve Cuviliez (Substack)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-wednesday-18-november",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Bank CEOs and NSA tell Congress outages stemmed from rush to patch AI-found bugs",
+   "summary": "Testimony reportedly linked recent outages, including an FAA ground stop, to systems overwhelmed by emergency patching of AI-discovered vulnerabilities.",
+   "source": "RIO Rundown",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-18-2026-ai-infrastructure",
+   "date": "2026-11-18"
+  }
+ ]
+}
