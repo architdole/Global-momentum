@@ -1,0 +1,328 @@
+{
+ "run_at": "2026-11-18T01:50:00Z",
+ "market_brief": "Nvidia cleared the bar after the close: $115.8B revenue, a Q4 guide of ~$130B and a $150B buyback lifted the stock ~2-4% after hours, and Kospi opened +2.6% back above 5,000. That came after a heavy Tuesday, with the S&P 500 -1.2%, Dow -1.8%, Euro Stoxx 50 -2.1% and DAX -2.1% on new US chip-export licence rules and Fed-hike bets, and the VIX up 12% to ~25.7. Rates and the dollar were calm (10Y 5.10%, -2bp; DXY ~103.5), Brent held near $92.8 despite a 5.3M-barrel API build, gold sat flat at ~$3,853 and bitcoin slipped to ~$63.8k (-13% w/w). Today's tests are UK CPI (3.6% expected), Fed minutes and Anthropic's IPO pricing, reportedly ~6-7x covered.",
+ "ai_brief": "OpenAI released GPT-6.2 Astra and Sol with a 20% Astra price cut, but early power-user reaction was harsh and Artificial Analysis still ranks Claude Fable 5.2 ahead. Microsoft answered at Ignite with seven MAI models, including MAI Code 2 in Copilot. Nvidia's Vera Rubin ramp (~$20B in its first quarter) supports the AI-capex story, and finance-focused agent startup Model ML raised $250M at $1.5B.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia beats: Q3 revenue $115.8B (+103% y/y), Q4 guide $127.4-132.6B, $150B more buyback",
+   "summary": "EPS of $2.68 topped ~$2.47 consensus and data-center revenue hit $107.6B vs ~$101.9B expected; the FY2028 growth outlook was lifted to ~75%. Shares rose about 2-4.5% after hours from a $155.46 close.",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Update on Nvidia leadership: board says it will not reinstate Jensen Huang; Kress stays interim CEO",
+   "summary": "New since yesterday: the board confirmed a permanent CEO search with CFO Colette Kress as interim chief, removing the guidance-withdrawal risk BofA had flagged. Gross margin was 74.8% and Vera Rubin shipped nearly $20B in its first production quarter.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/live/nvidia-earnings-live-nvidia-posts-q3-beat-board-says-it-will-not-reinstate-jensen-huang-as-ceo-221428433.html",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^DJI",
+    "^GSPC",
+    "^IXIC"
+   ],
+   "headline": "Wall Street falls for a fourth day: Dow -849 points, S&P 500 at lowest close since July",
+   "summary": "The S&P 500 fell about 1% and the Dow 1.6% as chip curbs and Fed-hike bets weighed before Nvidia; the Nasdaq Composite briefly fell ~2% intraday. The VIX rose to about 25.5.",
+   "source": "Vista Partners",
+   "url": "https://vistapglobal.com/stock-market-today-november-17-2026-dow-falls-848-points-as-inflation-and-ai-uncertainty-weigh-aapl-ant-dis-eprx-gld-googl-modd-nvda-ser-sls-spcx-vix/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "US October retail sales +0.2% to $748.2B; industrial production -0.4%; import prices +1.1%",
+   "summary": "Headline retail sales matched forecasts, with the control group reportedly up 0.6%, while factory output fell. Hot import prices add to the inflation worries behind December hike pricing.",
+   "source": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [],
+   "headline": "Fedspeak: Musalem floats up to four more hikes; Williams reportedly pushes back on an outsized move",
+   "summary": "St. Louis Fed's Musalem said as many as four more increases may be needed before spring 2027, while NY Fed's Williams reportedly argued against a 50bp step. December hike odds sit near 95-100%, with the 10Y around 5.10%.",
+   "source": "Capital Street FX",
+   "url": "https://www.capitalstreetfx.com/market-analysis/daily-index-report-18-nov-2026/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US / Asia",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "AMD"
+   ],
+   "headline": "Update: new US rule requires licences for advanced AI chip shipments to Singapore, Malaysia, Thailand, Indonesia and Brazil",
+   "summary": "Follows yesterday's remote-access curb, now detailed with the country list; it hit European and Asian chip and AI-infrastructure names on Tuesday, with the DAX down ~2%.",
+   "source": "Capital Street FX",
+   "url": "https://www.capitalstreetfx.com/market-analysis/daily-index-report-18-nov-2026/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "South Korea",
+   "importance": 2,
+   "tickers": [
+    "^KS11",
+    "005930.KS",
+    "000660.KS"
+   ],
+   "headline": "Kospi opens 2.6% higher back above 5,000 after Nvidia's outlook",
+   "summary": "Seoul rebounded after four straight losses, with the Kospi at 5,098.82 early Wednesday and Kosdaq +2.3%; it had closed below 5,000 on Tuesday for the first time in about nine months.",
+   "source": "Korea JoongAng Daily",
+   "url": "https://www.koreajoongangdaily.com/business/kospi-opens-sharply-higher-on-bargain-hunting-after-upbeat-nvidia-earnings/12978341",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Update: Anthropic IPO reportedly ~6-7x oversubscribed ahead of pricing today",
+   "summary": "The 825M-share offering (range $70-78, Nasdaq: ANT) reportedly drew around six to seven times the shares on offer despite the AI selloff; pricing is due Wednesday and trading Thursday.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/investing/2026/11/17/anthropic-ipo-is-six-times-oversubscribed-start-trading-nov-19-should-you-buy/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "ANT",
+    "NVDA"
+   ],
+   "headline": "Prediction-market chatter: Steve Eisman reportedly unmoved by Anthropic's order book",
+   "summary": "Per Benzinga's prediction-markets coverage, the 'Big Short' investor remains sceptical even as the deal is reported up to 7x covered; traders are also betting on ANT's day-one performance.",
+   "source": "Benzinga",
+   "url": "https://www.benzinga.com/markets/prediction-markets/26/11/63362726/anthropic-ipo-eisman",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "SLS",
+    "RCAT",
+    "ENR",
+    "ACM",
+    "HD"
+   ],
+   "headline": "Movers: SELLAS +156% on Phase 3 win; Red Cat -32% after pulling guidance; Home Depot names McPhail CEO",
+   "summary": "SELLAS surged on positive REGAL survival data but slipped ~11% after hours on a proposed $150M offering. Energizer (+12.6%) and AECOM (+11.1%) rallied; Home Depot fell 2.5% as it said Richard McPhail becomes CEO on Nov 23.",
+   "source": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-17-2026",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "MARA",
+    "GLXY"
+   ],
+   "headline": "Crypto names downgraded: Galaxy Digital -10.5%, MARA -5% after analyst cuts",
+   "summary": "Downgrades hit crypto brokers and miners as bitcoin slipped toward $64k, down ~13% on the week. Mizuho also downgraded Stanley Black & Decker, per separate reports.",
+   "source": "Defense World",
+   "url": "https://www.defenseworld.net/2026/11/17/galaxy-digital-nasdaqglxy-shares-down-10-5-on-analyst-downgrade.html",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "CL=F",
+    "BZ=F"
+   ],
+   "headline": "API reports 5.3M-barrel US crude build and 5.1M-barrel gasoline build; SPR drawn again",
+   "summary": "Industry data for the week to Nov 13 showed large product builds while Cushing fell ~1.7M barrels; the SPR dropped 3.1M barrels to 276.4M. Brent holds near $92-93 as glut forecasts offset Hormuz disruption.",
+   "source": "Yahoo Finance / OilPrice",
+   "url": "https://finance.yahoo.com/energy/articles/api-shows-substantial-crude-oil-215800093.html",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "UK",
+   "importance": 2,
+   "tickers": [
+    "GBPUSD=X",
+    "^FTSE"
+   ],
+   "headline": "UK October CPI due at 07:00 GMT; consensus 3.6% y/y vs 3.5% in September",
+   "summary": "A rise would follow the BoE's Nov 5 hike to 4.00%; September core was 2.8% and services 3.7%. The FTSE 100 fell 1.8% on Tuesday.",
+   "source": "AskTraders",
+   "url": "https://www.asktraders.com/analysis/uk-inflation-preview-consensus-sees-3-6/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 1,
+   "tickers": [
+    "^NSEI",
+    "^BSESN",
+    "^NSEBANK"
+   ],
+   "headline": "India set-up: Nifty eyes 25,500 resistance after two-day gain and record Bank Nifty",
+   "summary": "Analysts cite 25,200 support and 25,500 resistance after Tuesday's 25,387 close; Nvidia's beat and the Asia rebound could test the India-over-AI rotation seen this week.",
+   "source": "Business Today",
+   "url": "https://www.businesstoday.in/markets/stocks/story/sensex-nifty-extend-gains-for-second-session-nifty-bank-hits-record-high-what-lies-ahead-567932-2026-11-17",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Next 48h: UK CPI, Fed minutes, EIA stocks and Anthropic pricing (Wed); ANT debut and GTA VI launch (Thu)",
+   "summary": "Fed minutes will be read for how many hikes officials see; ANT's first trade is the next test for AI sentiment after Nvidia. APEC meetings also run this week.",
+   "source": "Capital Street FX",
+   "url": "https://www.capitalstreetfx.com/market-analysis/daily-index-report-18-nov-2026/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 3,
+   "tickers": [],
+   "headline": "OpenAI ships GPT-6.2 Astra and Sol; Astra API price cut 20% to $8/$40 per M tokens",
+   "summary": "Both models offer ~1M-token context and are live in ChatGPT, Codex and the API; Sol stays at $2/$10. OpenAI cites 78.3% on Agents' Last Exam for Astra and an ultrafast tier for Pro users.",
+   "source": "TestingCatalog",
+   "url": "https://testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "GPT-6.2 draws a harsh first reaction from power users on X",
+   "summary": "Several prominent developers called the release unusable or uneven, while Artificial Analysis ranked Astra second on its index behind Anthropic's Claude Fable 5.2.",
+   "source": "VentureBeat",
+   "url": "https://venturebeat.com/technology/essentially-unusable-openai-launches-gpt-6-2-astra-and-sol-to-negative-reception-from-ai-power-users",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "GPT-6.2 models cross OpenAI's 'Critical' cybersecurity threshold and ship with tighter safeguards",
+   "summary": "OpenAI says both new models meet its highest cyber-capability tier under its preparedness framework, triggering added restrictions on misuse.",
+   "source": "TestingCatalog",
+   "url": "https://testingcatalog.com/openai-launches-gpt-6-2-astra-and-sol-on-chatgpt-and-apis",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Microsoft",
+   "importance": 2,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Microsoft launches seven MAI models at Ignite, including MAI Code 2 and a speech-to-speech model",
+   "summary": "MAI Code 2 is in GitHub Copilot and claimed at ~98% of GPT-6.1 Sol's quality for ~40% of the price; MAI Cyber 2 Flash costs $0.10/$0.50 per M tokens. Microsoft also says its Maia 200 accelerator is in production.",
+   "source": "TestingCatalog",
+   "url": "https://testingcatalog.com/microsoft-launches-seven-mai-models-at-ignite-2026",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Nvidia",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia's quarter signals AI capex intact: Vera Rubin nears $20B in first production quarter",
+   "summary": "Data-center revenue of $107.6B and a Q4 guide above estimates eased fears of an AI-spending slowdown; Nvidia also disclosed $390B of purchase commitments.",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/17/nvidia-tops-estimates-issues-strong-guidance-adds-usd150-billion-to-buyback-authorization",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Model ML",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Model ML raises $250M at $1.5B for AI agents that work inside Excel and PowerPoint",
+   "summary": "General Atlantic and QED co-led the round for the finance-and-consulting agent startup, which says revenue is split across consultancies, banks and asset managers.",
+   "source": "Briefs",
+   "url": "https://www.briefs.co/news/model-ml-lands-250-million-hits-1-5-billion-valuation/",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "Genesis AI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Nvidia-backed Genesis AI reportedly raises funds at a $3.5B valuation",
+   "summary": "Bloomberg reports the physical-AI/robotics model developer closed a new round, extending this week's run of large robotics financings.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-17/nvidia-backed-genesis-ai-raises-funds-at-3-5-billion-valuation",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 1,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google begins replacing Gemini 'Gems' with slash-command 'skills' from Nov 17",
+   "summary": "Existing Gems migrate automatically; AI Pro and Ultra subscribers will be able to build their own skills via the Gemini Spark tab.",
+   "source": "NewsBytes",
+   "url": "https://www.newsbytesapp.com/news/science/google-phases-out-gems-adds-gemini-skills-november-17-2026/tldr",
+   "date": "2026-09-27"
+  }
+ ]
+}
