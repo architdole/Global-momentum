@@ -1,0 +1,358 @@
+{
+ "run_at": "2026-11-18T07:22:00Z",
+ "market_brief": "Nvidia's beat is supporting Asian chip names (Kospi ~+3%, SK Hynix +6%, SoftBank +7%) after a heavy Tuesday when the S&P 500 fell 1.2%, the Dow 1.8%, the Euro Stoxx 50 2.1% and the VIX rose 12% to ~25.7. The other force is rates: the dollar hit a 19-month high (DXY ~103.7) and a December Fed hike is fully priced before tonight's FOMC minutes, with the US 10Y at 5.10%, BTC near $64k (-13% w/w) and gold flat near $3,850. UK CPI came in at 3.6%, as expected, with core steady at 2.8%, while India gave back ~0.5% on profit-taking (Titan -4%) and USD/INR is at 93.5. Brent is hovering near $92.6 after an API build. Anthropic prices its IPO today, with reports that demand could take it above $80.",
+ "ai_brief": "Anthropic's IPO pricing today is the AI sector's main event, with reported demand above the $70-78 range ahead of Thursday's Nasdaq debut. More detail on OpenAI's GPT-6.2 shows an Ultrafast tier at up to 4.5x token cost. Robotics funding keeps coming: Agile Robots raised $500M at $8.5B (SoftBank-led) and Genesis AI $500M at $3.5B. Malaysia is seeking details from Anthropic on an AI-run election-influence operation.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "UK",
+   "importance": 3,
+   "tickers": [
+    "GBPUSD"
+   ],
+   "headline": "UK October CPI rises to 3.6% y/y as fuel jumps; core steady at 2.8%",
+   "summary": "Headline inflation edged up from 3.5%, in line with consensus, with monthly CPI +0.5%. Motor-fuel inflation hit 33.2%, its highest since mid-2022, while core held at 2.8% and services at 3.7%, keeping a December BoE hike debate open.",
+   "source": "ActionForex",
+   "url": "https://www.actionforex.com/live-comments/661264-uk-inflation-rises-to-3-6-as-fuel-prices-surge-core-cpi-holds-steady/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "South Korea / Japan",
+   "importance": 3,
+   "tickers": [
+    "005930.KS",
+    "000660.KS",
+    "9984.T",
+    "285A.T"
+   ],
+   "headline": "Update on Asia after Nvidia: Kospi extends gains near +3%; SoftBank, Kioxia +7%",
+   "summary": "Following the previous run's open, Kospi rose about 3% to ~5,116 with Samsung +4.9% and SK Hynix +6.2%. In Tokyo, SoftBank and Kioxia gained roughly 7% as the Nikkei opened about 1% higher.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262309976-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-nvda-tradingkey",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 3,
+   "tickers": [
+    "^NSEI",
+    "^BSESN",
+    "TITAN.NS",
+    "CIPLA.NS"
+   ],
+   "headline": "Sensex, Nifty give back gains; Titan -4%, Nifty dips below 25,250",
+   "summary": "Indian equities fell ~0.5% by midday on profit-taking after a strong run, with Sensex near 82,120 and Nifty ~25,250; 14 of 16 sectors opened red. Titan led losers while Cipla and SBI gained; gold and silver ETFs slid on Fed-hike expectations.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "DX-Y.NYB",
+    "EURUSD",
+    "JPY"
+   ],
+   "headline": "Dollar near 19-month high as markets price a December Fed hike before minutes",
+   "summary": "DXY touched ~103.78, its highest since April 2025, after import prices rose 1.1% vs 0.7% expected; CME FedWatch shows a 25bp December hike priced. USD/JPY sits near 159.3 and AUD at its weakest since January; FOMC minutes are due at 19:00 GMT.",
+   "source": "Investing.com via Yahoo Finance",
+   "url": "https://sg.finance.yahoo.com/news/asia-fx-subdued-dollar-holds-052712905.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Update: Anthropic prices IPO today; WSJ reports demand could push it above $80",
+   "summary": "The 825M-share deal (range $70-78) prices Wednesday US time and trades Thursday as ANT; new reporting says the price may exceed $80, versus ~6-7x oversubscription cited earlier. Q3 revenue was reportedly $17B and possible MSCI/Nasdaq-100 inclusion dates are in focus.",
+   "source": "Euronews via Yahoo Finance",
+   "url": "https://uk.finance.yahoo.com/news/anthropic-ipo-price-due-today-061459089.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia details: data-centre revenue $107.6B, EPS $2.70; shares +~4-5% after hours",
+   "summary": "Following the beat covered last run, further detail shows net income of $65.3B and diluted EPS of $2.70 versus $1.30 a year ago. Reports say Jensen Huang is open to returning, though no decision has been announced.",
+   "source": "Share Talk",
+   "url": "https://share-talk.com/ftse-100-set-to-fall-as-uk-inflation-looms-despite-nvidia-earnings-beat",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "UK / Europe",
+   "importance": 2,
+   "tickers": [
+    "^FTSE",
+    "^STOXX"
+   ],
+   "headline": "FTSE 100 futures point ~0.4% lower after Tuesday's steepest drop in eight months",
+   "summary": "London was set to open near 10,651 after a 1.8% fall on Tuesday; Nvidia's beat did little to lift European futures ahead of the UK CPI print and Fed minutes.",
+   "source": "Share Talk",
+   "url": "https://share-talk.com/ftse-100-set-to-fall-as-uk-inflation-looms-despite-nvidia-earnings-beat",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Brent slips toward $92.6 on API build; Hormuz attacks limit downside",
+   "summary": "Brent fell ~0.6% in Asia after API showed a 5.3M-barrel crude build; UKMTO has counted seven attacks near Hormuz since Nov 10. Brent is ~20% lower in November but still up more than 50% this year; EIA data and OPEC+ (Nov 29) are next.",
+   "source": "FinanceFeeds",
+   "url": "https://financefeeds.com/brent-crude-oil-price-92-61-wednesday-us-stock-build-fed-minutes-bull-96-bear-88/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "China / Hong Kong",
+   "importance": 2,
+   "tickers": [
+    "9988.HK",
+    "9888.HK",
+    "GDS"
+   ],
+   "headline": "Hong Kong tech hit by US remote-access chip rule; Baidu at post-listing low",
+   "summary": "Hang Seng opened 1% lower after the US moved to require licences for overseas data centres serving Chinese firms; GDS fell ~10.6% and Alibaba ~3.3%. Baidu dropped to a record low in Hong Kong after a sixth straight quarterly revenue decline.",
+   "source": "etnet via Longbridge",
+   "url": "https://longbridge.com/en/news/305745537",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "China",
+   "importance": 2,
+   "tickers": [
+    "BIDU",
+    "9888.HK"
+   ],
+   "headline": "Baidu Q3: revenue -1% to RMB30.8B as AI Cloud nearly doubles and ads fall 22%",
+   "summary": "AI Cloud revenue rose 94% to RMB8.2B while online marketing fell 22% to RMB11.9B. Baidu swung to RMB1.4B net income and expects to pay its first dividend before year-end, subject to board approval.",
+   "source": "The Next Web",
+   "url": "https://thenextweb.com/news/baidu-ai-cloud-q3-2026-earnings-sixth-revenue-drop",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "LOW",
+    "TGT",
+    "TJX",
+    "PANW"
+   ],
+   "headline": "Retail and security earnings today: Lowe's, Target, TJX pre-market; Palo Alto after close",
+   "summary": "Consensus per Newsquawk: Lowe's EPS $2.89 on $22.4B revenue, Target $2.07 on $26.5B, TJX $1.34 on $15.8B, and Palo Alto $0.97 on $3.31B. Readings on the US consumer follow Home Depot's mixed print.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-earnings-estimates-18th-november-2026---low-tgt-tjx-panw",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "headline": "Bitcoin steadies near $64.5k with sentiment at 'extreme fear'",
+   "summary": "BTC traded around $64.4-64.9k and ETH near $1,800 after a ~13% weekly drop; the crypto Fear & Greed index read 11. Hike odds of ~98% for December remain the main headwind, per the report.",
+   "source": "KuCoin News",
+   "url": "https://www.kucoin.com/news/articles/123457",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Crypto-desk chatter: Nvidia reportedly paused licensed Hopper shipments to China",
+   "summary": "A KuCoin market note says Nvidia halted licensed Hopper deliveries to China, which it puts at $2.4B of Q3 sales; this is unconfirmed and attributed. The same note cites a $2.5T cloud backlog figure.",
+   "source": "KuCoin News",
+   "url": "https://www.kucoin.com/news/articles/123457",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "India",
+   "importance": 1,
+   "tickers": [
+    "SPICEJET.NS"
+   ],
+   "headline": "India IPO/flows: Crystal Crop IPO 0.5x on day one; SpiceJet +5% before fundraise meeting",
+   "summary": "Crystal Crop Protection's issue drew 0.5x subscription by midday, led by retail at 0.72x. SpiceJet rose ~4.9% ahead of a board meeting on raising funds.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-18-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-bond-yields-hero-motocorp-share-price-hcltech-stock-price-today-ipo-today-126111800134_1.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "Malaysia",
+   "importance": 1,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Malaysia's regulator seeks details from Anthropic on an AI-run influence campaign",
+   "summary": "MCMC asked Anthropic for more information on a Claude account it removed that ran a platform targeting Malaysian voters with ~1,000 fake X accounts. Malaysia is weighing legal action and drafting an AI bill.",
+   "source": "Bloomberg via Yahoo",
+   "url": "https://sg.news.yahoo.com/malaysia-seeks-details-from-anthropic-over-ai-influence-campaign-022515178.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Next 36h: EIA stocks, FOMC minutes (19:00 GMT), Anthropic pricing, PANW (Wed); ANT debut, GTA VI (Thu)",
+   "summary": "Wednesday brings EIA crude data at 10:30 ET, October FOMC minutes and after-hours Palo Alto results, with Anthropic's final price overnight. Thursday features ANT's Nasdaq debut; OPEC+ meets Nov 29.",
+   "source": "FinanceFeeds",
+   "url": "https://financefeeds.com/brent-crude-oil-price-92-61-wednesday-us-stock-build-fed-minutes-bull-96-bear-88/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "GPT-6.2 detail: new 'Ultrafast' mode costs up to 4.5x standard token rate",
+   "summary": "Following yesterday's launch, 9to5Mac reports Ultrafast is available with Sol on the $200 Pro plan and on both models at $500. Per OpenAI, Sol came within half a point of Astra on FrontierCode 2.0 at about a fifth of the cost.",
+   "source": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/17/openai-upgrades-chatgpt-and-codex-with-new-gpt-6-2-astra-and-sol-models",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic IPO prices today; reported demand could lift it above the $70-78 range",
+   "summary": "Anthropic is set to price its 825M-share offering Wednesday and list Thursday; reports cite demand that could push it above $80. A $26B private placement from seven tech suppliers runs alongside the deal.",
+   "source": "KuCoin (CryptoPotato)",
+   "url": "https://www.kucoin.com/news/flash/anthropic-finalizes-ipo-pricing-on-november-18-expected-to-trade-on-nasdaq-november-19",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "Agile Robots (Germany)",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Agile Robots raises $500M Series F at $8.5B led by SoftBank; Nvidia participates",
+   "summary": "The Munich physical-AI firm has now raised $2B in total and runs a German plant able to build up to 10,000 humanoids a year. It also acquired Krause Automation from thyssenkrupp.",
+   "source": "PR Newswire via Manila Times",
+   "url": "https://www.manilatimes.net/2026/11/17/tmt-newswire/pr-newswire/physical-ai-leader-agile-robots-raises-500-million-series-f-at-85-billion-valuation-to-accelerate-global-growth/2471576",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "Genesis AI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Update on Genesis AI: $500M Series A at $3.5B confirmed, co-led by Premji Invest and Khosla",
+   "summary": "Earlier reports are now detailed: Nvidia and AMD Ventures joined, total funding reaches $605M, and its Eno robot is in 30-40 pilot units. An LG CNS partnership was announced.",
+   "source": "The Next Web",
+   "url": "https://thenextweb.com/news/genesis-ai-500m-series-a-3-5bn-valuation-eno-robot",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Baidu",
+   "importance": 2,
+   "tickers": [
+    "BIDU"
+   ],
+   "headline": "Baidu's AI Cloud nearly doubles; external Qianfan token use up over 1,100%",
+   "summary": "AI Cloud revenue rose 94% and GPU cloud 191% y/y, with core AI now 53% of general business. Advertising, once the core, fell to 48% of that segment.",
+   "source": "The Next Web",
+   "url": "https://thenextweb.com/news/baidu-ai-cloud-q3-2026-earnings-sixth-revenue-drop",
+   "date": "2026-11-16"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Tencent / Liquid AI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Release trackers log Tencent Hy4 Flash and Liquid AI d1.2 / d1.2-ultra",
+   "summary": "BenchLM lists new Tencent Hy4 Flash and two Liquid AI d1.2 variants alongside Qwen4 Max for Nov 16. Pricing and benchmark details were not given.",
+   "source": "BenchLM",
+   "url": "https://benchlm.ai/model-updates",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Reminder: Gemini 4 Carbon's $2/$10 intro pricing doubles to $4/$20 on Dec 1",
+   "summary": "Developers weighing migrations face a price step-up in under two weeks. Carbon trails Claude Fable 5.2 on the Artificial Analysis index (60 vs 62) but leads on Terminal-Bench 4.0, per the report.",
+   "source": "Gadget Review",
+   "url": "https://www.gadgetreview.com/?p=428718",
+   "date": "2026-11-11"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "GitHub",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Trending: t3code, Cloudflare's security-audit skill and agent 'skills' repos lead stars",
+   "summary": "Weekly trending data show pingdotgg/t3code (+12k stars) and cloudflare/security-audit-skill (+11k) on top, with mattpocock/skills, anthropics/skills and claude-mem also climbing. Agent skills and memory remain the main open-source theme.",
+   "source": "Shareuhack",
+   "url": "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-11-11",
+   "date": "2026-11-11"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Malaysia / Anthropic",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Malaysia probes AI-run election influence operation disclosed by Anthropic",
+   "summary": "Regulator MCMC requested details on the operation, which reportedly used ~1,000 fake X accounts and a fake news outlet. The case feeds into Malaysia's draft AI regulation bill.",
+   "source": "Bloomberg via Yahoo",
+   "url": "https://sg.news.yahoo.com/malaysia-seeks-details-from-anthropic-over-ai-influence-campaign-022515178.html",
+   "date": "2026-11-18"
+  }
+ ]
+}
