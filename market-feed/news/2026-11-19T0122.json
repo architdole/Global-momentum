@@ -1,0 +1,429 @@
+{
+ "run_at": "2026-11-19T01:22:00Z",
+ "market_brief": "Hawkish FOMC minutes ('almost all' officials see more hikes, a couple open to >25bp in December) kept the 10Y near 5.07-5.10% and DXY ~103.8, and that is what drove the session: gold -3.5% to ~$3,729, silver -5%, copper -5.3%, BTC -3.7% to ~$62.5k. US equities split, with the S&P 500 -0.4% (fifth straight loss, below its 200-day) and Dow -1.2% on a Medicare Advantage audit shock to UNH/HUM, while the Nasdaq 100 was flat as Nvidia faded its beat (-2.9%). Oil fell ~4.5% (WTI ~$82) on an EIA build, Europe lost ~1% on miners and the Nifty fell 0.6%, though Goldman's RBI call and returning inflows are supporting the rupee (~93.45). Today's focus is Anthropic's $83 IPO debut and Walmart pre-market.",
+ "ai_brief": "Anthropic priced its record IPO at $83 (~$1.5T) and starts trading as ANT today, amid a CAIS-led critique of its safety branding. Google launched Gemini 4 Neon at $3/$15, benchmarking at or near Opus 5.5 for ~25% less. Washington tightened remote-access rules for AI chips, Palo Alto paid $4.5B for Applied Compute, and KPMG showed 100+ agents running a listed-company audit.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT",
+    "AMZN",
+    "GOOGL"
+   ],
+   "headline": "Update: Anthropic prices IPO at $83, above $70-78 range; ANT debuts on Nasdaq today",
+   "summary": "The offering priced at $83 a share, valuing Anthropic near $1.5T fully diluted and raising over $81B, a record that tops SpaceX; a $26B private placement from chipmakers and cloud partners runs alongside. Amazon rose ~3.8% Wednesday ahead of the listing.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "SPY",
+    "TLT"
+   ],
+   "headline": "FOMC minutes: 'almost all' officials see more hikes; a couple floated more than 25bp for December",
+   "summary": "Minutes of the Oct 27-28 hold (10-2 vote, Cook and Hammack dissenting for a hike) showed nearly all participants expect further tightening, with a couple open to a larger December move. A 25bp hike at the Dec 8-9 meeting remains roughly fully priced; officials also flagged risks around AI-linked debt.",
+   "source": "ABA Banking Journal",
+   "url": "https://bankingjournal.aba.com/2026/11/fomc-minutes-show-close-call-over-possible-rate-hike/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^GSPC",
+    "^DJI",
+    "^IXIC",
+    "NVDA"
+   ],
+   "headline": "S&P 500 slips below its 200-day average for a fifth straight loss; Dow -561 points",
+   "summary": "The S&P 500 fell 0.24% to ~7,323 and the Dow 1.1% to 50,198, while the Nasdaq Composite gained 0.42%. Nvidia reversed its post-earnings pop to close ~2.9% lower at $150.96 as health insurers dragged the Dow.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "UNH",
+    "HUM",
+    "ELV"
+   ],
+   "headline": "Health insurers slump on CMS plan to widen Medicare Advantage audits",
+   "summary": "A proposed CMS anti-fraud rule expanding risk-adjustment audits hit managed-care stocks: Humana fell ~13% and UnitedHealth ~10% on the day, extending earlier losses. Coverage puts potential industry clawbacks in the billions of dollars.",
+   "source": "StreetInsider",
+   "url": "https://www.streetinsider.com/Investing/UnitedHealth+stock+continues+lower+amid+federal+audit+proposal/27368394.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "PANW"
+   ],
+   "headline": "Palo Alto beats, lifts FY27 revenue guide and agrees $4.5B all-stock Applied Compute deal",
+   "summary": "Fiscal Q1 adjusted EPS of $1.05 beat $0.97 on revenue of $3.44B (+39% y/y); full-year revenue guidance rose to $14.52-14.57B. Shares jumped ~10% in the session and more than 8% after hours.",
+   "source": "SiliconANGLE",
+   "url": "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "TJX",
+    "TGT",
+    "LOW"
+   ],
+   "headline": "Update: TJX jumps ~8% after beat and raised full-year EPS outlook; Target ends +4%",
+   "summary": "TJX reported revenue of about $15.95B versus ~$15.82B expected and raised its full-year EPS outlook to $5.17-5.20, per a market recap. Target closed up ~4% after its earlier beat, reversing a soft open.",
+   "source": "Cappnotes (Substack)",
+   "url": "https://cappnotes.substack.com/p/closing-look-wednesday-november-18",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 3,
+   "tickers": [
+    "GC=F",
+    "SI=F",
+    "HG=F"
+   ],
+   "headline": "Update: Metals rout deepens after minutes; gold -3.5% to ~$3,729, lowest since Sep 2025",
+   "summary": "Hawkish Fed minutes and a firm dollar extended the selloff: gold settled ~3.5% lower near $3,729, silver fell ~5% and copper ~5%. Gold is down nearly 7% on the week.",
+   "source": "Kitco",
+   "url": "https://www.kitco.com/news/article/2026-11-18/gold-plunges-below-3750-silver-tumbles-hawkish-fed-minutes-pressure-metals",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "CL=F",
+    "BZ=F"
+   ],
+   "headline": "Update: Oil slides ~4.5% as EIA confirms larger-than-expected US crude build",
+   "summary": "After API showed a 5.28M-barrel build, the EIA print also came in above forecasts; WTI fell to ~$82 and Brent ~$89, putting both on course for roughly 20% monthly drops despite continued Hormuz shipping attacks.",
+   "source": "Reuters via Lufkin Daily News",
+   "url": "https://lufkindailynews.com/news_reuters/business/oil-down-1-as-us-oil-stocks-post-larger-than-expected-rise-eia-says/article_8b3bcc10-0ce1-5cb2-adc8-ff1928374e83.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 2,
+   "tickers": [
+    "^STOXX",
+    "^FTSE"
+   ],
+   "headline": "European stocks fall ~1% for a third day as miners drop 4.7%; FTSE 100 -1.3%",
+   "summary": "The STOXX 600 hit a two-week low as basic resources led losses on the metals slide and investors held back ahead of Anthropic's listing; the DAX lost ~1.2%.",
+   "source": "Reuters via Lufkin Daily News",
+   "url": "https://lufkindailynews.com/news_reuters/business/european-stocks-hit-two-week-low-on-weak-miners-caution-ahead-of-anthropic-ipo/article_7b8eb40e-039b-5bde-8cf3-40d8fa4999fd.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Japan",
+   "importance": 2,
+   "tickers": [
+    "^N225"
+   ],
+   "headline": "Nikkei opens ~0.4% higher Thursday as Asia watches Anthropic debut",
+   "summary": "The Nikkei 225 was at ~59,167 early Thursday, recovering part of a 3.4% five-day slide; Seoul's market opened an hour late for the college entrance exam.",
+   "source": "MarketScreener (MT Newswires)",
+   "url": "https://www.marketscreener.com/news/japanese-stocks-open-higher-as-anthropic-ipo-tests-tech-sentiment-ce785edddf8ef123",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^BSESN"
+   ],
+   "headline": "Sensex sheds ~500 points to 82,032; Nifty ends at 25,278 as metals fall 2.5%",
+   "summary": "Profit-taking after the recent rally and a 2.46% drop in the Nifty Metal index pulled benchmarks down ~0.6%; midcaps fell 1.2% while pharma edged up.",
+   "source": "Kotak Neo",
+   "url": "https://www.kotakneo.com/news/market-news/market-wrap-18-november-2026-profit-booking-and-a-drag-in-metal-stocks-pull-benchmarks-down/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "INR=X"
+   ],
+   "headline": "Goldman sees three more RBI hikes to 6.25%, says rupee's worst is over; Nifty target 28,500",
+   "summary": "Goldman expects 25bp hikes from the current 5.50% repo rate after October CPI rose to 6.1%, sees the rupee near 94/$ over three months, and set an end-2027 Nifty target about 13% above current levels.",
+   "source": "Business Today",
+   "url": "https://www.businesstoday.in/latest/economy/story/goldman-sachs-sees-three-more-rbi-rate-hikes-feels-rupees-worst-is-over-and-nifty-at-28500-568228-2026-11-18",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "INR=X"
+   ],
+   "headline": "Forward market: traders pare bearish rupee bets as foreign inflows return",
+   "summary": "The 12-month forward premium fell to 4.03% from 4.57% at end-October; the rupee closed at 93.45/$, up 1.6% in November and on track for its best month in 20 months. Dealers price two more RBI hikes (Dec 2-4 MPC and February).",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/markets/news/traders-pare-bearish-rupee-bets-in-forward-market-as-foreign-inflows-return-126111801179_1.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Crypto",
+   "importance": 2,
+   "tickers": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "headline": "Bitcoin drops below $63,000 after minutes; down ~14% on the week",
+   "summary": "BTC fell about 2.4% to ~$62,450 and ether to ~$1,754 as rate-hike pricing firmed and the dollar held near 19-month highs; traders are watching $62K support.",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/business/2026/11/18/live-updates-bitcoin-stuck-near-usd65-000-as-popular-basis-trade-returns-dry-up",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "NYT",
+    "CRK"
+   ],
+   "headline": "Analyst calls: Citi cuts NYT to Neutral; Morgan Stanley downgrades Comstock Resources",
+   "summary": "Citi moved New York Times to Neutral on near-term subscriber concerns and the stock fell ~4%; Morgan Stanley downgraded natural-gas producer Comstock on valuation.",
+   "source": "GuruFocus",
+   "url": "https://www.gurufocus.com/news/9208300/comstock-resources-crk-shares-dip-after-morgan-stanley-downgrade-amid-valuation-concerns",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Retail frenzy for ANT rivals SpaceX debut, though most retail allotments will be small",
+   "summary": "Brokerage platforms report heavy retail interest ahead of today's open, and books were reportedly ~6x covered by institutions; commentators note most individual investors will only be able to buy once shares trade, not at the $83 offer price.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US / China",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "BABA"
+   ],
+   "headline": "Commerce's BIS restricts remote cloud access to advanced AI chips by restricted entities",
+   "summary": "The rule closes the overseas-cloud route Chinese AI firms used to rent advanced US GPUs, ahead of Trump-Xi talks at APEC; Beijing has threatened countermeasures.",
+   "source": "GovCon Executive",
+   "url": "https://www.govconexec.com/2026/11/commerce-bis-rule-remote-ai-chip-access/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "WMT",
+    "ANT"
+   ],
+   "headline": "Today: Anthropic (ANT) first trade, Walmart Q3 pre-market, Trump-Xi talks at APEC; RBI MPC Dec 2-4, FOMC Dec 8-9",
+   "summary": "Walmart reports before the US open with revenue estimates around $187B; ANT's opening print will be a key read on AI risk appetite after a weak week for semis. No large-cap US earnings are scheduled Friday.",
+   "source": "Opening Bell Daily",
+   "url": "https://www.openingbelldailynews.com/p/stock-market-week-ahead-retail-earnings-nov-14-2026",
+   "date": "2026-11-14"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic sets IPO at $83 (~$1.5T valuation) with $26B side placement; trading starts today",
+   "summary": "Pricing came above the $70-78 range but below the ~$2T valuation reportedly targeted earlier; Amazon owns nearly 15% and Google almost 14%, and each co-founder sold about 3.4M shares.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 3,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google launches Gemini 4 Neon at $3/$15 per M tokens, claiming Opus 5.5-level coding",
+   "summary": "Neon edges Opus 5.5 on the Artificial Analysis (61 vs 59) and Vals indices, trails slightly on Cognition's FrontierCode, and costs ~25% less at standard rates; some trackers noted it was not yet in the public Vertex model index at launch.",
+   "source": "VentureBeat",
+   "url": "https://venturebeat.com/technology/google-launches-gemini-4-neon-with-opus-5-5-level-coding-performance-at-25-lower-api-token-prices",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "CAIS-led 'MisAnthropic Statement' challenges Anthropic's safety branding on IPO eve",
+   "summary": "A group led by the Center for AI Safety published a statement questioning how Anthropic's safety positioning squares with its commercial push; separately an open letter urged OpenAI and Anthropic to offer independent cyber-defender access paths by January 2027.",
+   "source": "ExplainX",
+   "url": "https://www.explainx.ai/blog/misanthropic-statement-anthropic-ipo-safety-branding-cais-november-2026",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US / China",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "US blocks restricted entities' remote access to advanced AI chips; Nvidia warns buyers on legal risk",
+   "summary": "Commerce's new rule targets cloud rentals of US accelerators by Chinese AI firms; Nvidia has reportedly cautioned customers about exposure, and Beijing has threatened retaliation.",
+   "source": "PC Gamer",
+   "url": "https://www.pcgamer.com/software/ai/chinese-ai-firms-and-other-restricted-entities-blocked-from-remotely-accessing-american-ai-chips-which-im-surprised-wasnt-already-a-thing/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Palo Alto Networks",
+   "importance": 2,
+   "tickers": [
+    "PANW"
+   ],
+   "headline": "Palo Alto buys AI startup Applied Compute for $4.5B in stock to build secure custom models",
+   "summary": "The deal, announced with a strong quarter, adds model-customisation capabilities as cybersecurity vendors race to defend against AI-discovered vulnerabilities.",
+   "source": "SiliconANGLE",
+   "url": "https://siliconangle.com/2026/11/18/palo-alto-networks-bets-4-5b-on-ai-startup-applied-compute-as-earnings-top-forecasts/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "KPMG",
+   "importance": 2,
+   "tickers": [],
+   "headline": "KPMG runs 100+ AI agents in parallel on a FTSE 250 audit, with humans keeping sign-off",
+   "summary": "Under 'Project Exponential', agents handled testing work across the engagement while partners retained judgement and opinion sign-off, a notable step for audit and fund-admin style workflows.",
+   "source": "ExplainX",
+   "url": "https://www.explainx.ai/blog/kpmg-project-exponential-ai-agents-ftse-250-audit-2026",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "Microsoft",
+   "importance": 2,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Malicious Microsoft agent-framework releases 1.26.1/1.26.2 pulled from PyPI",
+   "summary": "The compromised versions carried a credential stealer; users are advised to pin to python-1.26.0 and rotate any exposed tokens. Separately, F5 patched two critical NGINX HTTP/2 RCE flaws (upgrade to 1.30.7 / 1.31.9).",
+   "source": "ExplainX",
+   "url": "https://www.explainx.ai/blog/microsoft-agent-framework-pypi-1-26-credential-stealer-november-2026",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Google",
+   "importance": 1,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google Labs acquires scheduling agent Howie; Spark becomes free 'Tasks in Gemini'",
+   "summary": "Terms of the Howie deal were not disclosed. Google also rebranded its Spark assistant as Tasks in Gemini, free in selected countries, with business calls and Google Pay checkout in the US.",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/tech/1035756/google-spark-ai-tasks-free",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "DeepSeek / Alibaba",
+   "importance": 1,
+   "tickers": [
+    "BABA"
+   ],
+   "headline": "Inference hosts add DeepSeek V4.1 Flash and Qwen4-Max as Chinese model pricing pressure continues",
+   "summary": "Lebrel is offering DeepSeek V4.1 Flash from $0.13 per million input tokens and added Alibaba's Qwen4-Max on day one, following Qwen4-Max Pro's Nov 16 release.",
+   "source": "Manila Times (GlobeNewswire)",
+   "url": "https://www.manilatimes.net/2026/11/18/tmt-newswire/globenewswire/lebrel-brings-uncensored-deepseek-v41-flash-from-013-per-million-input-tokens-adds-alibabas-qwen4-max-on-day-one/2472740",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Mercor",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Mercor hires former OpenAI researcher Jason Wei as chief scientist",
+   "summary": "The AI-training-data marketplace is adding research leadership as labs compete for expert-labelled data; terms were not disclosed.",
+   "source": "ExplainX",
+   "url": "https://www.explainx.ai/blog/mercor-jason-wei-chief-scientist-november-2026",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Google",
+   "importance": 1,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Gemini lets users opt out of training while keeping history; history-off chats now retained ~2 months",
+   "summary": "The change decouples training opt-out from chat history, but extends retention of temporary chats from 72 hours to about two months, drawing privacy criticism.",
+   "source": "Ars Technica",
+   "url": "https://arstechnica.com/ai/2026/11/google-will-let-you-opt-out-of-ai-training-in-gemini-without-losing-your-history/",
+   "date": "2026-11-18"
+  }
+ ]
+}
