@@ -1,0 +1,323 @@
+{
+ "run_at": "2026-11-19T07:23:00Z",
+ "market_brief": "Price data is from Wednesday's 20:30 UTC snapshot: S&P 500 -0.4% (fifth straight loss), Dow -1.2%, Nasdaq 100 flat, 10Y ~5.07%, DXY ~103.8, with gold (-3.5%), silver (-5%), copper (-5.3%), oil (-4.5%) and BTC (-3.7% to ~$62.5k) hit by hawkish FOMC minutes. Overnight the AI-hardware selloff spread to Asia: Taiwan's TAIEX fell 4.6% with chip/PCB names limit-down, the Hang Seng lost ~1.8% and Kospi ~1.1%, even as US futures firmed (~+0.8% S&P) ahead of Anthropic's 9:30 ET debut and Walmart's results. India is a relative outperformer: the Sensex turned ~0.5% higher by midday on PSU banks after Rs5,867 crore of FII buying, with the rupee near 93.5. Gold briefly broke $3,700 before steadying; markets still price ~90% odds of a December Fed hike.",
+ "ai_brief": "Anthropic (ANT) starts trading today after an upsized 980M-share IPO at $83, with the prospectus showing ~$17B Q3 revenue and a $26B strategic placement. The pricing war at the frontier is the other theme: OpenAI's GPT-6.2 Astra cut prices 20% to $8/$40, Microsoft's MAI models pitch near-frontier coding at a fraction of the cost, and Gemini 4 Neon sits at $3/$15. OpenAI's embedded safety-assessor programme drew criticism, and funding stayed heavy (Science Corp, Model ML, Boltz).",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Taiwan",
+   "importance": 3,
+   "tickers": [
+    "^TWII",
+    "2330.TW",
+    "2454.TW"
+   ],
+   "headline": "Taiwan's TAIEX plunges 4.6% as AI-hardware rout deepens; chip and PCB names limit-down",
+   "summary": "The TAIEX fell 4.6% to 38,347.67 (OTC index -6.6%), leaving it down ~9% on the week; Global Unichip, Nan Ya PCB and Kinsus hit limit-down while TSMC lost 1.6%. New US licence rules for chip exports to Southeast Asia and Brazil, hawkish Fed minutes and a third day of foreign selling (NT$76.6B net on Nov 18) drove the move.",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/taiwan-stocks-plunge-46-as-ai-rout-deepens-chip-and-pcb-shares-hit-limitdown-5037869",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Asia",
+   "importance": 2,
+   "tickers": [
+    "^HSI",
+    "^KS11",
+    "000001.SS",
+    "^N225"
+   ],
+   "headline": "Asian stocks slip as Anthropic's record IPO fails to lift sentiment",
+   "summary": "By ~02:30 GMT the Hang Seng was down 1.8%, Kospi -1.1% and Shanghai -0.8%, while the Nikkei held a small gain near 59,140. USD/JPY sat around 159.4 and Brent steadied near $92 after Wednesday's slide.",
+   "source": "AFP via Yahoo Finance",
+   "url": "https://sg.finance.yahoo.com/news/asian-stocks-drop-anthropics-record-025108875.html",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^BSESN",
+    "^NSEI",
+    "^NSEBANK"
+   ],
+   "headline": "Sensex reverses early IT-led losses, up ~420 points by midday; Nifty above 25,350",
+   "summary": "After opening lower on IT weakness (Infosys, TCS, HCL Tech) and Fed-hike nerves, the Sensex rose 0.5% to ~82,454 and the Nifty to ~25,355 by noon IST. PSU lenders extended their run, with SBI, PNB and Bank of India up ~27% in November so far.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "INR=X",
+    "DX-Y.NYB"
+   ],
+   "headline": "Update: rupee eases 8 paise to 93.49 as DXY nears 103.9; FIIs bought Rs5,867 crore Wednesday",
+   "summary": "The rupee slipped to 93.49 per dollar in early trade from 93.41, tracking a firm dollar index (~103.9). Supporting factors: foreign investors were net buyers of Rs5,866.78 crore in cash equities on Nov 18 and Brent eased to ~$91.7.",
+   "source": "PTI via HDFC Sky",
+   "url": "https://hdfcsky.com/news/rupee-slides-8-paise-to-93-49-against-us-dollar-in-early-trade-november-19-2026",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "GC=F",
+    "SI=F"
+   ],
+   "headline": "Update: gold briefly breaks below $3,700, then steadies near a 14-month low",
+   "summary": "Spot gold touched $3,693, its lowest since September 2025, before holding around $3,723 by 04:52 GMT; silver edged up to ~$45. CME FedWatch shows ~90% odds of a 25bp December Fed hike and ~10% for 50bp.",
+   "source": "Reuters via Business Recorder",
+   "url": "https://www.brecorder.com/news/40449691",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ES=F",
+    "NQ=F",
+    "PANW",
+    "AMZN"
+   ],
+   "headline": "US futures firm ahead of ANT debut; Palo Alto jumps ~10% on beat and Applied Compute deal",
+   "summary": "S&P 500 futures were ~+0.8% and Nasdaq 100 futures ~+1.3% in overnight trade. Palo Alto closed +9.9% after its fiscal Q1 beat (revenue +39% to $3.44B); Amazon gained 3.8%.",
+   "source": "Gotrade",
+   "url": "https://www.heygotrade.com/en/news/anthropic-debut-and-walmart-results-tonight/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 1,
+   "tickers": [
+    "^STOXX",
+    "^FTSE",
+    "^GDAXI"
+   ],
+   "headline": "European shares seen opening firmer after three-day slide",
+   "summary": "Futures pointed to a modestly higher open for Europe after Wednesday's ~1% drop led by miners, with attention on Anthropic's US debut and gold steadying around $3,730.",
+   "source": "dpa-AFX via finanznachrichten.de",
+   "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70173106-european-shares-likely-to-open-on-firm-note-ahead-of-anthropic-debut-020.htm",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Update: Anthropic upsized to 980M shares; ANT opens on Nasdaq at 9:30 ET today",
+   "summary": "New detail: the deal was upsized to 980M Class A shares at $83 (~$81.3B raised) plus a planned ~$26B placement with AMD, Broadcom, Google, Microsoft and Nvidia. The filing shows Q3 revenue of nearly $17B (+45% q/q) and $6.2B of debt.",
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/anthropic-ipo-ai-boom-nasdaq-debut/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Morningstar puts Anthropic fair value at $92, ~11% above the IPO price",
+   "summary": "Morningstar's fair-value estimate of $92 per share was cited in coverage of the pricing, offering an early independent valuation marker before the first trade.",
+   "source": "AFP via Yahoo Finance",
+   "url": "https://sg.finance.yahoo.com/news/asian-stocks-drop-anthropics-record-025108875.html",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "WMT"
+   ],
+   "headline": "Walmart reports Q3 pre-market: Street expects $0.64 EPS on ~$187.3B revenue",
+   "summary": "Walmart reports before the open with consensus at $0.64 EPS and ~$187.27B revenue; the stock fell ~10% after its previous report but is up ~13% YTD. Commentary on holiday demand and tariff costs is the main focus.",
+   "source": "NewsBytes",
+   "url": "https://www.newsbytesapp.com/news/business/analysts-expect-064-eps-18727b-revenue-as-walmart-reports-q3/tldr",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "TSM"
+   ],
+   "headline": "Nvidia interim CEO Kress defends ~$500B customer-financing programme",
+   "summary": "In post-earnings comments, interim CEO Colette Kress defended a roughly $500B financing programme arranged with Goldman Sachs, BlackRock and Apollo, which has drawn investor concern; NVDA fell ~2.9% Wednesday despite a beat-and-raise.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-colette-kress-talks-earnings-china-transcript.html",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "China / US",
+   "importance": 2,
+   "tickers": [
+    "CNY=X"
+   ],
+   "headline": "Update: Trump-Xi talks open in Shenzhen with low expectations for breakthroughs",
+   "summary": "Talks began in Shenzhen at APEC, with Xi reportedly calling ties stable. Analysts expect few concrete outcomes; the Busan trade truce runs to Jan 10, 2027, and CSIS estimates Chinese rare-earth exports to the US remain ~75% below normal.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/11/18/as-trump-arrives-in-china-low-expectations-for-breakthroughs-in-rivalry",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "India",
+   "importance": 1,
+   "tickers": [
+    "COALINDIA.NS"
+   ],
+   "headline": "Mahanadi Coalfields IPO gets a muted start, subscribed 0.05x by midday on day one",
+   "summary": "The Coal India subsidiary's IPO was only ~5% subscribed by 12:19 IST on its opening day; institutional books typically fill later in the window.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "ANT",
+    "WMT"
+   ],
+   "headline": "Today/next: ANT first trade, Walmart pre-market, APEC wraps; RBI MPC Dec 2-4, FOMC Dec 8-9",
+   "summary": "Thursday: Anthropic's first trade at 9:30 ET, Walmart Q3 before the open, US weekly jobless claims and the close of APEC. Next: RBI policy Dec 2-4 and the FOMC Dec 8-9, where a hike is ~90% priced.",
+   "source": "Gotrade",
+   "url": "https://www.heygotrade.com/en/news/anthropic-debut-and-walmart-results-tonight/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic's IPO prospectus details: ~$17B Q3 revenue, $26B strategic placement with chip and cloud partners",
+   "summary": "Alongside the $83 IPO (upsized to 980M shares), Anthropic plans a ~$26B placement with AMD, Broadcom, Google, Microsoft and Nvidia. Q3 revenue was close to $17B, up 45% from Q2; trading begins today as ANT.",
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/anthropic-ipo-ai-boom-nasdaq-debut/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 3,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "OpenAI ships GPT-6.2 Astra at $8/$40, a 20% price cut, plus GPT-6.2 Sol",
+   "summary": "Astra targets complex professional work at $8 input/$40 output per M tokens; Sol keeps $2/$10. Artificial Analysis scores Astra 62 vs Claude Fable 5.2 at 65, and OpenAI says Astra is the first released model at its 'High' self-improvement threshold.",
+   "source": "Decrypt",
+   "url": "https://decrypt.co/383488/openai-gpt-6-2-astra-challenges-anthropic-price-but-not-every-benchmark",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Microsoft",
+   "importance": 2,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Microsoft launches in-house MAI model family at Ignite, pitching cheap coding",
+   "summary": "Microsoft unveiled MAI models including MAI Code 2, reportedly claiming ~96% of Claude Opus 5.5's coding performance at ~5% of the cost, adding to this week's frontier price war.",
+   "source": "Axios",
+   "url": "https://www.axios.com/2026/11/17/microsoft-ai-models-openai-anthropic-ignite",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "OpenAI's 'embedded assessors' safety programme criticised as narrower than promised",
+   "summary": "OpenAI named four outside safety groups, including Apollo Research, as embedded assessors. Researchers told NPR access is limited (few may speak to staff, no internal Slack), short of the 'employee-like access' Altman floated in September.",
+   "source": "NPR",
+   "url": "https://www.npr.org/2026/11/18/nx-s1-6044223/openai-embedded-evaluators-program-critics",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "AI funding",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Funding roll: Science Corp $400M, Model ML $250M at $1.5B, Boltz $110M, Linq $90M",
+   "summary": "Per a daily round-up: Science Corp raised a $400M Series D, Model ML a $250M Series B at $1.5B, Boltz a $110M Series A led by Bessemer, and Linq a $90M Series B led by a16z; Sierra is reportedly in early talks at ~$30B.",
+   "source": "Herve Cuviliez (Substack round-up)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-thursday-19-november",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "Industry",
+   "importance": 1,
+   "tickers": [
+    "GFS"
+   ],
+   "headline": "Robotics: Boston Dynamics Atlas to trial in GlobalFoundries fabs; Foundation unveils Phantom MKII",
+   "summary": "Boston Dynamics plans Atlas humanoid trials in GlobalFoundries fabs from early 2027, and Foundation showed its Phantom MKII humanoid with Cortex II control software aimed at heavy industry and defence.",
+   "source": "Herve Cuviliez (Substack round-up)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-thursday-19-november",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "SpaceX",
+   "importance": 1,
+   "tickers": [],
+   "headline": "SpaceX says orbital compute largely self-funded; ~$4B bond reportedly part of $40B Vera Rubin plan",
+   "summary": "SpaceX's CFO outlined Starmind compute satellites from 2027 and gigawatt scale by 2029; Bloomberg reportedly said a ~$4B bond sale sits within a $40B Nvidia Vera Rubin financing plan.",
+   "source": "Herve Cuviliez (Substack round-up)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-thursday-19-november",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "GitHub",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Trending repos: API-gateway projects sub2api and new-api, plus vercel/eve",
+   "summary": "A daily AI digest flags Wei-Shaw/sub2api and QuantumNous/new-api (LLM API relay/gateway tools) and vercel/eve among trending GitHub repositories.",
+   "source": "ai-daily-digest (GitHub)",
+   "url": "https://github.com/diclogic/ai-daily-digest/issues/218",
+   "date": "2026-11-19"
+  }
+ ]
+}
