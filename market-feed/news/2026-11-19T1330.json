@@ -1,0 +1,406 @@
+{
+ "run_at": "2026-11-19T13:30:00Z",
+ "market_brief": "Price data (07:32 UTC snapshot) still reflects Wednesday's hawkish-minutes selloff: S&P 500 -0.2%, Dow -1.1%, Nasdaq 100 +0.4%, 10Y ~5.07%, DXY ~103.8, gold ~$3,740 (-3.7% on the week), WTI ~$82, BTC ~$63.5k, and Taiwan -4.4%. Since then risk appetite has turned: Nasdaq 100 futures are up ~2% and S&P ~1.25% ahead of Anthropic's 9:30 ET debut, with grey-market indications reportedly 20-26% above the $83 offer. Walmart beat and raised again but traded flat, Alibaba and PDD rose on results, and Waller's push for aggressive action keeps a December hike ~90% priced. India closed strongly (Sensex +990 to 83,022, autos +4.4%) on record November FPI buying of ~$11.3B; Europe is flat.",
+ "ai_brief": "Beyond Anthropic's listing, the theme is AI eating its own supply chain: OpenAI says its models improved AMD GPU designs by up to 14%, and Microsoft is swapping partner models for cheaper in-house MAI ones while offering buyouts to ~60,000 staff. Google widened Genie 4 access, Sierra is reportedly raising at ~$30B, and a GAO report on chatbots drafting attack plans plus California's 'kill switch' proposals kept safety policy in focus.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^NDX",
+    "^GSPC",
+    "ANT"
+   ],
+   "headline": "US futures surge before Anthropic debut: Nasdaq 100 +2.2%, S&P 500 +1.25% pre-market",
+   "summary": "Tech futures led a sharp pre-market rebound after Wednesday's fifth straight S&P loss, with Palo Alto (+9%), SK Hynix (+6%), Alphabet and Micron (+3%) among gainers. The 10Y held near 5.08%.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262313137-us-pre-market-anthropic-tradingkey",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Update: ANT first quote expected ~9:50 ET; grey-market indications point ~20-26% above $83",
+   "summary": "New since the last run: Bloomberg grey-market indicators reportedly implied an opening premium of roughly 20-26% over the offer price, and first quotation was flagged for about 9:50 ET. Including the $26B private placement, total proceeds are about $107B.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262313137-us-pre-market-anthropic-tradingkey",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "WMT"
+   ],
+   "headline": "Walmart beats and raises guidance for a third time; Deutsche Bank upgrades to Buy",
+   "summary": "Q3 revenue was $188.8B (+5.2%) vs ~$187.2B expected and adjusted EPS $0.65 vs $0.64; US e-commerce rose 23% and Sam's Club comps 9.7%. FY27 EPS guidance moved to $2.84-2.89, yet shares were roughly flat to slightly lower pre-market.",
+   "source": "Blockonomi",
+   "url": "https://blockonomi.com/walmart-wmt-stock-slips-premarket-despite-q3-beat-and-third-guidance-raise",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "WMT"
+   ],
+   "headline": "Fintwit flags Walmart's 19.5% drop in GAAP net income despite the headline beat",
+   "summary": "Per a widely shared Wall St Engine post on X, adjusted operating income of $7.77B topped estimates while reported net income fell ~19.5% YoY, a contrast traders cited for the muted pre-market reaction.",
+   "source": "X (Wall St Engine)",
+   "url": "https://x.com/wallstengine/status/2123387544029090007",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "China",
+   "importance": 2,
+   "tickers": [
+    "BABA",
+    "PDD",
+    "NTES"
+   ],
+   "headline": "Alibaba and PDD rise pre-market after results; NetEase slips",
+   "summary": "Alibaba gained over 4% pre-market on revenue of 271.5B yuan (+10%) and AI-cloud growth of 53%, while PDD rose nearly 10% despite roughly flat revenue. NetEase fell ~5-6% pre-market.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262313137-us-pre-market-anthropic-tradingkey",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "INTC",
+    "AMZN"
+   ],
+   "headline": "Intel reportedly lands first external 18A foundry customer; Amazon flags capex rising sharply next year",
+   "summary": "Intel reportedly signed its first outside customer for the 18A process. Amazon's CEO said AWS-related capex is about $220B this year and will increase significantly in 2027, a datapoint for the AI-capex debate.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262313137-us-pre-market-anthropic-tradingkey",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Moody's moves Nvidia outlook to stable from positive amid CEO transition",
+   "summary": "The ratings agency trimmed Nvidia's outlook after Jensen Huang's exit, with interim CEO Colette Kress in charge; the board has reportedly ruled out Huang's return and is searching for a permanent CEO.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-18/moody-s-lowers-nvidia-s-ratings-outlook-to-stable-from-positive",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US / Euro area",
+   "importance": 3,
+   "tickers": [
+    "^TNX",
+    "DX-Y.NYB"
+   ],
+   "headline": "Waller urges aggressive action on inflation; ~90% odds of December hike as 50bp debate grows",
+   "summary": "Fed Governor Waller called for forceful action and discussed a 50bp-vs-25bp choice for December/January; CME FedWatch shows about 90% odds of at least 25bp in December. Euro-area core CPI unexpectedly rose to 2.6%, ruling out near-term ECB cuts.",
+   "source": "Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/european-stocks-inch-up-as-massive-anthropic-ipo-counters-hawkish-fed-2710014",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 2,
+   "tickers": [
+    "^STOXX",
+    "^FTSE",
+    "^GDAXI"
+   ],
+   "headline": "European stocks flat as Anthropic optimism offsets hawkish Fed; FTSE 100 lags",
+   "summary": "The STOXX 600 hovered near 643.7 (-0.06%) by 07:22 ET after three days of losses, with the DAX flat, CAC slightly up and the FTSE 100 down ~0.5% on miners. Chipmakers rallied before the ANT debut.",
+   "source": "Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/european-stocks-inch-up-as-massive-anthropic-ipo-counters-hawkish-fed-2710014",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 3,
+   "tickers": [
+    "^NSEI",
+    "^BSESN",
+    "^NSEBANK"
+   ],
+   "headline": "Update: Sensex closes up 990 points at 83,022; Nifty 25,514 as autos surge, Bank Nifty near record",
+   "summary": "The midday gain widened into a 1.2% rally: Nifty Auto jumped 4.4% (Maruti +7.6%) on cheaper metals, PSU banks +2.2% and Bank Nifty ended near a new high. IT fell for a third session (-6.5% over three days).",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "INR=X"
+   ],
+   "headline": "Flows: FPIs on track for a record $11.3B of November buying as investors rotate from AI hardware to India",
+   "summary": "Foreign investors bought Rs5,867 crore on Wednesday, taking November net purchases to a record ~$11.28B; the Nifty is up ~10.7% this month while Brent is down ~21.6%, a tailwind for India's import bill.",
+   "source": "HDFC Sky",
+   "url": "https://hdfcsky.com/news/market-close-report-today-november-19-2026-nifty-sensex-stage-sharp-recovery-as-fed-fails-to-scare-stocks",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "India",
+   "importance": 1,
+   "tickers": [
+    "MCL"
+   ],
+   "headline": "Update: Mahanadi Coalfields IPO subscribed 2.32x on day one after a slow start",
+   "summary": "After only 0.05x by midday, the Coal India unit's issue closed day one 2.32x covered, with retail at 2.47x and QIBs at 2.18x.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/amp/markets/news/stock-market-live-november-19-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-mahanadi-coalfields-ipo-today-126111900101_1.html",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "GC=F",
+    "SI=F"
+   ],
+   "headline": "Gold futures open at a 14-month low near $3,730; down ~11% in a month",
+   "summary": "December gold opened around $3,730/oz and traded near $3,722 at 7:15 ET, levels last seen in September 2025, as markets price a pre-year-end Fed hike. Silver steadied near $45.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/personal-finance/investing/article/gold-prices-today-thursday-november-19-2026-gold-price-opened-at-the-lowest-level-in-14-months-122258391.html",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BZ=F",
+    "CL=F",
+    "NG=F"
+   ],
+   "headline": "Oil choppy near $92 Brent on surplus signals; European gas falls as LNG arrivals rise",
+   "summary": "CaixaBank notes data point to a surplus oil market, though Hormuz-related disruption keeps upside risk; TTF gas fell sharply on stronger LNG flows. Brent was quoted near $92 and WTI ~$82.",
+   "source": "CaixaBank Research",
+   "url": "https://www.caixabankresearch.com/en/publications/financial-markets-daily-report/19-november-2026",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "China / US / Russia",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Update: Trump, Xi and Putin sign 'peace declaration' committing to stable energy flows at Shenzhen trilateral",
+   "summary": "New since the last run: the unprecedented three-way APEC meeting produced a commitment to stable energy flows and nuclear talks, per Chinese state media; no tariff breakthrough was reported.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Asia",
+   "importance": 1,
+   "tickers": [
+    "^TWII",
+    "^HSI",
+    "^KS11"
+   ],
+   "headline": "Asia close: Taiex -4.4%, Hang Seng -2%, while Nikkei +0.7% and Kospi +1.4%",
+   "summary": "AP's wrap shows the AI-hardware selloff concentrated in Taiwan and Hong Kong, while Japan and Korea gained; the yen weakened to ~159.8 per dollar.",
+   "source": "BNN Bloomberg (AP)",
+   "url": "https://www.bnnbloomberg.ca/markets/2026/11/19/world-shares-are-mixed-and-us-futures-climb-ahead-of-anthropics-blockbuster-ipo/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Crypto",
+   "importance": 1,
+   "tickers": [
+    "BTC-USD"
+   ],
+   "headline": "Bitcoin recovers toward ~$64k after briefly dipping below $63k",
+   "summary": "Crypto tracked the risk-on futures tone, with BTC near $63,900 early in the US session, though it remains down ~11% on the week.",
+   "source": "Quant Partners (Substack)",
+   "url": "https://quantpartners.substack.com/p/morning-note-111926-stocks-move-higher",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "US / India",
+   "importance": 2,
+   "tickers": [
+    "ANT",
+    "INTU",
+    "ROST",
+    "GAP"
+   ],
+   "headline": "Today: ANT first trade, US jobless claims & Philly Fed; Intuit, Ross, Gap after close. RBI MPC Dec 2-4, FOMC Dec 8-9",
+   "summary": "After the close Intuit (EPS est ~$2.46), Ross Stores, Gap and Keysight report; weekly claims and the Philadelphia Fed index are due at 8:30 ET.",
+   "source": "TipRanks",
+   "url": "https://www.tipranks.com/news/these-are-the-stocks-reporting-earnings-today-november-19-2026",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [
+    "AMD"
+   ],
+   "headline": "OpenAI says its models improved AMD GPU designs by up to 14% on power, performance and area",
+   "summary": "Some AI-proposed changes have already gone to manufacturing, OpenAI said, and it also trimmed component sizes 10-13% on its own in-house chip, using GPT-6.2 Astra for processor design work.",
+   "source": "The Next Web",
+   "url": "https://thenextweb.com/news/openai-models-amd-gpu-chip-design-14-percent",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Microsoft",
+   "importance": 2,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Microsoft pitches Copilot as cheaper than Anthropic and OpenAI; MAI Code 2 reportedly near GPT-6.1 at 40% of cost",
+   "summary": "Microsoft is replacing outside models in its products with in-house MAI models, with MAI Code 2 reportedly reaching ~98% of GPT-6.1 Sol's performance at a fraction of the price.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/microsoft-is-replacing-outside-ai-models-in-its-own-products-with-cheaper-in-house-alternatives/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Microsoft",
+   "importance": 2,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Nadella explains offering voluntary buyouts to ~60,000 employees as AI reshapes Microsoft",
+   "summary": "At DealBook the CEO defended the buyout offer to roughly 27% of staff as part of an AI-driven restructuring of how the company works.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/18/microsoft-ceo-satya-nadella-explains-why-he-asked-60k-employees-to-quit/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Meta",
+   "importance": 1,
+   "tickers": [
+    "META"
+   ],
+   "headline": "Meta's 'Ranking Engineer Agent' automates 60%+ of ads-model upgrades, projecting $45M+ compute savings",
+   "summary": "Meta says the agent propagates modelling techniques across ads ranking models, claiming ~3x engineering productivity and a median 4x cut in training compute.",
+   "source": "Meta Engineering",
+   "url": "https://engineering.fb.com/2026/11/18/ml-applications/ai-agents-to-scale-ml-innovations-across-ads-ranking-models",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google opens Genie 4 world model to AI Ultra subscribers in the US",
+   "summary": "Project Genie now runs on Genie 4 with chainable worlds and a community gallery on desktop and Android; API access remains gated.",
+   "source": "Google Blog",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/genie-4-now-available-project-genie/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "RadixArk",
+   "importance": 1,
+   "tickers": [],
+   "headline": "RadixArk releases DaisyRose-27B, an Apache-2.0 agentic model post-trained from Qwen",
+   "summary": "The 256K-context open-weights model roughly doubles Terminal-Bench pass@1 versus its base (5.6% to 12.0%), per the developer.",
+   "source": "RIO Rundown (Substack)",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-19-2026-agentic-ai-infrastructure",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Sierra",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Bret Taylor's Sierra reportedly in talks to raise ~$1.5B at ~$30B valuation",
+   "summary": "The customer-service agent startup's valuation would nearly double from $15.8B in May, according to reports; terms are not final.",
+   "source": "AI Weekly",
+   "url": "https://aiweekly.co/alerts/bret-taylors-sierra-in-talks-to-raise-15b-at-30b-valuation-nearly-doubling-may",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "GAO covert tests got major chatbots to draft usable attack plans; Senate hearings promised for 2027",
+   "summary": "The 61-page report says ChatGPT, Claude, Gemini and Grok produced actionable proposals against US targets in testing; Sen. Hassan pledged hearings.",
+   "source": "CBS News",
+   "url": "https://www.cbsnews.com/news/ai-platforms-plan-us-terror-attack-when-asked-to-senate-hearings/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US / California",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Newsom panel proposes state AI 'kill switch', licensed auditors and 48-hour incident reporting; Trump at APEC opposes 'globalist' AI rules",
+   "summary": "California's expert recommendations contrast with the President's remarks in Shenzhen rejecting international AI regulation, per a roundup of the day's AI policy news.",
+   "source": "RIO Rundown (Substack)",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-19-2026-agentic-ai-infrastructure",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "OpenAI: coding agents now finish 46% of researchers' 2-4 hour tasks, up from 23% in March",
+   "summary": "OpenAI also reported median daily API spend per researcher of ~$2,400, up 62% since September, in a post on how agents are accelerating its research.",
+   "source": "RIO Rundown (Substack)",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-19-2026-agentic-ai-infrastructure",
+   "date": "2026-11-19"
+  }
+ ]
+}
