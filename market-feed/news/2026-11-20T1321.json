@@ -1,0 +1,378 @@
+{
+ "run_at": "2026-11-20T13:21:00Z",
+ "market_brief": "The AI-led sell-off is rolling into Friday's US session: after Thursday's -2.0% S&P 500 and -2.2% Nasdaq 100 (SOX -10% on the week), Nasdaq 100 futures are down ~1.5% and the VIX has topped 30, while Anthropic is ~7-8% lower pre-market near $89 (still above its $83 offer). Asia's rout (Taiwan -6.2%, Kospi -5.2%, Nikkei -5.1%) spilled into Europe, where the STOXX 600 is down ~1.3% and heading for its worst week since March, led by a 3.7% drop in tech. Haven demand has pulled the 10Y back below 5% (~4.97% vs 5.05% at Thursday's close) even with a December Fed hike ~96% priced, and DXY is steady near 103.7-103.8; deleveraging keeps hitting metals (gold -3.6% to ~$3,552 and briefly near $3,500, silver -5.7%) and BTC sits below $62k, while Brent holds ~$90-91.5. India remained the outlier: Sensex +1.1% to 83,920, Nifty +1.1% to 25,800.6 and Nifty Bank a record, on heavy FII buying and a firmer rupee (~92.98).",
+ "ai_brief": "Capital is the AI story today: Anthropic's shares are unwinding a chunk of their debut pop as broker initiations arrive, DeepSeek is reported to be lining up a Shanghai IPO after a ~$15B raise, and ex-Qwen lead Lin Junyang's Pragmatik Labs doubled to a $5B valuation. Agentic commerce is advancing (AWS lets agents buy Marketplace software within budgets), while Washington adds a bipartisan AI safety caucus and newsletters focus on agent liability and safety disputes.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ES",
+    "NQ",
+    "^VIX"
+   ],
+   "headline": "US futures extend losses: Nasdaq 100 futures -1.5%, VIX tops 30 for first time in eight months",
+   "summary": "By late European morning Nasdaq 100 futures were down about 1.5% and S&P 500 futures about 0.65%, while Dow futures were roughly flat, pointing to a seventh straight S&P loss. The VIX climbed above 30, an eight-month high.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315308-us-pre-market-anthropic-tradingkey",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Update: Anthropic slides 7-8% pre-market to ~$89, giving back half its debut gain",
+   "summary": "Shares traded near $89-91 before the open versus Thursday's $97.17 close, still above the $83 offer price; the Thursday after-hours drop (~$92.60) has deepened. The IPO raised ~$81.3B plus a $26B private placement, and up to 20% of the offering went to retail.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-shares-fall-more-6-104327891.html",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "First Anthropic research: Melius starts at Buy ($155), Needham at Buy ($150)",
+   "summary": "Both brokers point to large upside from Thursday's close despite the stock's reversal; Q3 revenue was about $16.96B and the annualised run-rate reportedly ~$81B by October. Compute spend was nearly $14B in the first nine months of 2026.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-shares-fall-more-6-104327891.html",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 3,
+   "tickers": [
+    "^STOXX",
+    "ASML",
+    "STM",
+    "ASM.AS"
+   ],
+   "headline": "STOXX 600 heads for worst week since March as chip stocks drop more than 5%",
+   "summary": "The STOXX 600 fell 1.3% to ~630 by mid-morning and is on track for a weekly loss above 5%; the tech sector sank 3.7% with ASML, ASM International and STMicro each down over 5%. Vallourec lost ~13% on a 26% drop in Q3 core profit and Ubisoft ~12%.",
+   "source": "Reuters via Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/european-shares-head-for-steepest-weekly-drop-since-march-5040936",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 3,
+   "tickers": [
+    "^NSEI",
+    "^NSEBANK",
+    "^BSESN",
+    "AXISBANK.NS"
+   ],
+   "headline": "Update: Sensex jumps ~900 points, Nifty closes above 25,800 and Nifty Bank hits a record",
+   "summary": "India decoupled from the Asian rout: Sensex +1.08% to 83,920 and Nifty +1.12% to 25,800.6, with Nifty Bank +2.5% to a record above 64,500 led by Axis Bank (+4.7%). FIIs bought a net ₹7,411 crore on Nov 19 and the rupee touched ~92.99/$, its strongest since April.",
+   "source": "5paisa",
+   "url": "https://www.5paisa.com/blog/post-market-update-sensex-jumps-900-nifty-tops-25800-november-20-2026",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Bonds",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "^TNX",
+    "DX-Y.NYB"
+   ],
+   "headline": "10-year Treasury yield slips below 5% on haven demand even with a December hike priced",
+   "summary": "The 10Y traded around 4.97% pre-market versus ~5.07% a day earlier as investors sought safety from the equity sell-off; the dollar index held near 103.8. Analysts debating whether the AI unwind is a washout also cite US chip curbs on China and political pushback on data centres.",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/anthropic-ipo-triggers-ai-selloff--washout-or-deeper-unwind-93CH-5041498",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "UK",
+   "importance": 2,
+   "tickers": [
+    "GBPUSD=X"
+   ],
+   "headline": "UK retail sales rise 0.7% in October, beating forecasts; pound recovers from yearly lows",
+   "summary": "Volumes rose 0.7% month on month against expectations of no change, with retailers citing an October pickup. The data lands as UK CPI hit 3.6% and the BoE, which just raised rates for the first time in three years, sees inflation near 5% by mid-2027.",
+   "source": "RTÉ / Reuters",
+   "url": "https://www.rte.ie/news/business/2026/1120/1599950-uk-retail-sales/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "Euro area",
+   "importance": 2,
+   "tickers": [
+    "EURUSD=X"
+   ],
+   "headline": "Lagarde urges Europe to 'act in time', targets 2029 digital euro and more AI compute",
+   "summary": "In a Frankfurt banking congress keynote Lagarde said Europe responds too hesitantly to crises, flagged a 2029 first digital-euro issuance if legislation passes by end-2026, and estimated ~€1.3tn is needed to lift Europe's share of global AI compute to 15% by 2030. No new rate signal was given.",
+   "source": "European Central Bank",
+   "url": "https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp261120~e52bcc4db2.en.html",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "INTU",
+    "ROST"
+   ],
+   "headline": "Intuit down ~10% pre-market on soft outlook; Ross Stores -4% as Q4 guide trails estimates",
+   "summary": "Intuit's fiscal Q1 revenue rose 12% to $4.35B but Q2 guidance disappointed; it is also selling Mailchimp to Bending Spoons for ~$3.68B. Ross beat on Q3 EPS ($1.91 vs $1.87) but guided Q4 to $2.16-2.25 versus ~$2.27 expected.",
+   "source": "KuCoin News / Zhitong Caijing",
+   "url": "https://www.kucoin.com/news/flash/u-s-stock-futures-mixed-as-vix-surpasses-30-anthropic-pre-market-dips-over-7",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "AMD",
+    "INTC",
+    "SNDK",
+    "MU",
+    "WDC",
+    "COHR",
+    "LITE",
+    "AVGO"
+   ],
+   "headline": "Chip and memory names slide again pre-market; SanDisk announces 8-for-1 split",
+   "summary": "AMD fell over 6% after the Hunterbrook short report, Intel and SanDisk over 5%, Micron and Western Digital over 4%, optical names Coherent and Lumentum over 5%, and Broadcom ~3%. Nvidia was off ~2.5% after a 32% one-month slide.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315308-us-pre-market-anthropic-tradingkey",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "GC=F",
+    "SI=F"
+   ],
+   "headline": "Update: gold briefly tests $3,500; India 24K gold drops over ₹6,400 per 10g",
+   "summary": "Spot gold fell another ~2-3% and briefly approached $3,500 as metals were sold to cover equity losses, with silver near $42.30. Domestic 24K gold in India fell ~₹6,401 to about ₹1,23,584 per 10 grams.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315308-us-pre-market-anthropic-tradingkey",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 1,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Brent steadies near $91.5 ahead of OPEC's monthly report",
+   "summary": "Brent traded around $91.5 and WTI near $82.3, little changed on the day after Thursday's drop, with OPEC's Monthly Oil Market Report due later Friday.",
+   "source": "KuCoin News / Zhitong Caijing",
+   "url": "https://www.kucoin.com/news/flash/u-s-stock-futures-mixed-as-vix-surpasses-30-anthropic-pre-market-dips-over-7",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Crypto",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BTC-USD"
+   ],
+   "headline": "Bitcoin prints a 'death cross' below $63K; Fear & Greed index at 10, Citi trims target",
+   "summary": "BTC is down over 20% this month and later slipped below $62K, its lowest since July; ~$391M was liquidated in 24 hours, mostly longs. Citi cut its 12-month target by 12% to ~$99.5K.",
+   "source": "U.Today",
+   "url": "https://u.today/price-analysis/bitcoin-btc-price-analysis-for-november-20-death-cross-is-here",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ANT",
+    "NVDA",
+    "ARKK"
+   ],
+   "headline": "Flows: Cathie Wood's ARK buys Anthropic across six ETFs while selling Nvidia",
+   "summary": "Per Benzinga's read of ARK's daily trade disclosures, the funds added ANT on its debut and trimmed Nvidia, which faces new China export pressure.",
+   "source": "Benzinga",
+   "url": "https://www.benzinga.com/etfs/specialty-etfs/26/11/63467536/anthropic-stock-becomes-cathie-woods-latest-ai-bet-across-6-etfs-as-nvidia-faces-china-trouble",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "India",
+   "importance": 1,
+   "tickers": [],
+   "headline": "SEBI's Murty says company boards must scrutinise major acquisitions and protect minorities",
+   "summary": "A SEBI whole-time member urged boards to apply closer oversight to large acquisitions and related decisions affecting minority shareholders, per ANI.",
+   "source": "ANI",
+   "url": "https://aninews.in/news/business/company-boards-must-scrutinise-major-acquisitions-and-protect-minority-shareholders-says-sebis-murty20261120181030/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Today/next: Waller, Barr, Lagarde, Schnabel speak; final UMich; Thanksgiving week brings PCE and Marvell",
+   "summary": "Friday: final November UMich sentiment (f'cast 51.0) and inflation expectations, euro-area flash consumer confidence, Fed's Waller and Barr, OPEC report. Next week: Tokyo shut Monday, Analog Devices/Medtronic (Nov 24), Deere (Nov 25), Marvell (Nov 26), US PCE; RBI MPC Dec 2-4, FOMC Dec 8-9.",
+   "source": "XTB",
+   "url": "https://www.xtb.com/en/market-analysis/economic-calendar-final-us-consumer-sentiment-data-and-speeches-by-fed-officials",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "DeepSeek",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Update: DeepSeek reportedly plans a Shanghai IPO after raising ~$15B",
+   "summary": "Following reports this week of a ~CNY 100B round, DeepSeek is now reported to be planning a Shanghai listing; earlier reports put its valuation near $74B. Details are unconfirmed by the company.",
+   "source": "Caproasia",
+   "url": "https://www.caproasia.com/2026/11/20/china-ai-startup-deepseek-plans-shanghai-ipo-after-raising-15-billion-cny-100-billion-in-new-funding-previously-reported-with-74-billion-cny-500-billion-valuation-founded-in-2023-by-ceo-liang/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Pragmatik Labs",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Ex-Qwen lead Lin Junyang's Pragmatik Labs doubles valuation to $5B",
+   "summary": "The startup founded by Alibaba's former Qwen technical lead has reportedly closed new funding at about $5B, roughly double the ~$2B valuation of its first round in May.",
+   "source": "Bloomberg",
+   "url": "https://bloomberg.com/news/articles/2026-11-20/ex-alibaba-star-s-ai-startup-doubles-valuation-to-5-billion",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic's second trading day: shares fall pre-market as AI trade unwinds",
+   "summary": "ANT was down 7-8% before the open after closing its debut 17% above the $83 offer; sell-side initiations from Melius ($155) and Needham ($150) arrived alongside the drop.",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/anthropic-ipo-triggers-ai-selloff--washout-or-deeper-unwind-93CH-5041498",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Amazon / AWS",
+   "importance": 2,
+   "tickers": [
+    "AMZN"
+   ],
+   "headline": "AWS lets AI agents buy software on Marketplace within pre-set budgets",
+   "summary": "Per a Fortune exclusive, buyers can authorise agents to purchase Marketplace software under spending caps and review rules; Bedrock AgentCore can bill such purchases via the x402 payment protocol.",
+   "source": "RIO Rundown",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-20-2026-agentic-ai-infrastructure",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US Congress",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Two dozen House members form bipartisan AI Safety and Innovation Caucus",
+   "summary": "The new caucus spans both parties; separately, the ROOT CAUSE Act introduced Nov 18 would create a National Cyber and AI Investigations Board inside CISA.",
+   "source": "Politico",
+   "url": "https://www.politico.com/live-updates/2026/11/19/congress/new-bipartisan-ai-caucus-forms-with-two-dozen-house-members-01174829",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "Meta",
+   "importance": 1,
+   "tickers": [
+    "META"
+   ],
+   "headline": "Meta FAIR shows a self-improving memory harness that beats human-written strategies",
+   "summary": "The system scored 56.0 on a continual-learning benchmark versus 44.6 for hand-written memory strategies, using Kimi-K2.6 as the base model.",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/11/19/meta-fair-self-improving-memory-harness-distillation",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "AMD",
+   "importance": 1,
+   "tickers": [
+    "AMD"
+   ],
+   "headline": "AMD pushes local and enterprise AI: Cohere Compass on Instinct, Unsloth on Ryzen NPUs",
+   "summary": "Cohere's Compass enterprise search now runs on AMD Instinct GPUs and EPYC via ROCm, and Unsloth Desktop added Ryzen AI NPU support; AMD also argues agentic AI shifts data-centre CPU:GPU ratios toward 1:1.",
+   "source": "RIO Rundown",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-20-2026-agentic-ai-infrastructure",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "John Deere",
+   "importance": 1,
+   "tickers": [
+    "DE"
+   ],
+   "headline": "John Deere acquires Orchard Robotics, a 2022-founded AI crop-monitoring startup",
+   "summary": "Deere is buying the San Francisco company led by CEO Charlie Wu to add AI-driven orchard imaging to its precision-ag stack; terms were not disclosed.",
+   "source": "RIO Rundown",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-20-2026-agentic-ai-infrastructure",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "OpenAI details 'Performance Factory' where Codex agents debug ChatGPT slowdowns",
+   "summary": "OpenAI says agent-led investigations ran 1,700+ times over three months and resolved 600+ performance cases.",
+   "source": "RIO Rundown",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-20-2026-agentic-ai-infrastructure",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Industry",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Newsletter focus: rogue-agent lawsuits, bank liability shifts and the 'MisAnthropic' debate",
+   "summary": "Weekly AI newsletters are centred on California's suit against OpenAI over agent incidents, banks pushing AI-agent losses onto customers, and safety critiques timed to Anthropic's IPO.",
+   "source": "AI News (Russ McGuire)",
+   "url": "https://aisdg.substack.com/p/ai-news-for-november-20-2026",
+   "date": "2026-11-20"
+  }
+ ]
+}
