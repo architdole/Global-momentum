@@ -1,0 +1,381 @@
+{
+ "run_at": "2026-11-20T07:25:00Z",
+ "market_brief": "The AI unwind has gone global: after Thursday's US rout (S&P 500 -1.9%, Nasdaq 100 -2.1%, SOX -10% on the week, VIX ~28), the Nikkei and Kospi each fell 4-5% on Friday and MSCI Asia ex-Japan is heading for its worst week since March 2020, with Euro Stoxx 50 futures down ~1.6% and S&P futures ~-0.5%. Anthropic slipped ~5% after hours to ~$92.60 (still above its $83 offer) on reports of Apple's own agent plans, even as FTSE Russell and MSCI fast-tracked it into their indexes. The dollar sits near a 19-month high (DXY ~103.9) with a December Fed hike ~96% priced, yet the 10Y has eased to ~5.03-5.05% on haven demand; deleveraging hit metals again, with gold down ~3.5% toward $3,530-3,560 and silver off ~8% intraday, and BTC near $61.7k. Japan's October core CPI (2.2%) missed forecasts, slightly tempering BoJ December-hike conviction, and the PBoC held LPRs for an 18th month. India is the outlier: Sensex/Nifty recovered from an early dip to trade ~0.4% higher (Nifty ~25,615) with the rupee firmer near 92.9. Note: the price snapshot in the dashboard is from 19:36 UTC Thursday and does not yet include Friday's Asian session.",
+ "ai_brief": "Day two of Anthropic as a listed company is about how the market prices AI leaders versus their suppliers: ANT eased after hours on Apple agent-hiring reports, while Nvidia drew a California AG subpoena and new congressional disclosures on approved China chip sales. On the product side, Google's Gemini 4 Neon ($3/$15 per million tokens, 1M context) is the notable frontier launch of the week, DeepMind showed AlphaProof Code verifying Signal's protocol in Lean, and DeepSeek reportedly closed a ~$15.8B round. Agent liability is becoming a theme, from banks pushing AI-agent losses onto customers to 39 state AGs contesting Character.AI's IP sale to Disney.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Asia",
+   "importance": 3,
+   "tickers": [
+    "^N225",
+    "^KS11",
+    "9984.T"
+   ],
+   "headline": "Nikkei and Kospi drop 4-5% as Asia heads for its worst week since March 2020",
+   "summary": "Wall Street's AI reversal spilled into Asia on Friday: the Nikkei fell ~4.1% and the Kospi ~4.7%, putting them on course for weekly drops of ~6.8% and ~7.5%. MSCI's Asia-Pacific ex-Japan index lost 2.5% on the day and ~7% on the week, its worst since March 2020.",
+   "source": "Reuters via Regional Media News",
+   "url": "https://www.regionalmedianews.com/news/national/business/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US / Europe",
+   "importance": 3,
+   "tickers": [
+    "ES=F",
+    "NQ=F",
+    "^STOXX50E"
+   ],
+   "headline": "US futures extend losses and Euro Stoxx 50 futures sink ~1.6% after Anthropic debut fails to lift AI stocks",
+   "summary": "S&P 500 e-minis were ~0.5% lower and Nasdaq 100 futures ~1% lower in Asian hours after Thursday's sixth straight S&P loss, with the Nasdaq Composite at its lowest close since mid-April. Euro Stoxx 50 futures pointed to a ~1.6% lower open.",
+   "source": "Reuters (Morning Bid) via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-anthropics-splashy-ipo-055409747.html",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Update: Anthropic slips ~5% after hours to ~$92.60; FTSE Russell and MSCI fast-track index entry",
+   "summary": "After closing its debut at $97.17, ANT fell ~4.7% in extended trading, which Bloomberg linked to reports of Apple job listings for its own autonomous agents. Separately, FTSE Russell will fast-track the stock into its global indexes effective Dec 21 and MSCI will add it after the Nov 30 close, per Newsquawk.",
+   "source": "FinanceFeeds / Newsquawk",
+   "url": "https://financefeeds.com/anthropic-ant-stock-97-17-friday-day-two-after-17-percent-debut-bull-111-bear-83/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "Japan",
+   "importance": 2,
+   "tickers": [
+    "JPY=X",
+    "^N225"
+   ],
+   "headline": "Japan October core CPI rises to 2.2% but misses forecasts; core-core eases to 2.2%",
+   "summary": "Core CPI (ex fresh food) rose to 2.2% from 2.1%, below the 2.3% consensus, while headline was 2.3% versus ~2.5% expected; energy turned positive as subsidies were scaled back. The BoJ's preferred ex-fresh-food-and-energy gauge slowed to 2.2% from 2.4%, though many still expect a hike to 1.5% at the Dec 17-18 meeting.",
+   "source": "ActionForex / IndexBox",
+   "url": "https://www.actionforex.com/live-comments/661497-japan-core-cpi-rises-to-2-2-as-energy-costs-rebound-core-core-inflation-eases/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "China",
+   "importance": 2,
+   "tickers": [
+    "CNY=X"
+   ],
+   "headline": "PBoC keeps loan prime rates unchanged for an 18th month",
+   "summary": "The one-year LPR stays at 3.0% and the five-year at 3.5%, per Trading Economics, despite weaker October activity data and falling home prices. The PBoC has signalled a shift toward short-term rates as its main policy tool.",
+   "source": "Trading Economics",
+   "url": "https://tradingeconomics.com/china/interest-rate/news/602908",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "^TNX",
+    "DX-Y.NYB"
+   ],
+   "headline": "December Fed hike ~96% priced; dollar near 19-month high while Treasuries catch a haven bid",
+   "summary": "CME FedWatch implies roughly a 96% chance of a 25bp December hike after hawkish October minutes, with next week's PCE report the next test. The 10-year yield held near 5.03% and the 2-year around 4.75-4.78% as equity selling drew money into bonds.",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/stock-market-news/wall-street-futures-fall-as-anthropic-debut-fails-to-revive-ai-trade-5040450",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^BSESN",
+    "INR=X"
+   ],
+   "headline": "Sensex and Nifty shrug off Asia rout, turning ~0.4% higher by midday; rupee firms to ~92.9",
+   "summary": "After an early dip, Indian benchmarks recovered on gains in banks and IT, with the Nifty near 25,615 and the Sensex near 83,378 around noon IST, while metals lagged. The rupee strengthened to about 92.91 per dollar from a 93.30 close.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "India",
+   "importance": 1,
+   "tickers": [
+    "NSE (unlisted)",
+    "Crystal Crop Protection"
+   ],
+   "headline": "Unlisted NSE shares up ~3% on MSCI inclusion hopes; Crystal Crop IPO subscribed 4.2x on final day",
+   "summary": "JM Financial expects NSE to enter MSCI India in March, lifting its unlisted shares. Crystal Crop Protection's Rs 455 crore IPO was subscribed ~4.23x by late morning on its last day, while Mahanadi Coalfields' offer is in its second day.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "India",
+   "importance": 1,
+   "tickers": [
+    "ASHOKA.NS"
+   ],
+   "headline": "Ashoka Buildcon falls ~6% after Saudi client cancels Rs 846 crore project",
+   "summary": "Diriyah Company cancelled a Saudi project worth about Rs 846 crore awarded to Ashoka Buildcon, sending the shares down ~5.8% intraday. Nuvoco Vistas rose ~7.8% in the same session.",
+   "source": "Business Standard",
+   "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "C"
+   ],
+   "headline": "Citi reportedly understated risk-weighted assets by ~$35B at a European trading unit",
+   "summary": "Reuters, citing sources, reported the RWA understatement at a Citi European trading arm; Citi said the issue was resolved over the summer. The report adds to scrutiny of the bank's long-running risk-control remediation.",
+   "source": "Newsquawk (citing Reuters)",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-equity-opening-news---20th-november-2026",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "AMD"
+   ],
+   "headline": "Congress releases data showing ~879,000 Nvidia and AMD chip sales approved for China; California AG subpoenas Nvidia",
+   "summary": "House Foreign Affairs Chair Brian Mast published Commerce Department figures on approved H200 and AMD chip exports to China, while California's attorney general opened an investigation and subpoenaed Nvidia over chip transfers. Both add regulatory overhang to a chip sector already down ~10% this week.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "GC=F",
+    "SI=F",
+    "HG=F"
+   ],
+   "headline": "Update: gold slides another ~3.5% toward $3,530-3,560 as metals are sold to cover equity losses",
+   "summary": "Spot gold was down ~3.7% around $3,531 in Asian trade per JournalArta (Reuters had it near $3,601 earlier), heading for a weekly loss of more than 7%, its worst in about eight months. Silver fell as much as ~8% and copper ~2.5%, with a strong dollar and hike pricing cited alongside forced selling.",
+   "source": "JournalArta",
+   "url": "https://journalarta.com/en/2026/11/20/gold-price-today-bullion-drops-3-71-to-3530-75-in-broad-metals-and-equity-selloff/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 1,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Brent near $90 and on track for a third weekly decline",
+   "summary": "Brent settled flat near $92 on Thursday per Reuters and was quoted ~2% lower around $90 in Asian trade, heading for a third straight weekly fall amid surplus signals and risk-off flows. WTI held near $83.",
+   "source": "Reuters via Regional Media News",
+   "url": "https://www.regionalmedianews.com/news/national/business/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "ANT",
+    "NVDA",
+    "AMD"
+   ],
+   "headline": "Pre-market quote snapshots show ANT, NVDA, AMD and bitcoin under fresh pressure",
+   "summary": "Quote badges captured on Reuters' Morning Bid page showed bitcoin ~3% lower near $61.7k and AMD and Nvidia sharply lower in extended trading, pointing to continued de-grossing of AI-linked positions. These are intraday snapshots and may not reflect the open.",
+   "source": "Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/morning-bid-anthropics-splashy-ipo-055409747.html",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Next: Tokyo shut Monday; Analog Devices and Medtronic (Nov 24), Deere (Nov 25), Marvell (Nov 26), US PCE; BoJ Dec 17-18, RBI MPC Dec 2-4, FOMC Dec 8-9",
+   "summary": "Thanksgiving-shortened US week brings the PCE inflation report and a handful of chip and industrial earnings. Japan's market is closed Monday Nov 23 for a holiday; December central bank meetings remain the key macro catalysts.",
+   "source": "JournalArta / IndexBox",
+   "url": "https://journalarta.com/en/2026/11/20/gold-price-today-bullion-drops-3-71-to-3530-75-in-broad-metals-and-equity-selloff/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 3,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google releases Gemini 4 Neon at $3/$15 per million tokens with 1M context",
+   "summary": "Gemini 4 Neon targets coding, complex analysis and agent work and is rolling out in the Gemini API, AI Studio, the Gemini app and Antigravity. Google cites a score of 61 on the Artificial Analysis index, third overall per AI Weekly.",
+   "source": "Google blog",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "ANT",
+    "AAPL"
+   ],
+   "headline": "Update: Anthropic shares drop post-market as Apple job listings point to its own AI agents",
+   "summary": "Bloomberg reported ANT fell about 5% after its debut session as listings revealed Apple plans for an agentic assistant that coordinates sub-agents. The stock remained above its $83 IPO price.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-20/anthropic-shares-drop-post-market-on-apple-s-ai-agent-plans",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Apple",
+   "importance": 2,
+   "tickers": [
+    "AAPL"
+   ],
+   "headline": "Apple job listings detail plans for autonomous AI agents",
+   "summary": "Listings describe an agentic assistant able to delegate work to sub-agents across apps, per 9to5Mac. Apple has not announced a product.",
+   "source": "9to5Mac",
+   "url": "https://9to5mac.com/2026/11/19/report-apple-job-listings-detail-plans-for-autonomous-ai-agents/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google DeepMind",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "DeepMind introduces AlphaProof Code, using Gemini agents to formally verify Signal's protocol",
+   "summary": "The system generated Lean proofs checking properties of the Signal messaging protocol, applying AlphaProof-style formal reasoning to real software verification.",
+   "source": "Google DeepMind",
+   "url": "https://deepmind.google/blog/introducing-alphaproof-code",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "DeepSeek",
+   "importance": 2,
+   "tickers": [],
+   "headline": "DeepSeek reportedly completes a ~105.5B yuan (~$15.8B) funding round",
+   "summary": "The Chinese lab's second round reportedly closed on Nov 19, per an aggregator report that has not been confirmed by DeepSeek. Separately, trackers expect a new DeepSeek model around late November.",
+   "source": "BigGo Finance",
+   "url": "https://finance.biggo.com/news/94d7773a-2959-4c23-962e-19a603560ac2",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Nvidia",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia reportedly nears $500M+ deal for diffusion-LLM startup Inception",
+   "summary": "The Information reported Nvidia is close to acquiring Inception, which builds diffusion-based language models; the deal is unconfirmed.",
+   "source": "The Information",
+   "url": "https://www.theinformation.com/articles/nvidia-nears-acquisition-diffusion-ai-developer-500-million",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Kuaishou",
+   "importance": 1,
+   "tickers": [
+    "1024.HK"
+   ],
+   "headline": "Kuaishou launches Kling Image 4.0 with native 8K generation",
+   "summary": "The image model produces native 8K output and up to 10 coordinated images per prompt, with API access available.",
+   "source": "TechNode",
+   "url": "https://technode.com/2026/11/18/kuaishou-launches-kling-image-4-0-with-native-8k-generation/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "Microsoft / Reson8",
+   "importance": 1,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Open-weights roll: Microsoft Aion 1.0 Instruct and Reson8's 0.5B Rumble-2-Flash speech model",
+   "summary": "Microsoft posted Aion 1.0 Instruct as an open-weight release per LLM Stats, and Reson8 released Rumble-2-Flash, an Apache-2.0 speech recognizer covering 40+ languages.",
+   "source": "Hugging Face",
+   "url": "https://huggingface.co/blog/rumble-2-flash",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "Snap",
+   "importance": 1,
+   "tickers": [
+    "SNAP"
+   ],
+   "headline": "Snap's Easy Lens CLI lets developers build AR Lenses through Claude Code, Cursor or Codex",
+   "summary": "The command-line tool routes prompts through popular coding agents to generate Snapchat Lenses, another sign of platforms building directly on agentic coding tools.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/18/snapchat-now-lets-developers-build-ar-lenses-with-ai-coding-assistants-like-claude-code-and-cursor/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "DIS"
+   ],
+   "headline": "39 state AGs ask court to block Character.AI's $20M IP sale to Disney",
+   "summary": "The attorneys general argue the sale process shuts out bids that would beat Disney's, adding a legal fight to the wind-down of the chatbot company.",
+   "source": "PPC Land",
+   "url": "https://ppc.land/32-states-say-character-ai-sale-rules-block-bids-that-would-beat-disney/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Court rules an AI facial-recognition match alone cannot justify an arrest",
+   "summary": "A Kentucky federal court denied police qualified immunity, holding that an AI-generated facial match without corroboration does not establish probable cause.",
+   "source": "Techdirt",
+   "url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/",
+   "date": "2026-11-19"
+  }
+ ]
+}
