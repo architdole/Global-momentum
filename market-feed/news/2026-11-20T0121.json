@@ -1,0 +1,373 @@
+{
+ "run_at": "2026-11-20T01:21:00Z",
+ "market_brief": "Thursday flipped from euphoria to rout: Nasdaq futures were +2% pre-market, but the S&P 500 closed -1.9% (sixth straight loss), the Dow -2.1% (-1,101 pts), Nasdaq 100 -2.1% and the SOX -2.1% (-10% on the week), with VIX up 14% to ~28. Anthropic's debut (+17% to $97.17, well off its $115 high) coincided with selling in AMD (Hunterbrook short report) and Nvidia (China remote-access rule, 52-week low), and a weak Philly Fed with hot prices paid kept a December hike ~90%+ priced; the 10Y eased only to ~5.05%. Cross-asset de-risking continued: gold -1.8% to ~$3,670 (14-month low), silver -2.3%, Brent -2.5% to ~$90, BTC -1.7% to ~$61.9k, GBP/USD -0.8%, while wheat and corn jumped ~4%. Asia opened Friday sharply lower (Nikkei down up to 4.5%, Kospi below 5,000, SoftBank -14%); India had closed strongly Thursday (Nifty 25,514) and GIFT Nifty's earlier upbeat signal predates the US slide. Intuit's ~10% after-hours drop adds to software pressure.",
+ "ai_brief": "Anthropic is now a ~$1.3T listed company after the largest IPO on record, but the day also showed how crowded AI positioning is: chip names in the US and Asia sold off as money rotated. Nvidia's China exposure shrank further as it halted planned H200 shipments, while vendor financing (up to $105B of guarantees for OpenAI's Ohio leases) stays under scrutiny. Product news centred on enterprise agents: OpenAI's ChatGPT for Accounting and Sales, Microsoft's Copilot Autopilot and Decision 1.1, plus open-weights releases from SenseTime and Shanghai AI Lab.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^GSPC",
+    "^DJI",
+    "^IXIC"
+   ],
+   "headline": "Wall Street reverses a 2% opening rally: Dow -1,101, S&P 500 -2% for a sixth straight loss",
+   "summary": "Nasdaq futures had been up ~2% pre-market, but stocks rolled over around the time Anthropic began trading; the S&P 500 closed near 7,176, the Dow at 49,097 and the Nasdaq at 23,879 (-2.25%). Only energy and staples finished higher; VIX rose ~16% to about 28.6.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-dow-plunges-1-100-points-as-the-s-and-p-500-suffers-its-6th-straight-day-of-losses/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Update: Anthropic closes debut at $97.17, up 17% after opening at $111.50",
+   "summary": "What changed: ANT opened ~34% above the $83 offer and touched about $115 before fading through the session to close +17%, giving a market value of roughly $1.27T on Forbes' count. Volume topped 600M shares by early afternoon.",
+   "source": "Forbes",
+   "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Polymarket odds of a $1.5T first-day close collapsed to ~28% before the bell",
+   "summary": "Because Polymarket settles on basic shares outstanding (~$1.1T at the offer price), a $1.5T close needed a ~36% pop; the most-traded bracket was $1.25-1.5T. ANT's close landed inside that range on basic-share math.",
+   "source": "24/7 Wall St.",
+   "url": "https://247wallst.com/investing/2026/11/19/anthropics-1-5-trillion-ipo-odds-just-collapsed-to-28-heres-what-investors-need-to-know/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Japan / Korea",
+   "importance": 3,
+   "tickers": [
+    "^N225",
+    "^KS11",
+    "9984.T",
+    "000660.KS"
+   ],
+   "headline": "Asia slides Friday: Nikkei down as much as 4.5%, Kospi below 5,000, SoftBank -14%",
+   "summary": "Wall Street's late AI reversal hit Asian chip names at the open: SoftBank Group fell ~14%, Kioxia ~10%, SK Hynix ~6% and Samsung ~5%. Tokyo is closed Monday for a holiday.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262314224-japan-korea-stocks-skhy-kospi-nikkei-samsung-skhynix-softbank-kioxia-anthropic-ant-krx-tradingkey",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "AMD"
+   ],
+   "headline": "AMD sinks ~7.7% after Hunterbrook short report on China firmware links",
+   "summary": "The short seller alleges newer AMD firmware reached a blacklisted Chinese server maker; these are allegations and AMD had not been found in breach. AMD was among the biggest drags on the Nasdaq 100.",
+   "source": "Vista Partners",
+   "url": "https://vistapglobal.com/stock-market-today-november-19-2026-anthropic-ipo-pops-wall-street-loses-its-appetite-amd-ant-eprx-insm-jpm-ma-modd-panw-ser-sls-v-wmt/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US / China",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia falls 3.3% for a sixth day as US closes China remote-access chip loophole",
+   "summary": "Washington tightened rules to stop Chinese firms renting advanced Nvidia chips via overseas data centers, and interim CEO Kress said no further licensed H200 shipments to China are planned. NVDA closed at $145.98, a 52-week low, on heavy volume.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-nvidia-slides-as-investors-weigh-ceo-transition-fallout-despite-strong-q3-results/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Philly Fed activity slumps to 6.3 while prices paid jump to 58.2; jobless claims 203K",
+   "summary": "The Philadelphia Fed index fell from 20.9 as input-price pressure rose sharply, a stagflation-flavoured mix. Initial claims were 203K vs ~197K expected and continuing claims rose 70K to 1.76M.",
+   "source": "Vista Partners",
+   "url": "https://vistapglobal.com/stock-market-today-november-19-2026-anthropic-ipo-pops-wall-street-loses-its-appetite-amd-ant-eprx-insm-jpm-ma-modd-panw-ser-sls-v-wmt/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [],
+   "headline": "Update: December hike odds ~91-95%; Fed split between Waller's 50bp case and Williams' caution",
+   "summary": "What changed: pricing for a 50bp move edged up to ~9% as Goolsbee reportedly said all options are on the table, while Williams argued the situation does not call for dramatic action. Musalem expects several hikes before spring; FOMC decides Dec 9.",
+   "source": "Trading and Investment News",
+   "url": "https://www.tradingandinvestmentnews.co.uk/fed-december-rate-hike-officials/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "INTU"
+   ],
+   "headline": "Intuit falls ~10% after hours on soft Q2 outlook; agrees to sell Mailchimp for $3.68B",
+   "summary": "FQ1 revenue of $4.35B (+12%) and adjusted EPS of $2.91 beat guidance, but Q2 revenue guidance of +6-7% and a trimmed FY revenue range (Credit Karma) weighed. Mailchimp goes to Bending Spoons for cash plus stock; Elastic slipped ~6% despite a beat.",
+   "source": "Analysis Official (Substack)",
+   "url": "https://analysisofficial.substack.com/p/after-hours-technology-earnings-thursday-828",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US / France",
+   "importance": 2,
+   "tickers": [
+    "INSM",
+    "SNY"
+   ],
+   "headline": "Insmed jumps ~21% on report Sanofi is weighing a takeover; Palo Alto +6% on results",
+   "summary": "Insmed rallied after a Bloomberg report that Sanofi is considering a bid (unconfirmed). Palo Alto rose on 39% revenue growth, a raised FY27 outlook and its $4.5B Applied Compute stock deal.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-dow-plunges-1-100-points-as-the-s-and-p-500-suffers-its-6th-straight-day-of-losses/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^BSESN",
+    "MARUTI.NS"
+   ],
+   "headline": "GIFT Nifty pointed ~1.4% higher before the US rout; Nifty closed Thursday at 25,514",
+   "summary": "Sensex ended Thursday +990 at 83,022 led by Maruti (+7.6%), M&M and Axis Bank, while IT lagged. The upbeat GIFT Nifty indication predates Wall Street's late slide, so Friday's open is likely to be weaker than flagged.",
+   "source": "HDFC Sky",
+   "url": "https://hdfcsky.com/news/gift-nifty-signals-higher-open-for-sensex-nifty-on-friday",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "GC=F",
+    "SI=F"
+   ],
+   "headline": "Update: gold breaks below $3,650 to its lowest since Sept 2025; silver -4.7%",
+   "summary": "What changed: spot gold closed near $3,625 (-2.6%), down almost a third from January's peak, as 5% yields, a strong dollar, ETF outflows and margin-related liquidation hit bullion. FOREX.com's Razaqzada flags $3,500 as the next level.",
+   "source": "Startup Fortune",
+   "url": "https://startupfortune.com/golds-bad-year-is-getting-worse-as-it-sinks-below-3650/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "headline": "Bitcoin approaches $60K as US spot ETF outflows for 2026 pass $2.5B",
+   "summary": "BTC fell ~2% to about $61.6K (-13% on the week) after another $300M+ of ETF outflows on Wednesday; ether slid toward $1,745. Hawkish Fed pricing and the equity selloff were the cited drivers.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/crypto-market-today-nov-19-bitcoin-approaches-usd60-000-as-etf-outflows-surpass-usd2-5-billion-in-2026/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "Japan",
+   "importance": 2,
+   "tickers": [
+    "JPY=X"
+   ],
+   "headline": "Yen pinned near 160 as Ueda keeps a December BoJ hike in play",
+   "summary": "USD/JPY hovered around 159.3-159.7 with Tokyo repeating intervention warnings; Ueda told parliament policy remains accommodative and rates should keep rising. DXY sits near a 19-month high around 103.9.",
+   "source": "FXStreet",
+   "url": "https://www.fxstreet.com/news/japanese-yen-finds-support-as-intervention-risks-linger-near-16000-202611181610",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 1,
+   "tickers": [
+    "^STOXX"
+   ],
+   "headline": "European shares lose ~0.9% as US-led AI selling spreads late in the session",
+   "summary": "Per the price feed, the STOXX 600 fell ~0.9%, DAX ~1.1% and FTSE 100 ~0.9%, with sterling the weakest major (GBP/USD -0.8%). Gains from the morning's Anthropic optimism faded.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/stock-market-update/nikkei-slides-4-5-and-kospi-tumbles-as-wall-street-s-ai-reversal-hits-asian-chipmakers/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Next: Japan CPI and options expiry Friday; Tokyo shut Monday; RBI MPC Dec 2-4, FOMC Dec 8-9, US CPI Dec 10",
+   "summary": "Friday brings Japan's national CPI (a BoJ input) and US monthly options expiry after a sixth straight S&P loss. Underwriters hold a 30-day option on ~147M more ANT shares.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/stock-market-update/nikkei-slides-4-5-and-kospi-tumbles-as-wall-street-s-ai-reversal-hits-asian-chipmakers/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "ANT",
+    "GOOGL",
+    "AMZN"
+   ],
+   "headline": "Anthropic's $81B IPO, the largest on record, trades up 17% on day one",
+   "summary": "Anthropic sold ~956M of the 980M shares itself at $83; the prospectus shows H1 2026 revenue of $16.3B and a large H1 net loss of ~$80.7B per Forbes. Amazon and Alphabet hold roughly 11% and 10% fully diluted.",
+   "source": "Forbes",
+   "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Nvidia / US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia halts planned H200 sales to China as US closes remote-access route",
+   "summary": "Interim CEO Colette Kress said no further licensed H200 shipments are planned; China contributed ~$2.4B last quarter. Separately, US rules now require licences for advanced chips going to data centres in several Southeast Asian countries and Brazil.",
+   "source": "The Verge",
+   "url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Microsoft",
+   "importance": 2,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Microsoft ships Decision 1.1 and rebuilds Copilot around autonomous 'Autopilot' agents",
+   "summary": "Decision 1.1 is billed as over 2x faster at the same cost and is available via Foundry, OpenRouter and Vercel. Ignite's Copilot Autopilot pitch centres on agents doing multi-step work, with some features still in development.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-thursday-november-19-2026/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "OpenAI launches ChatGPT for Accounting and ChatGPT for Sales",
+   "summary": "The accounting product prepares invoices, reconciles records and drafts reports through connected accounting apps, with human review built in. Relevant to fund-admin workflows; availability details are on OpenAI's business pages.",
+   "source": "OpenAI",
+   "url": "https://openai.com/business/solutions/accounting/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "SenseTime / Shanghai AI Lab",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Open-weights roll: SenseTime Loop-9B, Shanghai AI Lab's 321B Sage S2.1 Flash",
+   "summary": "SenseTime's Loop-9B reuses layers for deeper computation and offers a 512K context; Sage S2.1 Flash is a downloadable scientific model handling molecules and proteins. Kuaishou also launched Kling Image 4.0 with native 8K output.",
+   "source": "TechNode",
+   "url": "https://technode.com/2026/11/18/sensetime-releases-open-weight-loop-9b-model-that-reuses-layers-for-deeper-computation/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US banks",
+   "importance": 2,
+   "tickers": [
+    "C",
+    "PNC",
+    "CFG"
+   ],
+   "headline": "Citi, PNC and Citizens shift AI-agent losses onto customers, even if agents are hacked",
+   "summary": "New account terms make holders liable for transactions by third-party AI agents, following similar moves by JPMorgan and BofA in October. Agentic payments liability is becoming a live consumer-protection issue.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Nvidia / OpenAI",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia backs up to $105B of guarantees for OpenAI's Ohio data-centre leases",
+   "summary": "The guarantees support about 4.25GW under 20-year leases and are a ceiling rather than cash invested. It adds to scrutiny of vendor financing after Kress defended Nvidia's customer-financing programme.",
+   "source": "Benzinga",
+   "url": "https://www.benzinga.com/trading-ideas/long-ideas/26/11/63403457/nvidia-openai-105-billion-bet",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Google",
+   "importance": 1,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google previews Stitch Loop agent and donates Sashiko kernel code-review tool",
+   "summary": "Stitch Loop reads a codebase plus live metrics and proposes post-launch improvements (waitlist). Sashiko, a Gemini-powered agentic reviewer for the Linux kernel, was donated to the Linux Foundation.",
+   "source": "Google",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/stitch-loop/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Altman calls handing decisions to AI 'a terrible idea'; Brockman says monitoring falls short",
+   "summary": "At DealBook, Brockman cited OpenAI's July containment incident as a reason current oversight is insufficient. OpenAI also published an overview of frontier-risk controls including training pauses.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/18/sam-altman-warns-against-a-future-where-ai-not-humans-calls-the-shots/",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Meta",
+   "importance": 1,
+   "tickers": [
+    "META"
+   ],
+   "headline": "Meta's Muse AI reportedly read Signal messages via Android notifications, staff warned",
+   "summary": "Per Reuters reporting, internal staff flagged that Muse could read encrypted Signal messages surfaced in notifications. Separately, xAI faces a lawsuit over Grok-generated non-consensual images.",
+   "source": "AI Weekly",
+   "url": "https://aiweekly.co/alerts/metas-muse-ai-read-signal-messages-staff-warned-internally",
+   "date": "2026-11-19"
+  }
+ ]
+}
