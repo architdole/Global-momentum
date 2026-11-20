@@ -1,6 +1,6 @@
 {
  "run_at": "2026-11-20T07:25:00Z",
- "market_brief": "The AI unwind has gone global: after Thursday's US rout (S&P 500 -1.9%, Nasdaq 100 -2.1%, SOX -10% on the week, VIX ~28), the Nikkei and Kospi each fell 4-5% on Friday and MSCI Asia ex-Japan is heading for its worst week since March 2020, with Euro Stoxx 50 futures down ~1.6% and S&P futures ~-0.5%. Anthropic slipped ~5% after hours to ~$92.60 (still above its $83 offer) on reports of Apple's own agent plans, even as FTSE Russell and MSCI fast-tracked it into their indexes. The dollar sits near a 19-month high (DXY ~103.9) with a December Fed hike ~96% priced, yet the 10Y has eased to ~5.03-5.05% on haven demand; deleveraging hit metals again, with gold down ~3.5% toward $3,530-3,560 and silver off ~8% intraday, and BTC near $61.7k. Japan's October core CPI (2.2%) missed forecasts, slightly tempering BoJ December-hike conviction, and the PBoC held LPRs for an 18th month. India is the outlier: Sensex/Nifty recovered from an early dip to trade ~0.4% higher (Nifty ~25,615) with the rupee firmer near 92.9. Note: the price snapshot in the dashboard is from 19:36 UTC Thursday and does not yet include Friday's Asian session.",
+ "market_brief": "The AI unwind has gone global: after Thursday's US rout (S&P 500 -2.0%, Nasdaq 100 -2.2%, SOX -2.4% and -10% on the week, VIX +16% to ~28.4), Asia closed Friday sharply lower — Taiwan -6.2% (-17.5% on the week), Kospi -5.2% (below 4,900), Nikkei -5.1%, Hang Seng -2.2% — and MSCI Asia ex-Japan is on course for its worst week since March 2020, with Euro Stoxx 50 futures ~-1.6% and S&P futures ~-0.5%. Anthropic slipped ~5% after hours to ~$92.60 (still above its $83 offer) on reports of Apple's own agent plans, even as FTSE Russell and MSCI fast-tracked it into their indexes. A December Fed hike is ~96% priced and DXY holds near 103.7, yet the 10Y has eased to ~5.05% on haven demand; deleveraging hit metals again, with gold -3.6% to ~$3,552 (-8.6% on the week) and silver -5.7%, while Brent fell 2.2% to $90 and BTC is flat near $61.8k. Japan's October core CPI (2.2%) missed forecasts and the PBoC held LPRs for an 18th month. India is the outlier: Nifty +0.9% to ~25,734 and Nifty Bank +2.0%, with the rupee firmer at ~92.98 as foreign inflows continue.",
  "ai_brief": "Day two of Anthropic as a listed company is about how the market prices AI leaders versus their suppliers: ANT eased after hours on Apple agent-hiring reports, while Nvidia drew a California AG subpoena and new congressional disclosures on approved China chip sales. On the product side, Google's Gemini 4 Neon ($3/$15 per million tokens, 1M context) is the notable frontier launch of the week, DeepMind showed AlphaProof Code verifying Signal's protocol in Lean, and DeepSeek reportedly closed a ~$15.8B round. Agent liability is becoming a theme, from banks pushing AI-agent losses onto customers to 39 state AGs contesting Character.AI's IP sale to Disney.",
  "items": [
   {
@@ -13,8 +13,8 @@
     "^KS11",
     "9984.T"
    ],
-   "headline": "Nikkei and Kospi drop 4-5% as Asia heads for its worst week since March 2020",
-   "summary": "Wall Street's AI reversal spilled into Asia on Friday: the Nikkei fell ~4.1% and the Kospi ~4.7%, putting them on course for weekly drops of ~6.8% and ~7.5%. MSCI's Asia-Pacific ex-Japan index lost 2.5% on the day and ~7% on the week, its worst since March 2020.",
+   "headline": "Taiwan -6.2%, Kospi -5.2%, Nikkei -5.1% as Asia heads for its worst week since March 2020",
+   "summary": "Wall Street's AI reversal hit Asian chip-heavy markets on Friday, with the Taiex down 17.5% on the week and the Kospi closing below 4,900. MSCI's Asia-Pacific ex-Japan index lost ~2.5% on the day and ~7% on the week, its worst since March 2020, per Reuters.",
    "source": "Reuters via Regional Media News",
    "url": "https://www.regionalmedianews.com/news/national/business/asian-shares-head-for-worst-week-since-2020-as-ai-trade-gloom-fails-to-abate/",
    "date": "2026-11-20"
@@ -103,8 +103,8 @@
     "^BSESN",
     "INR=X"
    ],
-   "headline": "Sensex and Nifty shrug off Asia rout, turning ~0.4% higher by midday; rupee firms to ~92.9",
-   "summary": "After an early dip, Indian benchmarks recovered on gains in banks and IT, with the Nifty near 25,615 and the Sensex near 83,378 around noon IST, while metals lagged. The rupee strengthened to about 92.91 per dollar from a 93.30 close.",
+   "headline": "Sensex and Nifty shrug off Asia rout, rising ~0.8-0.9%; Nifty Bank +2%, rupee firms to ~93",
+   "summary": "After an early dip, Indian benchmarks recovered on gains in banks and IT, with the Nifty near 25,734 and Nifty Bank up ~2%, while metals lagged. The rupee strengthened toward 92.9-93.0 per dollar from a 93.30 close.",
    "source": "Business Standard",
    "url": "https://www.business-standard.com/markets/news/stock-market-live-november-20-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-126112000118_1.html",
    "date": "2026-11-20"
