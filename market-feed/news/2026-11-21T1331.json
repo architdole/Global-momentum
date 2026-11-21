@@ -1,0 +1,378 @@
+{
+ "run_at": "2026-11-21T13:31:00Z",
+ "market_brief": "The weekend picture is of an AI unwind going global and Nvidia's troubles widening. The S&P 500 ended at 6,910 (-3.7% Friday, -8.6% w/w), NDX -5.6%, SOX -10.7% and VIX 35.9, while Nikkei, Kospi and Taiwan each lost 5-6% and China/HK hit their lowest since mid-2025. Nvidia now also faces a reported DOJ/Commerce look at Singapore customer Megaspeed, a delayed 10-Q and House interviews in early December. Treasuries rather than gold are the haven: the 10Y fell 14bp to 4.91% even as markets price ~90% odds of a 25bp December Fed hike, with jumbo-hike bets fading. Gold fell 4.6% to ~$3,515 and bitcoin dropped to ~$55k Saturday after $1.5B of weekly crypto-ETF outflows. India stays the outlier: Nifty +1.1% to 25,800 on record ~₹1.1 lakh crore November FII buying, with the F&O expiry moved to Monday and Dell, Deere, HPE results plus US PCE in Thanksgiving week.",
+ "ai_brief": "Most AI news this weekend is about the market and US-China friction: lawmakers want tighter chip rules after disclosure of ~880k approved H200/MI325X licences for China, a report says Nvidia sought licences for PLA-linked buyers, and House chairs are widening their scrutiny of US firms using Chinese open-weight models. On products, OpenAI says GPT-6.2 Astra almost blocks reasoning-extraction attacks and is redesigning ChatGPT around its Dots agents, while Google built Duplex calling into Gemini Tasks and Mistral opened an APAC base in Singapore. Who carries liability when AI agents act in bank accounts is becoming a policy question.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Update: Nvidia probe widens to DOJ/Commerce look at Singapore customer; 10-Q delayed, House interviews set",
+   "summary": "What's new beyond the SEC accounting probe: the Justice and Commerce Departments are reportedly examining whether Singapore-based customer Megaspeed diverted restricted chips to China, and three House committees plan closed-door interviews with Jensen Huang and the general counsel in early December. Nvidia says its 10-Q will be delayed while an independent board committee reviews matters.",
+   "source": "Business Today",
+   "url": "https://www.businesstoday.in/latest/corporate/story/us-sec-launches-probe-into-potential-accounting-issues-at-nvidia-scrutiny-over-china-ties-widen-568860-2026-11-21",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "China / Hong Kong",
+   "importance": 2,
+   "tickers": [
+    "000300.SS",
+    "^HSI"
+   ],
+   "headline": "China and Hong Kong stocks sink to lowest since mid-2025 as AI selloff spreads to Asia",
+   "summary": "The Shanghai Composite and CSI 300 posted their lowest closes since July 2025, with Shanghai down 2.8% on the week and Hong Kong tech off 3.8% Friday. Chinese AI names MiniMax and Z.AI hit record lows, MiniMax losing over 30% on the week.",
+   "source": "Business Recorder",
+   "url": "https://www.brecorder.com/news/40450059/china-hk-stocks-sink-as-wall-st-selloff-dents-sentiment",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "XLK",
+    "XLC",
+    "XLP",
+    "XLU",
+    "XLE"
+   ],
+   "headline": "Tech sector ETF fell 12.5% on the week while staples and utilities held up",
+   "summary": "XLK lost 12.5% over Nov 16-20, communication services 8% and materials 7.5%, versus about -2% for staples and -3% for utilities. Energy remains the best sector year to date; Nebius, Celestica and Bloom Energy each fell roughly 15-16% Friday.",
+   "source": "Current Logic (Substack)",
+   "url": "https://currentlogic.substack.com/p/dispersion-brief-week-in-review-nov-26d",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Prediction markets fade jumbo-hike bets: ~2.5% odds for a 50bp December Fed move",
+   "summary": "Late Friday, Kalshi and Polymarket US priced roughly 89.5% for a 25bp hike on Dec 9, about 2.5% for 50bp or more and 8-10% for a hold; CME futures implied about 93% for 25bp. The 50bp odds had been near 10% earlier in the week.",
+   "source": "Prediction Market Picks",
+   "url": "https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "XLK"
+   ],
+   "headline": "Lipper: $59B poured into global equity funds in week to Nov 18 as investors bought the AI dip",
+   "summary": "It was the ninth straight weekly inflow and the largest since June, with US tech funds drawing $10.3B. The data predates the late-week rout, implying many dip buyers are now under water.",
+   "source": "CEO Economy (LSEG Lipper data)",
+   "url": "https://ceoeconomy.com/article/global-equity-funds-ninth-week-inflows-lipper",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "IBIT",
+    "ETHA"
+   ],
+   "headline": "US crypto ETFs shed about $1.47B in the week; BlackRock funds led withdrawals",
+   "summary": "Spot bitcoin ETFs saw roughly $1.25B of net outflows over Nov 16-20 and ether ETFs about $222M, with BlackRock's products the biggest source in both groups.",
+   "source": "COINOTAG",
+   "url": "https://en.coinotag.com/bitcoin-btc-etf-outflows-1-25b-week-ibit-record",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BTC",
+    "MSTR"
+   ],
+   "headline": "Update: bitcoin rebounds above $58k after $55.1k low; Strategy now ~23% under its cost basis",
+   "summary": "New since the sub-$56k print: bitcoin bounced back above $58k Saturday and is on course for a seventh straight weekly loss. Strategy fell 9.7% Friday, leaving bitcoin well below its ~$75.5k average cost; liquidations topped $2.4B, per a crypto newsletter.",
+   "source": "Ted Pillows (Substack)",
+   "url": "https://tedpillows.substack.com/p/crypto-and-finance-market-report-13a",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI"
+   ],
+   "headline": "FII November buying in Indian equities tops ₹1.1 lakh crore, a monthly record",
+   "summary": "Foreign investors bought about ₹1.12 lakh crore through Nov 19 after selling roughly ₹45,000 crore in each of September and October, including ₹10,308 crore on Friday alone. Domestic institutions have been net sellers of about ₹57,000 crore this month.",
+   "source": "Multibagg Market Pulse",
+   "url": "https://www.multibagg.ai/market-pulse/articles/fii-november-buying-record-cmwq6h3yv000z2rlbd9zv72w8",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^NSEBANK"
+   ],
+   "headline": "India's November F&O expiry moves to Monday; FIIs still net short index futures",
+   "summary": "Tuesday's Guru Nanak Jayanti holiday pulls the monthly derivatives expiry forward to Nov 23, with FIIs still net short about 70,400 index-futures contracts despite heavy cash buying. The Mahanadi Coalfields OFS was reportedly under half subscribed going into Monday's close.",
+   "source": "Trendlyne (The Baseline)",
+   "url": "https://trendlyne.com/posts/5961622/pre-monday-india-surges-in-a-wobbling-global-market",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "India",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Razorpay may file public IPO papers as soon as next week, targeting a February listing",
+   "summary": "The payments firm is reportedly planning a roughly $600M issue of fresh shares plus an offer for sale at a valuation near $5B, below its 2021 private mark of $7.5B. SEBI issued observations on its confidential filing on Nov 3.",
+   "source": "Trendlyne (The Baseline)",
+   "url": "https://trendlyne.com/posts/5961622/pre-monday-india-surges-in-a-wobbling-global-market",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "India",
+   "importance": 2,
+   "tickers": [],
+   "headline": "India core-sector output grows 10.9% in October, a new-series high on a low base",
+   "summary": "Iron ore, coal, electricity and cement led the gains while fertilisers, natural gas and crude declined; October 2025 growth was only 0.8%. October IIP is due Nov 28 and Q2 GDP on Nov 30.",
+   "source": "The Indian Eye",
+   "url": "https://theindianeye.com/2026/11/21/core-industries-growth-accelerates-in-october/",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "South Africa",
+   "importance": 1,
+   "tickers": [
+    "ZAR=X"
+   ],
+   "headline": "SARB holds repo at 7.25%, sees inflation above its 3% target into early 2027",
+   "summary": "Governor Kganyago described policy as moderately restrictive and trimmed the Q4 2026 CPI forecast to 5.1%, with the model pointing to cuts in 2027. A scenario with oil at $130 would imply at least two hikes.",
+   "source": "BusinessDay",
+   "url": "https://www.businessday.co.za/business-times/2026-11-21-reserve-bank-sees-inflation-hovering-above-target-into-early-2027/",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "DELL"
+   ],
+   "headline": "Dell reports Tuesday trading about 47% below its high; AI-server guidance in focus",
+   "summary": "Dell reports fiscal Q3 after the close on Nov 24, having guided to about $49B revenue and roughly $19B of AI-server revenue against a reported $95B AI backlog. TradingKey puts the stock near 12x full-year EPS guidance.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262315073-dell-earnings-tuesday-47-percent-below-high-295-25-support-november-21-2026-tradingkey",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "SPY"
+   ],
+   "headline": "Weekend column calls 11.6% S&P drawdown a correction, not a crash, and suggests raising cash",
+   "summary": "A Seeking Alpha market note measures the S&P 500 down 11.6% from its Oct 6 high, notes bonds, staples, utilities and value held up, and suggests lifting cash toward 15% into any relief rally rather than exiting stocks.",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/article/4970815-the-1-minute-market-report-november-21-2026",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "HPE",
+    "ADI",
+    "MDT",
+    "DELL",
+    "DE"
+   ],
+   "headline": "Thanksgiving-week earnings: HPE Monday, ADI, Medtronic and Dell Tuesday, Deere Wednesday",
+   "summary": "Consensus EPS: HPE $1.29, ADI $3.92, Medtronic $1.34, Dell $6.71 and Deere $4.17; Zoom, Workday, Autodesk, Best Buy and HP also report. A Fed Williams speech Monday and the Beige Book Wednesday join US GDP and PCE.",
+   "source": "Current Logic (Substack)",
+   "url": "https://currentlogic.substack.com/p/dispersion-brief-week-in-review-nov-26d",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "United States / China",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "AMD"
+   ],
+   "headline": "Lawmakers push tougher AI chip rules after records show ~880k approvals for Chinese buyers",
+   "summary": "US legislators are pressing for stricter export controls after Rep. Brian Mast disclosed that about 880,000 Nvidia H200 and AMD MI325X chips had been approved for Chinese entities as of May. Nvidia says it has halted H200 shipments to China.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown?traffic_source=rss",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Nvidia",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Report: Nvidia sought export licences for chips to firms linked to China's military",
+   "summary": "Chosunbiz reports, without confirmation from Nvidia, that the company applied for licences to ship AI chips to Chinese companies with PLA ties, adding to its regulatory pressure.",
+   "source": "Chosunbiz",
+   "url": "https://biz.chosun.com/en/en-international/2026/11/21/YE6UOEWBZJGVHLWYYRFTQKU2OY/",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "United States",
+   "importance": 2,
+   "tickers": [],
+   "headline": "House committee chairs widen scrutiny of US firms building on Chinese open-weight models",
+   "summary": "The Record reports that House chairs are criticizing US companies for relying on Chinese open-weight AI models, extending a probe that earlier targeted firms including DoorDash, Airbnb and Anysphere.",
+   "source": "The Record",
+   "url": "https://therecord.media/chinese-open-weight-AI-use-by-US-companies-house-investigation",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "OpenAI says GPT-6.2 Astra nearly shuts down reasoning-extraction distillation attacks",
+   "summary": "OpenAI says internal red-team attacks extracting protected reasoning now succeed 0.2% of the time on GPT-6.2 Astra versus 54% on GPT-6 Astra, and that it acts weekly against thousands of accounts; the figures are self-reported.",
+   "source": "ANI via Punjab Kesari",
+   "url": "https://english.punjabkesari.com/business/openai-strengthens-safeguards-against-ai-model-distillation-reports-sharp-drop-in-reasoning-extraction-attacks",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "ChatGPT mobile redesign rolls out with a dedicated tab for Dots agents",
+   "summary": "Android Authority reports a redesigned ChatGPT app with a standalone tab for Dots, OpenAI's always-on agents, while OpenAI has reportedly begun testing Dots with some Plus subscribers.",
+   "source": "Android Authority",
+   "url": "https://www.androidauthority.com/chatgpt-app-redesign-rollout-3737931/",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google folds Duplex calling into Gemini Tasks",
+   "summary": "A Google Research post describes how Duplex now powers Gemini Tasks, which phones businesses on users' behalf for things like reservations, extending Gemini's agent features.",
+   "source": "Google Research blog",
+   "url": "https://research.google/blog/how-google-duplex-evolved-to-also-call-businesses-for-you-in-gemini",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Mistral AI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Mistral opens Asia-Pacific headquarters in Singapore to pursue sovereign-AI deals",
+   "summary": "Mistral set up an APAC base in Singapore, building on partnerships with Singtel and HTX, days after a reported €100M investment from Deutsche Telekom.",
+   "source": "The Next Web",
+   "url": "https://thenextweb.com/news/mistral-opens-asia-pacific-headquarters-in-singapore-to-build-sovereign-ai",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "United States",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Treasury nominee gives no clear answer on liability when AI agents misuse bank accounts",
+   "summary": "FedScoop reports a Treasury nominee would not say who is responsible when AI agents make unauthorized moves in customer bank accounts, as banks warn customers they may bear the cost.",
+   "source": "FedScoop",
+   "url": "https://fedscoop.com/treasury-nominee-ai-agents-bank-accounts/",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Zscaler",
+   "importance": 1,
+   "tickers": [
+    "ZS"
+   ],
+   "headline": "Zscaler announces partnerships with frontier model providers on enterprise AI security",
+   "summary": "Zscaler says it is working with frontier AI model providers to help enterprises adopt AI safely and block AI-driven attacks, without naming the providers; it comes amid reported CrowdStrike takeover talks.",
+   "source": "GlobeNewswire via The Manila Times",
+   "url": "https://www.manilatimes.net/2026/11/21/tmt-newswire/globenewswire/zscaler-partners-with-frontier-model-providers-to-help-enterprises-safely-embrace-ai-and-stop-ai-driven-attacks/2475316",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "GitHub",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Weekly GitHub trending: agent reverse-engineering, Rust rewrites and Claude bug-hunting skills",
+   "summary": "GitDiscover's weekly ranking is led by morluto/rea, erkamyaman/rust-anything, elementalsouls/Claude-BugHunter and the local agent simplexai-labs/linger, with google-research/paper-orchestra climbing.",
+   "source": "GitDiscover",
+   "url": "https://gitdiscover.org/rankings/weekly/2026-11-20",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Europa Fusion Industries (UK)",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Daniel Ek backs AI researcher's fusion power startup",
+   "summary": "TechCrunch reports Spotify founder Daniel Ek is backing UK fusion startup Europa Fusion Industries, founded by AI researcher Nantas Nardelli; terms were not disclosed.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/20/daniel-ek-backs-ai-researchers-fusion-power-startup-heres-what-theyre-building/",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Newsletters / HN / X",
+   "importance": 1,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Feed focus: Anthropic's 'IPO bust' framing, AI-made math and chips, self-editing models",
+   "summary": "Saturday digests are dominated by the Riemann and physics claims plus the AI-designed Frostbite CPU, the WSJ's 'IPO bust' framing of Anthropic's post-debut slide, and an arXiv paper on models rewriting their own weights.",
+   "source": "agents-radar Hacker News AI Digest",
+   "url": "https://github.com/yaojiejia/agents-radar/issues/511",
+   "date": "2026-11-21"
+  }
+ ]
+}
