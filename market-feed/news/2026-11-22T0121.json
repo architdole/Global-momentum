@@ -1,0 +1,322 @@
+{
+ "run_at": "2026-11-22T01:21:00Z",
+ "market_brief": "Weekend news is light, so Monday's open inherits Friday's damage: S&P 500 6,910 (-3.7% d, -8.6% w/w, in correction), NDX -5.6%, SOX -10.7% with Nvidia -14% to $125.53 and AMD -13%, and VIX at 35.9; Anthropic held just above its $83 IPO price at $88.91. Bonds are doing the hedging: the 10Y fell 14bp to 4.91% and the 2Y ~25bp on the week, and the debate is shifting to whether the rout stops the Fed after a still ~92%-priced December hike. Crypto steadied, with bitcoin back near $60k (+2.3%) after a $55k low and ~$2.5B in liquidations, while gold (-4.6% to ~$3,515) and silver (-7.4%) were sold for liquidity and DXY held ~103.8. India is the contrast, with Nifty at 25,800 (+1.1% Friday, +14% in four weeks) led by banks; the US week brings PCE and GDP on Wednesday, Dell/HPE/Workday/Deere earnings and a Thanksgiving-shortened session.",
+ "ai_brief": "AI news this weekend was operational rather than headline launches: ChatGPT suffered a multi-hour outage peaking at 75% failures, and Google opened Genie 4 as a paid API. At SC26 Anthropic said Claude Mythos ported workloads to AMD GPUs in about three days, sharpening the CUDA-moat debate as Nvidia unveiled Rubin HPC. Private valuations keep diverging from public AI stocks, with Cognition reportedly raising at ~$75B and Agile Robots at $8.5B.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic ends first full week at $88.91, barely above its $83 IPO price",
+   "summary": "Anthropic shares fell 8.5% on Friday from Thursday's $97.17 and touched $83.05 intraday, just above the IPO price, as the AI selloff hit the newly listed stock.",
+   "source": "Nocta Daily Brief",
+   "url": "https://noctaaa.substack.com/p/daily-brief-saturday-21-november-2026",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "United States",
+   "importance": 3,
+   "tickers": [
+    "^TNX",
+    "^FVX"
+   ],
+   "headline": "Weekend debate: could the equity rout stop the Fed after its December hike?",
+   "summary": "The 2Y yield fell about 25bp on the week to 4.63% and the 10Y to roughly 4.92%, yet FedWatch still shows ~92% odds of a Dec 9 hike. OnePoint BFG's Peter Boockvar argues the selloff may halt further tightening; Citi still expects December and Gov. Cook says conditions remain too loose.",
+   "source": "24/7 Wall St.",
+   "url": "https://247wallst.com/investing/2026/11/21/this-stock-market-selloff-could-block-the-feds-rate-hikes/",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ORCL"
+   ],
+   "headline": "Oracle says its OpenAI compute contract is fully funded after ~$20B raise",
+   "summary": "Oracle reportedly said it has all the funding needed for the roughly $300B OpenAI deal after raising about $20B this month; the stock closed down 8.5% at $101.19 Friday before gaining ~3.5% after hours.",
+   "source": "DEV Community (AI Daily Digest)",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-22-2026-openais-75-outage-oracles-money-loop-genie-4-opens-up-3239",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "AMD",
+    "INTC"
+   ],
+   "headline": "Chip rout Friday: Nvidia -14%, AMD -13%, Intel -8%; Nvidia still talks up Vera CPU growth",
+   "summary": "Nvidia closed at $125.53 and AMD fell 13.3% as the SOX dropped 10.7%. A Motley Fool analysis notes interim CEO Colette Kress expects Nvidia's CPU revenue to more than double in fiscal 2028, with standalone Vera demand from Oracle, Meta, OpenAI and CoreWeave.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/investing/2026/11/21/nvidia-just-issued-a-major-warning-to-amd-and-intel-stock-investors/",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "United States",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "California AG serves Nvidia with investigative subpoena over China-risk disclosures",
+   "summary": "The California attorney general's office has reportedly subpoenaed Nvidia to examine whether investors were misled about China risks, adding a state track to the SEC and federal reviews already reported.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/california-ag-issued-an-investigative-subpoena-on-nvidia-nvda-to-prove-if-the-co-misled-investors-regarding-china-risks",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nine analysts cut Nvidia to hold this week over CEO vacuum and SEC probe",
+   "summary": "TheStreet's Rev Shark counted nine downgrades to hold after Nvidia's beat, citing the lack of a permanent CEO and the SEC accounting review; the stock has since fallen from ~$150 to ~$126.",
+   "source": "TheStreet Pro",
+   "url": "https://pro.thestreet.com/market-commentary/anthropic-will-have-to-boost-the-market-where-nvidia-faded",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 3,
+   "tickers": [
+    "BTC-USD",
+    "ETH-USD"
+   ],
+   "headline": "Update: bitcoin reclaims $60,000 after $55.1k low; ~$2.55B liquidated",
+   "summary": "Bitcoin bounced back above $60k within hours of Saturday's low (near $60.2k in the latest snapshot, ether +3.8%). About $2.55B of positions were liquidated in 24 hours per CoinGlass data, and the Fear & Greed index sat near 10.",
+   "source": "Crypto briefing (agentic-blog mirror)",
+   "url": "https://github.com/elixirevo/agentic-blog/releases/tag/post-2026-11-22-crypto-briefing",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^NSEBANK",
+    "^BSESN"
+   ],
+   "headline": "Nifty's 14% four-week surge is its sharpest in six years; banks did most of the lifting",
+   "summary": "Nifty closed the week at 25,800.60, about 2% under its record, while midcaps were flat and smallcaps lower. Banks accounted for close to nine-tenths of the value added in five sessions; analysts flag 26,000 then 26,400 as resistance and 25,550 as support.",
+   "source": "Goodreturns",
+   "url": "https://www.goodreturns.in/news/indian-stock-market-outlook-next-week-23-27-nov-sensex-nifty-may-extend-rally-amid-easing-crude-o-1548735.html",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "UK / Australia",
+   "importance": 1,
+   "tickers": [
+    "GBPUSD=X",
+    "AUDUSD=X",
+    "DX-Y.NYB"
+   ],
+   "headline": "UK CPI undershoots BoE at 3.6%; Australian jobless rate climbs to 4.9%",
+   "summary": "October UK inflation came in below the BoE's 3.73% projection and Australian unemployment rose to 4.9%, pushing AUD/USD toward 0.666 as the dollar index briefly hit its highest since April 2025.",
+   "source": "FXIFY",
+   "url": "https://fxify.com/blog/trading-desk-brief-23-november/",
+   "date": "2026-11-19"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "China / US / Russia",
+   "importance": 1,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Shenzhen summit declaration calls for more oil supply but sets no timetable",
+   "summary": "The first Trump-Xi-Putin meeting produced a four-point statement on energy markets, nuclear risk and UN reform; commentators called it largely symbolic, and Brent still ended the week near $92.6.",
+   "source": "South China Morning Post",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3375130/xi-trump-and-putin-peace-declaration-suggests-summit-more-photo-op",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Global",
+   "importance": 1,
+   "tickers": [
+    "^GSPC",
+    "BTC-USD"
+   ],
+   "headline": "Retail crowd tunes in: weekend 'markets special' streams and prediction markets on bitcoin's Sunday close",
+   "summary": "The Motley Fool scheduled a live Nov 22 markets special after the correction, while Polymarket and Robinhood prediction contracts on bitcoin's Nov 22 price drew attention as BTC swung between $55k and $60k.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/investing/2026/11/21/markets-special-report-november-22-2026/",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "United States",
+   "importance": 3,
+   "tickers": [
+    "^GSPC",
+    "DELL",
+    "HPE",
+    "DE",
+    "ADI",
+    "WDAY"
+   ],
+   "headline": "Week ahead: PCE seen at 3.8% headline/3.2% core; Dell, HPE, Workday, Deere report",
+   "summary": "Consensus cited by U.S. Bancorp sees October PCE rising to 3.8% y/y (core 3.2%) and Q3 GDP revised to 3.5% on Wednesday; Conference Board confidence is Tuesday. HPE and Zoom report Monday, ADI/Best Buy/Dollar Tree Tuesday morning, Dell/HP/Workday Tuesday evening, Deere Wednesday; US markets shut Thursday and close early Friday, and the NRF expects fewer holiday-weekend shoppers than last year.",
+   "source": "BigGo Finance",
+   "url": "https://finance.biggo.com/news/d3bfdc93-2be5-4f6e-abd2-92338d928e66",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "ChatGPT outage peaked at 75% failures on Saturday",
+   "summary": "A roughly 3.5-hour outage on Nov 21 was reportedly traced to database maintenance that broke both read replicas behind authentication; OpenAI restored service by bringing up new replicas.",
+   "source": "DEV Community (AI Daily Digest)",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-22-2026-openais-75-outage-oracles-money-loop-genie-4-opens-up-3239",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Genie 4 world model opens to developers via Gemini API and AI Studio",
+   "summary": "Google made Genie 4 available as a paid API with no free tier, priced at $1.50 per million input tokens and up to $17.50 per million output tokens for video with audio.",
+   "source": "DEV Community (AI Daily Digest)",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-22-2026-openais-75-outage-oracles-money-loop-genie-4-opens-up-3239",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [
+    "ANT",
+    "AMD",
+    "NVDA"
+   ],
+   "headline": "Anthropic says Claude Mythos cut AMD GPU onboarding from months to about three days",
+   "summary": "Presented at SC26, the claim is that the model ported workloads to AMD MI355X GPUs in days rather than up to a year, feeding the debate over how durable Nvidia's CUDA software moat is.",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/tech-industry/supercomputers/this-week-on-toms-hardware-premium-21-november-2026-amd-nvidia-and-more-show-off-the-future-of-high-performance-computing-at-sc26",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Nvidia / AMD",
+   "importance": 1,
+   "tickers": [
+    "NVDA",
+    "AMD",
+    "INTC"
+   ],
+   "headline": "SC26: Nvidia unveils Rubin HPC; AMD now powers over 40% of the TOP500",
+   "summary": "Nvidia showed a Rubin variant with over 50,000 CUDA cores aimed at HPC, while AMD gained share on a TOP500 list with the fewest new systems in 33 years; Intel expects its Classiq deal to close in 1H 2027.",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/tech-industry/supercomputers/this-week-on-toms-hardware-premium-21-november-2026-amd-nvidia-and-more-show-off-the-future-of-high-performance-computing-at-sc26",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Cognition",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Cognition reportedly in talks to raise $2B+ at about $75B, up from $48B in September",
+   "summary": "Despite the public-market slide, the Devin maker is said to be negotiating a new round; Business Insider had earlier reported investor offers of $70-80B.",
+   "source": "Herve Cuviliez (Substack)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-saturday-21-november",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "Agile Robots",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Agile Robots raises $500M Series F at $8.5B led by SoftBank",
+   "summary": "The robotics firm's round was one of several large private AI raises in the week, alongside Genesis AI's $500M and India's SatSure (~$21M).",
+   "source": "Herve Cuviliez (Substack)",
+   "url": "https://hervecuviliez.substack.com/p/market-news-saturday-21-november",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "Meta / Anthropic / Alibaba",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Weekly GitHub gainers: meta/astryx, Chrome's web-guidance repo, anthropics/skills, alibaba/open-code-review",
+   "summary": "meta/astryx added about 8,700 stars in the week to Nov 18, anthropics/skills passed ~197k stars, and DeepSeek's new chat-demo repo was the top newcomer.",
+   "source": "Shareuhack",
+   "url": "https://www.shareuhack.com/en/posts/github-trending-weekly-2026-11-18",
+   "date": "2026-11-18"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Databricks / Nothing",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Databricks puts Genie ZeroOps into public beta; Nothing teases a screenless AI device for Dec 8",
+   "summary": "Databricks opened its autonomous-ops agent to public beta on Nov 19, and Nothing said it will unveil a screenless AI gadget on December 8.",
+   "source": "DEV Community (AI Daily Digest)",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-22-2026-openais-75-outage-oracles-money-loop-genie-4-opens-up-3239",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "United States",
+   "importance": 1,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "California AG Bonta says 'red flags' raised in Nvidia/Huang matter; also suing OpenAI",
+   "summary": "Bonta told Bloomberg TV his office is weighing action on Nvidia, separately from a lawsuit it filed against OpenAI alleging unfair competition and unsafe AI development.",
+   "source": "Stocktwits",
+   "url": "https://stocktwits.com/news-articles/markets/equity/california-ag-rob-bonta-highlights-red-flags-in-his-investigation-into-nvidia-and-jensen-huang/cNbO44MR9hO",
+   "date": "2026-11-17"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Newsletters / X",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Feed focus: OpenAI's outage, Oracle's 'money loop' and Genie 4 pricing",
+   "summary": "Weekend AI digests centred on circular AI financing via Oracle-OpenAI, ChatGPT reliability and Google's paid world-model API, with Anthropic's post-IPO slide a recurring thread.",
+   "source": "DEV Community (AI Daily Digest)",
+   "url": "https://dev.to/hiroki-ii-ai/ai-daily-digest-november-22-2026-openais-75-outage-oracles-money-loop-genie-4-opens-up-3239",
+   "date": "2026-11-21"
+  }
+ ]
+}
