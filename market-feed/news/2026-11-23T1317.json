@@ -1,0 +1,339 @@
+{
+ "run_at": "2026-11-23T13:17:00Z",
+ "market_brief": "Relief is broadening into the US open: S&P futures are up about 2.9% and Nasdaq 100 about 3.6% after Friday's correction close (S&P 6,910, -3.7%; SOX -10.7%; VIX 35.9), led by Nvidia (~+9% pre-market) after Trump urged its board to rehire Jensen Huang, while CrowdStrike's $43.9bn Zscaler bid sank CRWD ~9%. India did not share the bounce: after the 07:46 snapshot (Nifty -1.3%), Nifty closed -1.75% at 25,350 and Bank Nifty -3.2%, with markets shut Tuesday. Havens are unwinding last week's liquidation, with gold up about 3% to ~$3,625 and silver ~+3.7%, while Brent slipped about 3% toward $89.5 as freight premia ease despite Gulf attacks. Rates remain the swing factor: Treasury yields are edging up from 4.91% on the 10Y, December hike odds sit near 91-92%, and Williams speaks today; DXY ~103.6, BTC ~$61.4k.",
+ "ai_brief": "Zhipu's GLM-5.4 is the notable launch, a looped-layer model claiming big-model quality at lower cost, while Ant open-sourced a 560B medical model. Security and distribution are tightening after the hosting-leak findings, with OpenAI now vetting gateway resellers. Agents keep moving into real actions (AWS DevOps Agent writes, Architect Labs' AI-designed CPU claim), and Meta's emissions jump highlights AI's power bill.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia jumps about 9% pre-market after Trump urges the board to rehire Jensen Huang",
+   "summary": "Trump posted that he hopes Nvidia's board rehires Huang, and Bessent softened his stance, saying Huang is now 'on the outside'. The stock is rebounding from a 14% Friday drop to $125.53; the board has said it does not intend to reinstate him, and Bessent's Nov 25 deadline on chip-diversion questions still stands.",
+   "source": "Yahoo Finance via AOL",
+   "url": "https://www.aol.com/articles/nvidia-stock-jumps-dc-makes-113419000.html",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "CRWD",
+    "ZS"
+   ],
+   "headline": "CrowdStrike agrees to buy Zscaler in a $43.9bn all-stock deal",
+   "summary": "The 1.135-share exchange ratio implies about $260 per Zscaler share, a ~34% premium; CrowdStrike fell about 9% pre-market and Zscaler rose about 13%. The companies target ~$1bn revenue synergies and $500m cost savings, with closing expected in the second half of CrowdStrike's fiscal 2028.",
+   "source": "FinanceFeeds",
+   "url": "https://financefeeds.com/crowdstrike-stock-falls-9-as-43-9-billion-zscaler-deal-sends-zs-stock-up-13/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^GSPC",
+    "^NDX"
+   ],
+   "headline": "Update: US futures extend the rebound to about 3% ahead of a holiday-shortened week",
+   "summary": "S&P 500 futures rose about 2.9% to ~7,136 and Nasdaq 100 futures about 3.6%, extending the Sunday-night bounce after Friday's correction close at 6,910. Friday's chip losers led, after Nvidia, Arm and Micron each fell about 14%.",
+   "source": "JournalArta",
+   "url": "https://journalarta.com/en/2026/11/23/stock-market-today-dow-sp-500-futures-surge-after-tech-rout-as-oil-slides/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 3,
+   "tickers": [
+    "^NSEI",
+    "^BSESN",
+    "^NSEBANK"
+   ],
+   "headline": "Update: India reverses its early gain and closes sharply lower; Sensex down 1,484 points",
+   "summary": "Nifty fell 1.75% to 25,349.65 and Sensex 1.77% to 82,435.99, with Bank Nifty down about 3.2% and metals about 3.7%, while IT gained roughly 2%. Tata Steel, Axis Bank and HDFC Bank led losses; markets are shut Tuesday for Guru Nanak Jayanti.",
+   "source": "Business Standard",
+   "url": "https://business-standard.com/markets/news/stock-market-live-november-23-nse-bse-sensex-today-nifty50-gift-nifty-crude-oil-prices-ipo-today-126112300084_1.html",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "Europe",
+   "importance": 2,
+   "tickers": [
+    "^STOXX",
+    "EURUSD=X",
+    "GBPUSD=X"
+   ],
+   "headline": "Eurozone flash PMI steady at 51.7 as services miss; UK composite slips to 52.3",
+   "summary": "Eurozone services came in at 51.2 versus 51.8 expected, with Germany accelerating and France contracting at its fastest pace in six months. European stocks still rebounded on broad short covering.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/news/investinglive-european-news-wrap-markets-rebound-amid-broad-based-short-covering/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^TNX",
+    "^FVX"
+   ],
+   "headline": "Treasury yields climb as risk rebounds; NY Fed's Williams speaks today",
+   "summary": "Yields rose from Friday's lows (10Y around 4.95% midday in Europe vs 4.91% Friday close) as equity futures recovered. Williams said last week further hikes are likely but nothing dramatic is needed, so markets watch his tone after the rout.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/2026/11/23/treasury-yields-bonds-fed.html",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Prediction markets: December Fed hike odds near 91%; Kalshi odds of Huang's return rise to 16%",
+   "summary": "Polymarket put a Dec 9 hike at about 91%, down from 98% on Nov 12, with bond pricing near 92%. Separately, Kalshi traders lifted the probability of Huang returning as Nvidia CEO to 16% from under 10% last week, per Yahoo Finance.",
+   "source": "Yahoo Finance via AOL",
+   "url": "https://www.aol.com/articles/fed-isnt-riding-rescue-wall-110000000.html",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Bill Ackman warns a December Fed hike could tip the US into recession",
+   "summary": "The Pershing Square founder reportedly argued that tightening into the tech sell-off risks a downturn, adding to Bessent's weekend warning against overtightening.",
+   "source": "Quartz",
+   "url": "https://qz.com/bill-ackman-fed-december-rate-hike-recession-112326",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Oil slips despite weekend Gulf shipping attacks as freight premia ease",
+   "summary": "January Brent traded near $90.9 and WTI near $82 early in New York after UKMTO reported multiple attacks near Hormuz and an unconfirmed Houthi claim on a Saudi refinery. Goldman notes Atlantic crude freight is down 60-70% from its October peak; COP31 ended without a deal and OPEC+ meets Nov 29.",
+   "source": "Cornerstone Futures",
+   "url": "https://www.cornerstonefuturesllc.com/post/morning-highlights-oil-falls-despite-weekend-attacks-on-shipping-a-saudi-refinery-and-bahrain-as-f",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "GC=F",
+    "SI=F"
+   ],
+   "headline": "Gold and silver extend the rebound; MCX gold up 2.5%",
+   "summary": "Spot gold traded around $3,610-3,625, up roughly 2.5-3% after last week's liquidity-driven selling, and silver rose over 3%. In India, December MCX gold settled near Rs 1,24,818 per 10g.",
+   "source": "Kotak Neo",
+   "url": "https://www.kotakneo.com/news/market-news/sensex-nifty-close-lower-as-banking-stocks-weigh-on-markets/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Crypto",
+   "importance": 2,
+   "tickers": [
+    "BTC-USD"
+   ],
+   "headline": "Bitcoin steadies near $61.5k after a weekend dip to a two-year low of $55,130",
+   "summary": "Spot bitcoin ETFs have lost nearly $3bn in November and a fear-and-greed gauge sits at 9, signalling extreme fear. Analysts cite $62-65k as resistance and $55-56k as support.",
+   "source": "CoinDesk",
+   "url": "https://www.coindesk.com/markets/2026/11/23/bitcoin-rebounds-from-2-year-low-as-wall-street-futures-recover",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "TPL"
+   ],
+   "headline": "Texas Pacific Land to buy EagleRock in a ~$3.0bn all-stock deal",
+   "summary": "EagleRock holders get 0.0831 new TPL shares each, about $23.56 per share, ending up with ~14% of the combined company. TPL also raised its buyback authorisation to $500m; closing is expected in 1H 2027.",
+   "source": "BOE Report (Business Wire)",
+   "url": "https://boereport.com/2026/11/23/texas-pacific-land-to-acquire-eaglerock-in-all-stock-transaction-expected-to-enhance-the-permian-basins-premier-land-water-and-royalty-platform/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "Global",
+   "importance": 1,
+   "tickers": [
+    "DELL",
+    "HPE"
+   ],
+   "headline": "Dell and HPE reportedly sought AI server price increases of up to 45% after deals were signed",
+   "summary": "The report adds to concerns about AI hardware costs a day before Dell's earnings; HPE reports after Monday's close.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "DELL",
+    "HPQ",
+    "BBY",
+    "DLTR",
+    "DE"
+   ],
+   "headline": "Week ahead: Dell, HP, Best Buy Tuesday; Deere, PCE and GDP Wednesday; US closed Thursday",
+   "summary": "38 companies worth $2bn or more report this week, 23 of them on Tuesday. US markets shut for Thanksgiving on Nov 26 and close early on Nov 27; OPEC+ meets Nov 29 and the Fed decides Dec 9.",
+   "source": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/earnings-calendar-week-of-november-23-2026",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Zhipu / Z.ai",
+   "importance": 3,
+   "tickers": [],
+   "headline": "Z.ai launches GLM-5.4, its first Loop Transformer flagship",
+   "summary": "GLM-5.4 runs 28 GLM-5 layers twice and adds vision; it is live for GLM Coding Plan, ZCode and Z.ai Chat, with API and open weights promised after safety work. Z.ai claims quality comparable to 2-3T-parameter models but has not yet published benchmarks.",
+   "source": "TestingCatalog",
+   "url": "https://www.testingcatalog.com/z-ai-launches-glm-5-4-its-first-loop-transformer-model/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "OpenAI now requires approval for router and gateway resellers of its models",
+   "summary": "The policy, effective Nov 20, follows reports of prompt leaks among inference hosts; OpenRouter separately dropped three providers and pulled zero-retention status from 125 endpoints.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Architect Labs",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Startup says AI agents designed a CPU with 4.6x better performance per watt in simulation",
+   "summary": "Architect Labs' 'Frostbite' design showed 4.59x perf/watt across 25 workloads in pre-silicon simulation; no physical chip exists yet, so the claim is unverified.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "Ant Group",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Ant releases an open-weight medical model with 560B total parameters",
+   "summary": "LingSante-3.1-flash uses a mixture-of-experts design with 25B active parameters, aimed at healthcare tasks.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "OpenAI publishes MedChemBench; GPT-6.2 Astra scores 84.5%",
+   "summary": "The benchmark has 99 medicinal-chemistry problems; OpenAI reports its top model's score at the highest reasoning-effort setting.",
+   "source": "AI Impact Hub",
+   "url": "https://www.aiimpacthub.com/ai-news/2026-11-23",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "AWS",
+   "importance": 1,
+   "tickers": [
+    "AMZN"
+   ],
+   "headline": "AWS DevOps Agent can now take write actions across GitHub, GitLab, ServiceNow and PagerDuty",
+   "summary": "Actions are customer-directed, moving the agent beyond diagnosis into making changes across common DevOps tools.",
+   "source": "AI Impact Hub",
+   "url": "https://www.aiimpacthub.com/ai-news/2026-11-23",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US / China",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Update: Bessent says Trump and Xi discussed keeping humans in charge of major military AI decisions",
+   "summary": "This adds detail to weekend reports that Washington and Beijing are exploring joint AI safeguards; no formal agreement has been announced.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Meta",
+   "importance": 1,
+   "tickers": [
+    "META"
+   ],
+   "headline": "Meta re-evaluates its 2030 net-zero goal as AI build-out lifts emissions about 40%",
+   "summary": "Reported emissions rose from 15.6m to over 21.7m tonnes CO2e between 2024 and 2025. SpaceX's $74bn AI data-centre plans face similar power-cost questions.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Signal",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Signal blocks OS-level AI assistants from reading chats via screenshots by default",
+   "summary": "New screen-capture protections on iOS and Android aim to keep built-in mobile assistants out of private messages.",
+   "source": "AI Impact Hub",
+   "url": "https://www.aiimpacthub.com/ai-news/2026-11-23",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Nothing",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Nothing teases a screenless AI-native device for a December 8 unveiling",
+   "summary": "The consumer-hardware maker joins the wave of agent-first gadgets; details have not been released.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-monday-november-23-2026/",
+   "date": "2026-11-23"
+  }
+ ]
+}
