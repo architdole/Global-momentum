@@ -1,0 +1,402 @@
+{
+ "run_at": "2026-11-23T01:17:00Z",
+ "market_brief": "Risk is trying to stabilise after the worst week for the Nasdaq since March 2020: US futures reopened with Nasdaq 100 up nearly 3% and S&P 500 up about 2%, after Friday left the S&P at 6,910 (-3.7% d, -8.6% w/w), NDX -5.6%, SOX -10.7% and VIX 35.9. Asia is the test, with Kospi down over 3% early, Japan closed, and Taiwan (-17.5% w/w), China and Korea all rolling out support measures such as short-sale curbs and easier margin rules. Bonds remain the hedge (10Y 4.91%, -24bp w/w) and Treasury Secretary Bessent warned further Fed hikes could be a mistake, while Japan's 11-month-high CPI keeps a December BoJ hike in play with USD/JPY near 159.7. Gold (-4.6%) and silver (-7.3%) were sold for liquidity, Brent sits near $90 amid Iran tensions, and bitcoin is around $60.6k. India stays the outlier at a nine-month high (Nifty 25,801, Bank Nifty +5.9% w/w) but is shut Tuesday.",
+ "ai_brief": "The Claude-assisted Riemann Hypothesis claim moved forward as the Lean/Mathlib community reportedly certified the formal proof, though wider mathematical review continues. Infrastructure security is a theme, with OpenRouter cutting providers over prompt exposure and banks restricting third-party agents, while METR warns evals are falling behind. Releases were smaller: Sarvam's open 105B checkpoint, Gemini API Tool Retrieval and Perplexity's Monitor API.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ES=F",
+    "NQ=F",
+    "NVDA"
+   ],
+   "headline": "US futures rebound at the Sunday open: Nasdaq 100 futures up nearly 3%, S&P 500 futures up about 2%",
+   "summary": "Futures bounced in early Asian hours after the Nasdaq's 10% weekly drop, its largest since March 2020. Friday's cash close left the S&P 500 at 6,910 (-3.7%), below 7,000 and in correction territory.",
+   "source": "Reuters via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "South Korea",
+   "importance": 3,
+   "tickers": [
+    "^KS11",
+    "005930.KS"
+   ],
+   "headline": "Kospi falls more than 3% at the open as Asia absorbs the chip rout; Japan closed for a holiday",
+   "summary": "Korea's index slid over 3% in early trade while Hang Seng futures pointed lower and the ASX eased. Japan's cash market is shut for Labour Thanksgiving Day, but Nikkei futures signalled selling.",
+   "source": "Reuters via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "Taiwan / China / Korea",
+   "importance": 3,
+   "tickers": [
+    "^TWII",
+    "2330.TW",
+    "000001.SS"
+   ],
+   "headline": "Asian authorities step in: Taiwan tightens short selling, China eases margin rules, Korea readies stabilisation funds",
+   "summary": "Taiwan's regulator ordered tighter short-sale curbs from Monday after the Taiex's worst week in decades (-17.5%) and is weighing lower margin requirements. China's exchanges announced support steps including easier margin financing, and Seoul said stabilisation funds could deploy immediately.",
+   "source": "Reuters via Yahoo Finance",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/us-futures-bounce-while-asia-234419517.html",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Bessent says Nvidia must answer compliance questions and won't rule out Huang's return",
+   "summary": "On Sunday shows the Treasury Secretary said Nvidia needs to address compliance questions over chips reaching China and that a Huang comeback depends on where responsibility lies. Nvidia leadership is reportedly due at a closed-door House intelligence interview on Dec 1.",
+   "source": "Financial Times",
+   "url": "https://www.ft.com/content/91b7a3a6-8ac5-4327-ad03-6d951f287346",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^TNX",
+    "ZQ=F"
+   ],
+   "headline": "Bessent warns further Fed tightening could be a policy mistake; markets still lean to a December hike",
+   "summary": "The Treasury Secretary pushed back on more rate hikes and partly blamed the Fed for the sell-off, per Newsquawk's weekend wrap. The 10Y yield ended Friday at 4.91% (-14bp d/d, -24bp w/w) as investors bought Treasuries despite hawkish Fed rhetoric.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---23rd-november-2026",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "Japan",
+   "importance": 2,
+   "tickers": [
+    "JPY=X",
+    "^N225"
+   ],
+   "headline": "Japan's October CPI hits an 11-month high, keeping a December BoJ hike on track",
+   "summary": "Headline inflation rose to 2.3% y/y and core to 2.2%, above the 2% target for a second month. USD/JPY sits near 159.7, keeping intervention and BoJ timing in focus.",
+   "source": "Asia Business Daily",
+   "url": "https://asiabusinessdaily.substack.com/p/anthropics-ipo-triggers-an-asia-tech",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "AVGO",
+    "GOOGL"
+   ],
+   "headline": "Broadcom fell 12% Friday after a survey said Google cut 2027 TPU orders by about 1mn units",
+   "summary": "The reported TPU 8i shipment cut added to the semiconductor slide alongside Nvidia's 13.8% drop on reports of an SEC accounting probe. The SOX lost 10.7% on the day and 17% on the week.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---23rd-november-2026",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "China",
+   "importance": 2,
+   "tickers": [
+    "9988.HK",
+    "BABA"
+   ],
+   "headline": "Alibaba's AI unit posts a 10.5bn yuan adjusted loss as capex jumps 60%",
+   "summary": "Quarterly capex rose to about 50.5bn yuan ($7.5bn), and the Hong Kong shares fell 5.5%. The results fed the regional sell-off in AI-linked names.",
+   "source": "Asia Business Daily",
+   "url": "https://asiabusinessdaily.substack.com/p/anthropics-ipo-triggers-an-asia-tech",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ANTH"
+   ],
+   "headline": "Reuters: Anthropic limited IPO deal teams and sought six-month curbs on underwriters' work with AI rivals",
+   "summary": "Some of the 22 underwriting banks were reportedly told to restrict deal-team members from working for rivals such as OpenAI. The stock closed down about 8.5-8.8% Friday, below its post-debut levels but above the $83 IPO price.",
+   "source": "Unite AI (citing Reuters)",
+   "url": "https://www.unite.ai/anthropic-sought-limits-on-ipo-deal-teams-and-work-with-rivals/",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US / Global",
+   "importance": 2,
+   "tickers": [
+    "DELL",
+    "HPE",
+    "SMCI"
+   ],
+   "headline": "AI server makers reportedly raise prices up to 45% after contracts are signed",
+   "summary": "The FT reports Dell, HPE, Lenovo and Supermicro have sought higher prices months after signing deals, as memory and component costs climb. HPE reports earnings Monday.",
+   "source": "Financial Times",
+   "url": "https://www.ft.com/content/dd2a6594-6146-4ff1-ac8e-54749c1fc99f",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Middle East / Global",
+   "importance": 2,
+   "tickers": [
+    "BZ=F",
+    "CL=F",
+    "GC=F"
+   ],
+   "headline": "Oil steady on Iran tensions; gold and silver sold for liquidity",
+   "summary": "Trump reportedly favours resuming military action against Iran after New Year if there is no deal, and the blockade stays in place. Brent ended near $90 (-2.2%) and WTI near $83.4, while gold fell 4.6% to about $3,515 and silver 7.3%.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---23rd-november-2026",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^BSESN",
+    "^NSEBANK"
+   ],
+   "headline": "India: Gift Nifty pointed flat after a nine-month-high close; markets shut Tuesday for Guru Nanak Jayanti",
+   "summary": "Nifty closed Friday at 25,800.6 (+1.1%) and Sensex at 83,919.7, with banks leading and FIIs buying about Rs 7,411 crore on Thursday. Indian flash PMIs are due Monday, and trading resumes Wednesday after Tuesday's holiday.",
+   "source": "HDFC Sky",
+   "url": "https://hdfcsky.com/news/gift-nifty-signals-flat-open-for-sensex-nifty-on-monday-2",
+   "date": "2026-11-20"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "Europe",
+   "importance": 1,
+   "tickers": [
+    "^STOXX",
+    "EURUSD=X"
+   ],
+   "headline": "EU proposes €204bn cut to its seven-year budget; IG Metall strikes and Brussels flight cancellations Monday",
+   "summary": "The Commission's budget proposal trims the next multiannual framework, while IG Metall called a 24-hour strike covering 23,000 workers. Brussels Airport warned most Monday flights would be cancelled.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---23rd-november-2026",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Capital markets",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "Private"
+   ],
+   "headline": "Databricks reportedly in talks to raise at about a $225bn valuation",
+   "summary": "Per Newsquawk's weekend wrap, the data and AI platform is seeking new funding well above its earlier $134bn round. Private-market demand for AI assets contrasts with the public-market sell-off.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---23rd-november-2026",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BTC-USD",
+    "^VIX"
+   ],
+   "headline": "Bitcoin hovers near $60k after a 20-week low; VIX near 36 keeps hedging demand high",
+   "summary": "Crypto commentators link bitcoin's slide to the tech sell-off and Anthropic's share reversal; BTC was about $60.6k Sunday (-7% w/w), with ether near $1,710. Fox's Sunday coverage framed the week as a broad AI-driven correction.",
+   "source": "TechJuice",
+   "url": "https://www.techjuice.pk/bitcoin-falls-to-60000-as-tech-stock-sell-off-deepens/",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "HPE",
+    "ZM",
+    "^GSPC"
+   ],
+   "headline": "Week ahead: HPE and Zoom Monday, PCE and GDP mid-week, US Thanksgiving Thursday, OPEC+ Nov 29",
+   "summary": "US trading is holiday-shortened with a half-day Friday; India is shut Tuesday and Japan Monday. Taiwan's short-sale curb takes effect Monday, and Singapore CPI and Indian flash PMIs are also due.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-asia-pac-opening-news---23rd-november-2026",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "ANTH"
+   ],
+   "headline": "Update: Lean and Mathlib communities say the Claude-assisted Riemann Hypothesis formalisation checks out",
+   "summary": "Following researcher Levent Alpoge's claim, the Lean community reportedly certified that his Lean library states and proves the hypothesis, with Lean FRO endorsing it. Broader mathematical review of the result is still under way.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/lean-and-mathlib-community-officially-confirms-levent-alpoges-proof-of-the-riemann-hypothesis-is-correct/",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "Sarvam AI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Sarvam AI releases an open-weight 105B checkpoint for enterprise agents",
+   "summary": "The Indian lab published Sarvam-105B-1711 in BF16 plus a 4-bit NVFP4 version aimed at agent workloads.",
+   "source": "Unite AI",
+   "url": "https://www.unite.ai/sarvam-ai-releases-open-weight-105b-checkpoint-for-enterprise-agents/",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google previews Tool Retrieval in the Gemini API for agents with large tool libraries",
+   "summary": "Agents can keep many tools on standby and load parameter schemas only when needed, cutting context use.",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/11/22/google-gemini-api-tool-retrieval/",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Perplexity",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Perplexity launches a Monitor API for scheduled web watching",
+   "summary": "The API runs recurring searches and fires webhook alerts only when relevant changes appear.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "OpenRouter / industry",
+   "importance": 2,
+   "tickers": [],
+   "headline": "OpenRouter drops three inference providers after prompt-exposure findings",
+   "summary": "It removed 125 endpoints from zero-data-retention eligibility after researchers found cheap providers snooping on prompts and stealing keys. Separately, Together AI disclosed a prompt leak after a coding agent exposed a credential.",
+   "source": "The Hacker News",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "METR",
+   "importance": 2,
+   "tickers": [],
+   "headline": "METR warns safety evaluations may not keep pace with frontier models",
+   "summary": "The evaluator says models are improving quickly on research tasks while becoming harder to measure reliably.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Bipartisan US governors call for federal rules on the most powerful AI systems while keeping state protections",
+   "summary": "The group wants federal standards for frontier AI without pre-empting state consumer, worker and child-safety laws.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-22/governors-call-for-federal-ai-rules-without-sidelining-states",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Banks / agents",
+   "importance": 2,
+   "tickers": [
+    "JPM"
+   ],
+   "headline": "Major US banks reportedly bar third-party AI agents from logging into customer accounts",
+   "summary": "Wired reports lenders are also disclaiming liability for mistakes made by bots acting for customers.",
+   "source": "Wired",
+   "url": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Apple",
+   "importance": 1,
+   "tickers": [
+    "AAPL"
+   ],
+   "headline": "Apple's full AI agent may slip to late 2027, per Bloomberg",
+   "summary": "Gurman's newsletter says the agent push lags rivals while Apple readies early-2027 hardware.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/newsletters/2026-11-22/apple-s-ai-agent-war-early-2027-product-plans-and-iphone-duo-face-unlock-review",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "UBS",
+   "importance": 1,
+   "tickers": [],
+   "headline": "UBS sees AI investment rising to $1.4tn in 2027, with returns the key test",
+   "summary": "The bank expects spending to keep expanding even as investors question payback.",
+   "source": "LiveMint",
+   "url": "https://www.livemint.com/technology/ai-investment-to-rise-to-usd-1-4-trillion-in-2027-but-returns-remain-key-test-ubs-11795319991174.html",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "South Korea",
+   "importance": 1,
+   "tickers": [],
+   "headline": "South Korea's education minister resigns over an AI-assisted exam cheating scandal",
+   "summary": "The resignation came Sunday after cheating with AI tools engulfed university entrance exams.",
+   "source": "The Guardian",
+   "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+   "date": "2026-11-22"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Feed focus: GPT-6.2 transparency scores, coding agents' workplace limits and the AI-stock rout",
+   "summary": "The Decoder reports GPT-6.2 models answer faster but admit uncertainty less than Claude, and a separate study found coding agents finish under one in ten tasks in a simulated job.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/gpt-6-2-astra-and-sol-get-to-the-point-faster-but-score-lower-on-transparency-than-claude/",
+   "date": "2026-11-22"
+  }
+ ]
+}
