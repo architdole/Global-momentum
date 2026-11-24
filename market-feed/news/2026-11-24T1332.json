@@ -1,0 +1,403 @@
+{
+ "run_at": "2026-11-24T13:32:00Z",
+ "market_brief": "Asia finished the Nvidia-led squeeze with big gains in data/latest.json (Taiwan +9.0%, Kospi +6.3% above 5,000, Nikkei +3.9%) while Hong Kong fell 0.7%, but Europe stalled (STOXX 600 flat, DAX -0.3%) and US futures are giving some back, with Nasdaq futures about 1% lower and Nvidia down nearly 5% premarket. Sanofi's $41bn Insmed deal is the day's big M&A story; hawkish central-bank talk continues (ECB's Simkus joins Williams and Pill), and prediction markets put a December Fed hike near 94% with the 10-year at 4.92% and DXY at 104.2. Commodities are mixed: Brent sits near $86.6 and copper (-1.7%), silver (-3.2%) and gold (-0.9% to ~$3,618) are softer, while US natural gas jumped 13.6% on a cold snap; bitcoin is back under $60k (-2.2%). Consumer confidence, a 5-year auction and Dell/HP/Workday/Autodesk earnings come today, ahead of Wednesday's PCE and GDP and India's reopening after Monday's 1.75% Nifty drop.",
+ "ai_brief": "Zhipu's GLM-5.4 adds a looped-layer design and million-token context, and AWS rolled out trusted-access tooling with Anthropic's enterprise safeguards plus open Gemma-based decision models. A reported Claude-generated complexity-theory proof awaits human review, while Meta's TLX kernels and an agent-designed CPU show AI pushing further into the hardware stack.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA",
+    "NDX",
+    "SPX"
+   ],
+   "headline": "US futures give back part of Monday's surge; Nvidia down nearly 5% premarket",
+   "summary": "Nasdaq futures were about 1% lower and S&P futures 0.4% lower before the open, with Nvidia off about 4.8% after Monday's 31% jump. Tech (XLK) was down about 2% premarket while defensives such as healthcare and staples gained.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "France / US",
+   "importance": 3,
+   "tickers": [
+    "SAN.PA",
+    "INSM"
+   ],
+   "headline": "Sanofi agrees to buy Insmed for $175 a share, about $41bn in cash",
+   "summary": "Sanofi will fund the deal with debt and cash, expects it to be EPS-accretive by end-2028 and sees closing in H1 2027; Insmed's Brinsupri has booked $1.09bn in 2026 sales so far. Sanofi shares rose about 5.6% in Paris, per Reuters.",
+   "source": "Sanofi (SEC Form 6-K)",
+   "url": "https://www.sec.gov/Archives/edgar/data/0001121404/000119312526473314/d130092dex991.htm",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 2,
+   "tickers": [
+    "^STOXX",
+    "AIXA.DE",
+    "AAL.L",
+    "ANTO.L"
+   ],
+   "headline": "European stocks pause after their best day since May; miners and chip names slip",
+   "summary": "The STOXX 600 was roughly flat to slightly lower as Monday's tech rally faded, with miners down about 3% (Anglo American and Antofagasta over 5%) as copper and gold eased. Compass rose 3.7% on organic growth and Kingfisher fell 4% on weak France and Poland trading.",
+   "source": "Reuters via AOL",
+   "url": "https://www.aol.com/articles/europes-stoxx-600-subdued-ai-082727000.html",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "Germany",
+   "importance": 2,
+   "tickers": [
+    "AIXA.DE"
+   ],
+   "headline": "UBS cuts Aixtron to Sell; shares fall almost 9%",
+   "summary": "Aixtron dropped about 8.8% after UBS downgraded the chip-equipment maker to Sell, dragging Infineon and ASM International down over 2%.",
+   "source": "Reuters via AOL",
+   "url": "https://www.aol.com/articles/europes-stoxx-600-subdued-ai-082727000.html",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "Germany",
+   "importance": 2,
+   "tickers": [],
+   "headline": "German Ifo edges up to 90.6, slightly above forecasts",
+   "summary": "November business climate rose to 90.6 (consensus 90.5) and current conditions to 89.4, while expectations held at 91.6, just below the 92.0 forecast.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "Eurozone",
+   "importance": 2,
+   "tickers": [],
+   "headline": "ECB's Simkus says more tightening may be needed in 2027",
+   "summary": "Governing Council member Simkus said further hikes could be required next year if inflation persists, adding to a hawkish week that included Williams at the Fed and Pill at the BoE.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Prediction markets price about 94% odds of a 25bp Fed hike on Dec 9",
+   "summary": "Kalshi and Polymarket's international book both showed roughly 93.5% for a quarter-point hike at Monday's close, with CME futures implying about 96%; a 50bp move gets about 5%, per a third-party tracker.",
+   "source": "PredictionMarketsPicks",
+   "url": "https://predictionmarketspicks.com/tools/fed-rate-tracker/december-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "China / US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "China extends pause on some critical-mineral export curbs to the US until Jan 27",
+   "summary": "Beijing kept its ban on US-bound gallium, germanium and antimony on hold rather than letting the pause lapse on Friday. Separately, the EU imposed provisional import quotas on hybrid vehicles.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "HPE",
+    "SMTC"
+   ],
+   "headline": "Update: HPE falls about 12% premarket despite raised guidance; Semtech also drops",
+   "summary": "What changed: HPE's after-hours slip deepened to about 12.5% premarket after a 17% Monday gain, despite its FY27 guide and $5bn buyback addition. Semtech fell about 12.6% after a Q3 beat.",
+   "source": "Current Logic",
+   "url": "https://currentlogic.substack.com/p/the-morning-brief-november-24-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ADI"
+   ],
+   "headline": "Analog Devices reports record fiscal Q4, beating estimates",
+   "summary": "Analog Devices reported record fourth-quarter results before the open, with revenue up about 42% year on year, per AlphaStreet. Shares reaction was not yet clear at the time of writing.",
+   "source": "AlphaStreet",
+   "url": "https://news.alphastreet.com/analog-devices-adi-q4-fy26-earnings-beat-estimates-revenue-jumps-42/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "J",
+    "DLTR",
+    "BURL",
+    "A"
+   ],
+   "headline": "Jacobs guides FY27 EPS to $8.05-8.45; Dollar Tree and Burlington rise premarket",
+   "summary": "Jacobs' fiscal Q4 adjusted EPS rose about 26% to $2.20 with backlog up 24% to $28.7bn. Dollar Tree gained about 8% and Burlington about 6% premarket after results, while Agilent held a near-7% gain.",
+   "source": "Current Logic",
+   "url": "https://currentlogic.substack.com/p/the-morning-brief-november-24-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "HG=F",
+    "NG=F",
+    "TTF"
+   ],
+   "headline": "Copper slides below $12,200 while gas jumps on a northern European cold snap",
+   "summary": "LME copper fell about 3.6% and gold eased toward $3,610, while Dutch TTF firmed to EUR 88-92/MWh on forecasts of prolonged cold and below-average storage; US natural gas futures rose about 13%.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Middle East",
+   "importance": 2,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Update: Iran's army chief reportedly orders Hormuz kept closed until seven conditions are met",
+   "summary": "What changed: Iran's army chief Hatami reportedly ordered the strait to stay shut pending Tehran's conditions, even as Qatar's PM met Vance and Rubio to revive talks. Brent held near a three-month low around $89 as Libyan and Gulf supply returns.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "Japan",
+   "importance": 1,
+   "tickers": [
+    "^N225",
+    "JPY=X"
+   ],
+   "headline": "Japan's services PMI slows to 50.5; government downgrades consumer-spending view",
+   "summary": "Japan's flash manufacturing PMI rose to 53.7 but services slipped to 50.5 from 51.7; Kyodo reports Tokyo may ease FX special-account rules to fund tax cuts. USD/JPY traded near 159.5.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-us-opening-news---24th-november-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "^VIX"
+   ],
+   "headline": "Options: Monday's rally used 120% of the S&P's priced weekly range; Nvidia saw 11m+ contracts",
+   "summary": "Saxo notes the VIX fell about 26% to 26.6 and one-day implied vol nearly halved, yet the S&P is still about 5% below its 50-day average. More than 11 million Nvidia options traded Monday, about 6.7 million of them calls, per Current Logic.",
+   "source": "Saxo",
+   "url": "https://www.home.saxo/content/articles/options/one-session-flattens-the-fear-curve---options-brief---24-november-2026-24112026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "Europe",
+   "importance": 1,
+   "tickers": [],
+   "headline": "French bonds outperform and dollar holds a 19-month high vs the euro",
+   "summary": "CaixaBank notes French spreads narrowed about 6bp after Macron's budget-rule proposal, while US front-end yields edged up and the 10-year held near 4.9%.",
+   "source": "CaixaBank Research",
+   "url": "https://www.caixabankresearch.com/en/publications/financial-markets-daily-report/24-november-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 3,
+   "tickers": [
+    "DELL",
+    "HPQ",
+    "WDAY",
+    "ADSK"
+   ],
+   "headline": "Week ahead: consumer confidence and 5-year auction today; PCE and GDP Wednesday; US shut Thursday",
+   "summary": "Dell, HP, Workday and Autodesk report after Tuesday's close. Wednesday brings October PCE (core seen 3.2% y/y) and Q3 GDP (seen 3.4%) plus India's reopening after the Guru Nanak Jayanti holiday; US markets close Thursday and shorten Friday, and the Fed meets Dec 8-9.",
+   "source": "Rio Times",
+   "url": "https://www.riotimesonline.com/global-economy-briefing-november-24-2026/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Zhipu / Z.ai",
+   "importance": 2,
+   "tickers": [
+    "2513.HK"
+   ],
+   "headline": "Zhipu releases GLM-5.4 with a looped-transformer design and 1M-token context",
+   "summary": "Z.ai says GLM-5.4 repeats selected layers to improve reasoning, adds image input and a million-token window, and expands Coding Plan allowances.",
+   "source": "Z.ai",
+   "url": "https://z.ai/blog/glm-5.4",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Anthropic / AWS",
+   "importance": 2,
+   "tickers": [
+    "AMZN"
+   ],
+   "headline": "AWS launches a Trusted Access API on Bedrock with Anthropic's Enterprise Frontier Safeguards in preview",
+   "summary": "The API lets enterprises enrol in trusted-access programmes via IAM; Anthropic's safeguards flag coordinated misuse across requests and produce Safety Case reports without retaining customer data.",
+   "source": "AWS Machine Learning Blog",
+   "url": "https://aws.amazon.com/blogs/machine-learning/introducing-the-amazon-bedrock-trusted-access-api-with-anthropics-enterprise-frontier-safeguards-and-enterprise-data-controls",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "AWS",
+   "importance": 2,
+   "tickers": [
+    "AMZN",
+    "GOOGL"
+   ],
+   "headline": "AWS open-sources Strands Decider v2 decision models built on Gemma 4",
+   "summary": "Five Apache-2.0 models from 2B to 31B parameters target agent routing decisions; AWS reports large labelling-cost and latency savings in internal ticketing and also released a sandbox CLI for coding agents.",
+   "source": "The New Stack",
+   "url": "https://thenewstack.io/aws-strands-decider-v2",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Anthropic reportedly claims a Claude-generated proof that VP differs from VNP",
+   "summary": "A 70-page paper with a Lean 4 formalisation claims superpolynomial lower bounds for circuits computing the permanent; it has not yet been reviewed by human mathematicians and does not address P vs NP, per RIO Rundown.",
+   "source": "RIO Rundown",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-24-2026-anthropic-agent",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "Meta",
+   "importance": 1,
+   "tickers": [
+    "META"
+   ],
+   "headline": "Meta releases TLX, low-level Triton extensions for Hopper, Blackwell and MI300",
+   "summary": "TLX gives Python kernels warp-group control; Meta self-reports matmul performance within a few percent of cuBLAS on H100.",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/11/23/meta-tlx-triton-low-level-extensions",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Architect Labs",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Architect Labs unveils Frostbite, an agent-designed CPU core",
+   "summary": "The startup claims 4.6x performance per watt versus a modern in-order core in pre-silicon tests, with agents verifying the design; results are not yet on silicon.",
+   "source": "MarkTechPost",
+   "url": "https://www.marktechpost.com/2026/11/23/architect-labs-frostbite-ai-designed-cpu-interaction-nets",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "Boston Dynamics / GlobalFoundries",
+   "importance": 1,
+   "tickers": [
+    "GFS"
+   ],
+   "headline": "GlobalFoundries expands Spot rollout and becomes an early Atlas test customer",
+   "summary": "Spot robots will spread to GlobalFoundries fabs in the US, Germany and Singapore after 90,000+ inspections; Atlas testing is slated from early 2027, per RIO Rundown.",
+   "source": "RIO Rundown",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-24-2026-anthropic-agent",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "AMD / US DOE",
+   "importance": 1,
+   "tickers": [
+    "AMD",
+    "HPE"
+   ],
+   "headline": "AMD-powered Lux supercomputer at Oak Ridge debuts at No. 14 on the TOP500",
+   "summary": "Built with HPE on EPYC CPUs and MI355X GPUs, Lux targets fusion and materials research under the DOE's Genesis Mission.",
+   "source": "RIO Rundown",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-24-2026-anthropic-agent",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "India",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Supreme Court Justice Bagchi floats AI-assisted courts for routine divorce applications",
+   "summary": "Speaking at a DNLU conclave, he suggested 24/7 AI handling of routine filings to ease a backlog of over five crore cases; it is a proposal, not policy.",
+   "source": "RIO Rundown",
+   "url": "https://riorundown.substack.com/p/ai-news-nov-24-2026-anthropic-agent",
+   "date": "2026-11-21"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Nvidia / Paradromics",
+   "importance": 1,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia and Paradromics show brain-implant speech AI in a clinical trial",
+   "summary": "A trial participant used a brain implant and AI decoding to talk with her grandchildren; the firms aim to make conversations faster and more natural.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/news/nvidia-paradromics-brain-to-speech-ai/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Newsletters / X",
+   "importance": 1,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "What AI newsletters are focused on: Huang's return, PR-review agents and Grok lawsuits",
+   "summary": "Tuesday's digests lead with Nvidia reinstating Huang, Anthropic's Claude Ship code-review agents and the Oregon/Virginia suits over Grok images, alongside GLM-5.4 and AWS's safety tooling.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-24-2026/",
+   "date": "2026-11-24"
+  }
+ ]
+}
