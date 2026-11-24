@@ -1,0 +1,506 @@
+{
+ "run_at": "2026-11-24T01:26:00Z",
+ "market_brief": "Huang's reinstatement turned Monday's bounce into a squeeze: the S&P 500 rose 4.7% to 7,237, the Nasdaq 100 6.9% and the SOX 14% as Nvidia closed up 31%, MSCI EM gained 7.4% and the VIX fell 26% to 26.6. Asia is following on Tuesday, with the Kospi up nearly 6% (briefly above 5,000), the Nikkei up about 4% after its holiday and the ASX up 1.4%. India stays shut for Guru Nanak Jayanti after Monday's 1.75% Nifty drop. The rally comes with hawkish rates: after Williams, a December Fed hike is fully priced and January odds are about 67%, the 2-year rose about 7bp to around 4.69% while the 10-year was flat at 4.92%, and the DXY rose 0.5% to 104.3. Commodities split: Brent fell 6.2% to $86.8 and WTI 4.4% to $80.3 on returning supply, while gold rose 3.2% to $3,628 and silver 4.5%. Bitcoin was flat near $61k as ETF outflows continue. Dell reports Tuesday after the close, with PCE and GDP due Wednesday.",
+ "ai_brief": "Compute and capital lead the AI news: Amazon confirmed its Decart deal to push Trainium, xAI is reportedly renting most of its compute to Anthropic and Google, and Sierra doubled its valuation to $30bn. On products, coding agents moved further with Anthropic's Claude Ship (auto-approved PRs) and GPT-6.2 Sol becoming ChatGPT's default. Policy pressure is building, with Altman backing shared development limits and a House panel disclosing about 879k AI-chip licenses approved for China.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA",
+    "SOX",
+    "NDX"
+   ],
+   "headline": "Update: Nvidia closes up 31% after Huang is reinstated as CEO; Nasdaq has best day since April 2025",
+   "summary": "Monday's pre-market bounce turned into a full-session rally once the board confirmed Huang's return. Nvidia added nearly $1tn in market value, the SOX rose about 14%, the Nasdaq 100 6.9% and the S&P 500 4.7% to 7,237, and the VIX fell to about 26.6.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-nvidia-surges-31-adding-nearly-usd1-trillion-in-market-value-as-jensen-huang-reclaims-ceo-role/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ZQ",
+    "US2Y",
+    "DXY"
+   ],
+   "headline": "Update: December Fed hike now fully priced after Williams; odds of a January hike jump to 67%",
+   "summary": "NY Fed's Williams said inflation is still too high and may stay above 2% until 2028, keeping further hikes on the table. Per Reuters, CME pricing for a 25bp December hike rose to 100% from about 89% on Friday, and a 50bp move has been priced out.",
+   "source": "Business Recorder (Reuters)",
+   "url": "https://www.brecorder.com/news/40450435/dollar-jumps-on-hawkish-fed-bets",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "South Korea",
+   "importance": 3,
+   "tickers": [
+    "KOSPI",
+    "005930.KS",
+    "000660.KS"
+   ],
+   "headline": "Kospi jumps nearly 6% and briefly tops 5,000, triggering a buy-side sidecar",
+   "summary": "This reverses Monday's 3.3% drop. Samsung Electronics rose about 7% and SK Hynix about 8.5% in early Tuesday trade. Program buying was paused for five minutes, and foreigners were net buyers.",
+   "source": "The Korea Herald",
+   "url": "https://www.koreaherald.com/article/10947072",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Japan",
+   "importance": 3,
+   "tickers": [
+    "N225",
+    "9984.T",
+    "285A.T"
+   ],
+   "headline": "Nikkei reopens up nearly 4% after Monday's holiday, trading around 58,600",
+   "summary": "This is Tokyo's first session since Huang's return. Kioxia rose about 6.6% and SoftBank Group about 5% in early trade. The latest.json Nikkei print is still Friday's close.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262319038-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Brokers reverse Nvidia downgrades: Melius, Bernstein, Oppenheimer and StoneX upgrade",
+   "summary": "Melius moved to buy with a $220 target, and Bernstein went back to outperform with a $200 target. Oppenheimer and StoneX also upgraded, and Citi raised its target to $240.",
+   "source": "Oninvest",
+   "url": "https://en.oninvest.com/article/jensen-is-back-and-so-are-we-analysts-reverse-nvidia-s-rating-downgrades",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "HPE"
+   ],
+   "headline": "HPE beats, guides FY27 well above consensus and adds $5bn to its buyback, but shares slip after hours",
+   "summary": "Q4 revenue was about $14.5bn and adjusted EPS $1.43 against $1.27 expected. FY27 guidance is $59.4–63.1bn revenue and $5.05–5.35 EPS. The stock fell roughly 5–7% after hours, reportedly on margin-mix worries, after rallying about 17% in the regular session.",
+   "source": "Investing.com",
+   "url": "https://www.investing.com/news/earnings/hpe-stocks-falls-after-hours-despite-quarterly-results-guidance-beat-5046357",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "US2Y",
+    "US10Y"
+   ],
+   "headline": "US flash services PMI misses at 54.7 as the 2-year yield rises about 7bp",
+   "summary": "November flash services PMI came in at 54.7 against the 55.7 forecast, while manufacturing was in line at 54.5. The 2-year rose to about 4.69% while the 10-year ended near 4.92%, flattening the curve.",
+   "source": "Finwire",
+   "url": "https://finwire.io/news/forex-news/financial-forex-market-recap-nov-23-2026",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "FX",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "DXY",
+    "EURUSD",
+    "USDJPY",
+    "GBPUSD"
+   ],
+   "headline": "Dollar near a 19-month high against the euro on Fed bets; yen around 159",
+   "summary": "The dollar index rose about 0.5% to roughly 104.3, the euro slipped to about $1.09 and sterling to about $1.30. Hawkish Fed repricing and flows into US tech drove the moves, per Reuters.",
+   "source": "Business Recorder (Reuters)",
+   "url": "https://www.brecorder.com/news/40450435/dollar-jumps-on-hawkish-fed-bets",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "CL",
+    "BZ"
+   ],
+   "headline": "Oil falls to its lowest since late August as returning supply outweighs Gulf attacks",
+   "summary": "Brent fell about 6% and WTI about 4% to around $80. Reports cited higher Middle East flows, the restart of Libya's Sharara pipeline, an IEA surplus call and Trump giving Iran diplomacy more time.",
+   "source": "OilPrice.com",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Slides-Nearly-4-as-Returning-Supply-Outweighs-Gulf-Attacks.html",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 2,
+   "tickers": [
+    "SXXP",
+    "BESI",
+    "AIXA",
+    "ENR"
+   ],
+   "headline": "STOXX 600 has its best day since May, up 1.9%, led by chipmakers",
+   "summary": "Tech rose 4.7% after its worst week since March 2020, with AT&S, BE Semiconductor and Aixtron up 9–13%. Nemetschek fell 5.7% after a J.P. Morgan downgrade. The European prints in latest.json are still Friday's.",
+   "source": "Investing.com (Reuters)",
+   "url": "https://www.investing.com/news/stock-market-news/european-stocks-recover-after-steep-technologyled-selloff-5044629",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "S3 Partners: Nvidia shorts lost about $12bn on Monday; Stocktwits sentiment turns very bullish",
+   "summary": "S3 estimates the rally erased about 90% of short sellers' gains from Nvidia's seven-day slide, and Nasdaq shorts lost about $39bn in total. In a Stocktwits poll, 64% of respondents said they felt more bullish.",
+   "source": "Asianet Newsable (Stocktwits)",
+   "url": "https://newsable.asianetnews.com/markets/nvda-shorts-lose-12b-as-huang-s-return-erases-nearly-90-of-recent-gains-says-s3-partners-articleshow-nhvkzb9",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Questions remain after Nvidia's rebound: no public security finding, and a House interview on Dec 1",
+   "summary": "The board reinstated Huang based on government assurances rather than a published finding. Huang still faces a closed-door House interview on December 1.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/stocks/nvidia-s-huang-is-back-monday-s-rally-leaves-three-big-questions-unanswered",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "BILL",
+    "CPAY"
+   ],
+   "headline": "TPG and Corpay to take BILL Holdings private for about $6bn",
+   "summary": "Holders will get $63.25 a share in cash. Corpay invests $1.1bn for about a third of BILL and has an option to buy the rest in 2030. Starboard backs the deal.",
+   "source": "The Paypers",
+   "url": "https://thepaypers.com/mergers-aquisitions-and-investments/news/tpg-and-corpay-to-take-bill-holdings-private-in-usd-6-bln-deal",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "A",
+    "ZM",
+    "SMTC"
+   ],
+   "headline": "After-hours earnings: Agilent up about 7% on a beat; Zoom starts a dividend; Semtech falls",
+   "summary": "Agilent guided FY27 above consensus. Zoom beat and declared its first $0.25 quarterly dividend, but a slightly soft Q4 guide nudged the stock lower. Semtech fell about 8% despite strong guidance as holders took profits.",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/news/4675944-agilent-jumps-on-double-quarterly-beats-guidance",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "TATASTEEL.NS",
+    "APLAPOLLO.NS",
+    "NIFTY"
+   ],
+   "headline": "Tata Steel falls 8.4% on its APL Apollo deal of up to Rs 28,000 crore as Indian markets close for a holiday",
+   "summary": "Tata Steel's stake purchase and asset swap weighed on metals, which fell 3.7% as Nifty closed 1.75% lower on Monday's moved-up expiry day. NSE and BSE are shut Tuesday for Guru Nanak Jayanti and reopen Wednesday.",
+   "source": "DSIJ",
+   "url": "https://insights.dsij.in/dsijarticledetail/closing-bell-sensex-plunges-nearly-1500-points-nifty-falls-below-25350-as-banking-and-metal-stocks-tumble-60574",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Crypto",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "BTC",
+    "IBIT",
+    "ETH"
+   ],
+   "headline": "Spot bitcoin ETFs shed $1.79bn in a week, the most since June",
+   "summary": "It was the fourth straight week of outflows, led by IBIT. Ether ETFs have had eight weeks of outflows. Bitcoin missed the equity rally and is flat around $61k.",
+   "source": "The Block",
+   "url": "https://www.theblock.co/news/markets/2026-11-23-spot-bitcoin-etfs-shed-1-79-billion-in-past-week-444857",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Australia",
+   "importance": 1,
+   "tickers": [
+    "XJO",
+    "WTC",
+    "NXT"
+   ],
+   "headline": "ASX 200 rises 1.4% early, led by a 3.4% gain in tech",
+   "summary": "WiseTech and NextDC rose about 4%, and materials gained as copper rebounded. Last week was the index's worst since 2022.",
+   "source": "The Motley Fool Australia",
+   "url": "https://www.fool.com.au/2026/11/24/asx-200-shares-rebound-following-wall-street-surge-on-nvidia-ceos-return/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "CAPR",
+    "OTLY",
+    "KYMR",
+    "AMTM"
+   ],
+   "headline": "Single-stock outliers: Capricor -75% on an FDA rejection; Oatly doubles on a tender offer",
+   "summary": "Oatly's board advised holders not to accept Verlinvest's $4.13-per-ADS offer. Kymera launched a $1.5bn share sale, and Amentum authorised a buyback of up to $500m.",
+   "source": "StockTitan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-23-2026",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Taiwan",
+   "importance": 1,
+   "tickers": [
+    "TAIEX",
+    "2330.TW"
+   ],
+   "headline": "Taiwan margin calls reportedly jumped about 200-fold during last week's AI selloff",
+   "summary": "This points to forced retail deleveraging. Taiwan trades Tuesday after ASE and UMC ADRs rose about 20% in New York.",
+   "source": "Taipei Times",
+   "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/24/2003868257",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "DELL",
+    "KRW"
+   ],
+   "headline": "Week ahead: Dell after Tuesday's close (whisper EPS about $7.25), Bank of Korea seen hiking to 3.25% Thursday, PCE and GDP Wednesday",
+   "summary": "Dell consensus is about $6.60 EPS, and AI-server revenue and backlog conversion are the focus. In a Reuters poll, 32 of 34 economists expect the BoK to hike. US markets are closed Thursday, and India reopens Wednesday.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/central-banks/bank-of-korea-seen-hiking-to-3-25-this-week-with-one-final-move-in-early-2027/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Amazon",
+   "importance": 3,
+   "tickers": [
+    "AMZN",
+    "NVDA"
+   ],
+   "headline": "Update: Amazon confirms deal for Decart's optimization tech and team as it readies Trainium sales",
+   "summary": "What changed: the earlier 'nearing a deal' report is now an official announcement covering the Decart Optimization Stack and its founding team. The ~$7.5bn figure still comes from a Bloomberg report.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Anthropic",
+   "importance": 3,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic launches Claude Ship agents that review, fix and auto-approve pull requests",
+   "summary": "The bundle includes Code Review (generally available), a PR Steward beta that fixes failing CI and merge conflicts, and an Approvals beta driven by plain-language policies. It is rolling out to Team and Enterprise plans on GitHub.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Sierra",
+   "importance": 3,
+   "tickers": [],
+   "headline": "Sierra raises $1.75bn at a $30bn valuation, doubling in six months",
+   "summary": "Greenoaks and Lightspeed co-led the round for Bret Taylor's customer-service agent startup. Run-rate revenue reportedly doubled to $400m in five months.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "xAI",
+   "importance": 3,
+   "tickers": [],
+   "headline": "xAI reportedly shifts toward renting compute, with Anthropic its largest customer",
+   "summary": "Per an NYT report summarised by The Decoder, Anthropic pays about $3.1bn a month and Google about $800m. Rentals reportedly make up more than half of xAI's revenue.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/anthropics-appetite-for-compute-is-pushing-xai-toward-a-rent-over-build-strategy/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "GPT-6.2 Sol becomes ChatGPT's default chat model",
+   "summary": "OpenAI is rolling out a chat-tuned GPT-6.2 Sol for paid tiers and says it improves handling of complex questions, search and images. The Work and Codex models are unchanged.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/openai-updates-chatgpt-to-handle-complex-everyday-questions-web-searches-and-images-more-reliably/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [
+    "ANT"
+   ],
+   "headline": "Anthropic shares lag the AI rally as share unlocks loom",
+   "summary": "ANT was roughly flat to slightly lower on Monday, below its $97 debut close but above its $83 IPO price. Needham flagged that up to 303m shares could unlock on Dec 15.",
+   "source": "TradingView (Invezz)",
+   "url": "https://www.tradingview.com/news/invezz:5ef9e57ad094b:0-why-is-anthropic-stock-lagging-the-broader-market-today/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "United States",
+   "importance": 2,
+   "tickers": [
+    "NVDA",
+    "AMD"
+   ],
+   "headline": "House panel discloses about 879,000 AI-chip licenses approved for China; Commerce reportedly moves on Megaspeed",
+   "summary": "Documents show Commerce approved H200 and MI325X licenses for Chinese firms from Dec 2025 to May 2026. Commerce is reportedly preparing to blacklist Singapore's Megaspeed.",
+   "source": "Dataconomy",
+   "url": "https://dataconomy.com/2026/11/23/us-approved-nearly-900000-ai-chip-sales-to-china",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Update: Altman backs OpenAI's call for shared AI development limits",
+   "summary": "What changed: Altman has endorsed Pachocki's proposal, per Bloomberg, and Pachocki warned AI could speed up its own development as early as 2027.",
+   "source": "Insurance Journal (Bloomberg)",
+   "url": "https://www.insurancejournal.com/news/national/2026/11/23/893408.htm",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Google",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google Search AI Mode can now draw on Drive, Wallet and the Gemini app",
+   "summary": "This is opt-in, and Wallet access is read-only. Context can also carry over between the Gemini app and AI Mode.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/23/google-searchs-ai-mode-can-now-tap-into-drive-and-wallet-for-more-personalized-responses/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "Embo",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Embo raises a $110m seed led by a16z for humanoid world models",
+   "summary": "The team, which includes Dreamer creator Danijar Hafner, plans to pretrain on internet video and fine-tune on data from its own humanoid fleet. NVentures also invested.",
+   "source": "Unite.AI",
+   "url": "https://www.unite.ai/robot-ai-startup-embo-secures-110m-seed-investment-led-by-a16z/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "GPT-6.2 Astra reportedly writes the first Lean proof of a 2006 algebra theorem",
+   "summary": "Vals AI says the model found its own proof route without human help. Astra leads Vals' Autoform-Hard benchmark.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/gpt-6-2-astra-solved-a-math-theorem-no-other-ai-could-crack-then-invented-its-own-proof-strategy/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "United States",
+   "importance": 1,
+   "tickers": [
+    "JPM",
+    "WFC",
+    "SCHW",
+    "C"
+   ],
+   "headline": "Governors seek a federal AI baseline; big banks reportedly restrict customer AI agents",
+   "summary": "The NGA released bipartisan principles on frontier-model rules. Wired reports major banks have blocked or limited agents that log in with customer credentials.",
+   "source": "KillTheAI news roundup",
+   "url": "https://killtheai.com/news/top-10-ai-news-today-november-23-2026/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "GitHub",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Trending: a Claude Code bug-hunting skill bundle and the Orca parallel-agent runner",
+   "summary": "claude-bughunter added about 11k stars last week. Orca, which runs Claude Code and Codex agents in parallel worktrees, added about 7k.",
+   "source": "Repowise",
+   "url": "https://repowise.dev/blog/engineering/trending-github-2026-11-22-claude-bughunter",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Google",
+   "importance": 1,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google books a 2029 New Glenn launch for its Project Suncatcher orbital TPU test",
+   "summary": "The plan is solar-powered satellites, each carrying roughly one data-center rack of TPUs. Cooling and reliability in orbit remain unproven.",
+   "source": "The Rundown AI",
+   "url": "https://www.therundown.ai/news/google-blue-origin-project-suncatcher-orbital-ai-launch",
+   "date": "2026-11-23"
+  }
+ ]
+}
