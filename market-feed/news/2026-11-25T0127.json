@@ -1,0 +1,388 @@
+{
+ "run_at": "2026-11-25T01:27:00Z",
+ "market_brief": "The AI trade cracked again on Tuesday: the SOX fell 7.9% and the Nasdaq 100 2.0% as Nvidia gave back part of its Huang-return surge, while rotation into value and retail lifted the Dow 0.9% to a first close above 50,000 and the equal-weight S&P rose 0.5%. The selloff is spreading through Asia this morning, with Kospi down about 4.5% and Nikkei 2.4%, as Indian markets reopen after Monday's 1.75% Nifty drop. Strong US consumer confidence (103.3) keeps a Dec 9 Fed hike near-certain, though the 10Y eased to 4.90% and DXY slipped 0.5% to 103.8. Metals extended their rout (gold -2.6% to $3,555, silver -5.6%), bitcoin hovers just under $60k, and US natural gas jumped 15% on cold weather; today's PCE and GDP are the key catalysts before Thanksgiving.",
+ "ai_brief": "Compute deals dominate: Anthropic is reportedly close to a ~$45bn Nscale capacity deal and, per the NYT, pays about $3.1bn a month for Musk-controlled compute. Product news was incremental, including Perplexity Teammates, wider Gemini 4 access in Antigravity and a unified Claude Plugins directory, while Nvidia's Vera Rubin topped a provisional MLPerf agentic round. LeCun's attack on Anthropic's safety messaging is the most-discussed post.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^SOX",
+    "NVDA",
+    "AMD",
+    "MU",
+    "^DJI"
+   ],
+   "headline": "Chips give back Monday's surge: SOX falls 7.9% while the Dow closes above 50,000 for the first time",
+   "summary": "Every SOX member closed lower as Nvidia fell 5.9% to $155.38 (about $240bn of value), AMD 8.9% and Micron about 11%, a day after Nvidia's 31% jump on Huang's return. Money rotated into value and retail names: the Dow gained 423 points to 50,018.70 while the Nasdaq Composite fell 1.5% and the S&P 500 0.5%.",
+   "source": "The Motley Fool",
+   "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-nvidia-gives-back-usd240-billion-in-market-value-despite-wall-street-upgrade-signaling-29-upside/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Asia",
+   "importance": 3,
+   "tickers": [
+    "^KS11",
+    "^N225",
+    "005930.KS",
+    "000660.KS",
+    "285A.T",
+    "9984.T"
+   ],
+   "headline": "Kospi sinks about 4.5% and Nikkei 2.4% in early Wednesday trade as the chip selloff spreads to Asia",
+   "summary": "Kospi fell back below 5,000 to around 4,783 by mid-morning Seoul time and the Nikkei traded near 57,265. Samsung and SK Hynix dropped more than 6%, Kioxia about 12% and SoftBank Group almost 10%, per early-session reports.",
+   "source": "JBizNews",
+   "url": "https://jbiznews.com/kospi-sinks-more-than-4-nikkei-slides-more-than-2-in-early-wednesday-trading-after-wall-streets-tuesday-retreat/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "DELL"
+   ],
+   "headline": "Dell posts record $54.9bn quarter, guides FY27 revenue to $202bn and adds $25bn to its buyback",
+   "summary": "Revenue roughly doubled year on year with adjusted EPS of $9.45 against about $6.56 expected; AI orders were $60.2bn and backlog reached $132.3bn. Shares rose about 4% after hours after falling roughly 12% in the regular session; AI-server mix squeezed gross margins.",
+   "source": "Investing.com",
+   "url": "https://za.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-4595316",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "WDAY",
+    "ADSK"
+   ],
+   "headline": "Workday and Autodesk slip after hours despite beats and raised full-year outlooks",
+   "summary": "Autodesk beat on revenue ($2.16bn, +17%) and EPS ($3.20) and lifted FY27 guidance but fell 4-5% as free-cash-flow margin narrowed. Workday raised FY27 subscription guidance to $9.96bn, yet its Q4 subscription outlook implied a slowdown to about 10% growth and shares fell 4-8%.",
+   "source": "Startup Fortune",
+   "url": "https://startupfortune.com/autodesk-stock-slips-after-earnings-even-with-a-beat-and-a-raised-outlook/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "AMBA",
+    "NTNX",
+    "URBN",
+    "GDRX"
+   ],
+   "headline": "After-hours: Ambarella plunges about 39% on memory-cost warning; Nutanix CEO to step down",
+   "summary": "Ambarella guided Q4 revenue to $70-75m from $115m, saying rising memory prices are making customers cut forecasts. Nutanix fell about 8% as CEO Rajiv Ramaswami said he will leave once a successor is found; Urban Outfitters dropped about 12% on in-line sales while GoodRx rose about 18%.",
+   "source": "Stock Titan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "HPQ"
+   ],
+   "headline": "HP Inc. beats, guides FY27 EPS above consensus and raises its dividend",
+   "summary": "Fiscal Q4 adjusted EPS of $0.83 and revenue of $16.0bn topped estimates; FY27 adjusted EPS guidance of $3.15-3.45 brackets a midpoint above the Street's $3.18. The quarterly dividend rises to $0.31; reports differ on the size of the after-hours gain.",
+   "source": "Investing.com",
+   "url": "https://za.investing.com/news/stock-market-news/afterhours-movers-dell-hpq-adsk-wday-ntnx-urbn-clsk-432SI-4595316",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ADI",
+    "HPE",
+    "SMTC",
+    "DY"
+   ],
+   "headline": "Update: AI-supply-chain beats get punished: Analog Devices has its worst day since 1998",
+   "summary": "Analog Devices closed down about 17% despite 42% revenue growth, with HPE (-16%), Semtech (-17%) and Dycom (-18%) also sliding after strong reports. Earlier coverage flagged premarket weakness; the closes show the selling deepened through the session.",
+   "source": "Stock Titan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "KSS",
+    "ANF",
+    "DKS",
+    "DLTR",
+    "BBY"
+   ],
+   "headline": "Retailers rally on beat-and-raise quarters: Kohl's and Abercrombie up about 20%",
+   "summary": "Kohl's raised its outlook and Abercrombie posted record Q3 sales with higher EPS guidance; Dick's (+15%), Dollar Tree (+11%) and Best Buy (+3%) also lifted forecasts. The moves underpinned the day's rotation out of chips into consumer and value stocks.",
+   "source": "Stock Titan",
+   "url": "https://www.stocktitan.net/articles/stock-market-today-live-november-24-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "US consumer confidence jumps to 103.3, highest since January 2025 and far above forecasts",
+   "summary": "The Conference Board index rose from an upwardly revised 91.9, against a 92.5 consensus. One economist linked the rebound to reduced uncertainty after the midterm elections; the strength adds to the case for a December Fed hike.",
+   "source": "GV Wire (Reuters)",
+   "url": "https://gvwire.com/2026/11/24/us-consumer-confidence-surges-to-highest-level-in-nearly-two-years/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "^IRX",
+    "^FVX"
+   ],
+   "headline": "Fed futures hold about 95% odds of a 25bp hike on Dec 9 as January odds climb to 69%",
+   "summary": "CME FedWatch shows a 50bp move priced out after Monday's rally, while odds of a further hike in January rose from 49% on Nov 20 to 69% and June to about 62%. October PCE due Wednesday is the next test before the Dec 4 jobs report.",
+   "source": "TheStreet",
+   "url": "https://www.thestreet.com/fed/nvidia-rally-fed-rate-hike-bets-december-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Middle East",
+   "importance": 2,
+   "tickers": [
+    "CL=F",
+    "BZ=F"
+   ],
+   "headline": "Oil rebounds from three-month lows on fresh Hormuz attacks; strait traffic down more than 40%",
+   "summary": "Brent touched about $88 (lowest since late August) before rising more than $1 after Iran said tankers hit mines; Deutsche Bank estimates an oversupply of about 1.7m bpd. MarineTraffic data cited by Al Jazeera show weekly Hormuz crossings fell from 226 to 125 over November.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/news/2026/11/24/hormuz-oil-traffic-is-down-40-percent-are-irans-tanker-attacks-working",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI",
+    "^BSESN",
+    "^NSEBANK"
+   ],
+   "headline": "Indian markets reopen after the holiday into a weak Asian tape; Nifty supports seen at 25,000-25,300",
+   "summary": "Nifty last closed Monday at 25,349.65 (-1.75%) and Bank Nifty fell 3.2%; brokers flag resistance near 25,500-25,650 and advise caution on fresh longs. FIIs have reportedly bought about Rs 1.21 lakh crore of equities in November, led by financials.",
+   "source": "Business Today",
+   "url": "https://www.businesstoday.in/markets/stocks/story/nifty-outlook-heres-what-to-expect-on-november-25-post-mondays-crash-569241-2026-11-24",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Update: Huang and Nvidia's general counsel set to testify to the House on Dec 1 and Senate Banking on Dec 3",
+   "summary": "Congressional scrutiny of the reinstatement is widening, with a California DOJ probe also reported ongoing. Huang reportedly used his first day back to apologise to staff at an all-hands meeting.",
+   "source": "AP News",
+   "url": "https://apnews.com/article/nvidia-jensen-huang-39d4b34ffaa867b4e669893b5fd5028f",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Hacker News and fintwit debate a Foreign Policy op-ed calling Huang's return a national-security scandal",
+   "summary": "The op-ed drew one of the week's busiest discussion threads, per a digest of trending posts. Commentary focuses on whether political involvement in the reinstatement creates export-control risk for Nvidia holders.",
+   "source": "Foreign Policy",
+   "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Today: US October PCE and Q3 GDP; US markets shut Thursday for Thanksgiving, Bank of Korea decides",
+   "summary": "PCE and GDP land on Wednesday ahead of a holiday-shortened week, with the Bank of Korea widely expected to hike on Thursday. Next week brings Huang's Dec 1 and Dec 3 testimony, then the Dec 4 jobs report and the Dec 8-9 FOMC.",
+   "source": "TheStreet",
+   "url": "https://www.thestreet.com/fed/nvidia-rally-fed-rate-hike-bets-december-2026",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Nscale reportedly nears a second Anthropic deal worth about $45bn for 460MW in West Virginia",
+   "summary": "The capacity at Nscale's Monarch campus would run on Nvidia Vera Rubin chips, per the report; neither company has confirmed terms.",
+   "source": "GMTEight",
+   "url": "https://gmteight.com/flash/detail/1563314",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "xAI / SpaceX",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Update: NYT reports Anthropic pays about $3.1bn a month for Musk-controlled compute; Google about $800m",
+   "summary": "Adds figures to earlier reports that xAI is pivoting toward renting out compute, with Anthropic its largest customer. The arrangement makes SpaceX a supplier to two of xAI's direct rivals.",
+   "source": "The New York Times",
+   "url": "https://www.nytimes.com/2026/11/23/business/elon-musk-ai-anthropic-google.html",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Perplexity",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Perplexity launches Teammates, personal work agents that can take on several roles",
+   "summary": "Teammates operate inside a shared workspace and are available to $200-a-month Max subscribers first, per launch coverage.",
+   "source": "Laplace Atlas",
+   "url": "https://www.laplaceatlas.com/stories/perplexity-launches-teammates-personal-work-agents-that-can-hold-multipl-170f3461",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Gemini 4 Carbon comes to AI Pro subscribers in Antigravity; Cursor adds Gemini 4 Neon",
+   "summary": "Carbon was previously limited to AI Ultra in Google's agentic IDE. Separately, Cursor reportedly measured Gemini 4 Neon at 63.7% on CursorBench versus 57.3% for Gemini 4 Hydrogen.",
+   "source": "9to5Google",
+   "url": "https://9to5google.com/2026/11/23/antigravity-gemini-4-carbon/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Google",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Gemini API adds file-slicing controls and native Office/OpenDocument uploads",
+   "summary": "Developers can load only selected PDF pages, spreadsheet cells or media segments, cutting token use on large files.",
+   "source": "Google Blog",
+   "url": "https://blog.google/innovation-and-ai/technology/developers-tools/file-slicing-controls/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Claude merges connectors and skills into a single Plugins directory with 10,000+ options",
+   "summary": "The page is live on Free, Pro, Max and Ultra plans, with Team and Enterprise to follow, per reports.",
+   "source": "Fathom",
+   "url": "https://www.fathom.news/claude-plugins-free-users/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Nvidia",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Vera Rubin NVL72 leads MLPerf's first agentic-inference Endpoints round (provisional)",
+   "summary": "Nvidia claims 5-10x throughput per kilowatt over GB300; results are still pending MLCommons peer review.",
+   "source": "MLCommons",
+   "url": "https://results.mlcommons.org/endpoints/report?submission=ecd1a0ac-bf16-4a46-93b5-1250a59b602f",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "AMD / Microsoft",
+   "importance": 1,
+   "tickers": [
+    "AMD",
+    "MSFT"
+   ],
+   "headline": "Microsoft begins validating its first AMD Helios rack in an Azure research lab",
+   "summary": "Helios combines MI455X GPUs with EPYC CPUs and Pensando networking, a step toward rack-scale competition with Nvidia.",
+   "source": "AMD Newsroom",
+   "url": "https://newsroom.amd.com/news/microsoft-running-workload-validation-amd-helios-rackscale-solution/",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Applied Digital",
+   "importance": 2,
+   "tickers": [
+    "APLD"
+   ],
+   "headline": "Applied Digital signs an 18-year, $5.4bn, 150MW data-centre lease with an unnamed hyperscaler",
+   "summary": "The deal extends the run of long-dated AI capacity contracts even as AI-linked equities sell off.",
+   "source": "Applied Digital",
+   "url": "https://ir.applieddigital.com/news-events/press-releases/detail/165/applied-digital-secures-new-150-mw-18-year-lease-with",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Meta / Anthropic",
+   "importance": 2,
+   "tickers": [],
+   "headline": "LeCun says on X that Amodei is hyping AI dangers to get open-source models outlawed",
+   "summary": "The post sparked a 1,400-point Hacker News thread, reigniting the open-weights versus safety-regulation debate.",
+   "source": "X (@ylecun)",
+   "url": "https://x.com/ylecun/status/2124550037912920090",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "Open source",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Trending: skill-distill turns Claude Code or Codex sessions into skills open-weight models can follow",
+   "summary": "The Python repo gathered about 530 stars in a week; most other top trending repos were game-emulation projects.",
+   "source": "GitHub",
+   "url": "https://github.com/sybil-solutions/skill-distill",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Newsletters",
+   "importance": 1,
+   "tickers": [],
+   "headline": "What AI newsletters are focused on: Nvidia's leadership saga, PR-review agents and GPT-6.2 Sol",
+   "summary": "Daily digests led with Huang's reinstatement, Claude Ship, OpenAI's chat-tuned GPT-6.2 Sol and Anthropic's unreviewed VP-vs-VNP proof claim.",
+   "source": "The Neuron",
+   "url": "https://www.theneuron.ai/digest/everything-that-happened-in-ai-today-november-24-2026/",
+   "date": "2026-11-24"
+  }
+ ]
+}
