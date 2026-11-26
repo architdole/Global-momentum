@@ -1,0 +1,406 @@
+{
+ "run_at": "2026-11-26T07:28:00Z",
+ "market_brief": "Thanksgiving keeps US cash markets shut after Wednesday's whipsaw (S&P 500 -0.25%, Nasdaq 100 -0.64%, Dow +0.33%, VIX 28.3), but futures are up 0.6-0.9% and Euro Stoxx 50 futures about 2% as Asian chips rebound, led by double-digit gains in Kioxia and SoftBank. Oil is the main stress point: Brent settled at $94.61 (+3.5%) and pushed above $95 in Asia on Houthi strike claims against Saudi sites and Iranian claims of mine strikes on ships (the dashboard's Brent series shows $90.79 on a different contract; WTI $84.14, +2.5%), lifting Indian bond yields to about 7.21% ahead of an expected RBI hike on December 4. Indian equities extend their run regardless, with the Sensex up about 390 points early on IT strength and an 11th straight session of FII buying, the rupee steady near 92.2. Rates elsewhere lean hawkish: BoJ's Tamura wants a faster path to a ~2% neutral rate (USD/JPY 159.2), Japan services PPI hit a 36-year high, and the US 10Y eased to 4.85% with a December 9 Fed hike ~94% priced; gold is near $3,600, DXY 103.7 and bitcoin about $60,200.",
+ "ai_brief": "Nvidia's halt of AI-server shipments to Malaysia, Singapore, Thailand and Indonesia under new US licensing rules, and reports of Chinese labs hunting for overseas compute, keep export controls at the centre of AI markets. OpenAI moved GPT-6.2 Sol into ChatGPT's default chat for paid users, while NVIDIA and Thinking Machines added open-weight models. Anthropic shares stayed below their IPO price despite news of a larger Zurich research hub, and agent-infrastructure startups have now raised over $500m this year.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 3,
+   "tickers": [
+    "^BSESN",
+    "^NSEI"
+   ],
+   "headline": "Update: Sensex adds about 390 points early Thursday as IT leads and FIIs buy for an 11th session",
+   "summary": "The Sensex rose 388 points to 84,326 and the Nifty hovered near 25,880 in early trade, with IT up over 2% while media, auto and energy lagged. FIIs bought Rs 4,479 crore on Wednesday and DIIs Rs 4,018 crore; the rupee held near 92.2.",
+   "source": "NationPress",
+   "url": "https://www.nationpress.com/business/sensex-up-388-as-it-stocks-lead-early-rally",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "WIPRO.NS",
+    "INFY.NS",
+    "TCS.NS",
+    "HCLTECH.NS"
+   ],
+   "headline": "Nifty IT up about 7% in four sessions; Jefferies cautious on growth, JPMorgan sees steady demand",
+   "summary": "Wipro (+4.4%), Infosys (+3.3%) and TCS (+2.8%) led an intraday Nifty IT high near 33,022. Jefferies flagged weak revenue growth and pricing pressure, while JPMorgan said demand is holding but clients are consolidating vendors; Wipro also won a BP finance-operations deal.",
+   "source": "Upstox",
+   "url": "https://upstox.com/news/market-news/stocks/tcs-infosys-wipro-nifty-it-gains-7-as-it-stocks-rally-for-fourth-straight-session-growth-challenges-ahead/article-203995/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "India",
+   "importance": 3,
+   "tickers": [
+    "IN10Y",
+    "INR"
+   ],
+   "headline": "Indian bonds slip as Brent tops $95; RBI bulletin flags broad-based food inflation",
+   "summary": "The benchmark 2036 bond yield rose about 5bp to 7.21% in early deals. The RBI bulletin said food-price momentum stayed strong into mid-November, and most economists in a Reuters poll expect a 25bp RBI hike on December 4.",
+   "source": "Business Recorder (Reuters)",
+   "url": "https://www.brecorder.com/news/40450843/india-bonds-tumble-as-brent-tops-95-per-barrel-rbi-flags-food-inflation",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Middle East",
+   "importance": 3,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Update: Brent settles at $94.61, up 3.5%, and extends above $95 in Asia after Houthi claims on Saudi sites",
+   "summary": "Brent rose a third day as Houthis claimed strikes on Ras Tanura and Red Sea ports; Saudi Arabia said it downed drones and missiles, and the IRGC said it stopped a container ship in Hormuz. US crude stocks rose 1.1m barrels; OPEC+ meets November 29.",
+   "source": "The Private Banker",
+   "url": "https://leprivatebanker.com/2026/11/26/oil-extends-gains-as-houthis-strike-saudi-red-sea-ports-and-claim-ras-tanura-attack-with-brent-near-95/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Iran",
+   "importance": 2,
+   "tickers": [
+    "BZ=F"
+   ],
+   "headline": "Iran claims mine strikes on ships, adding to the oil risk premium",
+   "summary": "Reuters reports oil extended gains after Iran claimed mine strikes on vessels; the claims have not been independently verified.",
+   "source": "Investing.com (Reuters)",
+   "url": "https://www.investing.com/news/commodities-news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-5051949",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US / Southeast Asia",
+   "importance": 3,
+   "tickers": [
+    "NVDA",
+    "DELL",
+    "SMCI"
+   ],
+   "headline": "Nvidia halts AI server shipments to Malaysia, Singapore, Thailand and Indonesia, FT reports",
+   "summary": "Nvidia reportedly told partners including Dell and Supermicro to stop shipping servers with its chips to the four countries after new US export-licence rules took effect. It is unclear whether the halt is temporary.",
+   "source": "Investing.com (Reuters)",
+   "url": "https://www.investing.com/news/stock-market-news/nvidia-halts-server-shipments-to-four-southeast-asian-countries-ft-reports-5052112",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Asia",
+   "importance": 2,
+   "tickers": [
+    "9984.T",
+    "285A.T",
+    "^KS11",
+    "^TWII"
+   ],
+   "headline": "Update: Asian tech rebound broadens; Kioxia and SoftBank jump by double digits",
+   "summary": "Nikkei, Kospi and Taiex each gained more than 1% and the Hang Seng also rose as SK hynix and Samsung recovered part of Wednesday's rout. Strategists cautioned that relief rallies still need follow-through.",
+   "source": "Euronews",
+   "url": "https://www.euronews.com/2026/11/26/anxiety-over-the-ai-boom-and-inflation-drags-wall-street-lower",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 2,
+   "tickers": [
+    "^STOXX50E",
+    "^GDAXI"
+   ],
+   "headline": "Europe set for a sharp bounce: Euro Stoxx 50 futures up about 2%",
+   "summary": "Euro Stoxx 50 futures were about 2.2% higher and DAX futures about 2.0% before the open, after Wednesday's 1.8% cash drop; US index futures were up 0.6-0.9% with cash markets shut for Thanksgiving.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---26th-november-2026",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "Japan",
+   "importance": 3,
+   "tickers": [
+    "USDJPY",
+    "JP10Y"
+   ],
+   "headline": "BoJ hawk Tamura urges quick moves toward a neutral rate near 2%",
+   "summary": "Board member Naoki Tamura said rates should reach neutral soon, reportedly envisaging 25bp hikes every few months and 50bp if inflation risks materialise. USD/JPY held near 159.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-26/hawkish-bank-of-japan-member-seeks-quick-rate-hikes-on-inflation",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "South Korea / UK",
+   "importance": 1,
+   "tickers": [
+    "^KS11"
+   ],
+   "headline": "Update: BoK hike to 3.25% drew two dissents; BoE Financial Stability Report due today",
+   "summary": "Two Bank of Korea board members dissented on Thursday's 25bp hike. In the UK, Bailey, Lombardelli and Mann speak around the FSR, with Mann arguing for further, earlier tightening.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---26th-november-2026",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "Japan / Australia",
+   "importance": 2,
+   "tickers": [
+    "AUDUSD",
+    "USDJPY"
+   ],
+   "headline": "Asia-Pacific inflation runs hot: Japan services PPI at 4.2%, highest since 1990; Australia CPI 4.9%",
+   "summary": "Japan's October services producer prices rose 4.2% y/y and Australian CPI hit 4.9% (trimmed mean 3.8%), both above forecasts. Australian Q3 private capex also jumped 12.2% versus 4.4% expected, per Newsquawk.",
+   "source": "Asian Market Sense",
+   "url": "https://asianmarketsense.substack.com/p/us-markets-rallied-ahead-of-thanksgiving",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Update: Japan and Singapore criticise proposed US Section 301 tariffs; levies unlikely before late January",
+   "summary": "Duties of up to 20% on 14 economies face a public-comment period and are not expected before late January 2027. Japan and Singapore pushed back, India says it is examining the proposal, and Beijing warned against trade wars without threatening retaliation.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---26th-november-2026",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "Europe / Asia",
+   "importance": 1,
+   "tickers": [
+    "AMS.SW",
+    "005930.KS",
+    "BAYN.DE",
+    "3692.HK"
+   ],
+   "headline": "Samsung Display takes a 9.1% ams Osram stake; Hansoh licenses a drug to Bayer for up to $3.25bn",
+   "summary": "Samsung Display is buying the ams Osram stake for about EUR210m. Separately, Hansoh Pharma licensed HS-20122 to Bayer in a deal worth up to $3.25bn.",
+   "source": "Asian Market Sense",
+   "url": "https://asianmarketsense.substack.com/p/us-markets-rallied-ahead-of-thanksgiving",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Taiwan / India",
+   "importance": 2,
+   "tickers": [
+    "^TWII",
+    "TWD",
+    "^NSEI"
+   ],
+   "headline": "Flows: foreigners dump NT$124bn of Taiwan stocks as India draws a record ~$15bn in November",
+   "summary": "Foreign institutions sold NT$123.65bn of Taiwan equities on Wednesday and the Taiwan dollar hit a roughly 20-month low. India's month-to-date foreign inflows are reported at about $14-15bn, a record per local press.",
+   "source": "Asian Market Sense",
+   "url": "https://asianmarketsense.substack.com/p/us-markets-rallied-ahead-of-thanksgiving",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "FF"
+   ],
+   "headline": "Prediction markets: Polymarket shows about 94% odds of a December Fed hike after PCE",
+   "summary": "Polymarket traders priced roughly 94% odds of a December 9 hike after core PCE ran at 3.3%, close to fed funds futures pricing.",
+   "source": "Crypto Briefing",
+   "url": "https://cryptobriefing.com/polymarket-94-odds-december-fed-rate-hike/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "Hong Kong",
+   "importance": 1,
+   "tickers": [
+    "^HSI"
+   ],
+   "headline": "EY expects Hong Kong IPO proceeds above HK$430bn in 2026, a five-year high",
+   "summary": "EY projects 2026 Hong Kong IPO fundraising up about 50% year on year, keeping the city among the top global listing venues.",
+   "source": "DotDotNews",
+   "url": "https://english.dotdotnews.com/a/202611/26/AP6b07978de4b091a65a30b9ce.html",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Calendar: ECB minutes and BoE FSR today; US half-day Friday; OPEC+ Nov 29; RBI Dec 4; FOMC Dec 8-9",
+   "summary": "US cash markets are shut Thursday and close at 1pm ET Friday. ECB October minutes, German GfK and the BoE Financial Stability Report land today; OPEC+ meets November 29 on 2027 output.",
+   "source": "Newsquawk",
+   "url": "https://www.newsquawk.com/headlines/newsquawk-daily-european-opening-news---26th-november-2026",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 3,
+   "tickers": [],
+   "headline": "GPT-6.2 Sol rolls into ChatGPT's Chat tab for paid tiers; GPT-5.6 models retire in December",
+   "summary": "Plus, Pro, Business and Enterprise users get GPT-6.2 Sol as the default chat model, while Free and Go tiers are excluded for now.",
+   "source": "India Today",
+   "url": "https://indiatoday.in/technology/story/openai-brings-gpt-62-to-chatgpts-chat-tab-but-free-and-go-users-get-nothing-3046620-2026-11-25",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [
+    "ANTH"
+   ],
+   "headline": "Anthropic leases about 2,500 m2 in central Zurich; shares slipped 4.6% premarket on Wednesday",
+   "summary": "Bloomberg reports Anthropic will base research and model-training work in the Fraumünsterpost building; the company declined comment, citing its post-IPO quiet period. The shares remained below their $83 IPO price.",
+   "source": "SWI swissinfo (Bloomberg)",
+   "url": "https://www.swissinfo.ch/eng/anthropic-expands-in-zurich-to-tap-citys-ai-talent-pool/92435062",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Nvidia / China",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "US remote-access rule pushes Chinese AI labs to seek Nvidia compute abroad",
+   "summary": "Moonshot, ByteDance, Alibaba and Tencent are reportedly exploring overseas data centres as a BIS interim rule closes the remote-access loophole; Asian operators are reportedly cutting B300 rental prices to court US buyers.",
+   "source": "wpnews",
+   "url": "https://wpnews.pro/news/chinese-ai-firms-explore-remote-access-to-nvidia-chips-as-us-export-rules",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "NVIDIA",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "NVIDIA releases open-weight Nemotron-Labs image and diffusion-LM checkpoints",
+   "summary": "NVIDIA published Nemotron-Labs-Image-30B-A3B on Hugging Face alongside 14 Nemotron-Labs-Sigma diffusion language model checkpoints at 3B and 8B.",
+   "source": "Wisevoter",
+   "url": "https://wisevoter.com/world/2026/11/25/nvidia-open-weight-nemotron-labs-image-model",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "Thinking Machines / Google",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Thinking Machines ships open-weight Inkling 2 Mini; Genie 4 world model reaches the Gemini API",
+   "summary": "A weekly roundup highlights Thinking Machines' open-weight Inkling 2 Mini and Google making Genie 4 available to developers, alongside the Gemini 4 Neon launch.",
+   "source": "DEV Community",
+   "url": "https://dev.to/alexmercedcoder/ai-weekly-gemini-4-neon-inkling-2-mini-and-mcp-events-2opk",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Agent infrastructure",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Agent-web startups have raised $515m this year as bots pass half of web traffic",
+   "summary": "Exa ($250m), Parallel Web Systems ($100m), Linq ($90m, a16z-led) and Firecrawl ($75m) are building search, browsing and messaging rails for AI agents; Wells Fargo now makes customers responsible for agent actions.",
+   "source": "PYMNTS",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/startups-raise-515-million-to-build-ai-agents-their-own-internet/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Rundown focus: OpenAI's OpenWorks pays local AI experts to help small businesses",
+   "summary": "The pilot spans 20 US cities, with participating businesses getting three free months of ChatGPT Business; partner stipends are reportedly up to $8,000 a month.",
+   "source": "The Rundown AI",
+   "url": "https://www.therundown.ai/news/openai-openworks-small-business-ai-pilot",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Meta",
+   "importance": 2,
+   "tickers": [
+    "META"
+   ],
+   "headline": "Meta's Alexandr Wang says superintelligence is arriving and urges the industry off the default path",
+   "summary": "In an essay on X, Meta's chief AI officer called for a more cautious route, and a follow-up post credited him and Zuckerberg with delaying Muse for safety reasons.",
+   "source": "The Rundown AI",
+   "url": "https://www.therundown.ai/news/meta-alexandr-wang-superintelligence-warning",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "OpenAI preprint claims a 9/4 matrix-multiplication exponent; result not yet validated",
+   "summary": "OpenAI posted a math preprint claiming a major improvement on the matrix-multiplication exponent; outside verification is pending and X discussion is sceptical but intense.",
+   "source": "GitHub (openai/math)",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "South Korea",
+   "importance": 1,
+   "tickers": [
+    "030200.KS",
+    "035420.KS",
+    "017670.KS"
+   ],
+   "headline": "Korea's proposed defence-AI budget more than doubles to 361bn won; KT, Naver Cloud, SKT form task forces",
+   "summary": "Korean telecom and cloud firms are setting up teams to bid for defence AI contracts as the budget line expands.",
+   "source": "Chosun Biz",
+   "url": "https://biz.chosun.com/en/en-it/2026/11/25/FWFOBPVHHVCKFH76Z4UPYWDAJI",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Nothing",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Nothing teases Ear (note) earbuds with built-in AI call and meeting recording",
+   "summary": "The earbuds record calls and the case captures in-person conversations, with app transcripts and summaries; full details reportedly arrive December 8.",
+   "source": "The Rundown AI",
+   "url": "https://www.therundown.ai/news/nothing-ear-note-ai-recording-earbuds",
+   "date": "2026-11-25"
+  }
+ ]
+}
