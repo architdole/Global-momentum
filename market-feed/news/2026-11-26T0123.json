@@ -1,0 +1,440 @@
+{
+ "run_at": "2026-11-26T01:23:00Z",
+ "market_brief": "Wall Street staged a sharp intraday reversal on Wednesday: the Dow erased a 1,100-point drop to close +0.33% at 50,183 while the S&P 500 (-0.25%) and Nasdaq 100 (-0.64%) lagged, with equal-weight (+0.8%) and mid caps (+1.2%) leading and VIX still elevated near 28. Hot-ish data (core PCE 3.3% vs 3.2%, Q3 GDP revised to 4.3%, claims 189k) cemented a December 9 Fed hike, yet the 10Y fell about 6bp to 4.85% as odds of a third 2027 hike faded. Trade risk rose as the US proposed Section 301 tariffs of up to 20% on China, the EU and 12 others, Europe closed lower (Euro Stoxx 50 -1.8%, DAX -1.3%), and oil jumped after a Houthi-claimed strike on Ras Tanura (WTI +2.5% to $84) while gold held near $3,600 and bitcoin around $60,000. In Asia on Thursday the Bank of Korea hiked to 3.25% as expected and Kospi and Nikkei bounced 1.5-2% in thin holiday trade; USD/INR eased to 92.2.",
+ "ai_brief": "AI equities stayed volatile: Nvidia fell another 3.9% amid a reported S&P CreditWatch move, and Anthropic rebounded 12% intraday but still closed just under its $83 IPO price as leveraged ETFs on it launched. Product news included Cognition's Kimi-based SWE-2.1 coding model, Midjourney's Niji V8 and Meta's Muse inside Instagram DMs. Safety and policy items dominated the rest: Amazon flagged a largely autonomous AI-agent zero-day exploit, the UK FCA set expectations for agentic AI, and Axios reported internal concerns at OpenAI and Anthropic about unreleased models.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^DJI",
+    "^GSPC",
+    "^IXIC",
+    "^RUT"
+   ],
+   "headline": "Update: Wall Street claws back a 1,100-point Dow plunge; S&P ends -0.25%, Dow +0.33%",
+   "summary": "After the pre-open futures rout, the Dow fell about 1,105 points intraday and the Nasdaq more than 4.5% before a full afternoon recovery: the Dow closed +0.33% at 50,183, the S&P 500 -0.25% at 7,183 and the Nasdaq -0.62%. Small caps (+0.7%) and equal-weight S&P (+0.8%) outperformed, while VIX still ended near 28.",
+   "source": "FXBrokerTrust",
+   "url": "https://www.fxbrokertrust.com/insights/us-stocks-close-mixed-as-dow-reverses-1105point-plunge",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "^TNX",
+    "^FVX"
+   ],
+   "headline": "Core PCE runs hot at 3.3% y/y as Q3 GDP is revised up to 4.3%",
+   "summary": "October headline PCE rose 3.8% y/y (in line) while core printed 3.3% against 3.2% expected; Q3 GDP was revised up to a 4.3% annualised pace and initial jobless claims fell to 189,000. Treasuries still rallied, with the 10Y down about 6bp to roughly 4.85%.",
+   "source": "Vista Partners",
+   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "ZQ=F"
+   ],
+   "headline": "December Fed hike fully priced; odds of a third 2027 hike drop to about one in three",
+   "summary": "Per CME FedWatch figures cited after the data, a 25bp hike at the December 8-9 FOMC is fully priced and traders expect two more in 2027, but the probability of a third fell to around one-third from roughly even on Tuesday.",
+   "source": "Vista Partners",
+   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "US",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Beige Book: 8 of 12 districts growing; wage gains pick up to a moderate pace",
+   "summary": "The Fed's November Beige Book showed eight districts with slight-to-moderate growth (nine previously), with Boston slipping to flat and Cleveland upgraded on data-centre, power and defence demand. Wage growth firmed to moderate and Richmond manufacturers reported price rises above 5% for the first time since 2023.",
+   "source": "FXBrokerTrust",
+   "url": "https://www.fxbrokertrust.com/insights/fed-beige-book-8-districts-report-growth-wage-rises-turn-moderate",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "South Korea",
+   "importance": 3,
+   "tickers": [
+    "^KS11",
+    "KRW=X"
+   ],
+   "headline": "Bank of Korea hikes 25bp to 3.25%, its third increase since July",
+   "summary": "The BoK raised its base rate to 3.25% as 32 of 34 economists in a Reuters poll expected, citing a chip-export boom and Seoul housing. It projects GDP growth of 3.9% in 2026 and 4.1% in 2027 with inflation easing to 2.4% next year; economists see one more hike to 3.50% in early 2027.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/central-banks/bank-of-korea-hikes-to-3-25-sees-4-1-growth-in-2027-as-chip-boom-drives-economy",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "US / Global",
+   "importance": 3,
+   "tickers": [
+    "FXI",
+    "EZU",
+    "EWJ",
+    "EWY",
+    "INDA"
+   ],
+   "headline": "Update: US formally proposes Section 301 tariffs of up to 20% on China, the EU and 12 others",
+   "summary": "Following Tuesday's Reuters report, the administration published proposed duties after its excess-capacity probe: about 15% for the EU, Japan and Korea, 20% for China and Vietnam and 18% for several ASEAN economies, with chips, autos and metals excluded. Duties would not start before January after a comment period; Mexico and Norway may avoid immediate levies and China rejected the overcapacity claim.",
+   "source": "Vista Partners",
+   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Japan / South Korea",
+   "importance": 2,
+   "tickers": [
+    "^N225",
+    "^KS11",
+    "005930.KS",
+    "000660.KS",
+    "285A.T",
+    "9984.T"
+   ],
+   "headline": "Asia rebounds Thursday: Kospi up about 2%, Nikkei 1.5%; Kioxia +6%, SoftBank +3.5%",
+   "summary": "After Wednesday's 6% Kospi rout and 2.8% Nikkei drop, both markets opened higher following Wall Street's recovery, with SK Hynix up about 2% and Kioxia over 6% in early trade. Volumes are expected to be thin with US markets shut for Thanksgiving.",
+   "source": "TradingKey",
+   "url": "https://www.tradingkey.com/analysis/stocks/more/262322889-japan-south-korea-stocks-kospi-nikkei-softbank-sk-hynix-samsung-kioxia-tradingkey",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Nvidia falls 3.9% for a second day; S&P reportedly puts its AA rating on CreditWatch Negative",
+   "summary": "Nvidia closed down 3.91% near $149 as the rally on Jensen Huang's reinstatement faded and AI-capex doubts returned. Per a widely shared X post citing S&P Global Ratings, its AA rating was placed on watch negative over governance risk, and the company disclosed it guarantees some customer financing.",
+   "source": "tastylive",
+   "url": "https://tastylive.substack.com/p/the-market-brief-the-1100-point-reversal",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "MU",
+    "LRCX",
+    "SNDK",
+    "ORCL",
+    "AMD",
+    "TXN",
+    "META"
+   ],
+   "headline": "Chip names whipsaw: SOX down ~8% at the low, closes -0.65%; Lam -5.7%, Sandisk -5.6%",
+   "summary": "AMD, Micron and Marvell were down more than 9% intraday before paring; at the close Lam Research fell 5.7%, Sandisk 5.6%, Oracle about 5% and Micron 4.5%, while Texas Instruments rose 4.6% and Meta 3.4%.",
+   "source": "ABC News",
+   "url": "https://abcnews.com/Business/stocks-tumble-tech-sell-off-resumes-nvidia-falls/story?id=138442070",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "DELL"
+   ],
+   "headline": "Dell recovers from a sub-$266 low to close up 0.6%; Wells Fargo cuts target to $400",
+   "summary": "Dell raised its FY27 AI-server revenue outlook to $78bn from $74bn with a $132bn AI backlog, but the stock swung sharply. Morgan Stanley nudged its target to $408 (Equal-Weight) while Wells Fargo cut to $400 from $545 (Overweight).",
+   "source": "tastylive",
+   "url": "https://tastylive.substack.com/p/the-market-brief-the-1100-point-reversal",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "DE"
+   ],
+   "headline": "Deere rises 4.6% after results despite an FY27 profit range bracketing this year",
+   "summary": "Deere posted fiscal Q4 EPS of $3.89 versus $3.93 a year earlier and guided FY27 net income to $4.50-5.25bn against $4.86bn in FY26; the stock reversed from a 5% early drop to close higher.",
+   "source": "tastylive",
+   "url": "https://tastylive.substack.com/p/the-market-brief-the-1100-point-reversal",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "SHLS",
+    "AGX"
+   ],
+   "headline": "Citi upgrades Shoals to Buy; Piper lifts Argan to Neutral",
+   "summary": "Citi moved Shoals Technologies to Buy from Neutral with an $11.85 target, and Piper Sandler upgraded Argan to Neutral from Underweight, both power/grid names tied to data-centre build-outs.",
+   "source": "tastylive",
+   "url": "https://tastylive.substack.com/p/the-market-brief-the-1100-point-reversal",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Middle East",
+   "importance": 3,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Oil jumps 2-3% after Houthis claim a strike on Saudi Arabia's Ras Tanura refinery",
+   "summary": "Brent reversed Tuesday's slide below $90 after the Houthis said they attacked Ras Tanura; Saudi Arabia said it downed drones over the site. Brent settled around $94.6 (+3.5%) and WTI near $84, reported figures that differ by contract.",
+   "source": "OilPrice.com",
+   "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Jumps-Over-2-as-Saudi-Arabia-Downs-Drones-Over-Ras-Tanura.html",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "GC=F",
+    "SI=F"
+   ],
+   "headline": "Gold stabilises near $3,600 after touching a fresh 14-month low on hike bets",
+   "summary": "Gold fell toward $3,500 before the PCE data on hawkish Fed pricing and margin-driven liquidation, then recovered to about $3,600 as yields dropped; it sits roughly 37% below this year's record.",
+   "source": "Trading Economics",
+   "url": "https://tradingeconomics.com/commodity/gold/news/604110",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "ANTH",
+    "ANTT",
+    "ANTZ",
+    "RSP",
+    "SPY"
+   ],
+   "headline": "Fintwit flags breadth and new leveraged Anthropic ETFs as Anthropic closes 15 cents below IPO",
+   "summary": "Tradr launched 2x long and -2x short daily ETFs on Anthropic as the stock bounced 12% off a $73.86 low to $82.85, still under its $83 IPO price. X accounts such as Kobeissi Letter highlighted the Dow's turnaround and equal-weight S&P beating cap-weight by about 1.1 points.",
+   "source": "tastylive",
+   "url": "https://tastylive.substack.com/p/the-market-brief-the-1100-point-reversal",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Capital markets",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "SPCX"
+   ],
+   "headline": "SpaceX pares an 8% drop after the FCC authorises up to 1 million data-centre satellites",
+   "summary": "SpaceX shares ended about 1% lower after the regulatory approval for orbital data-centre satellites offset the tech selloff; the stock remains below its $135 IPO price.",
+   "source": "Vista Partners",
+   "url": "https://vistapglobal.com/stocks-close-mixed-on-wednesday-november-25-2026-as-hot-pce-inflation-new-tariff-plans-and-an-ai-sell-off-test-wall-street-amd-eprx-googl-modd-nvda-ser-spcx-vix/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "HYG",
+    "LQD"
+   ],
+   "headline": "JPMorgan sees $450bn of AI-related high-grade bond issuance in 2027",
+   "summary": "Per a Bloomberg item circulated on X, JPMorgan forecasts AI-linked investment-grade supply rising to about $450bn next year from $368bn in 2026, feeding the credit-stress debate around hyperscaler capex.",
+   "source": "tastylive",
+   "url": "https://tastylive.substack.com/p/the-market-brief-the-1100-point-reversal",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Calendar: US shut Thursday, 1pm ET close Friday; FOMC Dec 8-9; US-China truce expires Jan 10",
+   "summary": "Thanksgiving thins liquidity through Friday's half-day; next catalysts are November payrolls and the December 8-9 FOMC, while the proposed Section 301 duties and the January 10 expiry of the US-China truce frame trade risk. India has no major data scheduled Thursday.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/stock-market-update/nikkei-and-kospi-rebound-over-1-as-asia-follows-wall-street-s-comeback-bok-decision-next/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Cognition",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Cognition ships SWE-2.1 coding model, plus a Cyber variant for Devin Security",
+   "summary": "Cognition released SWE-2.1, an RL-trained coding model built on Moonshot's Kimi K3, and SWE-2.1 Cyber with looser safeguards for defensive security work; benchmarks are self-reported.",
+   "source": "Cognition",
+   "url": "https://cognition.com/blog/swe-2-1",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Midjourney",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Midjourney releases Niji V8 anime image model",
+   "summary": "Midjourney launched version 8 of its Niji model, aimed at anime and illustration styles.",
+   "source": "Midjourney (X)",
+   "url": "https://x.com/midjourney/status/2125328040624521639",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Meta",
+   "importance": 2,
+   "tickers": [
+    "META",
+    "WMT"
+   ],
+   "headline": "Meta puts its Muse assistant into Instagram DMs; Walmart runs Black Friday deals through it",
+   "summary": "Meta integrated its Muse AI assistant directly into Instagram direct messages, and Walmart is using Muse as an agentic shopping channel for Black Friday offers.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/24/meta-brings-its-muse-ai-assistant-directly-into-instagram-dms/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Amazon",
+   "importance": 3,
+   "tickers": [
+    "AMZN"
+   ],
+   "headline": "Amazon says an open-source AI agent largely autonomously exploited a zero-day",
+   "summary": "Amazon reported detecting an attack in which an open-source AI agent exploited a previously unknown vulnerability with limited human direction, adding to the UK NCSC's warning on AI-driven attacks this week.",
+   "source": "Gizmodo",
+   "url": "https://gizmodo.com/amazon-says-open-source-ai-agent-mostly-autonomously-exploited-a-zero-day-2000844891",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "OpenAI / Anthropic",
+   "importance": 2,
+   "tickers": [
+    "ANTH"
+   ],
+   "headline": "Axios: staff at OpenAI and Anthropic worry about safely releasing unreleased models",
+   "summary": "Per Axios sources, employees at both labs have raised concerns about the risks of advanced models still held back from release.",
+   "source": "Axios",
+   "url": "https://www.axios.com/2026/11/24/anthropic-openai-unreleased-ai-safety-risks",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "UK FCA",
+   "importance": 2,
+   "tickers": [],
+   "headline": "UK FCA sets out its expectations for firms deploying agentic AI",
+   "summary": "The Financial Conduct Authority published guidance on how regulated firms should govern autonomous AI agents, relevant for asset managers and fund administrators using agent workflows.",
+   "source": "FCA",
+   "url": "https://www.fca.org.uk/firms/innovation/ai-approach/agentic-ai",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Nvidia",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "Reinstated Huang still faces congressional and Senate Banking scrutiny on export controls",
+   "summary": "Lawmakers are demanding answers from Nvidia's CEO on national-security and China chip-export issues despite his return to the role.",
+   "source": "Tom's Hardware",
+   "url": "https://www.tomshardware.com/tech-industry/policy/reinstated-nvidia-ceo-jensen-huang-must-still-face-china-congressional-and-senate-banking-committees-senators-and-representatives-demand-answers-from-nvidia-ceo-on-national-security-threats-and-export-controls",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Data centres",
+   "importance": 2,
+   "tickers": [],
+   "headline": "More than 100 US data centres plan on-site gas plants totalling over 115 GW",
+   "summary": "MIT Technology Review tallies a wave of behind-the-meter natural-gas generation planned for AI data centres, raising emissions and grid-planning questions.",
+   "source": "MIT Technology Review",
+   "url": "https://www.technologyreview.com/2026/11/24/1149622/data-centers-natural-gas/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Tidal",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Tidal to remove fully AI-generated tracks from December 9",
+   "summary": "The streaming service will delist music generated entirely by AI, reportedly around 29 million tracks by year-end.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/24/tidal-to-ban-and-remove-millions-of-ai-generated-tracks-as-ai-slop-inundates-music-streaming/",
+   "date": "2026-11-24"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 1,
+   "tickers": [
+    "ANTH"
+   ],
+   "headline": "Anthropic publishes neuron-level interpretability revisit and a honeypot test for agents",
+   "summary": "Anthropic's alignment team posted work revisiting neuron-basis interpretability, and Wired covered its honeypot evaluations that check whether agents take chances to misbehave.",
+   "source": "Anthropic Alignment",
+   "url": "https://alignment.anthropic.com/2026/neuron-basis-theory/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "GitHub",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Trending: minimind (train a 64M LLM in ~2 hours), Firecrawl and Claude-BugHunter",
+   "summary": "New entrants on GitHub trending include jingyaogong's minimind for small-model training from scratch, Firecrawl's agent knowledge layer and a Claude Code skill pack for vulnerability hunting.",
+   "source": "GitHub",
+   "url": "https://github.com/jingyaogong/minimind",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [
+    "ANTH"
+   ],
+   "headline": "Update: Anthropic recovers 12% intraday but closes 15 cents below its $83 IPO price",
+   "summary": "Since the premarket slide, Anthropic shares hit $73.86 before rallying with the broader market to $82.85, roughly +1% on the day; Tradr's 2x and -2x single-stock ETFs began trading.",
+   "source": "tastylive",
+   "url": "https://tastylive.substack.com/p/the-market-brief-the-1100-point-reversal",
+   "date": "2026-11-26"
+  }
+ ]
+}
