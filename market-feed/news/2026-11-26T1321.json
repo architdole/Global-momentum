@@ -1,0 +1,366 @@
+{
+ "run_at": "2026-11-26T13:21:00Z",
+ "market_brief": "With US cash markets shut for Thanksgiving (Wednesday: S&P 500 -0.25%, Nasdaq 100 -0.64%, VIX 28.3), Europe caught up with Wall Street's late reversal: Euro Stoxx 50 +1.9%, DAX +1.8% and STOXX 600 +1.5%, helped by banks, chipmakers and Reuters reports that EU duties under the proposed Section 301 tariffs would be capped at 15%. ECB accounts showed broad support for tightening and a December 17 hike to 2.75% is fully priced, while a far weaker-than-expected PBoC yuan fix (6.7096) signalled Beijing may let the currency absorb tariff pressure. Indian stocks closed modestly higher (Sensex +0.46% to 84,329, Nifty +0.25%) on a 3.7% IT rally after paring early gains, ahead of an expected RBI hike on December 4. Oil eased from Asia's $95 Brent spike (the dashboard's Brent contract shows $90.9, -3.9%; WTI $84.2) ahead of OPEC+ from Nov 29, while metals rebounded: gold +1.6% to about $3,593, silver +3.9%, copper +2.5% and natural gas +10.9%; the US 10Y sits at 4.85%, DXY 103.8 and bitcoin near $60,600.",
+ "ai_brief": "Agent infrastructure led the day: Anthropic said MCP has passed 700m monthly SDK downloads with Tasks and Elicitation going GA, Cloudflare opened agent-facing site search, and OpenAI began enterprise trials of confidential 'Private Inference'. Open and efficient models kept coming, from PrismML's 5.9GB ternary coding model to Sand.ai's MAGI-2 video model. Policy pressure rose as New York banned AI chatbot toys and 42 attorneys general moved to block Character.AI's chat-data auction, while ElevenLabs ($33bn) and a16z (~$20bn) fundraising reports show capital still flowing.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Europe",
+   "importance": 3,
+   "tickers": [
+    "^STOXX",
+    "^GDAXI",
+    "DBK.DE",
+    "BAB.L"
+   ],
+   "headline": "Europe rebounds about 1.5% as banks and chipmakers bounce; EU tariff fears ease",
+   "summary": "The STOXX 600 rose about 1.4% early, reversing Wednesday's drop, with Deutsche Bank +3%, Soitec and Infineon about +4%, and Babcock +5.8% on an £8bn UK submarine-facilities contract. Reuters reported duties on the EU are likely to be capped at last year's agreed 15% rate under the proposed Section 301 measures.",
+   "source": "Reuters via WIFC",
+   "url": "https://wifc.com/2026/11/26/european-stocks-rally-as-tech-and-banks-rebound-tariff-fears-ease/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "India",
+   "importance": 3,
+   "tickers": [
+    "^BSESN",
+    "^NSEI"
+   ],
+   "headline": "Update: Sensex closes +390 at 84,329 after paring gains; Nifty ends 25,885",
+   "summary": "Change from the morning: indices finished well off intraday highs (Nifty touched 25,975) as consumer and financial names faded, leaving the Nifty +0.25% and the Sensex +0.46%. Nifty IT gained 3.7% while FMCG slipped 0.9%; mid and small caps rose 0.3-0.7%.",
+   "source": "Kotak Neo",
+   "url": "https://www.kotakneo.com/news/market-news/sensex-and-nifty-manage-to-close-higher-despite-paring-early-gains/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "HCLTECH.NS",
+    "TCS.NS",
+    "INFY.NS",
+    "BSE.NS",
+    "ASIANPAINT.NS",
+    "BAJFINANCE.NS"
+   ],
+   "headline": "HCLTech +6.4%, TCS +4.9% lead; Asian Paints and Bajaj Finance drop about 3%",
+   "summary": "IT heavyweights and BSE (+5.7%) topped Nifty gainers, while Asian Paints, Bajaj Finance, Shriram Finance and Nestle India fell 2.8-3%. Prestige Estates (+8.7%) and MCX (+7.6%) led midcaps; FIIs and DIIs were both net buyers in the prior session.",
+   "source": "Upstox",
+   "url": "https://upstox.com/news/market-news/stocks/top-gainers-and-losers-nov-26-hcl-tech-bse-surge-6-tcs-rises-5-asian-paints-falls-3-check-list/article-204034/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "Euro area",
+   "importance": 3,
+   "tickers": [
+    "EURUSD=X"
+   ],
+   "headline": "ECB accounts: many members could have backed an October hike; December move fully priced",
+   "summary": "Accounts of the Oct 28-29 meeting show broad support for tightening, with the ECB holding only to gather more inflation data. Markets fully price a 25bp hike to 2.75% on December 17, per Reuters; Lagarde's term ends in February 2027.",
+   "source": "Reuters via Global Banking & Finance",
+   "url": "https://www.globalbankingandfinance.com/ecb-already-large-support-rate-hike-oct-accounts-show/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "Germany",
+   "importance": 1,
+   "tickers": [
+    "^GDAXI"
+   ],
+   "headline": "German GfK consumer climate edges up to -30.2, short of forecasts",
+   "summary": "The December reading improved 0.7 points from a revised -30.9 but missed the -29.9 consensus; economic expectations fell 3.7 points as inflation worries returned.",
+   "source": "PiQ Markets",
+   "url": "https://piqmarkets.com/story/german-consumer-sentiment-rises-to-30-2-for-december-gfk-survey-finds",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Middle East",
+   "importance": 3,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Update: Brent briefly tops $95 in Asia, then eases as markets look to OPEC+",
+   "summary": "What changed: Brent hit about $95.3 early in Asia after the Ras Tanura strike claims, but the front contracts eased through the European morning (Feb Brent near $90 by midday India time) while WTI held around $84. The IEA flagged a 1.7m bpd October inventory build; OPEC+ ministers meet from Nov 29 on 2027 output.",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [
+    "GC=F",
+    "SI=F"
+   ],
+   "headline": "Gold and silver rebound 1-4% from lows; MCX silver jumps over 3%",
+   "summary": "COMEX gold rose about 1.1% to near $3,575 and silver 3.5% to about $41.5 on bargain buying after this week's slide; MCX gold traded near Rs 1.22 lakh per 10g. An independent analyst cited $3,540-3,560 support and $3,640 resistance for gold.",
+   "source": "Business Today",
+   "url": "https://www.businesstoday.in/markets/stocks/story/gold-silver-prices-rebound-up-to-3-expert-shares-key-levels-to-track-569596-2026-11-26",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "China",
+   "importance": 2,
+   "tickers": [
+    "CNY=X"
+   ],
+   "headline": "PBoC sets yuan fix at 6.7096, far weaker than the 6.6655 estimate",
+   "summary": "The reference rate came in roughly 0.7% weaker than the Reuters estimate, a rare signal of tolerance for yuan softness as US tariff threats build; the PBoC also injected 571.5bn yuan via reverse repos.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/central-banks/pboc-sets-usd-cny-reference-rate-for-today-at-6-7096-vs-estimate-at-6-6655/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Hong Kong",
+   "importance": 2,
+   "tickers": [
+    "^HSI",
+    "2513.HK",
+    "0100.HK"
+   ],
+   "headline": "Hang Seng +1.2% as AI model makers Zhipu and MiniMax jump 7-8%",
+   "summary": "The Hang Seng and Hang Seng Tech each rose about 1.2%, led by large-model stocks Zhipu and MiniMax, while gold miners such as Zijin Gold International gained over 5%; mainland shares were flat.",
+   "source": "Odaily via KuCoin News",
+   "url": "https://www.kucoin.com/news/flash/hong-kong-stocks-close-higher-large-model-concept-stocks-rise-sharply",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Earnings / analyst",
+   "region": "UK",
+   "importance": 2,
+   "tickers": [
+    "HFD.L"
+   ],
+   "headline": "Halfords soars about 14% after H1 profit jumps 66% and guidance is raised",
+   "summary": "H1 revenue rose 6.7% to £953m and underlying pre-tax profit reached £39m, helped by about £8m from a warm summer; FY27 profit guidance was lifted to £60-65m.",
+   "source": "Investing.com",
+   "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-halfords-h1-2026-profit-surge-lifts-shares-14-93CH-2722852",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "MSFT"
+   ],
+   "headline": "Microsoft carries a Sell call from Bears of Wall Street on AI capex and FCF squeeze",
+   "summary": "The independent analyst, who cut the stock from Hold on Nov 17, points to a 27% drop in fiscal Q1 free cash flow to $18.6bn and forecasts gross margin near 63% versus a ~67% consensus, citing AI infrastructure costs and competition.",
+   "source": "TokenPost",
+   "url": "https://www.tokenpost.com/news/investing/62783",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "^GSPC",
+    "^NDX"
+   ],
+   "headline": "Positioning: Goldman says hedge funds added shorts; ETF shorts post third-largest weekly jump in a decade",
+   "summary": "investingLive's earnings-reaction gauge sits at 4.5/10, with the share of stocks rising on results down to 38%, even as S&P and Nasdaq futures have bounced about 5% from Nov 20 lows; it notes Goldman data showing five weeks of de-grossing followed by fresh shorting.",
+   "source": "investingLive",
+   "url": "https://investinglive.com/stocks/wall-street-s-earnings-mood-is-starting-to-improve-is-the-stock-market-finding-a-bottom/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "Asia-Pacific",
+   "importance": 1,
+   "tickers": [
+    "^N225",
+    "^KS11",
+    "^AXJO",
+    "JPY=X"
+   ],
+   "headline": "Asia closes firmer: Nikkei +0.9%, Kospi +0.3% after Tuesday's 6.2% rout, ASX +0.8%",
+   "summary": "Gains narrowed from the morning in thin holiday trade, per AP; Kospi's bounce was modest after its sharp fall earlier in the week, and USD/JPY held near 159.1.",
+   "source": "AP via BNN Bloomberg",
+   "url": "https://www.bnnbloomberg.ca/markets/2026/11/26/world-shares-push-higher-while-markets-in-us-will-be-closed-for-thanksgiving/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 2,
+   "tickers": [],
+   "headline": "Calendar: US half-day Friday; OPEC+ from Nov 29; RBI Dec 4; FOMC Dec 8-9; ECB Dec 17",
+   "summary": "US equities reopen Friday for a shortened session after Thanksgiving. OPEC+ meets on 2027 output from Nov 29, the RBI decides on Dec 4 amid hike expectations, the Fed on Dec 9 and the ECB on Dec 17, with hikes priced at both.",
+   "source": "The National",
+   "url": "https://www.thenationalnews.com/business/energy/2026/11/26/oil-rebounds-to-95-per-barrel-after-saudi-refinery-attack/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [],
+   "headline": "MCP passes 700m monthly SDK downloads; Tasks and Elicitation go GA, Skills over MCP in beta",
+   "summary": "Anthropic says the Model Context Protocol now has over 10,000 connectors; the update makes long-running Tasks and user Elicitation generally available and opens a public beta for delivering Skills over MCP.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "OpenAI begins limited trials of \"Private Inference\" for enterprise data",
+   "summary": "Sam Altman said a small group of enterprise customers is testing confidential-compute inference designed so OpenAI cannot see their data; pricing, model coverage and GA timing were not disclosed.",
+   "source": "Unite.AI",
+   "url": "https://www.unite.ai/openai-begins-limited-customer-trials-of-alpha-private-inference/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Open source",
+   "region": "PrismML",
+   "importance": 2,
+   "tickers": [],
+   "headline": "PrismML squeezes a 27B coding model into 5.9GB with all-ternary weights",
+   "summary": "Ternary Bonsai 2.5 27B, built on Qwen3.8 27B and released under Apache 2.0, reportedly scores 75.6 on SWE-bench Verified versus 80.6 for the full-precision model.",
+   "source": "The Decoder",
+   "url": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Sand.ai",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Sand.ai's MAGI-2 tops a video leaderboard at a fraction of ByteDance pricing",
+   "summary": "The ~480B-parameter MoE video model generates up to 30s of 1080p video with audio, ranks first on Artificial Analysis image-to-video, and costs about $0.07 per second via API; flagship weights are promised without a date.",
+   "source": "AlphaSignal",
+   "url": "https://alphasignal.ai/news/sand-ai-s-magi-2-tops-video-leaderboard-at-one-seventh-bytedance-s-price",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "Google Research",
+   "importance": 2,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "Google Research posts six agent-generated math papers, including a factoring claim",
+   "summary": "Papers produced by a multi-agent Gemini harness appeared in the google-research repo; the lead paper claims a new integer-factoring algorithm, but it is not peer reviewed and the promised Lean proofs are not yet posted.",
+   "source": "AI Daily Digest (GitHub)",
+   "url": "https://github.com/diclogic/ai-daily-digest/issues/225",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "US (New York)",
+   "importance": 2,
+   "tickers": [],
+   "headline": "New York bans AI chatbot toys for five years",
+   "summary": "Governor Hochul signed a ban on making or selling toys with embedded AI chatbots, effective in 90 days with penalties up to $15,000 a day; New York follows California.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Character.AI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "41 states plus DC move to block Character.AI's auction of user chat histories",
+   "summary": "The bipartisan AG coalition asked the bankruptcy court to stop a Dec 1 sale of private chats covering over 21m US users, including more than 2m minors' accounts.",
+   "source": "TechCrunch",
+   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Anthropic",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Update: Amodei rejects Axios report on AI and human free will as \"absurd\"",
+   "summary": "Following Axios's story on internal model-release concerns, Anthropic's CEO denied the characterisation and said fully autonomous development of successive frontier models would not be safe.",
+   "source": "Al Jazeera",
+   "url": "https://www.aljazeera.com/economy/2026/11/26/anthropic-ceo-amodei-denies-wanting-humanity-to-surrender-free-will-to-ai",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Anthropic",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Anthropic study of 58 enterprise customers: workflow redesign beats tool training",
+   "summary": "Interviews covering nearly 300 deployments found most value came from higher output and the best results from reorganising work; about two-thirds of firms said they hired less because of AI. The sample is Anthropic's own customers.",
+   "source": "Anthropic",
+   "url": "https://www.anthropic.com/research/working-with-ai",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Capital markets",
+   "region": "ElevenLabs / a16z",
+   "importance": 2,
+   "tickers": [],
+   "headline": "ElevenLabs reportedly in talks at $33bn; a16z reportedly seeking ~$20bn of new funds",
+   "summary": "ElevenLabs is said to be in early talks to raise at a $33bn valuation with ~$700m annualised revenue, while Axios reports Andreessen Horowitz is raising about $20bn less than a year after a $15bn close; neither is confirmed.",
+   "source": "Tech Funding News",
+   "url": "https://techfundingnews.com/a16z-talks-raise-20b-new-funds/",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Cloudflare",
+   "importance": 1,
+   "tickers": [
+    "NET"
+   ],
+   "headline": "Cloudflare launches \"Search for Agents\" beta on all plans",
+   "summary": "A single toggle builds a site search index and advertises it to AI agents at a well-known endpoint; AI Search billing starts December 1.",
+   "source": "The Next Web",
+   "url": "https://thenextweb.com/news/cloudflare-search-for-agents-ai-website-search",
+   "date": "2026-11-25"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "GitHub",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Trending: n8n's \"nod\" web agent and \"timon\" multi-agent coding daemon",
+   "summary": "n8n-io/nod, an Apache-2.0 personal agent that asks before acting on websites, added about 1,000 stars this week; ai-timon/timon runs coding agents in separate git worktrees with a second model reviewing before merge.",
+   "source": "GitHub",
+   "url": "https://github.com/n8n-io/nod",
+   "date": "2026-11-25"
+  }
+ ]
+}
