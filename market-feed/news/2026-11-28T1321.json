@@ -1,0 +1,395 @@
+{
+ "run_at": "2026-11-28T13:21:00Z",
+ "market_brief": "Markets are shut for the weekend, so the dashboard still reflects Friday's half-day close: S&P 500 +1.6% and Nasdaq 100 +2.6% (best week since April 2025), SOX +4.7%, the US 10Y up ~9bp to 4.94%, DXY 104.0, gold ~$3,640, silver +7.8% and BTC flat near $59,700. Fresh overnight headlines lean cautious: the failure of United Fidelity Bank (about $1.8bn cost to the FDIC fund) and S&P's negative outlook on France after a confirmed recession. Sunday is the key risk window, with OPEC+ deciding 2027 policy amid an Iraqi baseline dispute and Hormuz flows down to ~10 mb/d (Brent ~$90-95), and Spain's election where prediction markets give Feijóo ~89%. For India, the RBI eased its daily CRR rule ahead of a likely hike on December 4, with Q2 GDP on Monday (Ind-Ra 7.6%), Nifty at 25,607 and USD/INR near 93.",
+ "ai_brief": "OpenAI's countersuit against Apple over hardware trade secrets is the main weekend AI story, while a Bloomberg feature on agentic shopping and TrueLayer's sandboxed agent payment highlight commerce use cases. SAP confirmed a breach via stolen developer tokens, and Embo reportedly raised a $110m a16z-led seed for robot world models. Anthropic's Claude Ship and app-install betas, OpenAI's GPT-6.2 Sol rollout to the Chat tab, and Sarvam AI's live dubbing round out product news.",
+ "items": [
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "US",
+   "importance": 3,
+   "tickers": [
+    "FCNCA"
+   ],
+   "headline": "Update: United Fidelity Bank fails; First Citizens takes over deposits and assets",
+   "summary": "Regulators closed Evansville, Indiana-based United Fidelity Bank (about $5.9bn assets, $5.4bn deposits) on Friday, with the FDIC as receiver and First Citizens assuming substantially all deposits. The estimated $1.83bn cost to the deposit insurance fund makes it reportedly the largest US bank failure since April 2024; the last run only noted the deal headline.",
+   "source": "US News America",
+   "url": "https://usnewsamerica.com/the-morning-briefing-november-28-2026/",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "markets",
+   "category": "Policy / trade",
+   "region": "France",
+   "importance": 3,
+   "tickers": [
+    "^FCHI"
+   ],
+   "headline": "S&P keeps France at A+ but moves outlook to negative as INSEE confirms recession",
+   "summary": "S&P affirmed France's A+/A-1 rating late Friday but switched the outlook to negative, citing the deficit and weak growth. Friday's data showed Q4 GDP at -0.2% q/q versus -0.1% expected, and euro-area economic sentiment slipped to 95.8 against 97.2 consensus.",
+   "source": "US News America / Rio Times",
+   "url": "https://usnewsamerica.com/the-morning-briefing-november-28-2026/",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "OPEC+",
+   "importance": 3,
+   "tickers": [
+    "BZ=F",
+    "CL=F"
+   ],
+   "headline": "Update: OPEC+ meets Sunday from 13:00 GMT with no output framework beyond December 31",
+   "summary": "Ministers of all 21 members gather Sunday, where sources told Reuters targets are likely held at least through Q1 2027, while other delegates float a one-month January rollover. New detail: Iraq is contesting a preliminary 4.9 mb/d capacity assessment and wants a 6 mb/d baseline, and the delayed capacity audit is expected at the meeting.",
+   "source": "BlogGoto (citing Reuters)",
+   "url": "https://www.bloggoto.com/2026/11/28/opec-plus-november-29-meeting-2027-oil-quotas/",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "markets",
+   "category": "Commodities",
+   "region": "Middle East",
+   "importance": 2,
+   "tickers": [
+    "BZ=F"
+   ],
+   "headline": "Hormuz flows fall to about 10 mb/d; Aramco widens Asia crude discount to widest since 2020",
+   "summary": "Kpler data cited by Bloomberg show oil flows through Hormuz near 10 mb/d by mid-November, down from 13.4 mb/d at the start of the month after attacks on shipping and Saudi facilities. Aramco set its Arab Light price for Asia at $5 below Oman/Dubai, per Reuters, the deepest discount since June 2020.",
+   "source": "House of Saud",
+   "url": "https://houseofsaud.com/opec-nov29-2027-quotas/",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Hidden / social",
+   "region": "Spain",
+   "importance": 2,
+   "tickers": [
+    "^IBEX"
+   ],
+   "headline": "Prediction markets put Feijóo near 90% to be Spain's next PM ahead of Sunday's vote",
+   "summary": "Polymarket priced PP leader Feijóo at 89.5% and Kalshi at 88% on Friday, up from about 80% in late October, while the 19-poll average shows PP 30.6%, PSOE 28.1% and Vox 18.7%. Polymarket gives 72% odds Sánchez is out by end-January since a new Congress meets December 23.",
+   "source": "Rio Times poll tracker",
+   "url": "https://www.riotimesonline.com/spain-election-poll-tracker/",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "markets",
+   "category": "Central bank",
+   "region": "India",
+   "importance": 3,
+   "tickers": [
+    "^NSEBANK",
+    "INR=X"
+   ],
+   "headline": "RBI eases CRR daily-maintenance rule to 90% from Dec 1 ahead of a likely hike",
+   "summary": "The RBI cut the minimum daily cash reserve ratio balance banks must keep to 90% of the requirement from December 1, easing day-to-day liquidity management. Most economists expect a 25bp repo hike to 5.75% on December 4 after October CPI topped 6%, versus Nomura's 50bp call.",
+   "source": "Marketcalls",
+   "url": "https://www.marketcalls.in/futures-and-options/weekly-market-roundup-28-november-2026.html",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "^NSEI"
+   ],
+   "headline": "Update: Ind-Ra sees Q2 GDP at 7.6% led by 10.5% investment growth; data due Monday",
+   "summary": "India Ratings forecasts July-September growth of 7.6%, with fixed investment up about 10.5% and private consumption slowing to 6.8%, and lifted its FY27 forecast to 7.2%. It flagged consumption risks in H2 from fading GST effects, higher rates and El Niño; consensus was already near 7.6%, so the breakdown is the new detail.",
+   "source": "ETV Bharat (PTI)",
+   "url": "https://www.etvbharat.com/en/business/india-q2-gdp-economy-projected-to-grow-at-7-dot-6-percent-led-by-investments-ind-ra-enn26112605704",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "India",
+   "importance": 1,
+   "tickers": [
+    "INR=X"
+   ],
+   "headline": "India's forex reserves dip to $700.9bn from $705.3bn",
+   "summary": "Reserves fell about $4.4bn in the latest week even as foreign investors bought Indian equities for a 19th straight session. The rupee touched a seven-month high near 92.42 midweek before slipping back to about 93 per dollar.",
+   "source": "Marketcalls",
+   "url": "https://www.marketcalls.in/futures-and-options/weekly-market-roundup-28-november-2026.html",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "markets",
+   "category": "Company action",
+   "region": "India",
+   "importance": 2,
+   "tickers": [
+    "TCS.NS",
+    "ADANIENT.NS"
+   ],
+   "headline": "TCS jumps 8.3% on the week as IT leads; Adani outlines ₹2.2 lakh crore FY27 capex",
+   "summary": "Nifty IT rose 4.6% on the week with TCS, HCL Tech and Infosys the top gainers, while media, PSU banks and metals lagged. Adani Group's CFO said the group plans about ₹2.2 lakh crore of FY27 capex, including up to $10bn for data centres over four years.",
+   "source": "Marketcalls",
+   "url": "https://www.marketcalls.in/futures-and-options/weekly-market-roundup-28-november-2026.html",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "markets",
+   "category": "IPO / capital markets",
+   "region": "India",
+   "importance": 1,
+   "tickers": [
+    "MCL"
+   ],
+   "headline": "Mahanadi Coalfields lists 1.5% below issue price; Siemens Energy India profit up 81%",
+   "summary": "Coal India unit Mahanadi Coalfields debuted Friday at ₹134 versus its ₹136 issue price. Siemens Energy India reported Q2 net profit up 81% to ₹653 crore on 30% revenue growth.",
+   "source": "Marketcalls",
+   "url": "https://www.marketcalls.in/futures-and-options/weekly-market-roundup-28-november-2026.html",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "China",
+   "importance": 2,
+   "tickers": [
+    "ASHR",
+    "000001.SS"
+   ],
+   "headline": "China's January-October industrial profits rise 16.0% y/y, accelerating from 15.5%",
+   "summary": "Cumulative industrial profits growth quickened to 16.0% through October, adding to Friday's risk-on tone in which the CSI 300 gained about 4% and the Shanghai Composite 3.7%.",
+   "source": "Rio Times",
+   "url": "https://www.riotimesonline.com/global-economy-briefing-november-28-2026/",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "^TNX"
+   ],
+   "headline": "Dallas Fed trimmed-mean PCE eases to 2.8% even as markets price a December hike",
+   "summary": "The Dallas Fed's trimmed-mean PCE inflation gauge slowed to 2.8% from 3.0%, a softer underlying read as the 10Y yield climbed to about 4.94% on Friday. Wholesale inventories rose 0.9% and the Fed's balance sheet stood at about $6.73tn.",
+   "source": "Rio Times",
+   "url": "https://www.riotimesonline.com/global-economy-briefing-november-28-2026/",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "markets",
+   "category": "Macro data",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "AMZN",
+    "XRT"
+   ],
+   "headline": "Black Friday online spending hits $9.7bn by early evening, up 12.8% (Adobe)",
+   "summary": "Adobe tracked $9.7bn of US online sales through 6:30pm ET and expects $13.0-13.4bn for the day, with Cyber Monday forecast at $15.1bn and $47.5bn across the five-day stretch.",
+   "source": "US News America",
+   "url": "https://usnewsamerica.com/the-morning-briefing-november-28-2026/",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "markets",
+   "category": "Analyst calls",
+   "region": "US",
+   "importance": 2,
+   "tickers": [
+    "NVDA"
+   ],
+   "headline": "CNBC Investing Club: Huang's reinstatement did little to calm AI jitters around Nvidia",
+   "summary": "CNBC's investing club argued Jensen Huang's return produced only a brief rally, with governance worries lingering after rating-agency actions; Nvidia rose just 0.8% Friday while the SOX gained 4.7%.",
+   "source": "CNBC",
+   "url": "https://www.cnbc.com/investingclub/2026/11/27/jensen-huangs-return-did-little-to-ease-ai-jitters-we-bought-on-weakness.html",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "markets",
+   "category": "Market move",
+   "region": "US",
+   "importance": 1,
+   "tickers": [
+    "^GSPC",
+    "RSP"
+   ],
+   "headline": "Breadth note: S&P 500 exits correction after an 11.6% drawdown, with materials and high beta leading",
+   "summary": "A Seeking Alpha market column notes the index rebounded from an 11.6% drawdown to 6.7% in four sessions, with growth beating value and miners rallying. It says the 493 non-megacap names account for most of the 6.6% YTD gain.",
+   "source": "Seeking Alpha",
+   "url": "https://seekingalpha.com/article/4972733-the-1-minute-market-report-november-28-2026",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "markets",
+   "category": "Week ahead",
+   "region": "Global",
+   "importance": 3,
+   "tickers": [],
+   "headline": "Week ahead: OPEC+ and Spain Sun; Japan IP and India GDP Mon; ISM and India PMI Tue; RBI and US jobs Fri",
+   "summary": "Sunday brings OPEC+ (13:00 GMT) and Spain's election, with Japan October industrial output and retail sales late Sunday UTC. Monday has India Q2 GDP and IIP; Tuesday PMIs, US ISM, India auto sales and MSCI changes; the RBI MPC runs December 2-4 with a Friday decision alongside US payrolls; FOMC and Brazil's Copom follow December 8-9.",
+   "source": "Marketcalls",
+   "url": "https://www.marketcalls.in/futures-and-options/weekly-market-roundup-28-november-2026.html",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "OpenAI",
+   "importance": 3,
+   "tickers": [
+    "AAPL"
+   ],
+   "headline": "OpenAI countersues Apple, alleging trade-secret theft and supplier pressure",
+   "summary": "OpenAI filed a countersuit in California federal court accusing Apple of stealing hardware trade secrets, pressuring shared suppliers to shun its devices and using employment agreements to block hires. Apple sued OpenAI first in July.",
+   "source": "Engadget",
+   "url": "https://www.engadget.com/2329747/openai-countersues-apple-and-accuses-it-of-stealing-trade-secrets/",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Bloomberg",
+   "importance": 2,
+   "tickers": [
+    "AMZN",
+    "GOOGL",
+    "META"
+   ],
+   "headline": "Bloomberg: AI shopping agents from Google, OpenAI, Meta and Amazon threaten e-commerce gatekeepers",
+   "summary": "A Bloomberg feature examines how agentic shopping assistants could bypass search and marketplace storefronts, following a Black Friday in which AI-agent retail traffic surged.",
+   "source": "Bloomberg",
+   "url": "https://www.bloomberg.com/news/features/2026-11-27/bots-de-compras-con-ia-amenazan-el-dominio-de-amazon-y-google",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "SAP",
+   "importance": 2,
+   "tickers": [
+    "SAP"
+   ],
+   "headline": "SAP confirms cyberattack; source code reportedly exposed via stolen developer tokens",
+   "summary": "Attackers reportedly used stolen employee tokens to reach SAP GitHub repositories; SAP says it has no evidence customer data was accessed, rotated signing keys and paused automated development pipelines.",
+   "source": "SecurityWeek",
+   "url": "https://www.securityweek.com/sap-confirms-cyberattack-source-code-reportedly-compromised",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "TrueLayer",
+   "importance": 2,
+   "tickers": [],
+   "headline": "AI agent completes a Pay by Bank purchase at Papa John's UK inside the FCA sandbox",
+   "summary": "TrueLayer said an AI agent made an agentic Pay by Bank payment via Lloyds and NatWest in the FCA's Supercharged Sandbox, with bank-held mandates enforcing spending caps.",
+   "source": "Google News (TrueLayer coverage)",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ0hrNFM4bndYcVh0VUkwaFptS0dWb2hKaTctT296UTlTWng4QmRqcmE4aHZyNWVwS2NlazVkd250SEdhUF9naF9XNTlBQ0otUDJZekVXTTFzRU5MSWV5TlFrV29IbVNJVVpydkFaWWRvdGZpNnFyZ3FKWVlhSlN4a2NtYVZYQQ?oc=5",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "ai",
+   "category": "Robotics",
+   "region": "Embo",
+   "importance": 2,
+   "tickers": [],
+   "headline": "World-model robotics startup Embo emerges with a reported $110m seed led by a16z",
+   "summary": "Embo, which builds world models that let robots rehearse actions before executing them, reportedly raised a $110m seed round led by Andreessen Horowitz, per The Decoder via Techmeme.",
+   "source": "LLM Stats news feed",
+   "url": "https://llm-stats.com/ai-news",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "Anthropic",
+   "importance": 2,
+   "tickers": [
+    "ANTH"
+   ],
+   "headline": "Anthropic ships Claude Ship beta, 'Install as app' for artifacts and MCP connector updates",
+   "summary": "Anthropic released a Claude Ship beta for Team and Enterprise GitHub repos, let eligible artifacts install as desktop apps, and made longer MCP jobs and follow-up questions generally available, with connector-supplied instructions in public beta.",
+   "source": "Claude blog",
+   "url": "https://claude.com/resources/articles/introducing-claude-ship",
+   "date": "2026-11-23"
+  },
+  {
+   "feed": "ai",
+   "category": "Model launch",
+   "region": "OpenAI",
+   "importance": 1,
+   "tickers": [],
+   "headline": "Update: GPT-6.2 Sol now powers ChatGPT's Chat tab; users get one banked limit reset",
+   "summary": "Following last week's usage-undercount fix, OpenAI's release notes show a chat-tuned GPT-6.2 Sol rolling out to Plus, Pro, Business and Enterprise, and eligible plans receive one banked reset; merged ChatGPT/Codex token allowances start in December.",
+   "source": "OpenAI Help Center",
+   "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Sarvam AI",
+   "importance": 2,
+   "tickers": [],
+   "headline": "India's Sarvam AI launches live news dubbing and real-time translation for broadcasters",
+   "summary": "Sarvam AI unveiled live dubbing and translation for TV news and public-address use, targeting India's multilingual broadcast market.",
+   "source": "Google News (Sarvam coverage)",
+   "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBsT2VBbDM1ME81bExqRkxTUVNHOG5MT0RXQk1jSlRxUTc4dXE1eFdXaTdreXNINl84NEVHX05yejNiUm5WWmJURVZJSFlqQl9m?oc=5",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "ai",
+   "category": "GitHub / open source",
+   "region": "AWS",
+   "importance": 1,
+   "tickers": [
+    "AMZN"
+   ],
+   "headline": "AWS unveils Nitro Sandboxes for isolating multiple workloads such as agents inside one EC2 instance",
+   "summary": "Announced at KubeCon, Nitro Sandboxes use the Nitro hypervisor to isolate workloads within a single instance, with a confidential mode and setup via EKS or ECS.",
+   "source": "Google News (AWS coverage)",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5UbGZhcmdFRzRRbGhoaVJDU0xXUno2Tk9kVFZVYi1XdkNhb3RxNllEWkI2eXA5a3EycXVMdmZFeG1DUGFrVnpYVHFwY21MdWZRQ1llck5XUUNhRmtxMndB?oc=5",
+   "date": "2026-11-27"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "Google DeepMind",
+   "importance": 1,
+   "tickers": [
+    "GOOGL"
+   ],
+   "headline": "DeepMind's 'Humanity's First Exam' finds top models solve most tasks once but fail on repeat runs",
+   "summary": "A reliability benchmark of 18 models found leading systems solved nearly every task family at least once, but repeated attempts exposed large consistency gaps, per The Decoder.",
+   "source": "LLM Stats news feed",
+   "url": "https://llm-stats.com/ai-news",
+   "date": "2026-11-28"
+  },
+  {
+   "feed": "ai",
+   "category": "Policy & safety",
+   "region": "UK",
+   "importance": 1,
+   "tickers": [],
+   "headline": "UK courts grapple with invented citations and chatbot-written statements, investigation finds",
+   "summary": "The Bureau of Investigative Journalism documented UK cases involving fabricated legal authorities, AI-drafted witness statements and a police officer using Copilot for a victim impact statement.",
+   "source": "The Bureau of Investigative Journalism",
+   "url": "https://www.thebureauinvestigates.com/stories/2026-11-26/ai-is-throwing-the-court-system-into-disarray",
+   "date": "2026-11-26"
+  },
+  {
+   "feed": "ai",
+   "category": "Industry",
+   "region": "Samsung",
+   "importance": 1,
+   "tickers": [
+    "005930.KS"
+   ],
+   "headline": "Samsung reportedly adding an AI mode to its camera app",
+   "summary": "Samsung is reportedly building an AI camera mode, seen as a response to Apple's Siri-driven camera features in iOS 27.",
+   "source": "Engadget",
+   "url": "https://www.engadget.com/2329765/samsung-is-reportedly-giving-its-camera-app-an-ai-mode/",
+   "date": "2026-11-27"
+  }
+ ]
+}
